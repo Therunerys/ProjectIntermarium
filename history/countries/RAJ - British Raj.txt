@@ -1,0 +1,147 @@
+﻿capital = 439
+
+oob = "RAJ_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	transport = 1
+	
+	fleet_in_being = 1
+	CAS1 = 1
+	
+}
+
+set_research_slots = 3
+set_convoys = 150
+set_stability = 0.46
+set_war_support = 0.25
+
+#####################
+##### POLITICS ######
+#####################
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 9
+		}
+
+		fascism = {
+			popularity = 7
+		}
+		
+		communism = {
+			popularity = 13
+		}
+
+		neutrality = {
+			popularity = 71
+		}
+	}
+	
+	ruling_party = neutrality
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+add_ideas = {
+
+}
+
+#####################
+###### LEADERS ######
+#####################
+
+create_country_leader = {
+	name = "Frederic Thesiger"
+	desc = "POLITICS_LORD_LINLITHGOW_DESC"
+	picture = "chelmsword.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Manabendra Nath Roy"
+	desc = "POLITICS_VD_SAVARKAR_DESC"
+	picture = "roy.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Kartar Singh Sarabha"
+	desc = "POLITICS_LORD_LINLITHGOW_DESC"
+	picture = "kartar.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Hasrat Mohani"
+	desc = "POLITICS_LORD_LINLITHGOW_DESC"
+	picture = "mohani.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		
+	}
+}
+
+#####################
+####### ARMY ########
+#####################
+
+create_corps_commander = {
+	name = "Noel Beresford-Peirse"
+	gfx = "GFX_RAJ_noel_beresford_peirse"
+	traits = { armor_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Frank Messervy"
+	gfx = "GFX_RAJ_frank_messervy"
+	traits = { hill_fighter }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Douglas Gracey"
+	gfx = "GFX_RAJ_douglas_gracey"
+	traits = { desert_fox }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_navy_leader = {
+	name = "Herbert Fitzherbert"
+	gfx = "GFX_RAJ_herbert_fitzherbert"
+	traits = { }
+	skill = 3
+}

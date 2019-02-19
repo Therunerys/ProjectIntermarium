@@ -1,0 +1,97 @@
+﻿capital = 6
+
+oob = "BEL_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	motorised_infantry = 1
+	early_fighter = 1
+	
+
+}
+
+set_research_slots = 3
+set_convoys = 100
+set_stability = 0.75
+set_war_support = 0.40
+
+#####################
+##### POLITICS ######
+#####################
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 83
+		}
+
+		fascism = {
+			popularity = 11
+		}
+		
+		communism = {
+			popularity = 6
+		}
+	}
+	
+	ruling_party = democratic
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+add_ideas = {
+}
+
+#####################
+###### LEADERS ######
+#####################
+
+create_country_leader = {
+	name = "Albert I"
+	desc = "POLITICS_HUBERT_PIERLOT_DESC"
+	picture = "albert_I.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Georges Theunis"
+	desc = "POLITICS_HUBERT_PIERLOT_DESC"
+	picture = "theunis.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+#####################
+####### ARMY ########
+#####################
+
+create_corps_commander = {
+	name = "M.C.L. Keyaerts"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	traits = { trait_mountaineer hill_fighter }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+create_navy_leader = {
+	name = "Georges Timmermans"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
+	traits = { seawolf }
+	skill = 4
+}

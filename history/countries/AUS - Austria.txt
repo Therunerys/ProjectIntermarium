@@ -1,0 +1,111 @@
+capital = 4
+
+oob = "AUS_1936"
+
+# Starting tech
+set_technology = {
+
+}
+
+set_research_slots = 4
+set_convoys = 200
+set_stability = 0.40
+set_war_support = 0.30
+
+#####################
+##### POLITICS ######
+#####################
+
+set_politics = {
+
+	parties = {
+		democratic = {
+			popularity = 17
+		}
+
+		fascism = {
+			popularity = 7
+		}
+		
+		communism = {
+			popularity = 15
+		}
+
+		neutrality = { 
+			popularity = 61
+		}
+	}
+	
+	ruling_party = neutrality
+	election_frequency = 48
+	elections_allowed = no
+}
+
+add_ideas = {
+	eternal_empire
+	ineffective_army
+	angry_ethnicities
+}
+
+#####################
+###### LEADERS ######
+#####################
+
+create_country_leader = {
+	name = "Franz Ferdinand"
+	desc = "POLITICS_KURT_SCHUSCHNIGG_DESC"
+	picture = "Archduke_Ferdinand.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		anti_democrat imperial_connections
+	}
+}
+
+create_country_leader = {
+	name = "Karl Renner"
+	desc = "POLITICS_KARL_RENNER_DESC"
+	picture = "renner.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Engelbert Dollfuss"
+	desc = "POLITICS_ARTHUR_SEYSS_INQUART_DESC"
+	picture = "dollfuss.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ruth Fischer"
+	desc = "POLITICS_ALFRED_KLAHR_DESC"
+	picture = "fischer.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {
+		#
+	}
+}
+
+#####################
+####### ARMY ########
+#####################
+
+create_corps_commander = {
+	name = "Karl Eglseer"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	traits = { trait_mountaineer trickster }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}

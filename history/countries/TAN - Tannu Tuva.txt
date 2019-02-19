@@ -1,0 +1,61 @@
+﻿capital = 329
+
+oob = "TAN_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_research_slots = 1
+set_convoys = 0
+set_stability = 0.42
+set_war_support = 0.01
+
+#####################
+##### POLITICS ######
+#####################
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 7
+		}
+
+		fascism = {
+			popularity = 3
+		}
+		
+		communism = {
+			popularity = 87
+		}
+
+		neutrality = {
+			popularity = 3
+		}
+	}
+	
+	ruling_party = communism
+	election_frequency = 48
+	elections_allowed = no
+}
+
+add_ideas = {
+
+}
+
+#####################
+###### LEADERS ######
+#####################
+
+create_country_leader = {
+	name = "Buyan Badyrgy"
+	desc = "POLITICS_SALCHAK_TOKA_DESC"
+	picture = "buyan.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {
+		#
+	}
+}

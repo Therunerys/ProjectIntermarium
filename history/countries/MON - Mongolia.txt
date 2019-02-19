@@ -1,0 +1,94 @@
+﻿capital = 330
+
+oob = "MON_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_research_slots = 2
+set_convoys = 0
+set_stability = 0.35
+set_war_support = 0.10
+
+#####################
+##### POLITICS ######
+#####################
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 70
+		}
+
+		fascism = {
+			popularity = 4
+		}
+		
+		communism = {
+			popularity = 24
+		}
+
+		neutrality = {
+			popularity = 2
+		}
+	}
+	
+	ruling_party = democratic
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+add_ideas = {
+
+}
+
+#####################
+###### LEADERS ######
+#####################
+
+create_country_leader = {
+	name = "Bogd Khan"
+	desc = "POLITICS_ANANDYN_AMAR_DESC"
+	picture = "bogd_khan.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Bogd Khan"
+	desc = "POLITICS_ANANDYN_AMAR_DESC"
+	picture = "bogd_khan.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Bogd Khan"
+	desc = "POLITICS_ANANDYN_AMAR_DESC"
+	picture = "bogd_khan.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Bogd Khan"
+	desc = "POLITICS_ANANDYN_AMAR_DESC"
+	picture = "bogd_khan.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}

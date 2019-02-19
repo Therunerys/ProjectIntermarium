@@ -1,0 +1,651 @@
+technologies = {
+	coil = {
+
+		# small boost to research speed
+		research_time_factor = -0.02
+		
+		path = {
+			leads_to_tech = telegraph 
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = steam_powered_calculator
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = early_batteries
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		start_year = 1936
+
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			
+			
+			modifier = {
+				factor = 3
+				date > "1937.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+	}
+
+	early_batteries = {
+
+		research_time_factor = -0.02
+		
+		path = {
+			leads_to_tech = computing_machine
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.5
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 7
+		}
+		
+		categories = {
+			electronics
+			computing_tech
+		}
+	}
+	#
+	################################## RADIO AND RADAR #################################
+	#
+	telegraph = {
+
+		# units with radios can more efficiently join combats when there is room
+		land_reinforce_rate = 0.02
+		
+		path = {
+			leads_to_tech = early_detection 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = electronics_folder
+			position = { x = -2 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 3
+			
+			modifier = {
+				factor = 6
+				has_war = yes
+			}
+			modifier = {
+				factor = 5
+				date > "1939.8.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+	}
+	
+	early_detection = {
+
+		enable_building = {
+			building = radar_station
+			level = 1
+		}
+		
+		path = {
+			leads_to_tech = short_wave_radio 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = electronics_folder
+			position = { x = -2 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			electronics
+			radar_tech
+		}
+	}
+	
+	short_wave_radio = {
+
+		enable_building = {
+			building = radar_station
+			level = 2
+		}
+
+		land_reinforce_rate = 0.03
+
+		path = {
+			leads_to_tech = radio_repeater 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1938
+		
+		folder = {
+			name = electronics_folder
+			position = { x = -2 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			electronics
+			radar_tech
+		}
+	}
+	
+	radio_repeater = {
+
+		enable_building = {
+			building = radar_station
+			level = 3
+		}
+		
+		path = {
+			leads_to_tech = sensitive_sensors
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = jamming
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1939
+		
+		folder = {
+			name = electronics_folder
+			position = { x = -2 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			electronics
+			radar_tech
+		}
+	}
+	
+	sensitive_sensors = {
+
+		enable_building = {
+			building = radar_station
+			level = 4
+		}
+
+		static_anti_air_hit_chance_factor = 0.2
+		
+		path = {
+			leads_to_tech = advanced_detection
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2.5
+		start_year = 1940
+		
+		folder = {
+			name = electronics_folder
+			position = { x = -2 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			electronics
+			radar_tech
+		}
+	}
+	
+	advanced_detection = {
+
+		enable_building = {
+			building = radar_station
+			level = 5
+		}
+
+		enable_building = {
+			building = radar_station
+			level = 6
+		}
+
+		static_anti_air_hit_chance_factor = 0.2
+		
+		path = {
+			leads_to_tech = suitcase_calculator
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2.5
+		start_year = 1941
+		
+		folder = {
+			name = electronics_folder
+			position = { x = -2 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			electronics
+			radar_tech
+		}
+	}
+
+	jamming = {
+
+		recon_factor = 0.02
+		
+		path = {
+			leads_to_tech = signal_tapping
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2.5
+		start_year = 1941
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			electronics
+		}
+	}
+
+	signal_tapping = {
+
+		recon_factor = 0.03
+
+		path = {
+			leads_to_tech = suitcase_calculator
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2.5
+		start_year = 1941
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			electronics
+		}
+	}
+	#
+	###################### ELECTRONIC #####################################
+	#
+	steam_powered_calculator = {
+
+		research_time_factor = -0.03
+		
+		path = {
+			leads_to_tech = computing_machine
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = basic_encryption_machine
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2.5
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 2 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 7
+		}
+		
+		categories = {
+			electronics
+			computing_tech
+		}
+	}
+	
+	computing_machine = {
+
+		research_time_factor = -0.03
+		
+		path = {
+			leads_to_tech = improved_computing_machine 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2.5
+		start_year = 1938
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 2 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 6
+			
+			modifier = {
+				factor = 3
+				date > "1938.1.6"
+			}
+			
+			modifier = {
+				factor = 3
+				date > "1939.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+			computing_tech
+		}
+	}
+	
+	improved_computing_machine = {
+
+		research_time_factor = -0.05
+
+		path = {
+			leads_to_tech = suitcase_calculator
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.5
+		start_year = 1940
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 2 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 3
+			
+			modifier = {
+				factor = 3
+				date > "1940.1.6"
+			}
+			
+			modifier = {
+				factor = 3
+				date > "1941.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+			computing_tech
+		}
+	}
+	#
+	#################### ENCRYPTION/DECRYPTION #############################
+	#
+	basic_encryption_machine = {
+
+		# encryption 1
+		encryption = 1
+		decryption = 1
+
+		path = {
+			leads_to_tech = basic_encryption
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = basic_decryption
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		start_year = 1938
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 5 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			electronics
+			encryption_tech
+		}
+	}
+	
+	basic_encryption = {
+
+		# encryption 1
+		encryption = 1
+
+		path = {
+			leads_to_tech = improved_encryption
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		start_year = 1938
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 4 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			electronics
+			encryption_tech
+		}
+	}
+	
+	improved_encryption = {
+
+		# encryption 2
+		encryption = 1
+
+		path = {
+			leads_to_tech = advanced_encryption
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		start_year = 1940
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 4 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			electronics
+			encryption_tech
+		}
+	}
+	
+	advanced_encryption = {
+
+		# encryption 3
+		encryption = 1
+		
+		research_cost = 1
+		start_year = 1942
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 4 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			electronics
+			encryption_tech
+		}
+	}
+	
+	basic_decryption = {
+
+		# decryption 1
+		decryption = 1
+
+		path = {
+			leads_to_tech = improved_decryption
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1938
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 6 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			electronics
+			decryption_tech
+		}
+	}
+	
+	improved_decryption = {
+
+		# decryption 2
+		decryption = 1
+
+		path = {
+			leads_to_tech = advanced_decryption
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1940
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 6 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			electronics
+			decryption_tech
+		}
+	}
+	
+	advanced_decryption = {
+
+		# decryption 3
+		decryption = 1
+		
+		research_cost = 1.5
+		start_year = 1942
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 6 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			electronics
+			decryption_tech
+		}
+	}
+	#
+	########## THE ROCKET TREE CANNOT BE REMOVED AS IT WILL CRASH THE GAME ############
+	#
+	#
+	#################################### SUITCASE CALCULATOR #########################
+	#
+	suitcase_calculator = {
+
+		static_anti_air_hit_chance_factor = 0.2
+		
+		research_cost = 2.5
+		start_year = 1942
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 14 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			electronics
+		}
+	}
+}
