@@ -1,0 +1,83 @@
+capital = 408
+
+oob = "RUS_1936"
+
+# Starting tech
+set_technology = {
+
+}
+
+set_research_slots = 3
+set_convoys = 200
+set_stability = 0.50
+set_war_support = 0.75
+
+#####################
+##### POLITICS ######
+#####################
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 10
+		}
+
+		fascism = {
+			popularity = 2
+		}
+		
+		communism = {
+			popularity = 1
+		}
+
+		neutrality = {
+			popularity = 87
+		}
+	}
+	
+	ruling_party = neutrality
+	election_frequency = 48
+	elections_allowed = no
+}
+
+add_ideas = {
+
+}
+
+#####################
+###### LEADERS ######
+#####################
+
+create_country_leader = {
+	name = "Tsar Nikolai II"
+	desc = "POLITICS_KONSTANTIN_RODZAEVSKY_DESC"
+	picture = "TsarNikolai.dds"
+	expire = "1953.3.1"
+	ideology = despotism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Alexander Kolchak"
+	desc = "POLITICS_KONSTANTIN_RODZAEVSKY_DESC"
+	picture = "AlexanderKolchak.dds"
+	expire = "1953.3.1"
+	ideology = fascism_ideology
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Alexander Kerensky"
+	desc = "POLITICS_KONSTANTIN_RODZAEVSKY_DESC"
+	picture = "AlexanderKerensky.dds"
+	expire = "1953.3.1"
+	ideology = conservatism
+	traits = {
+		
+	}
+}

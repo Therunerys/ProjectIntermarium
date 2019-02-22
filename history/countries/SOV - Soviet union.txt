@@ -1,44 +1,16 @@
-﻿capital = 219
+﻿capital = 195
 
 oob = "SOV_1936"
 
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_recon = 1
-	tech_support = 1		
-	tech_engineers = 1
-	tech_military_police = 1
-	tech_mountaineers = 1
-	motorised_infantry = 1
-	paratroopers = 1
-	
-	
-	  # PLACEHOLDER
-	#basic_heavy_tank = 1  # PLACEHOLDER
-	#basic_medium_tank = 1 # PLACEHOLDER
-	early_fighter = 1
-	fighter1 = 1
-	early_bomber = 1
-	strategic_bomber1 = 1
-	naval_bomber1 = 1
-	early_submarine = 1
-	basic_submarine = 1
-	early_destroyer = 1
-	early_light_cruiser = 1
-	early_heavy_cruiser = 1
-	early_battleship = 1
-	early_battlecruiser = 1
-	transport = 1
-	
-	fleet_in_being = 1
+
 }
 
 set_research_slots = 3
 set_convoys = 200
-set_stability = 0.70
-set_war_support = 0.30
+set_stability = 0.50
+set_war_support = 0.75
 
 #####################
 ##### POLITICS ######
@@ -47,25 +19,24 @@ set_war_support = 0.30
 puppet = BLR
 puppet = UKR
 puppet = GEO
-puppet = TAN
 
 set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 2
+			popularity = 5
 		}
 
 		fascism = {
-			popularity = 8
+			popularity = 2
 		}
 		
 		communism = {
-			popularity = 85
+			popularity = 92
 		}
 
 		neutrality = {
-			popularity = 5
+			popularity = 1
 		}
 	}
 	
@@ -74,11 +45,10 @@ set_politics = {
 	elections_allowed = no
 }
 
-create_faction = RevolutionaryStates
+create_faction = Revolutionary_States
 add_to_faction = UKR
 add_to_faction = BLR
 add_to_faction = GEO
-add_to_faction = TAN
 
 add_ideas = {
 
@@ -91,31 +61,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Vladimir Lenin"
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
-	picture = "vladimir_lenin.dds"
+	picture = "VladimirLenin.dds"
 	expire = "1953.3.1"
 	ideology = stalinism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Konstantin Rodzaevsky"
-	desc = "POLITICS_KONSTANTIN_RODZAEVSKY_DESC"
-	picture = "Portrait_Soviet_Konstantin_Rodzaevsky.dds"
-	expire = "1953.3.1"
-	ideology = fascism_ideology
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Alexander Fyodorovich Kerensky"
-	desc = "POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
-	picture = "Portrait_Soviet_Generic_1.dds"
-	expire = "1953.3.1"
-	ideology = socialism
 	traits = {
 		
 	}

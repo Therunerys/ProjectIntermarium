@@ -1,14 +1,22 @@
-GER	= "countries/Germany.txt"
+GER	= "countries/Germany.txt"				
 ENG = "countries/United Kingdom.txt"
+### RUSSIAN CIVIL WAR ###
 SOV = "countries/Soviet Union.txt"
+RUS = "countries/Russian Empire.txt"
+### RUSSIAN CIVIL WAR ###
 SWE	= "countries/Sweden.txt"
 FRA	= "countries/France.txt"
 LUX	= "countries/Luxemburg.txt"
 BEL	= "countries/Belgium.txt"
 HOL	= "countries/Holland.txt"
-CZE	= "countries/Czechoslovakia.txt"
-POL	= "countries/Poland.txt"
+### AUSTRIAN CIVIL WAR ###
+AHE = "countries/Austro-Hungarian Empire.txt"
 AUS	= "countries/Austria.txt"
+HUN = "countries/Hungary.txt"
+CZE	= "countries/Czechoslovakia.txt"
+SLO = "countries/Slovakia.txt"
+POL	= "countries/Poland.txt"
+### AUSTRIAN CIVIL WAR ###
 LIT	= "countries/Lithuania.txt"
 EST	= "countries/Estonia.txt"
 LAT	= "countries/Latvia.txt"
