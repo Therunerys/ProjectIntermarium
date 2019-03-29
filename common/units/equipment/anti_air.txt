@@ -42,8 +42,8 @@ equipments = {
 	antiair_equipment2 = {
 		year = 1925
 
-		archetype = anti_air_equipment
-		parent = anti_air_equipment_1
+		archetype = antiair_equipment1
+		parent = antiair_equipment1
 		priority = 80
 		visual_level = 1
 		
@@ -61,8 +61,8 @@ equipments = {
 	antiair_equipment3 = {
 		year = 1927
 
-		archetype = anti_air_equipment
-		parent = anti_air_equipment_2
+		archetype = antiair_equipment1
+		parent = antiair_equipment2
 		priority = 80
 		visual_level = 2
 		

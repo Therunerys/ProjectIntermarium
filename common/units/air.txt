@@ -5,7 +5,7 @@ sub_units = {
 		priority = 1
 		active = yes
 		type = { fighter }
-		need = { fighter_equipment = 1 }
+		need = { fighter_equipment_0 = 1 }
 		categories = { category_fighter }
 	}
 
@@ -14,7 +14,7 @@ sub_units = {
 		priority = 1
 		active = yes
 		type = { fighter }
-		need = { cv_fighter_equipment = 1 }
+		need = { cv_fighter_equipment_0 = 1 }
 		categories = { category_fighter }
 	}
 
@@ -23,7 +23,7 @@ sub_units = {
 		priority = 1
 		active = yes
 		type = { cas }
-		need = { CAS_equipment = 1 }
+		need = { CAS_equipment_0 = 1 }
 		categories = { category_cas }
 	}
 
@@ -32,7 +32,7 @@ sub_units = {
 		priority = 1
 		active = yes
 		type = { cas }
-		need = { cv_CAS_equipment = 1 }
+		need = { cv_CAS_equipment_0 = 1 }
 		categories = { category_cas }
 	}
 
@@ -41,7 +41,7 @@ sub_units = {
 		priority = 1
 		active = yes
 		type = { naval_bomber }
-		need = { nav_bomber_equipment = 1 }
+		need = { nav_bomber_equipment_0 = 1 }
 	}
 
 	cv_nav_bomber = {
@@ -49,7 +49,7 @@ sub_units = {
 		priority = 1
 		active = yes
 		type = { naval_bomber }
-		need = { cv_nav_bomber_equipment = 1 }
+		need = { cv_nav_bomber_equipment_0 = 1 }
 	}
 
 	tac_bomber = {
@@ -57,7 +57,7 @@ sub_units = {
 		priority = 1
 		active = yes
 		type = { tactical_bomber }
-		need = { tac_bomber_equipment = 1 }
+		need = { tac_bomber_equipment_0 = 1 }
 	}
 	
 	heavy_fighter = {
@@ -65,7 +65,7 @@ sub_units = {
 		priority = 1
 		active = yes
 		type = { fighter }
-		need = { heavy_fighter_equipment = 1 }
+		need = { heavy_fighter_equipment_0 = 1 }
 		categories = { category_heavy_fighter }
 	}
 
@@ -73,7 +73,7 @@ sub_units = {
 		sprite = heavy_plane
 		priority = 1
 		active = yes
-		type = { strategic_bomber }
+		type = { strategic_bomber_0 }
 		need = { strat_bomber_equipment = 1 }
 	}
 
@@ -82,6 +82,6 @@ sub_units = {
 		priority = 1
 		active = yes
 		type = { air_transport }
-		need = { transport_plane_equipment = 1 }
+		need = { transport_plane_equipment_0 = 1 }
 	}
 }

@@ -3,7 +3,7 @@
 equipments = {
 
 	# New Vehicle Idea
-	ligh_tank_idea = {
+	light_tank_idea = {
 		year = 1920
 	
 		is_archetype = yes
