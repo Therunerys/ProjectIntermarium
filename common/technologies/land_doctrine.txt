@@ -4,6 +4,10 @@ technologies = {
 	#
 	improve_the_old = {
 
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+
 		xor={
 			study_a_new
 		}
@@ -41,6 +45,10 @@ technologies = {
 	}
 
 	trench_defense = {
+
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
 
 		max_dig_in = 10
 		dig_in_speed_factor = 0.20
@@ -85,6 +93,10 @@ technologies = {
 
 	extensive_preparation = {
 
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+
 		path = {
 			leads_to_tech = cavalry_support
 			research_cost_coeff = 1
@@ -112,6 +124,10 @@ technologies = {
 	}
 
 	artillery_shelling = {
+
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
 
 		path = {
 			leads_to_tech = cavalry_support
@@ -141,6 +157,10 @@ technologies = {
 	}
 
 	study_tanks = {
+
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
 
 		path = {
 			leads_to_tech = cavalry_support
@@ -175,6 +195,10 @@ technologies = {
 	#
 	infantry_domination = {
 
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+
 		path = {
 			leads_to_tech = assault
 			research_cost_coeff = 1
@@ -200,6 +224,10 @@ technologies = {
 	}
 
 	assault = {
+
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
 
 		path = {
 			leads_to_tech = overwhelming_assault
@@ -230,6 +258,10 @@ technologies = {
 
 	overwhelming_assault = {
 
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+
 		path = {
 			leads_to_tech = infantry_storm
 			research_cost_coeff = 1
@@ -254,6 +286,10 @@ technologies = {
 	}
 
 	infantry_storm = {
+
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
 
 		path = {
 			leads_to_tech = artillery_assault
@@ -280,6 +316,10 @@ technologies = {
 
 	artillery_assault = {
 
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+
 		category_line_artillery = {
 			soft_attack = 0.1
 			hard_attack = 0.05
@@ -299,6 +339,10 @@ technologies = {
 	}
 
 	pocket_defense = {
+
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
 
 		path = {
 			leads_to_tech = makeshift_barricades
@@ -327,6 +371,10 @@ technologies = {
 
 	makeshift_barricades = {
 
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+
 		path = {
 			leads_to_tech = flank_defense
 			research_cost_coeff = 1
@@ -354,6 +402,10 @@ technologies = {
 
 	flank_defense = {
 
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+
 		category_all_infantry = {
 			defense = 0.05
 		}
@@ -374,6 +426,10 @@ technologies = {
 	############################ CAVALRY SUPPORT ##################################
 	#
 	cavalry_support = {
+
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
 
 		path = {
 			leads_to_tech = incorporation_of_cavalry
@@ -399,6 +455,10 @@ technologies = {
 	}
 
 	incorporation_of_cavalry = {
+
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
 
 		path = {
 			leads_to_tech = flank_support
@@ -430,6 +490,10 @@ technologies = {
 
 	flank_support = {
 
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+
 		path = {
 			leads_to_tech = improve_anti_tank_capabilities
 			research_cost_coeff = 1
@@ -454,6 +518,10 @@ technologies = {
 	}
 
 	improve_anti_tank_capabilities = {
+
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
 
 		path = {
 			leads_to_tech = horse_mail
@@ -480,6 +548,10 @@ technologies = {
 
 	horse_mail = {
 
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+
 		category_army = {
 			max_organisation = 10
 			recovery_rate = 0.05
@@ -499,6 +571,10 @@ technologies = {
 	}
 
 	cavalry_charge = {
+
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
 
 		path = {
 			leads_to_tech = infantry_support
@@ -524,6 +600,10 @@ technologies = {
 	}
 
 	infantry_support = {
+
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
 
 		path = {
 			leads_to_tech = horse_breeding
@@ -553,6 +633,10 @@ technologies = {
 
 	horse_breeding = {
 
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+
 		cavalry = {
 			max_organisation = 5
 		}
@@ -574,6 +658,10 @@ technologies = {
 	################## STUDY A NEW ############################################################
 	#
 	study_a_new = {
+
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
 
 		xor={
 			improve_the_old
@@ -614,6 +702,10 @@ technologies = {
 	}
 
 	conduct_tests = {
+
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
 
 		category_army = {
 			max_organisation = 5
@@ -660,6 +752,10 @@ technologies = {
 
 	mobilize_the_infantry = {
 
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+
 		path = {
 			leads_to_tech = begin_mobilisation
 			research_cost_coeff = 1
@@ -688,6 +784,10 @@ technologies = {
 	}
 
 	improve_the_tanks = {
+
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
 
 		path = {
 			leads_to_tech = begin_mobilisation
@@ -719,6 +819,10 @@ technologies = {
 	}
 
 	improve_the_roads = {
+
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
 
 		path = {
 			leads_to_tech = begin_mobilisation
@@ -753,6 +857,10 @@ technologies = {
 	#
 	begin_mobilisation = {
 
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+
 		path = {
 			leads_to_tech = encirclement_tactics
 			research_cost_coeff = 1
@@ -782,6 +890,10 @@ technologies = {
 	}
 
 	encirclement_tactics = {
+
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
 
 		path = {
 			leads_to_tech = general_mobility
@@ -816,6 +928,10 @@ technologies = {
 
 	general_mobility = {
 
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+
 		path = {
 			leads_to_tech = blitz
 			research_cost_coeff = 1
@@ -843,6 +959,10 @@ technologies = {
 	}
 
 	blitz = {
+
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
 
 		path = {
 			leads_to_tech = partisan_support
@@ -873,6 +993,10 @@ technologies = {
 
 	partisan_support = {
 
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+
 		partisan_effect = 0.2
 		attrition = -0.05
 
@@ -890,6 +1014,10 @@ technologies = {
 	}
 
 	artillery_mobility = {
+
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
 
 		path = {
 			leads_to_tech = railway_transport
@@ -916,6 +1044,10 @@ technologies = {
 
 	railway_transport = {
 
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+
 		path = {
 			leads_to_tech = faster_deployment
 			research_cost_coeff = 1
@@ -940,6 +1072,10 @@ technologies = {
 
 	faster_deployment = {
 
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+
 		land_reinforce_rate = 0.05
 
 		doctrine = yes
@@ -958,6 +1094,10 @@ technologies = {
 	##################### ARMOR INCORPORATION ####################################
 	#
 	rely_on_tank_support = {
+
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
 
 		path = {
 			leads_to_tech = direct_battlefield_support
@@ -982,6 +1122,10 @@ technologies = {
 	}
 
 	direct_battlefield_support = {
+
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
 
 		path = {
 			leads_to_tech = fix_the_weaknesses
@@ -1012,6 +1156,10 @@ technologies = {
 
 	fix_the_weaknesses = {
 
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+
 		path = {
 			leads_to_tech = smokescreen_blitz
 			research_cost_coeff = 1
@@ -1035,6 +1183,10 @@ technologies = {
 	}
 
 	smokescreen_blitz = {
+
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
 
 		path = {
 			leads_to_tech = unexpected_attack
@@ -1062,6 +1214,10 @@ technologies = {
 
 	unexpected_attack = {
 
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+
 		category_all_armor = {
 			max_organisation = 10
 			soft_attack = 0.10
@@ -1082,6 +1238,10 @@ technologies = {
 	}
 
 	plan_ahead_of_time = {
+
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
 
 		path = {
 			leads_to_tech = reinforced_defense_positions
@@ -1109,6 +1269,10 @@ technologies = {
 
 	reinforced_defense_positions= {
 
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+
 		path = {
 			leads_to_tech = supply_trains
 			research_cost_coeff = 1
@@ -1132,6 +1296,10 @@ technologies = {
 	}
 
 	supply_trains = {
+
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
 
 		attrition = -0.1
 		org_loss_when_moving = -0.1

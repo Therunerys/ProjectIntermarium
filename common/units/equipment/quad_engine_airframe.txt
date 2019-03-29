@@ -44,6 +44,7 @@ equipments = {
 			rubber = 2
 		}
 		manpower = 80
+		fuel_consumption = 0.8
 	}
 
 	# Improved strat_bomber
@@ -129,5 +130,6 @@ equipments = {
 			rubber = 2
 		}
 		manpower = 80
+		fuel_consumption = 0
 	}
 }

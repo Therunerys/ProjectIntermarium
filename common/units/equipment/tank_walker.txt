@@ -47,6 +47,7 @@ equipments = {
 			tungstem = 2
 		}
 		
+		fuel_consumption = 5
 	}
 
 	# First Walker Tank

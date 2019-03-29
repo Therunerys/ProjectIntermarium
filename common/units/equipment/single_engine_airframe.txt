@@ -47,6 +47,7 @@ equipments = {
 			rubber = 1
 		}
 		manpower = 20
+		fuel_consumption = 0.21
 	}
 
 	# Basic Fighter
@@ -181,6 +182,7 @@ equipments = {
 			rubber = 1
 		}
 		manpower = 20
+		fuel_consumption = 0.21
 	}
 
 	# Basic Carrier Fighter
@@ -316,6 +318,7 @@ equipments = {
 			rubber = 1
 		}
 		manpower = 20
+		fuel_consumption = 0.26
 	}
 
 	# Improved CAS
@@ -422,6 +425,7 @@ equipments = {
 			rubber = 1
 		}
 		manpower = 20
+		fuel_consumption = 0.26
 	}
 
 	# Improved Carrier CAS
@@ -529,6 +533,7 @@ equipments = {
 			rubber = 1
 		}
 		manpower = 20
+		fuel_consumption = 0.28
 	}
 
 	# Improved nav_bomber
@@ -634,6 +639,7 @@ equipments = {
 			rubber = 1
 		}
 		manpower = 20
+		fuel_consumption = 0.28
 	}
 	
 	# Improved Carrier nav_bomber

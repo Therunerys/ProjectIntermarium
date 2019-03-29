@@ -1,10 +1,15 @@
 
 state={
-	id=580
-	name="STATE_580" # Tobolsk
-	manpower = 88126
+	id=581
+	name="STATE_581"
+	manpower = 48831
 	
 	state_category = wasteland
+	
+	resources={
+		chromium=40 # was: 44
+		aluminium=27 # was: 30
+	}
 
 	history={
 		owner = RUS
@@ -17,6 +22,6 @@ state={
 	}
 
 	provinces={
-		1659 1744 1812 4710 4715 4746 4774 4846 7733 7768 7796 7867 7895 10592 10604 10620 12602 12630 12700 
+		4874 7824 10216 10551 10677 11098 12393 12502 12659 13076 
 	}
 }

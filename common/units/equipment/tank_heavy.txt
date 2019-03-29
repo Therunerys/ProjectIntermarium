@@ -46,6 +46,7 @@ equipments = {
 			chromium = 3
 		}
 		
+		fuel_consumption = 4.4
 	}
 
 	# First Heavy Tank

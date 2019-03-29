@@ -47,6 +47,7 @@ equipments = {
 			steel = 2
 		}
 
+		fuel_consumption = 2.4
 	}
 
 	# Prototype Tank

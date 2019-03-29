@@ -49,6 +49,7 @@ equipments = {
 			rubber = 1
 		}
 		manpower = 40
+		fuel_consumption = 0.36
 	}
 
 	# Basic tac_bomber
@@ -186,6 +187,7 @@ equipments = {
 			rubber = 1
 		}
 		manpower = 40
+		fuel_consumption = 0.26
 	}
 	
 	# Improved Heavy Fighter

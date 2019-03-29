@@ -27,6 +27,8 @@ equipments = {
 			rubber = 1
 			steel = 1
 		}
+		
+		fuel_consumption = 1.2
 	}
 
 	motorized_equipment_1 = {
