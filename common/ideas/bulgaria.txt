@@ -70,8 +70,8 @@ ideas = {
 			}
 			
 			modifier = {
-				add_stability = 0.2
-				add_war_support = -0.1
+				stability_factor = 0.2
+				war_support_factor = -0.1
 			}
 		}
 
