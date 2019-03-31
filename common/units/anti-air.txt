@@ -1,7 +1,3 @@
-# options for map_icon_category:
-# For land units: infantry,armored,other
-# For sea units: ship,transport,uboat
-
 sub_units = {
 
 	anti_air = {
@@ -48,6 +44,5 @@ sub_units = {
 		soft_attack = -0.4
 		hard_attack = -0.4
 		air_attack = -0.2
-
 	}
 }
