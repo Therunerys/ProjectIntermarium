@@ -4,18 +4,7 @@ oob = "ROM_1936"
 
 # Starting tech
 set_technology = {
-	tech_support = 1		
-	tech_engineers = 1
-	tech_mountaineers = 1
-	motorised_infantry = 1
-	
-	
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	
-	early_fighter = 1
-	early_submarine = 1
-	early_destroyer = 1
+
 }
 
 set_research_slots = 3

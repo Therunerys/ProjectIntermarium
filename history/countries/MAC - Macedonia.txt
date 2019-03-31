@@ -1,0 +1,26 @@
+﻿capital = 106
+
+set_research_slots = 3
+
+# Starting tech
+# clone of Yugoslavia
+set_technology = {
+
+}
+
+set_politics = {
+
+	parties = {
+		fascism = { 
+			popularity = 33
+		}
+		neutrality = { 
+			popularity = 33
+		}		
+		communism = {
+			popularity = 34
+		}
+	}
+}
+
+

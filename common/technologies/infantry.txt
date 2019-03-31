@@ -974,6 +974,11 @@ technologies = {
 			motorized_equipment_1
 		}
 
+		path = {
+			leads_to_tech = amphibious_mechanized_infantry
+			research_cost_coeff = 1
+		}
+
 		on_research_complete = {
 			limit = {
 				NOT = {

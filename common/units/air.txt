@@ -42,6 +42,7 @@ sub_units = {
 		active = yes
 		type = { naval_bomber }
 		need = { nav_bomber_equipment_0 = 1 }
+		categories = { category_nav_bomber }
 	}
 
 	cv_nav_bomber = {
@@ -50,6 +51,7 @@ sub_units = {
 		active = yes
 		type = { naval_bomber }
 		need = { cv_nav_bomber_equipment_0 = 1 }
+		categories = { category_nav_bomber }
 	}
 
 	tac_bomber = {
@@ -58,6 +60,7 @@ sub_units = {
 		active = yes
 		type = { tactical_bomber }
 		need = { tac_bomber_equipment_0 = 1 }
+		categories = { category_tac_bomber }
 	}
 	
 	heavy_fighter = {
@@ -75,6 +78,7 @@ sub_units = {
 		active = yes
 		type = { strategic_bomber_0 }
 		need = { strat_bomber_equipment = 1 }
+		categories = { category_strat_bomber }
 	}
 
 	transport_plane = {
