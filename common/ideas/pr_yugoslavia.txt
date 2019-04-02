@@ -1,7 +1,7 @@
 ideas = {
 
 	country = {
-		balkan_league = {
+		balkan_league_yug_1 = {
 
 			picture = balkan_league
 			

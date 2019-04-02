@@ -53,12 +53,13 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			
+##################################################à			
 			modifier = {
-				add_resource = {
-    				type = oil
-    				amount = 30
-    				state = 46
+				#add_resource = {
+    			#	type = oil
+    			#	amount = 30
+    			#	state = 46
+				#}
 			}
 		}
 

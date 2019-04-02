@@ -1,7 +1,7 @@
 ideas = {
 
 	country = {
-		balkan_league = {
+		balkan_league_bul_1 = {
 
 			picture = balkan_league
 			
@@ -55,7 +55,7 @@ ideas = {
 			traits = { compassionate_gentleman }
 		}
 
-		balkan_league = {
+		balkan_league_bul_2 = {
 
 			picture = balkan_league
 			
