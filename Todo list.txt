@@ -1,0 +1,6 @@
+################## TODO #####################
+- fix navaltab in tech
+- add pictures that are missing in tech
+- resize plane pictures to good looking sizes
+- localize and add description to all techs
+- fix missing states/provinces added with MTG
