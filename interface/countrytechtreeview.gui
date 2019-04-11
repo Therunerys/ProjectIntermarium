@@ -2124,8 +2124,16 @@ guiTypes = {
 			}
 
 			gridboxtype = {
+				name = "construction1_tree"
+				position = { x = 800 y = 240 }
+				size = { width = 520 height = 1500 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
+			gridboxtype = {
 				name = "fuel_silos_tree"
-				position = { x = 1250 y = 100 }
+				position = { x = 1425 y = 240 }
 				size = { width =72 height = 650 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
