@@ -1074,4 +1074,21 @@ spriteTypes = {
 		name = "GFX_strategic_bomber3_medium"
 		texturefile = "gfx/interface/technologies/blimp3.dds"
 	}
+	#
+	################################# ENGINEERING #################################
+	#
+	SpriteType = {
+		name = "GFX_coil_medium"
+		texturefile = "gfx/interface/technologies/coil.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_telegraph_medium"
+		texturefile = "gfx/interface/technologies/telegraph.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_steam_powered_calculator_medium"
+		texturefile = "gfx/interface/technologies/calculator.dds"
+	}
 }
