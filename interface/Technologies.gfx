@@ -1088,6 +1088,36 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_early_detection_medium"
+		texturefile = "gfx/interface/technologies/radio_detection.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_short_wave_radio_medium"
+		texturefile = "gfx/interface/technologies/radio.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_radio_repeater_medium"
+		texturefile = "gfx/interface/technologies/radio_repeater.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_sensitive_sensors_medium"
+		texturefile = "gfx/interface/technologies/decimetric_radar.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_advanced_detection_medium"
+		texturefile = "gfx/interface/technologies/improved_decimetric_radar.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_early_batteries_medium"
+		texturefile = "gfx/interface/technologies/battery.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_steam_powered_calculator_medium"
 		texturefile = "gfx/interface/technologies/calculator.dds"
 	}
