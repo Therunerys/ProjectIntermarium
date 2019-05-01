@@ -1198,4 +1198,223 @@ spriteTypes = {
 		name = "GFX_steel_mixing_medium"
 		texturefile = "gfx/interface/technologies/steelmixing.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_improved_diesel_engine_medium"
+		texturefile = "gfx/interface/technologies/improved_diesel_engine.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_simple_circuit_board_medium"
+		texturefile = "gfx/interface/technologies/simple_board.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_crane_medium"
+		texturefile = "gfx/interface/technologies/simple_crane.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_chemical_experiments_medium"
+		texturefile = "gfx/interface/technologies/chemical_experiments.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_steel_forging_medium"
+		texturefile = "gfx/interface/technologies/steel_forging.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tractors_medium"
+		texturefile = "gfx/interface/technologies/old_tractor.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_drills_medium"
+		texturefile = "gfx/interface/technologies/drill.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_simplified_engine_medium"
+		texturefile = "gfx/interface/technologies/improved_engine.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_concentrated_industry_medium"
+		texturefile = "gfx/interface/technologies/concentrated_industry.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_concentrated_industry2_medium"
+		texturefile = "gfx/interface/technologies/concentrated_industry2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_concentrated_industry3_medium"
+		texturefile = "gfx/interface/technologies/concentrated_industry3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_concentrated_industry4_medium"
+		texturefile = "gfx/interface/technologies/concentrated_industry4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_concentrated_industry5_medium"
+		texturefile = "gfx/interface/technologies/concentrated_industry5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dispersed_industry_medium"
+		texturefile = "gfx/interface/technologies/dispersed_industry.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dispersed_industry2_medium"
+		texturefile = "gfx/interface/technologies/dispersed_industry2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dispersed_industry3_medium"
+		texturefile = "gfx/interface/technologies/dispersed_industry3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dispersed_industry4_medium"
+		texturefile = "gfx/interface/technologies/dispersed_industry4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dispersed_industry5_medium"
+		texturefile = "gfx/interface/technologies/dispersed_industry5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_fuel_silos_medium"
+		texturefile = "gfx/interface/technologies/fuel_silos.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_fuel_refining_medium"
+		texturefile = "gfx/interface/technologies/fuel_refining1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_fuel_refining2_medium"
+		texturefile = "gfx/interface/technologies/fuel_refining2.dds"
+	}	
+	SpriteType = {
+		name = "GFX_fuel_refining3_medium"
+		texturefile = "gfx/interface/technologies/fuel_refining3.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_fuel_refining4_medium"
+		texturefile = "gfx/interface/technologies/fuel_refining4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_fuel_refining5_medium"
+		texturefile = "gfx/interface/technologies/fuel_refining5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_synth_oil_experiments_medium"
+		texturefile = "gfx/interface/technologies/synth_oil_experiments.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_early_refining_medium"
+		texturefile = "gfx/interface/technologies/early_refining.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_modern_oil_processing_medium"
+		texturefile = "gfx/interface/technologies/modern_oil_processing.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_advanced_oil_processing_medium"
+		texturefile = "gfx/interface/technologies/advanced_oil_processing.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_improved_oil_processing_medium"
+		texturefile = "gfx/interface/technologies/improved_oil_processing.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_oil_processing_medium"
+		texturefile = "gfx/interface/technologies/oil_processing.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_rubber_processing_medium"
+		texturefile = "gfx/interface/technologies/rubber_processing.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_rubber_processing_medium"
+		texturefile = "gfx/interface/technologies/improved_rubber_processing.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_advanced_rubber_processing_medium"
+		texturefile = "gfx/interface/technologies/advanced_rubber_processing.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_modern_rubber_processing_medium"
+		texturefile = "gfx/interface/technologies/modern_rubber_processing.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_construction1_medium"
+		texturefile = "gfx/interface/technologies/basic_construction.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_construction2_medium"
+		texturefile = "gfx/interface/technologies/improved_construction.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_construction3_medium"
+		texturefile = "gfx/interface/technologies/advanced_construction.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_construction4_medium"
+		texturefile = "gfx/interface/technologies/improved_conversion.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_construction5_medium"
+		texturefile = "gfx/interface/technologies/advanced_conversion.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_excavation5_medium"
+		texturefile = "gfx/interface/technologies/excavation5.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_excavation4_medium"
+		texturefile = "gfx/interface/technologies/excavation4.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_excavation3_medium"
+		texturefile = "gfx/interface/technologies/excavation3.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_excavation2_medium"
+		texturefile = "gfx/interface/technologies/excavation2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_excavation1_medium"
+		texturefile = "gfx/interface/technologies/excavation1.dds"
+	}
 }
