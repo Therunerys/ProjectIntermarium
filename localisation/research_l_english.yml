@@ -42,7 +42,11 @@
  RESEARCH_INSTANT_DESC:0 "Research is instant when changing the tree with more than one technology researched in the current tree."
 #
 #
+#
+#
  #       FOLDERS
+#
+#
 #
 #
  infantry_folder:0 "Infantry"
@@ -67,12 +71,16 @@
  industry:0 "Industry"
  industry_folder_desc:0 "Industry and production."
  electronics_folder:0 "Engineering"
- electronics_folder_desc:0 "Engineering, radar, encryption and advanced tech research."
+ electronics_folder_desc:0 "Engineering, detection, encryption and advanced tech research."
  secret_weapons_folder:0 "Secret Weapons"
  secret_weapons_folder_desc:0 "Wonder weapons, the product of mad science."
 #
 #
+#
+#
  #         DOCTRINES
+#
+#
 #
 #
  mobile_warfare:0 "Mobile Warfare"
@@ -204,6 +212,7 @@
 #
 #
 #
+#
  #         EQUIPMENT
 #
 #
@@ -237,24 +246,30 @@
  reciever_desc:0 "Improved recievers make our weapons less prone to jam."
  bayonet:0 "Bayonets"
  bayonet_desc:0 "Bayonets are given out to soldiers. The bayonet is a deadly close quarters weapon. It can inflict major damage and kill with just one stab."
- 
- 
- improved_infantry_weapons_2:0 "Improved Infantry Equipment II"
- improved_infantry_weapons_2_desc:0 "Personal and crew served weapons for infantry as well as the various other bits of kit a soldier needs. Improved weapon models and more specialized equipment."
- advanced_infantry_weapons2:0 "Improved Infantry Equipment III"
- advanced_infantry_weapons2_desc:0 "Personal and crew served weapons for infantry as well as the various other bits of kit a soldier needs. Further Modernized to include personal Assault Rifles and anti-tank rockets. Improved availability of weapons previously distributed to a limited extent."
- infantry_at:0 "Infantry Anti-Tank I"
- infantry_at_desc:0 "Arming our infantry units with anti-tank rifles will allow them to take out lighter armored vehicles while maintaining mobility."
- infantry_at2:0 "Infantry Anti-Tank II"
- infantry_at2_desc:0 "For infantry to effectively engage heavier armored units, high-explosive anti-tank weapons need to be made smaller and lighter."
- support_weapons:0 "Support Weapons I"
- support_weapons_desc:0 "Automatic weapons are becoming more portable. Submachine guns have already proven effective and the development of hand-held support weapons must continue."
- support_weapons2:0 "Support Weapons II"
- support_weapons2_desc:0 "The development of automatic weapons which combine the aspects of light and heavy machine guns allows versatility in how our infantry employ their equipment."
- support_weapons3:0 "Support Weapons III"
- support_weapons3_desc:0 "While maintaining and improving reliability of machine guns, we can also experiment with higher firing rates to ensure lethality of the constant stream of bullets."
- support_weapons4:0 "Support Weapons IV"
- support_weapons4_desc:0 "With the increased use of assault rifles, developing reliable automatic weapons that can be used in any environment by all soldiers is a priority for a modern army."
+ axe:0 "Axes"
+ axe_desc:0 "Axes are given out to soldiers. They can now move faster through rough terrain such as forests and lush jungles. They can also kill if necesarry."
+ shovel:0 "Shovels"
+ shovel_desc:0 "Shovels are given out to soldiers. Soldiers are now more effective in digging trenches and tunnels."
+ pickaxe:0 "Pickaxes"
+ pickaxes_desc:0 "Pickaxes are given out to soldiers. They now have the ability to cut into rough rocks in mountainous areas and they can also use them to dig trenches more efficiently."
+ helmet1:0 "Basic Helmets"
+ helmet1_desc:0 "Basic Helmets are given out to soldiers. Made out of simple materials they offer little protection agains shells, but can sometimes stop shrapnel if the wearer is lucky."
+ helmet2:0 "Reinforced Helmets"
+ helmet2_desc:0 "After the use of basic helmets, we decided to add another layer of protection on the front of the helmet, it can now stop small caliber bullets from the front."
+ helmet3:0 "Improved Helmets"
+ helmet3_desc:0 "Improved Helmets are given out to soldiers. They have a face protection part that will protect the wearer, but they can get uncomfortable when worn for a long time."
+ helmet4:0 "Advanced Helmets"
+ helmet4_desc:0 "Advanced Helmets are given out to soldiers. They combine the helmet and a gas mask to offer more comfort to the wearer. With 2 filters, they protect agains gas very effectively."
+ cavalry_equipment:0 "Cavalry Equipment"
+ cavalry_equipment_desc:0 "Basic cavalry equipment is now used to make horses usable directly on the battlefield rather than as support animals."
+ horseshoes:0 "Horseshoes"
+ horseshoes_desc:0 "Horseshoes are made to make cavalry more effective on the battlefield."
+ cav_sword:0 "Cavalry Swords"
+ cav_sword_desc:0 "Cavalry Swords are made out of higher quality materials to make them more durable and less prone to break."
+ cav_pistol:0 "Cavalry Pistols"
+ cav_pistol_desc:0 "Normal pistols are modified for horse riders so they can use them with higher accuracy even when riding in a saddle."
+ cav_spear:0 "Cavalry Spears"
+ cav_spear_desc:0 "Cavalry Spears are given out to cavalry. They can now charge the enemy with devastating force and even used them at range if necesarry."
  paratroopers:0 "Paratroopers I"
  paratroopers_desc:0 "By incorporating airborne forces into our army, we can make forced entries and position key troops in previously inaccessible areas, allowing for new tactical opportunities."
  paratroopers2:0 "Paratroopers II"
@@ -275,20 +290,25 @@
  tech_mountaineers3_desc:0 "Preparing for the most arduous mountain missions in high altitudes and low temperatures will require extraordinary training and discipline from our mountain troops."
  tech_special_forces:0 "Special Forces"
  tech_special_forces_desc:0 "Unconventional fighting requires specialist training. We need to ensure that our troops are prepared and able to adapt to harsh conditions."
- advanced_special_forces:0 "Advanced Special Forces Training"
- advanced_special_forces_desc:0 "With extensive training, we can ensure that our special forces will be able perform above and beyond that of normal men."
- improved_special_forces:1 "Expanded Special Forces Program"
- improved_special_forces_desc:1 "Special forces are able to perform missions that ordinary soldiers can not. We need to expand the training programs to get more of our soldiers qualified."
- extreme_environment_training:0 "Extreme Environment Training"
- extreme_environment_training_desc:0 "We need to be able to fight in the harshest of environments. With the right training and equipment, our troops will be able to fight in the most extreme conditions."
- survival_training:0 "Survival Training"
- survival_training_desc:0 "Our special forces will often fight behind enemy lines and in short supply. We need to train them to endure harsh weather and fight with limited supplies."
- elite_forces:0 "Elite Forces"
- elite_forces_desc:0 "Only the best of the best will become special forces. The soldiers that make it through the training will be stronger, faster and fight harder than anyone else."
- jungle_warfare:0 "Jungle Warfare"
- jungle_warfare_desc:0 "Special training to make our soldiers effective in the jungle."
- HUN_light_infantry_tech:0 "Light Infantry Divisions Doctrine"
- HUN_light_infantry_tech_desc:0 "Reducing the amount of supporting arms in our infantry divisions makes them more flexible and gives them an edge in combat in restricted terrain like Cities and forests."
+ stricter_conscription:0 "Stricter Conscription"
+ stricter_conscription_desc:0 "Stricter Conscription is used and only the best trainees are accepted."
+ lighter_conscription:0 "Ligher Conscription"
+ lighter_conscription_desc:0 "Lighter Conscription is introduced so more people can join the army. We will also increase the capacity of our special forces units."
+ elite_units:0 "Elite Units"
+ elite_units_desc:0 "Elite Units are created in which only the best soldiers operate. They are selected by higher staff and undergo special training that will prepare them for anything they may encounter."
+ extreme_cold_training:0 "Extreme Cold Training"
+ extreme_cold_training_desc:0 "Soldiers undergo training in cold enviroments that will adapt them to these conditions."
+ extreme_hot_training:0 "Extreme Hot Training"
+ extreme_hot_training_desc:0 "Soldiers undergo training in hot enviroments that will adapt them to these conditions."
+#
+#
+#
+#
+ #         SUPPORT COMPANIES
+#
+#
+#
+#
  tech_recon:0 "Recon Company I"
  tech_recon_desc:0 "Sending smaller groups to scout ahead before moving in the main force allows us to gather intelligence about where the enemy is and how many we are facing."
  tech_recon2:0 "Recon Company II"
@@ -350,10 +370,92 @@
  tech_maintenance_company4_desc:0 "Experiences with designing for active redundancy in the Great War can be renewed to work with more modern equipment to make maintenance easier."
  motorised_infantry:0 "Motorized Infantry"
  motorised_infantry_desc:0 "By extending the use of motor vehicles in infantry transports in the field, the mobility of otherwise slow-moving infantry units can be greatly improved, enabling faster responses and new strategies."
- night_vision:0 "Night Vision I"
- night_vision_desc:0 "Being able to see the enemy without being seen is key to night operations. With the invention of infra-red technology, we can outfit our army with devices which, though unwieldy, makes this possible."
- night_vision2:0 "Night Vision II"
- night_vision2_desc:0 "Early infra-red scopes, although initially intended for use by snipers, had a limited vision range. As both portability and vision improves, these devices can be used by more troops operating at night."
+#
+# 
+#
+#
+ #         ARMOR TREE
+#
+#
+#
+#
+ new_kind_of_warfare:0 "New Kind of Warfare"
+ new_kind_of_warfare_desc:0 "We much prepare blueprints for new weapons of warfare if we hope to destroy our enemies."
+ prototype_tank:0 "Prototype Tanks"
+ prototype_tank_desc:0 "We finally have something promising. Given enough time, it could develop into something beautiful. For now, we have this prototype to work on as a base."
+ light_tank_1:0 "Light Tank I"
+ light_tank_1_desc:0 "Our first test of creating a light moving armored vehicle. With the small cannon on the front, it can engage infantry at rather short distances, but with more force than whatever our infantry could use."
+ light_tank_2:0 "Light Tank II"
+ light_tank_2_desc:0 "After our first lightly armored tank, we made them bigger, faster and with a machinegun added it can rip through enemies at ease."
+ light_tank_3:0 "Light Tank III"
+ light_tank_3_desc:0 "After some tanks getting stuck in enemy trenches, we made them wider so they will not get stuck. Furthermore, we managed to add small cannons on the sides and a stronger one on the top."
+ medium_tank_1:0 "Medium Tank I"
+ medium_tank_1_desc:0 "Another project from our prototype is a larger, more robust tank with an emphasis on the main turret and better armor."
+ medium_tank_2:0 "Medium Tank II"
+ medium_tank_2_desc:0 "Improving on our previous types of tanks, they are given higher caliber turrets and thicker armor to withstand enemy fire."
+ medium_tank_3_:0 "Medium Tank III"
+ medium_tank_3_desc:0 "Some tanks had reliability problems and would combust spontaneously. Some even had their barrels torn after firing. Fixing this is crucial."
+ medium_tank_4:0 "Medium Tank IV"
+ medium_tank_4_desc:0 "The pinnacle of medium tank development. They can take on any role on the battlefield and still be effective."
+ heavy_tank_1:0 "Heavy Tank I"
+ heavy_tank_1_desc:0 "The largest of the proposed designs. Heavy Tanks are essentially huge armored fortresses that can only be destroyed by the strongest guns."
+ heavy_tank_2:0 "Heavy Tank II"
+ heavy_tank_2_desc:0 "Improved base of these new heavy tanks will give them better maneuverability and make them faster. Also improving on their cannon that will now be able to destroy enemy bunkers with ease."
+ added_machinegun:0 "Added Machinegun"
+ added_machinegun_desc:0 "Adding a machinegun to every design will make them more effective against infantry."
+ improved_barrel:0 "Improved Barrel"
+ improved_barrel_desc:0 "New material is used for every barrel design which should eliminate most of the problems."
+ improved_engine:0 "Improved Engine"
+ improved_engine_desc:0 "Making changes to our engine design will make all tank designs faster."
+ improved_suspension:0 "Improved Suspension"
+ improved_suspension_desc:0 "Improving suspensions is crucial for traversing terrain. All tank designs will be fitted with the improved suspension systems."
+ suspension_experiments:0 "Suspension Experimentation"
+ suspension_experiments_desc:0 "Some engineers suggested experimenting with new types of suspension."
+ walker_tank_1:0 "Walker Tank I"
+ walker_tank_1_desc:0 "Our suspension experiments were successful and we now have a new design at hand, replacing wheels with legs will make the tanks faster and more maneuverable."
+ walker_tank_2:0 "Walker Tank II"
+ walker_tank_2_desc:0 "Improving the design allows us to put more force on the legs and fix the issue when in some instances our tanks would tip over as the legs jammed due to mud getting into the joints."
+ walker_tank_3:0 "Walker Tank III"
+ walker_tank_3_desc:0 "Perfecting the walker tanks was not easy, but we have finally achieved it. We esentially made the turret modular so we can put various upgrades in it in a matter of hours."
+ secret_research:0 "Secret Research"
+ secret_research_desc:0 "Our engineers are proposing another type of vehicle. Do we dare to cross this line ?"
+#
+#
+#
+#
+ #         ARTILLERY TREE
+#
+#
+#
+#
+explosive_artillery:0 "Artillery I"
+explosive_artillery_desc:0 "Artillery will allow us to rain down fire on our enemies from the above and unxepectedly."
+antiair_equipment1:0 "Anti-Air I"
+antiair_equipment1_desc:0 "By simply using machineguns to fire at planes, we can deter them pretty effectively."
+sirens:0 "Sirens"
+sirens_desc:0 "Sirens are used to warn of an upcoming air attack making our Anti-Air crews always ready."
+added_machineguns:0 "Added Machineguns"
+added_machineguns_desc:0 "We can not ruin anything by adding more machineguns."
+antiair_equipment2:0 "Anti-Air II"
+antiair_equipment2_desc:0 "Replacing simple machineguns with smaller artillery resembling cannons, we can take down targets higher up in the sky as bullets are not effective against high flying targets."
+new_optics:0 "New Optics"
+new_optics_desc:0 "Installing new optics on our Anti-Air will allow us to prefire more accurately."
+antiair_equipment3:0 "Anti-Air III"
+antiair_equipment3_desc:0 "Bigger means better, and that is true even with anti-air guns. Higher caliber cannons allow us to shoot down bombers that are very high."
+flak_towers:0 "Flak Towers"
+flak_towers_desc:0 "Bunkers specifically made to house Anti-Air cannons can provide them with clear view of the sky while also protecting them from the land combat."
+improved_shells:0 "Improved Shells"
+improved_shells_desc:0 "Shells are now stored more appropriate as they were sometimes the cause of explosions in camps."
+
+
+
+
+
+
+
+
+
+
  basic_machine_tools:0 "Basic Machine Tools"
  basic_machine_tools_desc:0 "A variety of newly developed milling machines can be used in military production, from the small and versatile types available to any machine shop to the large scale, advanced models that push the technological limits."
  improved_machine_tools:0 "Improved Machine Tools"

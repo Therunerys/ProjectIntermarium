@@ -178,11 +178,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		path = {
-			leads_to_tech = jamming
-			research_cost_coeff = 1
-		}
-		
 		research_cost = 2
 		start_year = 1939
 		
@@ -267,58 +262,6 @@ technologies = {
 		categories = {
 			electronics
 			radar_tech
-		}
-	}
-
-	jamming = {
-
-		recon_factor = 0.02
-		
-		path = {
-			leads_to_tech = signal_tapping
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 2.5
-		start_year = 1941
-		
-		folder = {
-			name = electronics_folder
-			position = { x = 0 y = 10 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			electronics
-		}
-	}
-
-	signal_tapping = {
-
-		recon_factor = 0.03
-
-		path = {
-			leads_to_tech = suitcase_calculator
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 2.5
-		start_year = 1941
-		
-		folder = {
-			name = electronics_folder
-			position = { x = 0 y = 12 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			electronics
 		}
 	}
 	#

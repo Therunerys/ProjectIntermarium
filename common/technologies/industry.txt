@@ -2,7 +2,7 @@ technologies = {
 
 	machine_tools = {
 	
-		production_factory_max_efficiency_factor = 0.1
+		production_factory_max_efficiency_factor = 0.02
 
 		
 		path = {
@@ -50,7 +50,7 @@ technologies = {
 	#	
 	medicine = {
 	
-		production_factory_max_efficiency_factor = 0.05
+		production_factory_max_efficiency_factor = 0.02
 
 		path = {
 			leads_to_tech = hard_hats
@@ -72,7 +72,7 @@ technologies = {
 	
 	hard_hats = {
 	
-		production_factory_max_efficiency_factor = 0.05
+		production_factory_max_efficiency_factor = 0.02
 		
 		path = {
 			leads_to_tech = concrete_improvement
@@ -94,8 +94,7 @@ technologies = {
 	
 	concrete_improvement = {
 	
-		production_factory_max_efficiency_factor = 0.1
-		production_speed_buildings_factor = 0.1
+		production_factory_max_efficiency_factor = 0.04
 		
 		path = {
 			leads_to_tech = steel_mixing 
@@ -117,14 +116,8 @@ technologies = {
 	
 	steel_mixing = {
 
-		production_factory_max_efficiency_factor = 0.1
-		line_change_production_efficiency_factor = 0.2
-		production_speed_buildings_factor = 0.1
-
-		path = {
-			leads_to_tech = ? 
-			research_cost_coeff = 1
-		}
+		production_factory_max_efficiency_factor = 0.05
+		industrial_capacity_factory = 0.1
 		
 		research_cost = 2.5
 		start_year = 1943
@@ -134,24 +127,6 @@ technologies = {
 			position = { x = 0 y = 12 }
 		}
 		
-		categories = {
-			industry
-		}
-	}
-	
-	? = {
-
-		production_factory_max_efficiency_factor = 0.1
-		production_factory_efficiency_gain_factor = 0.1
-			
-		research_cost = 2.5
-		start_year = 1943
-		
-		folder = {
-			name = industry_folder
-			position = { x = 0 y = 14 }
-		}
-	
 		categories = {
 			industry
 		}
@@ -185,8 +160,7 @@ technologies = {
 	#
 	simple_circuit_board = {
 		
-		production_factory_max_efficiency_factor = 0.05
-		research_time_factor = -0.02
+		production_factory_max_efficiency_factor = 0.02
 
 		path = {
 			leads_to_tech = crane
@@ -208,8 +182,7 @@ technologies = {
 
 	crane = {
 		
-		production_speed_buildings_factor = 0.1
-		local_resources_factor = 0.1
+		production_factory_max_efficiency_factor = 0.03
 
 		path = {
 			leads_to_tech = chemical_experiments
@@ -231,8 +204,7 @@ technologies = {
 
 	chemical_experiments = {
 		
-		production_speed_buildings_factor = 0.1
-		local_resources_factor = 0.1
+		production_factory_max_efficiency_factor = 0.05
 
 		path = {
 			leads_to_tech = steel_forging
@@ -256,8 +228,7 @@ technologies = {
 	#
 	steel_forging = {
 		
-		production_speed_buildings_factor = 0.1
-		local_resources_factor = 0.05
+		production_factory_max_efficiency_factor = 0.05
 
 		path = {
 			leads_to_tech = drills
@@ -284,7 +255,7 @@ technologies = {
 
 	tractors = {
 		
-		production_factory_max_efficiency_factor = 0.05
+		production_factory_max_efficiency_factor = 0.02
 		
 		path = {
 			leads_to_tech = simplified_engine
@@ -306,8 +277,7 @@ technologies = {
 
 	drills = {
 		
-		production_speed_buildings_factor = 0.1
-		local_resources_factor = 0.2
+		production_factory_max_efficiency_factor = 0.03
 
 		path = {
 			leads_to_tech = simplified_engine
