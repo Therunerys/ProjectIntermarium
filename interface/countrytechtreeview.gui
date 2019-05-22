@@ -3647,7 +3647,7 @@ guiTypes = {
 			name = "Background"
 			quadTextureSprite ="GFX_technology_unavailable_item_bg"
 		}
-<<<<<<< HEAD
+######## HEAD
 
 		iconType = {
 			name = "Icon"
@@ -3680,7 +3680,7 @@ guiTypes = {
 		size = { width = 204 height = 72 }
 		clipping = no
 
-=======
+#######
 
 		iconType = {
 			name = "Icon"
@@ -3713,7 +3713,7 @@ guiTypes = {
 		size = { width = 204 height = 72 }
 		clipping = no
 
->>>>>>> master
+######## master
 		background = {
 			name = "Background"
 			quadTextureSprite ="GFX_technology_unavailable_item_bg"

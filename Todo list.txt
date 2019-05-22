@@ -1,10 +1,10 @@
 ################## TODO #####################
-- fix techtrees in mtgnavalfolder
-- add pictures that are missing in tech
-- resize plane pictures to good looking sizes
-- localize and add description to all techs
-- fix missing states/provinces added with MTG
-- what you mean in the image of the second scenario? <-------- #############################################
+- fix techtrees in mtgnavalfolder --------------- WIP
+- add pictures that are missing in tech -------------- DONE
+- resize plane pictures to good looking sizes ----------------- DONE
+- localize and add description to all techs --------------- WIP
+- fix missing states/provinces added with MTG ---------------- SHOULD BE DONE
+- what you mean in the image of the second scenario? <-------- ############################################# if you only had one scenario you couldnt go back to the main menu, dunno if it is fixed
 
 ############# POSSIBLE CHANGES ###########
 - If Ottomans have faced internal conflicts and crisis, it should lose the Lebanon and Palestine to England (i'm going for alt-history) which wanted to secure the area of Egypt. Then the lands of the 
