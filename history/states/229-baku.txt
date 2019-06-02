@@ -6,7 +6,7 @@ state={
 	}
 
 	history={
-		owner = GEO
+		owner = RUS
 		victory_points = {
 			7661 1 
 		}
@@ -17,6 +17,7 @@ state={
 
 		}
 		add_core_of = GEO
+		add_core_of = RUS
 	}
 
 	provinces={
