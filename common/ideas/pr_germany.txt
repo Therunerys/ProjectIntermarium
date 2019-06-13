@@ -81,7 +81,25 @@ ideas = {
 				can_create_factions = yes
 			}
 		}
-		
+		######################################## Focus tree
+		full_naval_effort_idea = {
+
+			allowed = {
+				original_tag = GER
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = -0.10
+				industrial_capacity_dockyard = 0.10
+			}
+		}
+		######################################## Focus tree
 		general_staff = {
 			
 			allowed = {
