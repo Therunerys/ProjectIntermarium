@@ -35,6 +35,7 @@ focus_tree = {
         }
 
         completion_reward = {
+            add_timed_idea = { idea = huge_construction days = 35 }
             add_timed_idea = { idea = full_naval_effort_idea days = 365 }
 
             ENG = {
@@ -104,6 +105,7 @@ focus_tree = {
         }
 
         completion_reward = {
+            add_timed_idea = { idea = huge_construction days = 35 }
             add_timed_idea = { idea = med_effort_naval_race_idea days = 365 }
 
             ENG = {
@@ -174,6 +176,7 @@ focus_tree = {
         }
 
         completion_reward = {
+            add_timed_idea = { idea = huge_construction days = 35 }
             add_timed_idea = { idea = accept_uk_domination_idea days = 365 }
             ENG = {
                 add_opinion_modifier = {
@@ -314,6 +317,7 @@ focus_tree = {
         available_if_capitulated = yes
 
         completion_reward = {
+            add_timed_idea = { idea = huge_construction days = 35 }
             random_owned_controlled_state = {
                 limit = {
                     free_building_slots = {

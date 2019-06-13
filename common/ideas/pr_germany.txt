@@ -189,6 +189,9 @@ ideas = {
 					build_cost_ic = -0.1 instant = yes
 				}
 			}
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
 		}
 		######################################## Focus tree
 		general_staff = {
