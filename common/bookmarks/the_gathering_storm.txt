@@ -29,9 +29,9 @@ bookmarks = {
 			}
 		}
 
-		"USA"={
-			history = "USA_NEW_DAWN_DESC"
-			ideology = democratic
+		"KSN"={
+			history = "KSN_NEW_DAWN_DESC"
+			ideology = neutrality
 			ideas = {
 				
 			}
@@ -66,9 +66,9 @@ bookmarks = {
 			}	
 		}
 
-		"JAP"={
-			history = "JAP_NEW_DAWN_DESC"
-			ideology = fascism
+		"RUS"={
+			history = "RUS_NEW_DAWN_DESC"
+			ideology = neutrality
 			ideas = {
 				
 			}	
@@ -77,9 +77,9 @@ bookmarks = {
 			}			
 		}
 
-		"SOV"={
-			history = "SOV_NEW_DAWN_DESC"
-			ideology = communism
+		"TUR"={
+			history = "TUR_NEW_DAWN_DESC"
+			ideology = neutrality
 			ideas = {
 				
 			}

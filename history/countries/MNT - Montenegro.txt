@@ -2,28 +2,37 @@
 
 oob = "MON_1936"
 
-set_research_slots = 3
-
 # Starting tech
-# clone of Yugoslavia
 set_technology = {
 	
 }
 
-set_politics = {
+set_research_slots = 2
+set_convoys = 50
+set_stability = 0.60
+set_war_support = 0.20
 
-	parties = {
-		fascism = { 
-			popularity = 33
-		}
-		neutrality = { 
-			popularity = 33
-		}		
-		communism = {
-			popularity = 34
-		}
-	}
+#####################
+##### POLITICS ######
+#####################
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1841.10.7"
+	election_frequency = 48
+	elections_allowed = no
 }
+
+set_popularities = {
+	democratic = 2
+	fascism = 8
+	communism = 5
+	neutrality = 85
+}
+
+#####################
+###### LEADERS ######
+#####################
 
 create_country_leader = {
 	name = "Sekula Drljević"

@@ -16,29 +16,20 @@ set_war_support = 0.20
 ##### POLITICS ######
 #####################
 
+puppet = MNT
+
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 25
-		}
-
-		fascism = {
-			popularity = 23
-		}
-		
-		communism = {
-			popularity = 17
-		}
-		
-		neutrality = { 
-			popularity = 35
-		}
-	}
-	
 	ruling_party = neutrality
+	last_election = "1876.8.31"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 9
+	fascism = 4
+	communism = 7
+	neutrality = 80
 }
 
 add_ideas = {

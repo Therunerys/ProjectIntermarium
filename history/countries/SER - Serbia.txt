@@ -2,75 +2,41 @@
 
 oob = "YUG_1936"
 
-set_research_slots = 3
-
-add_ideas = {
-	anti_german_military
-}
-
+# Starting tech
 set_technology = {
 
 }
 
-
+set_research_slots = 2
 set_convoys = 0
+set_stability = 0.75
+set_war_support = 0.50
+
+#####################
+##### POLITICS ######
+#####################
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 20
-		}
-
-		fascism = {
-			popularity = 30
-		}
-		
-		communism = {
-			popularity = 20
-			#banned = no #default is no
-		}
-		
-		neutrality = { 
-			popularity = 30
-		}
-	}
-	
 	ruling_party = neutrality
-	last_election = "1936.1.1"
-	election_frequency = 36
-	elections_allowed = yes
+	last_election = "1889.3.6"
+	election_frequency = 48
+	elections_allowed = no
 }
 
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 20
-			}
-
-			fascism = {
-				popularity = 30
-			}
-			
-			communism = {
-				popularity = 20
-				#banned = no #default is no
-			}
-			
-			neutrality = { 
-				popularity = 30
-			}
-		}
-		
-		ruling_party = neutrality
-		last_election = "1938.1.1"
-		election_frequency = 36
-		elections_allowed = yes
-	}
+set_popularities = {
+	democratic = 4
+	fascism = 3
+	communism = 2
+	neutrality = 91
 }
-set_stability = 0.6
+
+add_ideas = {
+	
+}
+
+#####################
+###### LEADERS ######
+#####################
 
 create_country_leader = {
 	name = "Draza Mihailovic"

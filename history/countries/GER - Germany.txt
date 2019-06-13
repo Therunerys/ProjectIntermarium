@@ -17,28 +17,17 @@ set_war_support = 0.50
 #####################
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 2
-		}
-
-		fascism = {
-			popularity = 8
-		}
-		
-		communism = {
-			popularity = 5
-		}
-
-		neutrality = {
-			popularity = 85
-		}
-	}
-	
 	ruling_party = neutrality
+	last_election = "1888.6.15"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 2
+	fascism = 8
+	communism = 6
+	neutrality = 84
 }
 
 create_faction = Mittelmächte

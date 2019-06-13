@@ -6,9 +6,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = AUS
-		controller = AUS
-
+		owner = AHE
 		buildings = {
 			infrastructure = 6
 		}
