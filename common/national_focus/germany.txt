@@ -14,7 +14,7 @@ focus_tree = {
 
     focus = {
         id = full_effort_naval_race
-    
+        icon = GFX_focus_ger_oppose_hitler
         x = 2
         y = 0 
 
@@ -84,10 +84,9 @@ focus_tree = {
 
     focus = {
         id = med_effort_naval_race
-    
-        x = 5
+        icon = GFX_goal_generic_amphibious_assault
+        x = 4
         y = 0 
-
         cost = 10
 
         mutually_exclusive = {
@@ -155,7 +154,7 @@ focus_tree = {
 
     focus = {
         id = accept_uk_domination
-    
+        icon = GFX_focus_ger_accept_british_naval_dominance
         x = 8
         y = 0 
 
@@ -259,14 +258,15 @@ focus_tree = {
 
     focus = {
         id = help_austria_war_ottoman 
+        icon = GFX_focus_help_austria
         prerequisite = { focus = accept_uk_domination focus = med_effort_naval_race}
-        x = 8
+        x = -1
         y = 1
         cost = 1
         ai_will_do = {
             factor = 1
         }
-
+        relative_position_id = accept_uk_domination
         available_if_capitulated = yes
         #bypass = {
         #    date > 1903.00.00
@@ -290,8 +290,9 @@ focus_tree = {
 
     focus = {
         id = army_top_priority 
+        icon = GFX_focus_ger_oppose_hitler
         prerequisite = { focus = accept_uk_domination }
-        x = 2
+        x = 1
         y = 1
         cost = 10
         ai_will_do = {
@@ -342,8 +343,8 @@ focus_tree = {
     }
     
     focus = {
-        id = extra_naval_effort2
-        icon = GFX_goal_generic_construct_naval_dockyard
+        id = high_seas_fleet
+        icon = GFX_goal_generic_navy_cruiser
         prerequisite = { focus = extra_naval_effort }
         prerequisite = { focus = full_effort_naval_race }
         x = 0
@@ -397,15 +398,15 @@ focus_tree = {
 
     focus = {
         id = plan_focus
-        icon = GFX_goal_generic_navy_battleship
-        prerequisite = { focus = extra_naval_effort2 }
+        icon = GFX_focus_generic_navy_battleship2
+        prerequisite = { focus = high_seas_fleet }
         x = -1
         y = 1
         cost = 10
         ai_will_do = {
             factor = 0.25
         }   
-        relative_position_id = extra_naval_effort2
+        relative_position_id = high_seas_fleet
         available_if_capitulated = yes
         mutually_exclusive = {
            focus = plan_ultra
@@ -449,14 +450,14 @@ focus_tree = {
     focus = {
         id = plan_ultra
         icon = GFX_goal_generic_navy_battleship
-        prerequisite = { focus = extra_naval_effort2 }
+        prerequisite = { focus = high_seas_fleet }
         x = 1
         y = 1
         cost = 10
         ai_will_do = {
             factor = 0.25
         }   
-        relative_position_id = extra_naval_effort2
+        relative_position_id = high_seas_fleet
         available_if_capitulated = yes
         mutually_exclusive = {
            focus = plan_focus
@@ -499,13 +500,13 @@ focus_tree = {
         id = u_boat_and_des_effort
         icon = GFX_goal_generic_navy_submarine
         prerequisite = { focus = accept_uk_domination  focus = med_effort_naval_race }
-        x = 7
+        x = 2
         y = 2
         cost = 10
         ai_will_do = {
             factor = 1
         }
-
+        relative_position_id = med_effort_naval_race
         available_if_capitulated = yes
 
         completion_reward = {
@@ -546,13 +547,13 @@ focus_tree = {
         icon = GFX_goal_generic_wolf_pack
         prerequisite = { focus = u_boat_and_des_effort }
         prerequisite = { focus = med_effort_naval_race }
-        x = 5
+        x = 0
         y = 4
         cost = 10
         ai_will_do = {
             factor = 1
         }
-            
+        relative_position_id = med_effort_naval_race
         available_if_capitulated = yes
 
         completion_reward = {
@@ -571,13 +572,14 @@ focus_tree = {
         icon = GFX_goal_generic_construct_naval_dockyard
         prerequisite = { focus = u_boat_and_des_effort }
         prerequisite = { focus = med_effort_naval_race }
-        x = 6
+        x = 1
         y = 3
         cost = 10
         ai_will_do = {
             factor = 1
         }
-            
+        relative_position_id = med_effort_naval_race
+
         available_if_capitulated = yes
 
         completion_reward = {
@@ -640,4 +642,5 @@ focus_tree = {
             }
         }
     }
+    ################################################### END OF NAVAL TREE, START OF 
 }
