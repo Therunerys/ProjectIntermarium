@@ -2292,6 +2292,8 @@
  extra_naval_effort2_desc:0 "Expand Dockyard Facilities"
  plan_focus:0 "Plan Focus"
  plan_focus_desc:0 "Plan Focus"
+ plan_ultra:0 "Plan Ultra"
+ plan_ultra_desc:0 "Plan Ultra"
  u_boat_and_des_effort:0 "U-Boat And Destroyer Effort"
  u_boat_and_des_effort_desc:0 "U-Boat And Destroyer Effort"
  GER_big_modular_construction:0 "Big Modular Construction"
