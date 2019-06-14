@@ -286,9 +286,9 @@ focus_tree = {
         #    date > 1903.00.00
         #}
         available = {
-        AHE = {
-            has_war_with = TUR
-        }
+            AHE = {
+                has_war_with = TUR
+            }
         }
         completion_reward = {
             army_experience = 25
@@ -299,9 +299,62 @@ focus_tree = {
                     modifier = medium_increase 
                 }
             }
-            manpower = -100
         }   
     } 
+
+    focus = {
+        id = army_top_priority 
+        prerequisite = { focus = accept_uk_domination }
+        x = 2
+        y = 1
+        cost = 10
+        ai_will_do = {
+            factor = 1
+        }
+        relative_position_id = accept_uk_domination
+
+        available_if_capitulated = yes
+           
+        completion_reward = {
+            add_timed_idea = { idea = huge_construction days = 35 }
+            random_owned_controlled_state = {
+                limit = {
+                    free_building_slots = {
+                        building = arms_factory
+                        size > 1
+                        include_locked = yes
+                        is_in_home_area = yes
+                    }
+                    is_in_home_area = yes
+                }
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = arms_factory
+                    level = 2
+                    instant_build = yes
+                }  
+            }
+
+            random_owned_controlled_state = {
+                limit = {
+                    free_building_slots = {
+                        building = arms_factory
+                        size > 1
+                      include_locked = yes
+                    }
+                    is_in_home_area = yes
+                }
+            
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = arms_factory
+                    level = 2
+                    instant_build = yes
+                }   
+            }
+        }  
+    }
+    
     focus = {
         id = extra_naval_effort2
         icon = GFX_goal_generic_construct_naval_dockyard
@@ -401,12 +454,6 @@ focus_tree = {
                 uses = 1
                 category = bb_tech
                 category = shbb_tech
-            }
-            add_tech_bonus = {
-                name = plan_focus
-                bonus = 1.0
-                uses = 1
-                category = cv_tech
             }
         }
     }
