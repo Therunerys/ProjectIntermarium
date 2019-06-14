@@ -85,7 +85,7 @@ focus_tree = {
     focus = {
         id = med_effort_naval_race
     
-        x = 4
+        x = 5
         y = 0 
 
         cost = 10
@@ -274,7 +274,7 @@ focus_tree = {
     focus = {
         id = help_austria_war_ottoman 
         prerequisite = { focus = accept_uk_domination focus = med_effort_naval_race}
-        x = 7
+        x = 8
         y = 1
         cost = 1
         ai_will_do = {
@@ -313,7 +313,7 @@ focus_tree = {
         ai_will_do = {
             factor = 1
         }
-
+        relative_position_id = full_effort_naval_race
         available_if_capitulated = yes
 
         completion_reward = {
@@ -360,13 +360,13 @@ focus_tree = {
         id = plan_focus
         icon = GFX_goal_generic_navy_battleship
         prerequisite = { focus = extra_naval_effort2 }
-        x = 0
-        y = 3
+        x = -1
+        y = 1
         cost = 10
         ai_will_do = {
             factor = 0.25
         }   
-
+        relative_position_id = extra_naval_effort2
         available_if_capitulated = yes
 
         completion_reward = {
@@ -415,13 +415,13 @@ focus_tree = {
         id = plan_ultra
         icon = GFX_goal_generic_navy_battleship
         prerequisite = { focus = extra_naval_effort2 }
-        x = 2
-        y = 3
+        x = 1
+        y = 1
         cost = 10
         ai_will_do = {
             factor = 0.25
         }   
-
+        relative_position_id = extra_naval_effort2
         available_if_capitulated = yes
 
         completion_reward = {
@@ -462,7 +462,7 @@ focus_tree = {
         id = u_boat_and_des_effort
         icon = GFX_goal_generic_navy_submarine
         prerequisite = { focus = accept_uk_domination  focus = med_effort_naval_race }
-        x = 6
+        x = 7
         y = 2
         cost = 10
         ai_will_do = {
@@ -509,7 +509,7 @@ focus_tree = {
         icon = GFX_goal_generic_wolf_pack
         prerequisite = { focus = u_boat_and_des_effort }
         prerequisite = { focus = med_effort_naval_race }
-        x = 4
+        x = 5
         y = 4
         cost = 10
         ai_will_do = {
@@ -534,7 +534,7 @@ focus_tree = {
         icon = GFX_goal_generic_construct_naval_dockyard
         prerequisite = { focus = u_boat_and_des_effort }
         prerequisite = { focus = med_effort_naval_race }
-        x = 5
+        x = 6
         y = 3
         cost = 10
         ai_will_do = {
@@ -569,7 +569,7 @@ focus_tree = {
     focus = {
         id = fleet_in_being_ger
         icon = GFX_goal_generic_wolf_pack
-        prerequisite = { focus = plan_focus }
+        prerequisite = { focus = plan_focus focus = plan_ultra }
         x = 0
         y = 4
         cost = 10
