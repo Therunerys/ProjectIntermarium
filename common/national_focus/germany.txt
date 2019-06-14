@@ -254,20 +254,6 @@ focus_tree = {
                     instant_build = yes
                 }  
             }
-
-            add_tech_bonus = {
-                name = dd_bonus
-                bonus = 1.0
-                uses = 1
-                category = dd_tech
-            }
-            add_tech_bonus = {
-                name = cr_bonus
-                bonus = 1.0
-                uses = 1
-                category = cl_tech
-                category = ca_tech
-            }
         }
     }
 
@@ -421,7 +407,9 @@ focus_tree = {
         }   
         relative_position_id = extra_naval_effort2
         available_if_capitulated = yes
-
+        mutually_exclusive = {
+           focus = plan_ultra
+        }
         completion_reward = {
             navy_experience = 50
             random_owned_controlled_state = {
@@ -470,7 +458,9 @@ focus_tree = {
         }   
         relative_position_id = extra_naval_effort2
         available_if_capitulated = yes
-
+        mutually_exclusive = {
+           focus = plan_focus
+        }
         completion_reward = {
             navy_experience = 50
             random_owned_controlled_state = {
@@ -597,8 +587,7 @@ focus_tree = {
     focus = {
         id = GER_big_modular_construction
         icon = GFX_goal_generic_construct_naval_dockyard
-        prerequisite = { focus = plan_focus }
-        prerequisite = { focus = plan_ultra }
+        prerequisite = { focus = plan_focus focus = plan_ultra }
         x = 2
         y = 4
         cost = 15
@@ -609,7 +598,22 @@ focus_tree = {
         available_if_capitulated = yes
 
         completion_reward = {
-            add_ideas = GER_big_naval_construction_idea
+            effect_tooltip = {
+                custom_effect_tooltip = GER_modular_MOD
+            }
+
+            if = {
+                limit = {
+                    has_completed_focus = plan_focus
+                }
+                add_ideas = GER_big_naval_construction1_idea
+                else = {
+                    limit = {
+                    has_completed_focus = plan_ultra
+                    }
+                    add_ideas = GER_big_naval_construction2_idea
+                }
+            }
         }
     }
 

@@ -2302,3 +2302,4 @@
  fleet_in_being_ger_desc:0 "Fleet In Being"
  army_top_priority:0 "The army is in top priority"
  army_top_priority_desc:0 "The army is in top priority"
+ GER_modular_MOD:0 "If §HPlan Focus§! was chosen, you will gain a national spirit that gives you -10% production cost for Battleships and for Battlecruisers. \nbut if §HPlan Ultra§! was chosen, you will gain a national spirit that gives you -10% production cost for Heavy Cruiser and for Light Cruiser."
