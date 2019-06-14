@@ -1,3 +1,4 @@
+
 state={
 	id=105
 	name="STATE_105"
@@ -8,7 +9,7 @@ state={
 
 	history={
 		victory_points = {
-			9809 3
+			9809 3 
 		}
 		owner = MNT
 		buildings = {
@@ -20,14 +21,14 @@ state={
 			}
 
 		}
-		add_core_of = SER
 		add_core_of = MNT
+
 	}
 
 	provinces={
-		937 6913 9809 9821 11858 
+		9809 9821 11858 
 	}
-	manpower=895500
+	manpower=645500
 	buildings_max_level_factor=1.000
 	state_category=rural
 }
