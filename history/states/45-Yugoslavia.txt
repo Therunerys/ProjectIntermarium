@@ -1,3 +1,4 @@
+
 state={
 	id=45
 	name="STATE_45"
@@ -9,6 +10,7 @@ state={
 
 		}
 		add_core_of = SER
+
 	}
 
 	provinces={

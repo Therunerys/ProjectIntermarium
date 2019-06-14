@@ -1,0 +1,22 @@
+state={
+	id=795
+	name="STATE_795"
+
+	state_category = wasteland
+	impassable = yes
+
+	history={
+		owner = ENG
+		add_core_of = LBY
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces={
+		1057 1994 4191 10104 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
