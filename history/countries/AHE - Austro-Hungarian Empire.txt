@@ -56,34 +56,12 @@ create_country_leader = {
 	name = "Karl Renner"
 	desc = "POLITICS_KARL_RENNER_DESC"
 	picture = "renner.dds"
-	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
 		#
 	}
 }
 
-create_country_leader = {
-	name = "Engelbert Dollfuss"
-	desc = "POLITICS_ARTHUR_SEYSS_INQUART_DESC"
-	picture = "dollfuss.dds"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Ruth Fischer"
-	desc = "POLITICS_ALFRED_KLAHR_DESC"
-	picture = "fischer.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		#
-	}
-}
 
 #####################
 ####### ARMY ########

@@ -8,22 +8,11 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				NOT ={
-					has_government = communism
-				}
-				NOT = {
-					any_other_country = {
-						original_tag = BEL
-						has_government = democratic 
-						NOT = {
-							tag = ROOT
-						}
-					}
-				}
+				original_tag = BEL
 			}
-			picture = gfx/leaders/BEL/LeopoldII
+			picture = leopold_ii
 			removal_cost = -1
-			
+			cancel = { NOT = { has_government = democratic } }
 			traits = { popular_figurehead }
 
 		}

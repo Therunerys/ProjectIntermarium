@@ -3700,7 +3700,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_leopold_ii"
-		texturefile = "gfx/leaders/BEL/LeopoldII.dds"
+		texturefile = "gfx/interface/ideas/LeopoldIIIdea.dds"
 	}
 
 }
