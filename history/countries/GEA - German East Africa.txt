@@ -37,16 +37,20 @@ add_ideas = {
 ###### LEADERS #######
 #####################
 
+
+
+
 create_country_leader = {
-	name = "Eduard von Liebert"
+	name = "Albrecht von Rechenberg"
 	desc = ""
-	picture = "gfx/leaders/GEA/Eduard.dds"
-	expire = "1901.1.1"
+	picture = "gfx/leaders/GEA/Albrecht.dds"
+	expire = "1912.1.1"
 	ideology = despotism
 	traits = {
 		#
 	}
 }
+
 create_country_leader = {
 	name = "Gustav Adolf von Gtzen"
 	desc = ""
@@ -59,10 +63,10 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Albrecht von Rechenberg"
+	name = "Eduard von Liebert"
 	desc = ""
-	picture = "gfx/leaders/GEA/Albrecht.dds"
-	expire = "1912.1.1"
+	picture = "gfx/leaders/GEA/Eduard.dds"
+	expire = "1901.1.1"
 	ideology = despotism
 	traits = {
 		#
