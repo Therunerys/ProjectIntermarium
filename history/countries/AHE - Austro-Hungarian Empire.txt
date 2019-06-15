@@ -41,15 +41,16 @@ add_ideas = {
 #####################
 
 create_country_leader = {
-	name = "Franz Ferdinand"
-	desc = "POLITICS_KURT_SCHUSCHNIGG_DESC"
-	picture = "Archduke_Ferdinand.dds"
-	expire = "1965.1.1"
+	name = "Francis Joseph I"
+	desc = ""
+	picture = "gfx/leaders/AHE/FranzJoseph.dds"
+	expire = "1916.1.1"
 	ideology = despotism
 	traits = {
 		anti_democrat imperial_connections
 	}
 }
+
 
 create_country_leader = {
 	name = "Karl Renner"

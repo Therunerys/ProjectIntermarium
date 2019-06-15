@@ -838,6 +838,46 @@ focus_tree = {
     }
 
     focus = {
+        id = GER_swiss_river_mod
+        icon = GFX_goal_generic_construct_military
+        prerequisite = { focus = GER_fort_work }
+        x = 2
+        y = 1
+        relative_position_id = GER_fort_work
+        cost = 10
+        ai_will_do = {
+            factor = 1
+        }
+            
+       completion_reward = {
+            custom_effect_tooltip = GER_swiss_wall_tool
+            hidden_effect = { 
+                50 = {
+                    if = {
+                        limit = { is_controlled_by = GER }
+                        add_building_construction = {
+                            type = anti_air_building
+                            level = 1
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 3679
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 11640
+                            instant_build = yes
+                        }
+                    }
+                }
+            }          
+        }
+    }
+    focus = {
         id = the_greatest_enemies
         icon = GFX_goal_generic_construct_military
         prerequisite = { focus = GER_fort_work }
@@ -1493,38 +1533,38 @@ focus_tree = {
                 }
                 86 = {
                     if = {
-                    limit = { is_controlled_by = GER }
-                    add_building_construction = {
-                        type = anti_air_building
-                        level = 1
-                        instant_build = yes
-                    }
-                    add_building_construction = {
-                        type = bunker
-                        level = 2
-                        province = 3381
-                        instant_build = yes
-                    }
-                    add_building_construction = {
-                        type = bunker
-                        level = 2
-                        province = 17
-                        instant_build = yes
-                    }
-                    add_building_construction = {
-                        type = bunker
-                        level = 2
-                        province = 9532
-                        instant_build = yes
-                    }
-                    add_building_construction = {
-                        type = bunker
-                        level = 2
-                        province = 11558
-                        instant_build = yes
+                        limit = { is_controlled_by = GER }
+                        add_building_construction = {
+                            type = anti_air_building
+                            level = 1
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 2
+                            province = 3381
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 2
+                            province = 17
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 2
+                            province = 9532
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 2
+                            province = 11558
+                            instant_build = yes
+                        }
                     }
                 }
-            }
                 67 = {
                     if = {
                     limit = { is_controlled_by = GER }
@@ -1559,45 +1599,6 @@ focus_tree = {
             }
         }
     }
+
     
-    focus = {
-        id = GER_swiss_river
-        icon = GFX_goal_generic_construct_military
-        prerequisite = { focus = GER_fort_work }
-        x = 0
-        y = 1
-        relative_position_id = GER_fort_work
-        cost = 10
-        ai_will_do = {
-            factor = 1
-        }
-            
-       completion_reward = {
-            custom_effect_tooltip = GER_swiss_wall_tool
-            hidden_effect = { 
-                50 = {
-                    if = {
-                        limit = { is_controlled_by = GER }
-                        add_building_construction = {
-                            type = anti_air_building
-                            level = 1
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 3679
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 11640
-                            instant_build = yes
-                        }
-                    }
-                }
-            }          
-        }
-    }
 }

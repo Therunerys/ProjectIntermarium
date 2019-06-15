@@ -2,7 +2,7 @@ bookmarks = {
 	bookmark = {
 		name = "NEW_DAWN_NAME"
 		desc = "NEW_DAWN_DESC"
-		date = 1921.1.1.12
+		date = 1900.1.1.12
 		picture = "GFX_select_date_1936"
 		default_country = "GER"
 		default = yes
@@ -53,7 +53,7 @@ bookmarks = {
 			}
 		}
 
-		"AUS"={
+		"AHE"={
 			history = "AUS_NEW_DAWN_DESC"
 			ideology = neutrality
 			ideas = {
