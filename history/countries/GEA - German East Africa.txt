@@ -1,0 +1,79 @@
+﻿capital = 546
+
+# Starting tech
+set_technology = {	
+}
+
+add_political_power = 250
+set_research_slots = 2
+set_convoys = 50
+set_stability = 0.80
+set_war_support = 0.80
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1888.6.15"
+	election_frequency = 4
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 0
+	neutrality = 100
+}
+
+add_ideas = {
+	limited_exports
+	limited_conscription
+	partial_economic_mobilisation
+	imperial_pride
+	reichsbank
+	imperial_army_of_germany
+}
+
+#####################
+###### LEADERS #######
+#####################
+
+create_country_leader = {
+	name = "Eduard von Liebert"
+	desc = ""
+	picture = "gfx/leaders/GEA/Eduard.dds"
+	expire = "1901.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Gustav Adolf von Gtzen"
+	desc = ""
+	picture = "gfx/leaders/GEA/Gustav.dds"
+	expire = "1906.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Albrecht von Rechenberg"
+	desc = ""
+	picture = "gfx/leaders/GEA/Albrecht.dds"
+	expire = "1912.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Heinrich Schnee"
+	desc = ""
+	picture = "gfx/leaders/GEA/Heinrich.dds"
+	expire = "1918.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}

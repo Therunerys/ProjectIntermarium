@@ -5,6 +5,11 @@ GER = {
 	color_ui = rgb { 138 155 116 }
 }
 
+GEA = {
+	color = rgb { 106 107 92 }
+	color_ui = rgb { 138 155 116 }
+}
+
 AHE = {
 	color = rgb { 211 211 211 }
 	color_ui = rgb { 255 255 255 }
