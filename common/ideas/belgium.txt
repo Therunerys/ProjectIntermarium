@@ -1,7 +1,33 @@
 ideas = {
 	# MILITARY
+	country = {
+		leopold_ii = {
+			
+			allowed = {
+				original_tag = BEL
+			}
 
+			allowed_civil_war = {
+				NOT ={
+					has_government = communism
+				}
+				NOT = {
+					any_other_country = {
+						original_tag = BEL
+						has_government = democratic 
+						NOT = {
+							tag = ROOT
+						}
+					}
+				}
+			}
+			picture = gfx/leaders/BEL/LeopoldII
+			removal_cost = -1
+			
+			traits = { popular_figurehead }
 
+		}
+	}
 	political_advisor = {
 
 		BEL_paul_van_zeeland = {

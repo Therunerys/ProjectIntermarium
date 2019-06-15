@@ -3698,5 +3698,9 @@ spriteTypes = {
 		name = "GFX_idea_fascism_threat"
 		texturefile = "gfx/interface/ideas/fascism_drift.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_leopold_ii"
+		texturefile = "gfx/leaders/BEL/LeopoldII.dds"
+	}
 
 }
