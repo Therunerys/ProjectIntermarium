@@ -10,6 +10,12 @@ GEA = {
 	color_ui = rgb { 138 155 116 }
 }
 
+GNG = {
+	color = rgb { 122 122 122 }
+	color_ui = rgb { 138 155 116 }
+}
+
+
 AHE = {
 	color = rgb { 211 211 211 }
 	color_ui = rgb { 255 255 255 }
