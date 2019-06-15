@@ -995,13 +995,13 @@ focus_tree = {
     }
 
     focus = {
-        id = GER_france_wall3
+        id = GER_france_wallf
         icon = GFX_goal_generic_construct_military
         prerequisite = { focus = GER_france_wall2 }
         x = 0
         y = 1
         relative_position_id = GER_france_wall2
-        cost = 10
+        cost = 7.2
         ai_will_do = {
             factor = 1
         }
@@ -1010,82 +1010,11 @@ focus_tree = {
             28 = {
                 if = {
                     limit = { is_controlled_by = GER }
-                    custom_effect_tooltip = GER_france_wallnf
-                    hidden_effect = {
-                        add_building_construction = {
-                            type = anti_air_building
-                            level = 1
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 678
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 1346
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 6529
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 3629
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 11502
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 9559
-                            instant_build = yes
-                        }
-                    }
-                }
-            }          
-        }
-    }
-    focus = {
-        id = GER_france_wallf
-        icon = GFX_goal_generic_construct_military
-        prerequisite = { focus = GER_france_wall3 }
-        x = 0
-        y = 1
-        relative_position_id = GER_france_wall3
-        cost = 10
-        ai_will_do = {
-            factor = 1
-        }
-            
-       completion_reward = {
-            28 = {
-                if = {
-                    limit = { 
-                        is_controlled_by = GER 
-                        OR = {
-                            any_allied_country = {
-                                controls_state = 28
-                            }
-                        }
-                    }
                     custom_effect_tooltip = GER_france_wallf_tool
                     hidden_effect = { 
                         add_building_construction = {
                             type = anti_air_building
-                            level = 2
+                            level = 3
                             instant_build = yes
                         }
                         add_building_construction = {
@@ -1137,7 +1066,7 @@ focus_tree = {
         x = 0
         y = 1
         relative_position_id = GER_france_wallf
-        cost = 20
+        cost = 12
         ai_will_do = {
             factor = 1
         }
@@ -1441,393 +1370,13 @@ focus_tree = {
         }
     }
     focus = {
-        id = GER_russia_wall2
+        id = GER_russia_wallf
         icon = GFX_goal_generic_construct_military
         prerequisite = { focus = GER_russia_wall1 }
         x = 0
         y = 1
         relative_position_id = GER_russia_wall1
-        cost = 10
-        ai_will_do = {
-            factor = 1
-        }
-            
-        completion_reward = {
-            custom_effect_tooltip = GER_russia_wallnf
-            hidden_effect = {
-                188 = {
-                    if = {
-                        limit = { is_controlled_by = GER }
-                        add_building_construction = {
-                            type = anti_air_building
-                            level = 1
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 3288
-                            instant_build = yes
-                        }
-                    }
-                }
-                763 = {
-                    if = {
-                        limit = { is_controlled_by = GER }
-                        add_building_construction = {
-                            type = anti_air_building
-                            level = 1
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 281
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 3384
-                            instant_build = yes
-                        }
-                    }
-                }
-                5 = {
-                    if = {
-                        limit = { is_controlled_by = GER }
-                        add_building_construction = {
-                            type = anti_air_building
-                            level = 1
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 9327
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 11386
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 9372
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 6375
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 9346
-                            instant_build = yes
-                        }
-                    }
-                }
-                85 = {
-                    if = {
-                        limit = { is_controlled_by = GER }
-                        add_building_construction = {
-                            type = anti_air_building
-                            level = 1
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 6347
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 3295
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 243
-                            instant_build = yes
-                        }
-                    }
-                }
-                86 = {
-                    if = {
-                        limit = { is_controlled_by = GER }
-                        add_building_construction = {
-                            type = anti_air_building
-                            level = 1
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 3381
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 17
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 9532
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 11558
-                            instant_build = yes
-                        }
-                    }
-                }
-                67 = {
-                    if = {
-                        limit = { is_controlled_by = GER }
-                        add_building_construction = {
-                            type = anti_air_building
-                            level = 1
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 479
-                            instant_build = yes
-                        }
-                    }
-                }
-                762 = {
-                    if = {
-                        limit = { is_controlled_by = GER }
-                        add_building_construction = {
-                            type = anti_air_building
-                            level = 1
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 506
-                            instant_build = yes
-                        }
-                    }
-                }
-            }
-        }
-    }
-    focus = {
-        id = GER_russia_wall3
-        icon = GFX_goal_generic_construct_military
-        prerequisite = { focus = GER_russia_wall2 }
-        x = 0
-        y = 1
-        relative_position_id = GER_russia_wall2
-        cost = 10
-        ai_will_do = {
-            factor = 1
-        }
-            
-        completion_reward = {
-            custom_effect_tooltip = GER_russia_wallnf
-            hidden_effect = {
-                188 = {
-                    if = {
-                        limit = { is_controlled_by = GER }
-                        add_building_construction = {
-                            type = anti_air_building
-                            level = 1
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 3288
-                            instant_build = yes
-                        }
-                    }
-                }
-                763 = {
-                    if = {
-                        limit = { is_controlled_by = GER }
-                        add_building_construction = {
-                            type = anti_air_building
-                            level = 1
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 281
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 3384
-                            instant_build = yes
-                        }
-                    }
-                }
-                5 = {
-                    if = {
-                        limit = { is_controlled_by = GER }
-                        add_building_construction = {
-                            type = anti_air_building
-                            level = 1
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 9327
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 11386
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 9372
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 6375
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 9346
-                            instant_build = yes
-                        }
-                    }
-                }
-                85 = {
-                    if = {
-                        limit = { is_controlled_by = GER }
-                        add_building_construction = {
-                            type = anti_air_building
-                            level = 1
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 6347
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 3295
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 243
-                            instant_build = yes
-                        }
-                    }
-                }
-                86 = {
-                    if = {
-                        limit = { is_controlled_by = GER }
-                        add_building_construction = {
-                            type = anti_air_building
-                            level = 1
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 3381
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 17
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 9532
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 11558
-                            instant_build = yes
-                        }
-                    }
-                }
-                67 = {
-                    if = {
-                        limit = { is_controlled_by = GER }
-                        add_building_construction = {
-                            type = anti_air_building
-                            level = 1
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 479
-                            instant_build = yes
-                        }
-                    }
-                }
-                762 = {
-                    if = {
-                        limit = { is_controlled_by = GER }
-                        add_building_construction = {
-                            type = anti_air_building
-                            level = 1
-                            instant_build = yes
-                        }
-                        add_building_construction = {
-                            type = bunker
-                            level = 3
-                            province = 506
-                            instant_build = yes
-                        }
-                    }
-                }
-            }
-        }
-    }
-    focus = {
-        id = GER_russia_wallf
-        icon = GFX_goal_generic_construct_military
-        prerequisite = { focus = GER_russia_wall3 }
-        x = 0
-        y = 1
-        relative_position_id = GER_russia_wall3
-        cost = 10
+        cost = 7.2
         ai_will_do = {
             factor = 1
         }
@@ -1840,12 +1389,12 @@ focus_tree = {
                        limit = { is_controlled_by = GER }              
                         add_building_construction = {
                             type = anti_air_building
-                            level = 2
+                            level = 1
                             instant_build = yes
                         }
                         add_building_construction = {
                             type = bunker
-                            level = 1
+                            level = 2
                             province = 3288
                             instant_build = yes
                         }
@@ -1856,18 +1405,18 @@ focus_tree = {
                         limit = { is_controlled_by = GER }
                         add_building_construction = {
                             type = anti_air_building
-                            level = 2
+                            level = 1
                             instant_build = yes
                         }
                         add_building_construction = {
                             type = bunker
-                            level = 1
+                            level = 2
                             province = 281
                             instant_build = yes
                         }
                         add_building_construction = {
                             type = bunker
-                            level = 1
+                            level = 2
                             province = 3384
                             instant_build = yes
                         }
@@ -1879,36 +1428,36 @@ focus_tree = {
                         limit = { is_controlled_by = GER }
                         add_building_construction = {
                             type = anti_air_building
-                            level = 2
+                            level = 1
                             instant_build = yes
                         }
                         add_building_construction = {
                             type = bunker
-                            level = 1
+                            level = 2
                             province = 9327
                             instant_build = yes
                         }
                         add_building_construction = {
                             type = bunker
-                            level = 1
+                            level = 2
                             province = 11386
                             instant_build = yes
                         }
                         add_building_construction = {
                             type = bunker
-                            level = 1
+                            level = 2
                             province = 9372
                             instant_build = yes
                         }
                         add_building_construction = {
                             type = bunker
-                            level = 1
+                            level = 2
                             province = 6375
                             instant_build = yes
                         }
                         add_building_construction = {
                             type = bunker
-                            level = 1
+                            level = 2
                             province = 9346
                             instant_build = yes
                         }
@@ -1919,24 +1468,24 @@ focus_tree = {
                     limit = { is_controlled_by = GER }
                         add_building_construction = {
                             type = anti_air_building
-                            level = 2
+                            level = 1
                             instant_build = yes
                         }
                         add_building_construction = {
                             type = bunker
-                            level = 1
+                            level = 2
                             province = 6347
                             instant_build = yes
                         }
                         add_building_construction = {
                             type = bunker
-                            level = 1
+                            level = 2
                             province = 3295
                             instant_build = yes
                         }
                         add_building_construction = {
                             type = bunker
-                            level = 1
+                            level = 2
                             province = 243
                             instant_build = yes
                         }
@@ -1947,30 +1496,30 @@ focus_tree = {
                     limit = { is_controlled_by = GER }
                     add_building_construction = {
                         type = anti_air_building
-                        level = 2
+                        level = 1
                         instant_build = yes
                     }
                     add_building_construction = {
                         type = bunker
-                        level = 1
+                        level = 2
                         province = 3381
                         instant_build = yes
                     }
                     add_building_construction = {
                         type = bunker
-                        level = 1
+                        level = 2
                         province = 17
                         instant_build = yes
                     }
                     add_building_construction = {
                         type = bunker
-                        level = 1
+                        level = 2
                         province = 9532
                         instant_build = yes
                     }
                     add_building_construction = {
                         type = bunker
-                        level = 1
+                        level = 2
                         province = 11558
                         instant_build = yes
                     }
@@ -1981,12 +1530,12 @@ focus_tree = {
                     limit = { is_controlled_by = GER }
                         add_building_construction = {
                             type = anti_air_building
-                            level = 2
+                            level = 1
                             instant_build = yes
                         }
                         add_building_construction = {
                             type = bunker
-                            level = 1
+                            level = 2
                             province = 479
                             instant_build = yes
                         }
@@ -1997,17 +1546,58 @@ focus_tree = {
                     limit = { is_controlled_by = GER }
                     add_building_construction = {
                         type = anti_air_building
-                        level = 2
+                        level = 1
                         instant_build = yes
                     }
                     add_building_construction = {
                         type = bunker
-                        level = 1
+                        level = 2
                         province = 506
                         instant_build = yes
                     }
                 }
             }
+        }
+    }
+    
+    focus = {
+        id = GER_swiss_river
+        icon = GFX_goal_generic_construct_military
+        prerequisite = { focus = GER_fort_work }
+        x = 0
+        y = 1
+        relative_position_id = GER_fort_work
+        cost = 10
+        ai_will_do = {
+            factor = 1
+        }
+            
+       completion_reward = {
+            custom_effect_tooltip = GER_swiss_wall_tool
+            hidden_effect = { 
+                50 = {
+                    if = {
+                        limit = { is_controlled_by = GER }
+                        add_building_construction = {
+                            type = anti_air_building
+                            level = 1
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 3679
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 11640
+                            instant_build = yes
+                        }
+                    }
+                }
+            }          
         }
     }
 }
