@@ -246,7 +246,23 @@ ideas = {
 				production_speed_anti_air_building_factor = 0.2
 			}
 		}
+		industrial_effort_idea = {
+			allowed = {
+				always = no
+			}
 
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = GFX_goal_generic_construct_military
+
+			modifier = {	
+				production_speed_buildings_factor = 0.1
+			}
+		}
 		######################################## Focus tree
 		general_staff = {
 			

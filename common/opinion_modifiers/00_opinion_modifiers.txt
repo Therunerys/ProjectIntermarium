@@ -789,4 +789,6 @@ opinion_modifiers = {
 	JAP_broke_the_london_naval_treaty = { value = -100 }
 	
 	POR_rejected_lease = { value = -35 }
+###########################LG ADDED
+	the_greatest_enemies_op = { value = -50}
 }	

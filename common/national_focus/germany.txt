@@ -327,7 +327,7 @@ focus_tree = {
 
     focus = {
         id = help_austria_war_ottoman 
-        icon = GFX_focus_help_austria
+        icon = GFX_focus_proclaim_the_restauration_of_austria_hungary
         prerequisite = { focus = accept_uk_domination focus = med_effort_naval_race}
         x = -1
         y = 1
@@ -341,6 +341,7 @@ focus_tree = {
         #    date > 1903.00.00
         #}
         available = {
+            date < 1904.01.01
             AHE = {
                 has_war_with = TUR
             }
@@ -838,7 +839,7 @@ focus_tree = {
         relative_position_id = four_year_plan
         cost = 10
         ai_will_do = {
-            factor = 8
+            factor = 1
         }
             
         completion_reward = {
@@ -847,22 +848,49 @@ focus_tree = {
     }
 
     focus = {
-        id = GER_france_wall1
+        id = the_greatest_enemies
         icon = GFX_goal_generic_construct_military
         prerequisite = { focus = GER_fort_work }
         x = -2
         y = 1
         relative_position_id = GER_fort_work
+        cost = 1
+        ai_will_do = {
+            factor = 1
+        }
+            
+        completion_reward = {
+            FRA = {
+                add_opinion_modifier = {
+                    target = GER
+                    modifier = the_greatest_enemies_op
+                }
+            }
+            RUS = {
+                add_opinion_modifier = {
+                    target = GER
+                    modifier = the_greatest_enemies_op
+                }
+            }
+        }
+    }
+    focus = {
+        id = GER_france_wall1
+        icon = GFX_goal_generic_construct_military
+        prerequisite = { focus = the_greatest_enemies }
+        x = -1
+        y = 1
+        relative_position_id = the_greatest_enemies
         cost = 10
         ai_will_do = {
-            factor = 8
+            factor = 1
         }
             
         completion_reward = {
             28 = {
                 if = {
                     limit = { is_controlled_by = ROOT }
-                    custom_effect_tooltip = GER_west_wall_forts
+                    custom_effect_tooltip = GER_france_wallnf
                     hidden_effect = {
                         add_building_construction = {
                             type = anti_air_building
@@ -920,14 +948,14 @@ focus_tree = {
         relative_position_id = GER_france_wall1
         cost = 10
         ai_will_do = {
-            factor = 8
+            factor = 1
         }
             
         completion_reward = {
             28 = {
                 if = {
                     limit = { is_controlled_by = ROOT }
-                    custom_effect_tooltip = GER_west_wall_forts
+                    custom_effect_tooltip = GER_france_wallnf
                     hidden_effect = {
                         add_building_construction = {
                             type = anti_air_building
@@ -985,14 +1013,14 @@ focus_tree = {
         relative_position_id = GER_france_wall2
         cost = 10
         ai_will_do = {
-            factor = 8
+            factor = 1
         }
             
        completion_reward = {
             28 = {
                 if = {
                     limit = { is_controlled_by = ROOT }
-                    custom_effect_tooltip = GER_west_wall_forts
+                    custom_effect_tooltip = GER_france_wallnf
                     hidden_effect = {
                         add_building_construction = {
                             type = anti_air_building
@@ -1049,14 +1077,14 @@ focus_tree = {
         relative_position_id = GER_france_wall3
         cost = 10
         ai_will_do = {
-            factor = 8
+            factor = 1
         }
             
        completion_reward = {
             28 = {
                 if = {
                     limit = { is_controlled_by = ROOT }
-                    custom_effect_tooltip = GER_west_wall_forts
+                    custom_effect_tooltip = GER_france_wallf_tool
                     hidden_effect = { 
                         add_building_construction = {
                             type = anti_air_building
@@ -1104,4 +1132,131 @@ focus_tree = {
             }          
         }
     }
-}#need to add custom_effect_tooltip
+
+    focus = {
+        id = GER_france_rhine
+        icon = GFX_goal_generic_construct_military
+        prerequisite = { focus = GER_france_wallf }
+        x = 0
+        y = 1
+        relative_position_id = GER_france_wallf
+        cost = 20
+        ai_will_do = {
+            factor = 1
+        }
+            
+       completion_reward = {
+            50 = {
+                if = {
+                    limit = { is_controlled_by = ROOT }
+                    custom_effect_tooltip = GER_france_wall_rhine_tool
+                    hidden_effect = {
+                        add_building_construction = {
+                            type = anti_air_building
+                            level = 5
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 11640
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 6712
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 6542
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 3530
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 6568
+                            instant_build = yes
+                        }
+                    }
+                }
+            }     
+            55 = {
+                if = {
+                    limit = { is_controlled_by = ROOT }
+                    custom_effect_tooltip = GER_france_wall_rhine_tool
+                    hidden_effect = {
+                        add_building_construction = {
+                            type = anti_air_building
+                            level = 5
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 589
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 6488
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 6444
+                            instant_build = yes
+                        }
+                    }
+                }
+            } 
+            51 = {
+                if = {
+                    limit = { is_controlled_by = ROOT }
+                    custom_effect_tooltip = GER_france_wall_rhine_tool
+                    hidden_effect = {
+                        add_building_construction = {
+                            type = anti_air_building
+                            level = 5
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 529
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 6570
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 6469
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 3512
+                            instant_build = yes
+                        }
+                    }
+                }
+            }         
+        }
+    }
+}
