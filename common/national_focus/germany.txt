@@ -95,12 +95,7 @@ focus_tree = {
         }
 
         ai_will_do = {
-            factor = 4000
-        
-            modifier = {
-                factor = 4000
-                is_historical_focus_on = no
-            }
+            factor = 3000
         }
 
         completion_reward = {
@@ -166,12 +161,7 @@ focus_tree = {
         }
 
         ai_will_do = {
-            factor = 4000
-        
-            modifier = {
-                factor = 2000
-                is_historical_focus_on = no
-            }
+            factor = 2000
         }
 
         completion_reward = {
@@ -1311,6 +1301,117 @@ focus_tree = {
                             type = bunker
                             level = 3
                             province = 3384
+                            instant_build = yes
+                        }
+                    }
+                }
+            }
+            5 = {
+                if = {
+                    limit = { is_controlled_by = ROOT }
+                    custom_effect_tooltip = GER_russia_wallnf
+                    hidden_effect = {
+                        add_building_construction = {
+                            type = anti_air_building
+                            level = 1
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 9327
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 11386
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 9372
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 6375
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 9346
+                            instant_build = yes
+                        }
+                    }
+                }
+            }
+            85 = {
+                if = {
+                    limit = { is_controlled_by = ROOT }
+                    custom_effect_tooltip = GER_russia_wallnf
+                    hidden_effect = {
+                        add_building_construction = {
+                            type = anti_air_building
+                            level = 1
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 6347
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 3295
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 243
+                            instant_build = yes
+                        }
+                    }
+                }
+            }
+            86 = {
+                if = {
+                    limit = { is_controlled_by = ROOT }
+                    custom_effect_tooltip = GER_russia_wallnf
+                    hidden_effect = {
+                        add_building_construction = {
+                            type = anti_air_building
+                            level = 1
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 3381
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 17
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 9532
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 11558
                             instant_build = yes
                         }
                     }
