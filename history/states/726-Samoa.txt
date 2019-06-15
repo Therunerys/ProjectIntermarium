@@ -5,7 +5,8 @@ state={
 	state_category = small_island
 
 	history={
-		owner = NZL
+		add_core_of = GNG
+		owner = GNG
 		buildings = {
 			infrastructure = 3
 			7290 = {

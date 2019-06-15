@@ -4,7 +4,8 @@ state={
 
 	history={
 		add_core_of = PNG
-		owner = GER
+		add_core_of = GNG
+		owner = GNG
 		buildings = {
 			infrastructure = 2
 			12237 = {

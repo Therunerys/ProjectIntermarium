@@ -6,7 +6,7 @@ GER = {
 }
 
 GEA = {
-	color = rgb { 106 107 92 }
+	color = rgb { 122 122 122 }
 	color_ui = rgb { 138 155 116 }
 }
 

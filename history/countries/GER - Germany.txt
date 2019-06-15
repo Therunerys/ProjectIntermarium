@@ -34,6 +34,7 @@ create_faction = Mittelmächte
 add_to_faction = GER
 add_to_faction = AUS
 add_to_faction = GEA
+add_to_faction = GNG
 
 add_ideas = {
 	limited_exports
@@ -53,6 +54,19 @@ if = {
 	}
 	else = {
 		puppet = GEA
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = GNG
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = GNG
 	}
 }
 
