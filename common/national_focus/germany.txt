@@ -15,7 +15,7 @@ focus_tree = {
     focus = {
         id = full_effort_naval_race
         icon = GFX_focus_ger_oppose_hitler
-        x = 2
+        x = 1
         y = 0 
 
         cost = 10
@@ -155,7 +155,7 @@ focus_tree = {
     focus = {
         id = accept_uk_domination
         icon = GFX_focus_ger_accept_british_naval_dominance
-        x = 8
+        x = 11
         y = 0 
 
         cost = 10
@@ -176,11 +176,11 @@ focus_tree = {
 
         completion_reward = {
             add_timed_idea = { idea = huge_construction days = 35 }
-            add_timed_idea = { idea = accept_uk_domination_idea days = 365 }
+            add_ideas = accept_uk_domination_idea 
             ENG = {
                 add_opinion_modifier = {
                     target = GER
-                    modifier = medium_increase 
+                    modifier = GER_accept_british_naval_dominance_opinion 
                 }
             }
             random_owned_controlled_state = {
@@ -220,6 +220,75 @@ focus_tree = {
             }
         }   
     }
+    focus = {
+        id = GER_prepare_for_blockade
+        icon = GFX_goal_generic_consumer_goods
+        prerequisite = { focus = med_effort_naval_race focus = med_effort_naval_race}
+        available = {
+            is_puppet = no
+        }
+        x = 4
+        y = 1
+        relative_position_id = med_effort_naval_race
+        cost = 10
+        ai_will_do = {
+            factor = 1
+        }
+        
+        completion_reward = {
+            add_stability = 0.05
+            add_ideas = GER_prepare_for_blockade_idea
+        }
+    }
+
+    focus = {
+        id = save_fuel
+        icon = GFX_goal_generic_oil_refinery
+        prerequisite = { focus = GER_prepare_for_blockade }
+        x = 0
+        y = 1
+        relative_position_id = GER_prepare_for_blockade
+        cost = 25
+
+        available_if_capitulated = yes
+
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        completion_reward = {
+            add_tech_bonus = {
+                bonus = 3.0
+                uses = 1
+                category = synth_resources
+            }
+            random_owned_controlled_state = {
+                add_extra_state_shared_building_slots = 3
+                add_building_construction = {
+                    type = fuel_silo 
+                    level = 3
+                    instant_build = yes
+                    }
+                }
+            random_owned_controlled_state = {
+                add_extra_state_shared_building_slots = 3
+                add_building_construction = {
+                    type = fuel_silo 
+                    level = 3
+                    instant_build = yes
+                    }
+                }
+            random_owned_controlled_state = {
+                add_extra_state_shared_building_slots = 3
+                add_building_construction = {
+                    type = fuel_silo 
+                    level = 3
+                    instant_build = yes
+                    }
+                }
+            }
+        }
 
     focus = {
         id = extra_naval_effort
@@ -397,11 +466,97 @@ focus_tree = {
     } 
 
     focus = {
+        id = GER_pride_of_the_german_navy
+        icon = GFX_goal_generic_navy_battleship
+        prerequisite = { focus = high_seas_fleet }
+        available = {
+            is_puppet = no
+        }
+        x = 0
+        y = 1
+        relative_position_id = high_seas_fleet
+        cost = 10
+        ai_will_do = {
+            factor = 9
+        }
+        
+        complete_tooltip = {
+            add_timed_idea = { idea = huge_construction days = 35 }
+            navy_experience = 50
+            every_state = {
+                limit = { has_state_flag = GER_rebuild_the_high_seas_fleet_dockyards }
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = dockyard
+                    level = 2
+                    instant_build = yes
+                }
+            }
+            add_tech_bonus = {
+                name = GER_pride_of_the_modern_germany
+                bonus = 1.0
+                ahead_reduction = 2
+                uses = 1
+                category = bb_tech
+                category = shbb_tech
+            }
+        }
+        
+        completion_reward = {
+            add_timed_idea = { idea = huge_construction days = 35 }
+            navy_experience = 50
+            random_owned_controlled_state = {
+                limit = {
+                    dockyard > 0
+                    free_building_slots = {
+                        building = dockyard
+                        size > 2
+                        include_locked = yes
+                    }
+                }
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = dockyard
+                    level = 2
+                    instant_build = yes
+                }
+                set_state_flag = GER_pride_of_the_modern_germany_dockyards
+            }
+            random_owned_controlled_state = {
+                limit = {
+                    dockyard > 0
+                    free_building_slots = {
+                        building = dockyard
+                        size > 2
+                        include_locked = yes
+                    }
+                    NOT = { has_state_flag = GER_pride_of_the_modern_germany_dockyards }
+                }
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = dockyard
+                    level = 2
+                    instant_build = yes
+                }
+                set_state_flag = GER_pride_of_the_modern_germany_dockyards
+            }
+            add_tech_bonus = {
+                name = GER_pride_of_the_modern_germany
+                bonus = 1.0
+                ahead_reduction = 2
+                uses = 1
+                category = bb_tech
+                category = shbb_tech
+            }
+        }
+    }
+
+    focus = {
         id = plan_focus
         icon = GFX_focus_generic_navy_battleship2
         prerequisite = { focus = high_seas_fleet }
         x = -1
-        y = 1
+        y = 2
         cost = 10
         ai_will_do = {
             factor = 0.25
@@ -452,7 +607,7 @@ focus_tree = {
         icon = GFX_goal_generic_navy_battleship
         prerequisite = { focus = high_seas_fleet }
         x = 1
-        y = 1
+        y = 2
         cost = 10
         ai_will_do = {
             factor = 0.25
@@ -590,8 +745,8 @@ focus_tree = {
         id = GER_big_modular_construction
         icon = GFX_goal_generic_construct_naval_dockyard
         prerequisite = { focus = plan_focus focus = plan_ultra }
-        x = 2
-        y = 4
+        x = 1
+        y = 5
         cost = 15
         ai_will_do = {
             factor = 1
@@ -622,14 +777,15 @@ focus_tree = {
     focus = {
         id = fleet_in_being_ger
         icon = GFX_goal_generic_wolf_pack
-        prerequisite = { focus = plan_focus focus = plan_ultra }
+        prerequisite = { focus = extra_naval_effort }
+        prerequisite = { focus = high_seas_fleet }
         x = 0
-        y = 4
+        y = 2
         cost = 10
         ai_will_do = {
             factor = 1
         }
-            
+        relative_position_id = extra_naval_effort
         available_if_capitulated = yes
 
         completion_reward = {
@@ -642,5 +798,310 @@ focus_tree = {
             }
         }
     }
-    ################################################### END OF NAVAL TREE, START OF 
-}
+    ################################################### END OF NAVAL TREE, START OF THE Industrial branch
+    focus = {
+        id = four_year_plan
+        icon = GFX_goal_generic_construction
+        x = 20
+        y = 0
+        cost = 5
+
+        available_if_capitulated = yes
+
+        completion_reward = {
+            add_tech_bonus = {
+                name = industrial_bonus
+                bonus = 1.0
+                uses = 1
+                category = industry
+            }
+            add_tech_bonus = {
+                bonus = 1.0
+                uses = 1
+                category = dispersed_industry_category
+                category = concentrated_industry_category
+            }
+            add_ideas = industrial_effort_idea
+        }
+
+
+        ai_will_do = {
+            factor = 3
+        }
+    }
+    focus = {
+        id = GER_fort_work
+        icon = GFX_goal_generic_construct_military
+        prerequisite = { focus = four_year_plan }
+        x = -5
+        y = 1
+        relative_position_id = four_year_plan
+        cost = 10
+        ai_will_do = {
+            factor = 8
+        }
+            
+        completion_reward = {
+           add_ideas = GER_fort_idea
+        }
+    }
+
+    focus = {
+        id = GER_france_wall1
+        icon = GFX_goal_generic_construct_military
+        prerequisite = { focus = GER_fort_work }
+        x = -2
+        y = 1
+        relative_position_id = GER_fort_work
+        cost = 10
+        ai_will_do = {
+            factor = 8
+        }
+            
+        completion_reward = {
+            28 = {
+                if = {
+                    limit = { is_controlled_by = ROOT }
+                    custom_effect_tooltip = GER_west_wall_forts
+                    hidden_effect = {
+                        add_building_construction = {
+                            type = anti_air_building
+                            level = 1
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 678
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 1346
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 6529
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 3629
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 11502
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 9559
+                            instant_build = yes
+                        }
+                    }
+                }
+            }          
+        }
+    }
+
+    focus = {
+        id = GER_france_wall2
+        icon = GFX_goal_generic_construct_military
+        prerequisite = { focus = GER_france_wall1 }
+        x = 0
+        y = 1
+        relative_position_id = GER_france_wall1
+        cost = 10
+        ai_will_do = {
+            factor = 8
+        }
+            
+        completion_reward = {
+            28 = {
+                if = {
+                    limit = { is_controlled_by = ROOT }
+                    custom_effect_tooltip = GER_west_wall_forts
+                    hidden_effect = {
+                        add_building_construction = {
+                            type = anti_air_building
+                            level = 1
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 678
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 1346
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 6529
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 3629
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 11502
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 9559
+                            instant_build = yes
+                        }
+                    }
+                }
+            }          
+        }
+    }
+
+    focus = {
+        id = GER_france_wall3
+        icon = GFX_goal_generic_construct_military
+        prerequisite = { focus = GER_france_wall2 }
+        x = 0
+        y = 1
+        relative_position_id = GER_france_wall2
+        cost = 10
+        ai_will_do = {
+            factor = 8
+        }
+            
+       completion_reward = {
+            28 = {
+                if = {
+                    limit = { is_controlled_by = ROOT }
+                    custom_effect_tooltip = GER_west_wall_forts
+                    hidden_effect = {
+                        add_building_construction = {
+                            type = anti_air_building
+                            level = 1
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 678
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 1346
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 6529
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 3629
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 11502
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 9559
+                            instant_build = yes
+                        }
+                    }
+                }
+            }          
+        }
+    }
+    focus = {
+        id = GER_france_wallf
+        icon = GFX_goal_generic_construct_military
+        prerequisite = { focus = GER_france_wall3 }
+        x = 0
+        y = 1
+        relative_position_id = GER_france_wall3
+        cost = 10
+        ai_will_do = {
+            factor = 8
+        }
+            
+       completion_reward = {
+            28 = {
+                if = {
+                    limit = { is_controlled_by = ROOT }
+                    custom_effect_tooltip = GER_west_wall_forts
+                    hidden_effect = { 
+                        add_building_construction = {
+                            type = anti_air_building
+                            level = 2
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 1
+                            province = 678
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 1
+                            province = 1346
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 1
+                            province = 6529
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 1
+                            province = 3629
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 1
+                            province = 11502
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = bunker
+                            level = 1
+                            province = 9559
+                            instant_build = yes
+                        }
+                    }
+                }
+            }          
+        }
+    }
+}#need to add custom_effect_tooltip

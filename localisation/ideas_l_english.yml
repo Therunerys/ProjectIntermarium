@@ -2575,3 +2575,7 @@
  GER_big_naval_construction2_desc_idea:0 "Big Naval Construction"
  huge_construction:0 "Huge Construction"
  huge_construction_desc:0 "Huge Construction"
+ GER_prepare_for_blockade_idea:0 "Prepare For A Blockade"
+ GER_prepare_for_blockade_idea_desc:0 "We will go to prepare the population for what is to come."
+ GER_fort_idea:0 "German Forts"
+ GER_fort_idea_desc:0 "German Forts"

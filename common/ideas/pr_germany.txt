@@ -210,6 +210,43 @@ ideas = {
 				consumer_goods_factor = 0.05
 			}
 		}
+		GER_prepare_for_blockade_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+		GER_fort_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = GFX_goal_generic_construct_military
+
+			modifier = {	
+				production_speed_bunker_factor = 0.2
+				production_speed_coastal_bunker_factor = 0.2
+				production_speed_anti_air_building_factor = 0.2
+			}
+		}
+
 		######################################## Focus tree
 		general_staff = {
 			
