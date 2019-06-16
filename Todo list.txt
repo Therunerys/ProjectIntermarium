@@ -32,3 +32,8 @@ TECH TREE STUFF
 GERMAN RIFLES
 1. Gewehr 98
 2. 
+
+
+RIFLE DIMENSIONS
+Unedited - 100x25
+Edited - 109x30

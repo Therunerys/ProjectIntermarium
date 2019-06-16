@@ -1,67 +1,62 @@
 spriteTypes = {
 
-	#
-	#######################################################################################################INFANTRY EQUIPMENT
-	#
+	######################### GERMAN INFANTRY WEAPONS #########################
 
 	SpriteType = {
-		name = "GFX_infantry_weapons_medium"
-		texturefile = "gfx/interface/technologies/sprimary1.dds"
+		name = "GFX_GER_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GER_infantry_weapons1.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_infantry_weapons1_medium"
-		texturefile = "gfx/interface/technologies/sprimary2.dds"
+		name = "GFX_GER_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GER_infantry_weapons1.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_infantry_weapons2_medium"
-		texturefile = "gfx/interface/technologies/sprimary3.dds"
+		name = "GFX_GER_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/GER_infantry_weapons2.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_infantry_weapons3_medium"
-		texturefile = "gfx/interface/technologies/sprimary4.dds"
+		name = "GFX_GER_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/GER_infantry_weapons3.dds"
+	}
+
+	####################### INFANTRY TREE ##########################
+
+	SpriteType = {
+		name = "GFX_infantry_support_medium"
+		texturefile = "gfx/interface/technologies/infantry_support1.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_infantry_special1_medium"
-		texturefile = "gfx/interface/technologies/slauncher.dds"
+		name = "GFX_infantry_support1_medium"
+		texturefile = "gfx/interface/technologies/infantry_support2.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_infantry_special2_medium"
-		texturefile = "gfx/interface/technologies/ssniper.dds"
+		name = "GFX_infantry_support2_medium"
+		texturefile = "gfx/interface/technologies/infantry_support3.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_support_weapons1_medium"
-		texturefile = "gfx/interface/technologies/lmg1.dds"
+		name = "GFX_infantry_support3_medium"
+		texturefile = "gfx/interface/technologies/infantry_support4.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_support_weapons2_medium"
-		texturefile = "gfx/interface/technologies/lmg2.dds"
+		name = "GFX_sidearm1_medium"
+		texturefile = "gfx/interface/technologies/sidearm1.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_support_weapons3_medium"
-		texturefile = "gfx/interface/technologies/lmg3.dds"
+		name = "GFX_sidearm2_medium"
+		texturefile = "gfx/interface/technologies/sidearm2.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_ammo_box1_medium"
-		texturefile = "gfx/interface/technologies/abox1.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_ammo_box2_medium"
-		texturefile = "gfx/interface/technologies/abox2.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_tent1_medium"
-		texturefile = "gfx/interface/technologies/tent1.dds"
+		name = "GFX_sidearm3_medium"
+		texturefile = "gfx/interface/technologies/sidearm3.dds"
 	}
 
 	SpriteType = {
@@ -776,12 +771,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_cavalry_charge_medium"
 		texturefile = "gfx/interface/technologies/doctrine_cavalry_charge.dds"
-		alwaystransparent = yes
-	}
-
-	SpriteType = {
-		name = "GFX_infantry_support_medium"
-		texturefile = "gfx/interface/technologies/doctrine_infantry_support.dds"
 		alwaystransparent = yes
 	}
 
