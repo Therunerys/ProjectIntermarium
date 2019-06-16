@@ -12,6 +12,10 @@
  conservatism_desc:0 "Considering rapid changes to society to be potentially harmful, conservatism espouses tradition and moderate reforms, sometimes advocating a return to old moral values."
  liberalism:0 "Liberalism"
  liberalism_desc:0 "With a long philosophical tradition of valuing personal liberty, liberalism views safeguarding these rights as the primary function of the state."
+ #########NEW
+ crowned_republic:0 "Crowned Republic"
+ crowned_republic_desc:0 "A crowned republic, or crowned democracy, is a form of constitutional monarchy where the monarch's role is commonly seen as largely ceremonial and where all the royal prerogatives are prescribed by custom and law in such a way that the monarch has limited discretion over governmental and constitutional issues."
+ #########NEW
  socialism:0 "Socialism"
  socialism_desc:0 "Striving for equality and a socialist state by reformist means, democratic socialism aims to abolish or mitigate the effects of capitalism with public mandate."
  marxism:0 "Marxism"
@@ -32,16 +36,16 @@
  falangism_desc:0 "An authoritarian ideology with traits of fascism and conservatism, Falangism values national and Catholic identity."
  rexism:0 "Rexism"
  rexism_desc:0 "Strongly opposed to both liberal and communist ideals, Rexism is a staunchly conservative nationalist movement who advocate a corporatist economic policy. Employing increasingly populist and authoritarian rhetoric, their ideals are shifting closer to other fascist movements."
- neutrality:0 "Non-Aligned"
- neutrality_desc:0 "Authoritarian Regime"
- despotism:0 "Despotic"
- despotism_desc:0 "Despotism is a form of government in which a single person rules with absolute power."
- oligarchism:0 "Oligarchic"
- oligarchism_desc:0 "Oligarchy is a form of government in which a group of people rule with absolute power."
- moderatism:1 "Moderatism"
- moderatism_desc:1 "Moderatism is a form of government which avoids the extremes of left and right by taking a moderate position or course of action."
- centrism:1 "Centrism"
- centrism_desc:1 "Centrism is a form of government which wants to achieve common sense solutions that appropriately address current and future needs, that support the public trust and serve the common good with consideration of risk and capacity in context of these needs."
+ ###########Change
+ neutrality:0 "Constitutional Monarchy"
+ neutrality_desc:0 "Authoritarian Regime."
+ absolute_monarchy:0 "Absolute Monarchy"
+ absolute_monarchy_desc:0 "Authoritarian Regime."
+ ###########Change
+ absolute_monarchy:0 "Absolute Monarchy"
+ absolute_monarchy_desc:0 "Absolute monarchy is a form of monarchy in which the monarch holds supreme authority and where that authority is not restricted by any written laws, legislature, or customs."
+ constitutional_monarchy:0 "Constitutional Monarchy
+ constitutional_monarchy_desc:0 "Constitutional monarchy differs from absolute monarchy (in which a monarch holds absolute power) in that constitutional monarchs are bound to exercise their powers and authorities within the limits prescribed within an established legal framework."
  GER_fascism_party:0 "NSDAP"
  GER_fascism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"
  GER_communism_party:0 "KPD"

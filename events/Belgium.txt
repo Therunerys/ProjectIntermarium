@@ -1,0 +1,75 @@
+add_namespace = belgium
+#Template
+
+country_event = { #Belgiun Democracy
+	id = belgium.1
+	title = belgium.1.t
+	desc = belgium.1.d
+	picture = GFX_report_event_usa_election_generic
+
+	fire_only_once = no
+
+	is_triggered_only = yes
+
+	option = {
+		name = belgium.1.a
+		ai_chance = {
+			base = 1
+		}
+		remove_ideas = {
+			leopold_ii
+			paul_joseph
+		}
+		set_politics = {
+			ruling_party = democratic
+			elections_allowed = yes
+			election_frequency = 48
+		}
+		set_country_leader_ideology = conservatism
+		add_popularity = {
+    		ideology = democratic
+    		popularity = 0.5
+		}
+	}
+	option = {
+		name = belgium.1.b
+		ai_chance = {
+			base = 50
+		}
+		remove_ideas = {
+			leopold_ii
+			paul_joseph
+		}
+		add_ideas = { leopold_ii }
+		set_politics = {
+			ruling_party = democratic
+			elections_allowed = yes
+			election_frequency = 48
+		}
+		set_country_leader_ideology = crowned_republic
+		add_popularity = {
+    		ideology = democratic
+    		popularity = 0.5
+		}
+	}
+	option = {
+		name = belgium.1.c
+		ai_chance = {
+			base = 50
+		}
+		remove_ideas = {
+			leopold_ii
+			paul_joseph
+		}
+		add_ideas = { paul_joseph }
+		set_politics = {
+			ruling_party = neutrality
+			elections_allowed = yes
+			election_frequency = 48
+		}
+		add_popularity = {
+    		ideology = neutrality
+    		popularity = 0.5
+		}
+	}
+}

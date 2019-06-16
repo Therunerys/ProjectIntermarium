@@ -17,17 +17,18 @@ set_war_support = 0.40
 #####################
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1888.6.15"
+	ruling_party = neutrality
+	last_election = "1898.6.15"
 	election_frequency = 4
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 82
+	democratic = 28
 	fascism = 0
 	communism = 0
-	neutrality = 18
+	neutrality = 52
+	absolute_monarchy = 20
 }
 
 
@@ -35,7 +36,8 @@ add_ideas = {
 	civilian_economy
 	volunteer_only 
 	limited_exports
-	leopold_ii
+	paul_joseph
+	disunited_army
 }
 
 #####################
@@ -47,11 +49,21 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/BEL/LeopoldII.dds"
 	expire = "1909.12.17"
-	ideology = despotism
+	ideology = constitutional_monarchy
 	traits = {
 		#
 	}
 }
+create_country_leader = {
+	name = "Leopold II"
+	desc = ""
+	picture = "gfx/leaders/BEL/LeopoldII.dds"
+	expire = "1909.12.17"
+	ideology = absolute_monarchyt
+	traits = {
+		#
+	}
+}	
 
 create_country_leader = {
 	name = "Paul Joseph"
@@ -59,7 +71,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
-		#
+		minister
 	}
 }
 

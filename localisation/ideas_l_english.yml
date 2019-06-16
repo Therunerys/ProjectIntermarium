@@ -2533,6 +2533,8 @@
  reichsbank_desc:0 "The national bank of Germany is the foundation of the economy and extends the German economic dominance in Europe."
  leopold_ii:0 "Leopold II"
  leopold_ii_desc:0 "The King of Belgium"
+ paul_joseph:0 "Paul Joseph"
+ paul_joseph_desc:0 "The Prime Minister of Belgium"
  imperial_army_of_germany:0 "German Imperial Army"
  imperial_army_of_germany_desc:0 "The German army is the biggest military force on the world. Strong and fast, Germany has been moving away from trench warfare and adopting faster ways of conquest. New planes and boats are being produced, while their top scientists are working on something truly special."
  balkan_league:0 "Balkan Agreement"
@@ -2563,6 +2565,9 @@
  three_crowns_desc:0 "The Three Crowns represent the three kings that rule the kingdom. It was decided after their independence that the newly founded nations Estonia, Latvia and Lithuania which all of them had a king as a ruler would band together and proclaim a new kingdom ruled by three kings."
  fascism_threat:0 "Fascist Threat"
  fascism_threat_desc:0 "The Fascist movement has been getting very popular with Mussolini threating the stability of our country. If we want to survive as a democracy we must act fast."
+ disunited_army:0 "Disunited Army"
+ disunited_army_desc:0 "Ever since the foundation of Belgium the country's military has been pretty disunited. \nArmy officers only give orders in French which often leads to confusion to the flemish counterpart."
+ ###############################
  full_naval_effort_idea:0 "Full Naval Effort"
  full_naval_effort_idea_desc:0 "Full Naval Effort"
  med_effort_naval_race_idea:0 "Medium Naval Effort"
