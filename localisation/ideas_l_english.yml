@@ -2567,6 +2567,8 @@
  fascism_threat_desc:0 "The Fascist movement has been getting very popular with Mussolini threating the stability of our country. If we want to survive as a democracy we must act fast."
  disunited_army:0 "Disunited Army"
  disunited_army_desc:0 "Ever since the foundation of Belgium the country's military has been pretty disunited. \nArmy officers only give orders in French which often leads to confusion to the flemish counterpart."
+ backed_great_powers:0 "Backed by Great Powers"
+ backed_great_powers_desc:0 "Have Great Britain & French Republic honour the treaty of london 1839 having both countries gurantee Belgium's independence."
  ###############################
  full_naval_effort_idea:0 "Full Naval Effort"
  full_naval_effort_idea_desc:0 "Full Naval Effort"

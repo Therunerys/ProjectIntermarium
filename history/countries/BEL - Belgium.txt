@@ -1,7 +1,5 @@
 ﻿capital = 6
 
-oob = "BEL_1936"
-
 # Starting tech
 set_technology = {
 
@@ -24,10 +22,10 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 28
+	democratic = 36
 	fascism = 0
-	communism = 0
-	neutrality = 52
+	communism = 2
+	neutrality = 42
 	absolute_monarchy = 20
 }
 
@@ -38,6 +36,7 @@ add_ideas = {
 	limited_exports
 	paul_joseph
 	disunited_army
+	backed_great_powers
 }
 
 #####################

@@ -219,7 +219,8 @@ ideas = {
 			
 			available = {
 				has_war_support > 0.5
-				OR = {
+				OR = {					
+					has_government = absolute_monarchy
 					has_government = fascism
 					has_government = communism
 					custom_trigger_tooltip = { tooltip = or_clarification_tooltip always = no }
@@ -561,6 +562,7 @@ ideas = {
 			available = {
 				has_war = yes
 				OR = { 
+					has_government = absolute_monarchy
 					has_government = fascism
 					has_government = communism
 				}

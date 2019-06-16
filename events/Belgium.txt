@@ -1,4 +1,4 @@
-add_namespace = belgium
+﻿add_namespace = belgium
 #Template
 
 country_event = { #Belgiun Democracy

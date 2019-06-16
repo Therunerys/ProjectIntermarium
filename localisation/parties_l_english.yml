@@ -39,8 +39,8 @@
  ###########Change
  neutrality:0 "Constitutional Monarchy"
  neutrality_desc:0 "Authoritarian Regime."
- absolute_monarchy:0 "Absolute Monarchy"
- absolute_monarchy_desc:0 "Authoritarian Regime."
+ absolute_monarchyt:0 "Absolute Monarchy"
+ absolute_monarchyt_desc:0 "Authoritarian Regime."
  ###########Change
  absolute_monarchy:0 "Absolute Monarchy"
  absolute_monarchy_desc:0 "Absolute monarchy is a form of monarchy in which the monarch holds supreme authority and where that authority is not restricted by any written laws, legislature, or customs."
