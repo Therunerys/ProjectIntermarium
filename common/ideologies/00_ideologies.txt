@@ -14,6 +14,8 @@ ideologies = {
 			crowned_republic = {
 			}
 			#########new
+			constitutional_monarchy = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -141,61 +143,14 @@ ideologies = {
 		ai_fascist = yes # uses the fascist AI behaviour
 	}
 	
-	neutrality = {
-	
-		types = {
-		
-			constitutional_monarchy = {
-			}
-		}
-
-		dynamic_faction_names = {
-			"FACTION_NAME_NONALIGNED_1"
-			"FACTION_NAME_NONALIGNED_2"
-			"FACTION_NAME_NONALIGNED_3"
-			"FACTION_NAME_NONALIGNED_4"
-			"FACTION_NAME_NONALIGNED_5"
-		}
-		
-		color = { 124 124 124 }
-		
-		
-		war_impact_on_world_tension = 0.25		#no major danger
-		faction_impact_on_world_tension = 0.1
-		
-		rules = {
-			can_declare_war_on_same_ideology = yes
-			can_force_government = yes
-			can_send_volunteers = yes
-			can_puppet = yes
-			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = no
-			can_guarantee_other_ideologies = yes
-		}
-		
-		can_host_government_in_exile = yes
-		
-		war_impact_on_world_tension = 0.25		# no major danger, remember this this the 40s!
-		faction_impact_on_world_tension = 0.1
-		
-		modifiers = {
-			generate_wargoal_tension = 0
-			join_faction_tension = 0
-			lend_lease_tension = 0
-			send_volunteers_tension = 0.20
-			guarantee_tension = 0.25
-		}
-		
-		faction_modifiers = {
-			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
-		}
-		ai_democratic = yes # uses the democratic AI behaviour
-	}
 	absolute_monarchy = {
 	
 		types = {
 		
 			absolute_monarchyt = {
+			}
+
+			semi-constitutional = {
 			}
 		}
 		

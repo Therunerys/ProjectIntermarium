@@ -15,17 +15,16 @@ set_war_support = 0.40
 #####################
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1898.6.15"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 36
+	democratic = 78
 	fascism = 0
 	communism = 2
-	neutrality = 42
 	absolute_monarchy = 20
 }
 
@@ -43,16 +42,7 @@ add_ideas = {
 ###### LEADERS ######
 #####################
 
-create_country_leader = {
-	name = "Leopold II"
-	desc = ""
-	picture = "gfx/leaders/BEL/LeopoldII.dds"
-	expire = "1909.12.17"
-	ideology = constitutional_monarchy
-	traits = {
-		#
-	}
-}
+
 create_country_leader = {
 	name = "Leopold II"
 	desc = ""
@@ -79,6 +69,16 @@ create_country_leader = {
 	ideology = Socialism
 	traits = {
 		minister
+	}
+}
+create_country_leader = {
+	name = "Leopold II"
+	desc = ""
+	picture = "gfx/leaders/BEL/LeopoldII.dds"
+	expire = "1909.12.17"
+	ideology = constitutional_monarchy
+	traits = {
+		#
 	}
 }
 

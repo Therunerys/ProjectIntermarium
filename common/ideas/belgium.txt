@@ -3,7 +3,6 @@ ideas = {
 		leopold_ii = {
 			available = {
 				original_tag = BEL
-				has_government = democratic
 			}
 			allowed = {
 				original_tag = BEL
@@ -14,7 +13,6 @@ ideas = {
 			}
 			picture = leopold_ii
 			removal_cost = -1
-			visible = { has_government = democratic }
 			traits = { popular_figurehead }
 
 		}
@@ -23,7 +21,6 @@ ideas = {
 
 			available = {
 				original_tag = BEL
-				has_government = neutrality
 			}
 			allowed = {
 				original_tag = BEL
@@ -34,7 +31,6 @@ ideas = {
 			}
 			picture = paul_joseph
 			removal_cost = -1
-			visible = { has_government = neutrality }
 			traits = { minister }
 
 		}
