@@ -24,7 +24,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "countrytechtreeview"
 		position = { x=-3 y=78 }
-		size = { width = 100%% height = 100%% }
+		size = { width = 3000 height = 100%% }
 		fade_time = 400
 		fade_type = linear
 
@@ -36,7 +36,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "infantry_folder"
 			position = { x=0 y=47 }
-			size = { width = 100%% height = 100%% }
+			size = { width = 110%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25}
 			drag_scroll = { left middle }
 			verticalScrollbar = "right_vertical_slider"
@@ -108,7 +108,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1921"
+					text = "1895"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -121,7 +121,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1922"
+					text = "1900"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -133,7 +133,7 @@ guiTypes = {
 					position = { x = 560 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1923"
+					text = "1902"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -145,7 +145,7 @@ guiTypes = {
 					position = { x = 770 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1924"
+					text = "1904"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -157,7 +157,7 @@ guiTypes = {
 					position = { x = 985 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1925"
+					text = "1906"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -169,7 +169,7 @@ guiTypes = {
 					position = { x = 1190 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1926"
+					text = "1908"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -181,7 +181,7 @@ guiTypes = {
 					position = { x = 1400 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1927"
+					text = "1909"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -193,7 +193,7 @@ guiTypes = {
 					position = { x = 1610 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1928"
+					text = "1910"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -205,7 +205,7 @@ guiTypes = {
 					position = { x = 1825 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1929"
+					text = "1912"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -216,7 +216,7 @@ guiTypes = {
 					position = { x = 1950 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1945"
+					text = "1913"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -227,7 +227,7 @@ guiTypes = {
 					position = { x = 2150 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1946"
+					text = "1914"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -235,15 +235,6 @@ guiTypes = {
 				}			
 
 			}
-
-				
-			gridboxtype = {
-				name = "support_weapons_tree"
-				position = { x = 140 y = 210 }
-				#size = { width = 420 height = 500 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}	
 
 			iconType = {
 				name = "highlight_infantry_1"
@@ -254,12 +245,13 @@ guiTypes = {
 			}
 			
 			gridboxtype = {
-				name = "night_vision_tree"
-				position = { x = 140 y = 210 }
+				name = "infantry_support_tree"
+				position = { x = 140 y = 200 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
-			}		
 	
+			}
+
 			gridboxtype = {
 				name = "infantry_weapons_tree"
 				position = { x = 140 y = 325 }
