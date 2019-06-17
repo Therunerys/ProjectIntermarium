@@ -1,0 +1,19 @@
+state={
+	id=801
+	name="STATE_801"
+	history = {
+		owner = ECU
+		add_core_of = PRU
+		add_core_of = ECU
+		buildings = {
+			infrastructure = 0
+
+		}
+	}
+	provinces={
+		12869 
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

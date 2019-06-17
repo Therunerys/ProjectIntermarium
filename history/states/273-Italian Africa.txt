@@ -3,6 +3,8 @@ state={
 	id=273
 	name="STATE_273"
 
+	impassable = yes
+
 	history={
 		owner = TUR
 		buildings = {
