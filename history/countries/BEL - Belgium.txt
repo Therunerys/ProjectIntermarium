@@ -17,7 +17,7 @@ set_war_support = 0.40
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1898.6.15"
-	election_frequency = 4
+	election_frequency = 48
 	elections_allowed = yes
 }
 
@@ -67,8 +67,16 @@ create_country_leader = {
 create_country_leader = {
 	name = "Paul Joseph"
 	picture = "gfx/leaders/BEL/Paul.dds"
-	expire = "1965.1.1"
 	ideology = conservatism
+	traits = {
+		minister
+	}
+}
+
+create_country_leader = {
+	name = "Edward Anseele"
+	picture = "gfx/leaders/BEL/Edward_Anseele.dds"
+	ideology = Socialism
 	traits = {
 		minister
 	}

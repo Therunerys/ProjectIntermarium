@@ -10,8 +10,6 @@ ideologies = {
 			liberalism = {
 			}
 		
-			socialism = {
-			}
 			########new
 			crowned_republic = {
 			}
@@ -64,20 +62,8 @@ ideologies = {
 	communism = {
 		
 		types = {
-		
-			marxism = {
-			}
 			
-			leninism = {
-			}
-			
-			stalinism = {
-			}
-			
-			anti_revisionism = {
-			}
-			
-			anarchist_communism = {
+			Socialism = {
 			}
 		}
 		
