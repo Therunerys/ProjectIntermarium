@@ -11,6 +11,7 @@ state={
 
 	history={
 		owner = AHE
+		add_core_of = HUN
 		victory_points = {
 			9692 10 
 		}

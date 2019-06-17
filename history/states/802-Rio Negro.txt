@@ -1,0 +1,18 @@
+state={
+	id=802
+	name="STATE_802"
+	history={
+		add_core_of = COL
+		add_core_of = BRA
+		owner = COL
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	provinces={
+		5083 13083 
+	}
+	manpower=20000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

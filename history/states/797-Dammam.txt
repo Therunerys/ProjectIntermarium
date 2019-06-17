@@ -1,0 +1,23 @@
+state={
+	id=797
+	name="STATE_797"
+	resources={
+		oil=3.000
+	}
+	history = {
+		owner = TUR
+		buildings = {
+			infrastructure = 2
+			12702 = {
+				naval_base = 6
+
+			}
+		}
+	}
+	provinces={
+		1955 10791 12702 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

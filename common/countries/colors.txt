@@ -5,6 +5,26 @@ GER = {
 	color_ui = rgb { 138 155 116 }
 }
 
+ORG = {
+	color = rgb { 219 113 0 }
+	color_ui = rgb { 138 155 116 }
+}
+
+SFR = {
+	color = rgb { 7 130 58 }
+	color_ui = rgb { 138 155 116 }
+}
+
+JSM = {
+	color = rgb { 81 0 0 }
+	color_ui = rgb { 138 155 116 }
+}
+
+ACR = {
+	color = rgb { 46 214 4 }
+	color_ui = rgb { 138 155 116 }
+}
+
 GEA = {
 	color = rgb { 122 122 122 }
 	color_ui = rgb { 138 155 116 }
@@ -174,7 +194,7 @@ BOL = {
 }
 
 BRA = {
-	color = rgb { 76 145 63 }
+	color = rgb { 52 160 25 }
 	color_ui = rgb { 99 189 82 }
 }
 
@@ -268,7 +288,7 @@ SAF = {
 	color_ui = rgb { 198 169 248 }
 }
 SAU = {
-	color = rgb { 171 190 152 }
+	color = rgb { 1 51 23 }
 	color_ui = rgb { 222 247 198 }
 }
 SIA = {

@@ -1,7 +1,11 @@
+<<<<<<< HEAD
 ﻿###########################
 # News Events
 ###########################
 
+=======
+﻿
+>>>>>>> master
 add_namespace = news
 
 # Marco Polo Bridge I
@@ -4915,6 +4919,7 @@ news_event = {
 	}
 }
 
+<<<<<<< HEAD
 # Germany Breaks Molotov-Ribbentrop Pact
 #news_event = {
 #	id = news.153
@@ -4994,6 +4999,8 @@ news_event = {
 #	}
 #}
 
+=======
+>>>>>>> master
 # USSR Breaks Molotov-Ribbentrop Pact
 news_event = {
 	id = news.154
