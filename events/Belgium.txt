@@ -25,6 +25,7 @@ country_event = { #Belgiun Democracy
 			elections_allowed = yes
 			election_frequency = 48
 		}
+		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 		add_popularity = {
     		ideology = democratic
@@ -40,6 +41,8 @@ country_event = { #Belgiun Democracy
 			leopold_ii
 			paul_joseph
 		}
+		retire_country_leader = yes
+
 		add_ideas = { leopold_ii }
 		set_politics = {
 			ruling_party = democratic
@@ -51,10 +54,6 @@ country_event = { #Belgiun Democracy
     		ideology = democratic
     		popularity = 0.5
 		}
-		add_popularity = {
-    		ideology = neutrality
-    		popularity = 0.2
-		}
 	}
 	option = {
 		name = belgium.1.c
@@ -65,19 +64,17 @@ country_event = { #Belgiun Democracy
 			leopold_ii
 			paul_joseph
 		}
+
 		add_ideas = { paul_joseph }
+		set_country_leader_ideology = constitutional_monarchy
 		set_politics = {
-			ruling_party = neutrality
+			ruling_party = democratic
 			elections_allowed = yes
 			election_frequency = 48
 		}
 		add_popularity = {
-    		ideology = neutrality
-    		popularity = 0.5
-		}
-		add_popularity = {
     		ideology = democratic
-    		popularity = 0.2
+    		popularity = 0.5
 		}
 	}
 
