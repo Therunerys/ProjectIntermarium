@@ -42,7 +42,7 @@ add_ideas = {
 }
 
 set_autonomy = {
-	target = PHI
+	target = NIC
 	autonomous_state =  autonomy_puppet
 }
 

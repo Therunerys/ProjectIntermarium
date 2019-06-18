@@ -7,6 +7,10 @@ set_technology = {
 	
 }
 
+create_faction = Entente
+add_to_faction = RUS
+add_to_faction = FRA
+
 set_research_slots = 3
 set_convoys = 200
 set_stability = 0.70

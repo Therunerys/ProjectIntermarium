@@ -17,13 +17,6 @@ set_war_support = 0.50
 ##### POLITICS ######
 #####################
 
-puppet = MAL
-puppet = RAJ
-puppet = CAN
-puppet = SAF
-puppet = AST
-puppet = NZL
-
 set_politics = {
 
 	parties = {
@@ -49,15 +42,97 @@ set_politics = {
 	elections_allowed = yes
 }
 
-create_faction = Entente
+create_faction = Commonwealth
 add_to_faction = ENG
-add_to_faction = FRA
-add_to_faction = CAN
-add_to_faction = AST
-add_to_faction = NZL
-add_to_faction = SAF
 add_to_faction = RAJ
+add_to_faction = CAN
+add_to_faction = NZL
+add_to_faction = OMA
 add_to_faction = MAL
+add_to_faction = CST
+add_to_faction = WAS
+add_to_faction = QLD
+add_to_faction = NSW
+add_to_faction = TAS
+add_to_faction = VIC
+
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = MAL
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = OMA
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = RAJ
+		autonomous_state = autonomy_colony
+		freedom_level = 0.35
+	}
+	set_autonomy = {
+		target = CST
+		autonomous_state = autonomy_colony
+		freedom_level = 0.35
+	}
+	set_autonomy = {
+		target = WAS
+		autonomous_state = autonomy_colony
+		freedom_level = 0.35
+	}
+	set_autonomy = {
+		target = NSW
+		autonomous_state = autonomy_colony
+		freedom_level = 0.35
+	}
+	set_autonomy = {
+		target = VIC
+		autonomous_state = autonomy_colony
+		freedom_level = 0.35
+	}
+	set_autonomy = {
+		target = QLD
+		autonomous_state = autonomy_colony
+		freedom_level = 0.35
+	}
+	set_autonomy = {
+		target = TAS
+		autonomous_state = autonomy_colony
+		freedom_level = 0.35
+	}
+	set_autonomy = {
+		target = CAN
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+	set_autonomy = {
+		target = SAF
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+	set_autonomy = {
+		target = NZL
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}
+	else = {
+		puppet = MAL
+		puppet = RAJ
+		puppet = OMA
+		puppet = NSW
+		puppet = WAS
+		puppet = CST
+		puppet = VIC
+		puppet = TAS
+		puppet = QLD
+	}
+}
 
 add_ideas = {
 }

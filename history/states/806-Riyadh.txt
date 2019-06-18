@@ -1,0 +1,26 @@
+state={
+	id=806
+	name="STATE_806"
+
+	history={
+		owner = SAU
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			12727 5 
+		}
+		add_core_of = SAU
+
+	}
+
+	provinces={
+		5024 5093 8004 8060 12727 12813 12870 
+	}
+	manpower=1240000
+	state_category=rural
+	buildings_max_level_factor=1.000
+}
