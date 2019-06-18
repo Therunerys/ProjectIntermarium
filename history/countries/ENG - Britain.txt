@@ -13,35 +13,6 @@ set_convoys = 700
 set_stability = 0.80
 set_war_support = 0.50
 
-#####################
-##### POLITICS ######
-#####################
-
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 92
-		}
-
-		fascism = {
-			popularity = 3
-		}
-		
-		communism = {
-			popularity = 3
-		}
-
-		neutrality = {
-			popularity = 2
-		}
-	}
-	
-	ruling_party = democratic
-	election_frequency = 48
-	elections_allowed = yes
-}
-
 create_faction = Commonwealth
 add_to_faction = ENG
 add_to_faction = RAJ

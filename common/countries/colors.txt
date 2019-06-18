@@ -516,7 +516,10 @@ ANG = {
 	color = rgb { 37 140 61 }
 	color_ui = rgb { 37 140 61 }
 }
-
+MOR = {
+    color = rgb { 140 5 5 }
+    color_ui = rgb { 150 180 120 }
+}
 COG = {
 	color = rgb { 61 61 153 }
 	color_ui = rgb { 152 159 209 }
