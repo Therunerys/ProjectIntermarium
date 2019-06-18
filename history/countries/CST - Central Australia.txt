@@ -1,0 +1,32 @@
+﻿capital = 519
+
+#oob = "AST_1936"
+set_stability = 0.8
+set_war_support = 0.3
+# Starting tech
+set_technology = {
+
+}
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 98
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		communism = {
+			popularity = 2
+			#banned = no #default is no
+		}
+	}
+	
+	ruling_party = democratic
+	last_election = "1934.9.15"
+	election_frequency = 36
+	elections_allowed = yes
+}
