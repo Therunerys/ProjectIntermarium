@@ -60,6 +60,21 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_handgrenade1_medium"
+		texturefile = "gfx/interface/technologies/handgrenade1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_handgrenade2_medium"
+		texturefile = "gfx/interface/technologies/handgrenade2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_handgrenade3_medium"
+		texturefile = "gfx/interface/technologies/handgrenade3.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_tent2_medium"
 		texturefile = "gfx/interface/technologies/tent2.dds"
 	}

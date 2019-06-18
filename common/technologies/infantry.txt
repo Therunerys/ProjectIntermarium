@@ -211,6 +211,11 @@ technologies = {
 
 	sidearm1 = {
 
+		path = {
+			leads_to_tech = handgrenade1
+			research_cost_coeff = 1
+		}
+
 		research_cost = 2
 		start_year = 1902
 		folder = {
@@ -228,6 +233,11 @@ technologies = {
 	}
 
 	sidearm2 = {
+
+		path = {
+			leads_to_tech = handgrenade2
+			research_cost_coeff = 1
+		}
 
 		research_cost = 2
 		start_year = 1902
@@ -247,11 +257,70 @@ technologies = {
 
 	sidearm3 = {
 
+		path = {
+			leads_to_tech = handgrenade3
+			research_cost_coeff = 1
+		}
+
 		research_cost = 2
 		start_year = 1902
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = 21 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 3		
+		}
+	}
+
+	handgrenade1 = {
+
+		research_cost = 2
+		start_year = 1902
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = 9 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 3		
+		}
+	}
+
+	handgrenade2 = {
+
+		research_cost = 2
+		start_year = 1902
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = 18 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 3		
+		}
+	}
+
+	handgrenade3 = {
+
+		research_cost = 2
+		start_year = 1902
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = 24 }
 		}
 		
 		categories = {
