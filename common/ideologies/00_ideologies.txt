@@ -143,11 +143,11 @@ ideologies = {
 		ai_fascist = yes # uses the fascist AI behaviour
 	}
 	
-	absolute_monarchy = {
+	authoritarian = {
 	
 		types = {
 		
-			absolute_monarchyt = {
+			absolute_monarchy = {
 			}
 
 			semi-constitutional = {

@@ -21,11 +21,23 @@ set_politics = {
 	elections_allowed = yes
 }
 
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = COG
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = COG
+	}
+}
 set_popularities = {
 	democratic = 78
 	fascism = 0
 	communism = 2
-	absolute_monarchy = 20
+	authoritarian = 20
 }
 
 
@@ -48,7 +60,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/BEL/LeopoldII.dds"
 	expire = "1909.12.17"
-	ideology = absolute_monarchyt
+	ideology = absolute_monarchy
 	traits = {
 		#
 	}
