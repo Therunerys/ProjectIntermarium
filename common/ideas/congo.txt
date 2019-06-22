@@ -1,4 +1,25 @@
 ideas = {
+
+	country = {
+
+		theophile_wahis = {
+
+			available = {
+				original_tag = COG
+			}
+			allowed = {
+				original_tag = COG
+			}
+
+			allowed_civil_war = {
+				original_tag = COG
+			}
+			picture = theophile_wahis
+			removal_cost = -1
+			traits = { minister }
+
+		}
+
 	# MILITARY
 
 
