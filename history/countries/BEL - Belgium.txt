@@ -14,13 +14,6 @@ set_war_support = 0.40
 ##### POLITICS ######
 #####################
 
-set_politics = {
-	ruling_party = democratic
-	last_election = "1898.6.15"
-	election_frequency = 48
-	elections_allowed = yes
-}
-
 if = {
 	limit = {
 		has_dlc = "Together for Victory"
@@ -33,6 +26,14 @@ if = {
 		puppet = COG
 	}
 }
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1898.6.15"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
 set_popularities = {
 	democratic = 78
 	fascism = 0

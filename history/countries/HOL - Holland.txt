@@ -1,10 +1,8 @@
 ﻿capital = 7
 
-oob = "HOL_1936"
 
 # Starting tech
 set_technology = {
-
 }
 
 set_research_slots = 3
@@ -16,30 +14,38 @@ set_war_support = 0.55
 ##### POLITICS ######
 #####################
 
-puppet = INS
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = COG
+		autonomous_state = autonomy_puppet
+	}
+	else = {
+		puppet = COG
+	}
+}
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 93
-		}
-
-		fascism = {
-			popularity = 4
-		}
-		
-		communism = {
-			popularity = 3
-		}
-	}
-	
 	ruling_party = democratic
+	last_election = "1898.6.15"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
+set_popularities = {
+	democratic = 67
+	fascism = 0
+	communism = 3
+	authoritarian = 20
+}
+
+
 add_ideas = {
+	civilian_economy
+	volunteer_only 
+	limited_exports
 }
 
 #####################
