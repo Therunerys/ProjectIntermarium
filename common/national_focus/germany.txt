@@ -213,7 +213,7 @@ focus_tree = {
     focus = {
         id = GER_prepare_for_blockade
         icon = GFX_goal_generic_consumer_goods
-        prerequisite = { focus = med_effort_naval_race focus = med_effort_naval_race}
+        prerequisite = { focus = med_effort_naval_race focus = accept_uk_domination}
         available = {
             is_puppet = no
         }

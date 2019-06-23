@@ -3710,4 +3710,8 @@ spriteTypes = {
 		name = "GFX_idea_theophile_wahis"
 		texturefile = "gfx/interface/ideas/theophile_wahis.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_scares_of_the_genocide"
+		texturefile = "gfx/interface/ideas/the_war_to_end_all_wars.dds"
+	}
 }

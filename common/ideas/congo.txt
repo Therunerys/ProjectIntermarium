@@ -20,6 +20,71 @@ ideas = {
 
 		}
 
+		scares_of_the_genocide = {
+
+			available = {
+				original_tag = COG
+			}
+			allowed = {
+				original_tag = COG
+			}
+
+			allowed_civil_war = {
+				original_tag = COG
+			}
+			picture = scares_of_the_genocide
+			removal_cost = -1
+
+			modifier = {
+				autonomy_gain = 1
+				conscription_factor = -0.50
+			}
+
+		}
+
+		rubber_at_all_cost = {
+
+			available = {
+				original_tag = COG
+			}
+			allowed = {
+				original_tag = COG
+			}
+
+			allowed_civil_war = {
+				original_tag = COG
+			}
+			picture = idea_generic_oppression
+			removal_cost = -1
+
+			modifier = {
+				local_resources_factor = 0.10
+				stability_weekly = -0.01
+			}
+		}
+
+		european_volunteers = {
+
+			available = {
+				original_tag = COG
+			}
+			allowed = {
+				original_tag = COG
+			}
+
+			allowed_civil_war = {
+				original_tag = COG
+			}
+			picture = generic_reserve_divisions
+			removal_cost = -1
+
+			modifier = {
+				weekly_manpower = 100
+			}
+		}
+
+
+
 	# MILITARY
 
 
