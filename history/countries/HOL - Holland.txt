@@ -19,26 +19,26 @@ if = {
 		has_dlc = "Together for Victory"
 	}
 	set_autonomy = {
-		target = COG
+		target = INS
 		autonomous_state = autonomy_puppet
 	}
 	else = {
-		puppet = COG
+		puppet = INS
 	}
 }
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "1898.6.15"
+	last_election = "1897.7.27"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 67
+	democratic = 57
 	fascism = 0
 	communism = 3
-	authoritarian = 20
+	authoritarian = 40
 }
 
 
@@ -57,22 +57,12 @@ create_country_leader = {
 	desc = "POLITICS_DIRK_JAN_DE_GEER_DESC"
 	picture = "wilhelmina.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = constitutional_monarchy
 	traits = {
 		#
 	}
 }
 
-create_country_leader = {
-	name = "Charles Ruijs de Beerenbrouck"
-	desc = "POLITICS_DIRK_JAN_DE_GEER_DESC"
-	picture = "charles.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
 
 #####################
 ####### ARMY ########
