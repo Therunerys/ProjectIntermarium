@@ -4,7 +4,7 @@
 - resize plane pictures to good looking sizes ----------------- DONE
 - localize and add description to all techs --------------- WIP
 - fix missing states/provinces added with MTG ---------------- SHOULD BE DONE
-- add event to the "Help Austria Against the ottoman empire" ----------------  WIP
+- add more to the German focus "Help Austria Against the ottoman empire" ----------------  DONE
 - fix ideologies ---------------- WIP
 - make the german focus "build the high seas fleet" give cruisers and destroyesrs ----------------  WIP
 - what you mean in the image of the second scenario? <-------- ############################################# if you only had one scenario you couldnt go back to the main menu, dunno if it is fixed
