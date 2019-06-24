@@ -3179,6 +3179,7 @@
  usa.401.t:0 "[From.GetNameDefCap] accepts Destroyers for Bases Agreement"
  usa.401.desc:0 "British Prime Minister [From.GetLeader] has signalled his acceptance of the terms of the Destroyers for Bases Agreement. A group of [From.GetAdjective] naval officers has arrived to inspect the destroyers and oversee the transfer.\n\n There is evidently still some work to do as several [From.GetAdjective] officers seem a little concerned about the sheer amount and thickness of guano and rust on the ships to be transfered."
  usa.401.a:0 "Beggars can't be choosers."
+ 
  belgium.1.t:0 "Belgian Democracy"
  belgium.1.d:0 "Belgium has become a democratic state, what will we do with the monarch?"
  belgium.1.a:0 "We shall become a Republic."
@@ -3188,3 +3189,15 @@
  belgium.2.t:0 "Belgian Absolute monarchy"
  belgium.2.d:0 "Belgium has become a Absolute monarchy state"
  belgium.2.a:0 "We shall give the king Absolute Power!"
+ belgium.2.b:0 "We shall give the king Absolute Power, but have some advisors."
+
+ netherlands.1.t:0 "Netherlands Democracy"
+ netherlands.1.d:0 "Netherlands has become a democratic state, what will we do with the monarch?"
+ netherlands.1.a:0 "We shall become a Republic."
+ netherlands.1.b:0 "We shall become a Crowned Republic."
+ netherlands.1.c:0 "We shall become a Constitutional monarchy."
+ netherlands.1.od:0 "We shall become a Socialist Country."
+ netherlands.2.t:0 "Netherlands Absolute monarchy"
+ netherlands.2.d:0 "Netherlands has become a Absolute monarchy state"
+ netherlands.2.a:0 "We shall give the king Absolute Power!"
+ netherlands.2.b:0 "We shall give the king Absolute Power, but have some advisors."

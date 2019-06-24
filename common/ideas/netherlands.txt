@@ -1,4 +1,43 @@
 ideas = {
+	
+	country = {
+
+		wilhelmina = {
+
+			available = {
+				original_tag = HOL
+			}
+			allowed = {
+				original_tag = HOL
+			}
+
+			allowed_civil_war = {
+				original_tag = HOL
+			}
+			picture = wilhelmina_idea
+			removal_cost = -1
+			traits = { popular_figurehead }
+
+		}
+	
+		nicolaas_pierson = {
+
+			available = {
+				original_tag = HOL
+			}
+			allowed = {
+				original_tag = HOL
+			}
+
+			allowed_civil_war = {
+				original_tag = HOL
+			}
+			picture = nicolaas_pierson_idea
+			removal_cost = -1
+			traits = { minister }
+
+		}
+	}
 
 	political_advisor = {
 

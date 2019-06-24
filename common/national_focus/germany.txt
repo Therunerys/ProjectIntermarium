@@ -317,7 +317,7 @@ focus_tree = {
 
     focus = {
         id = help_austria_war_ottoman 
-        icon = GFX_focus_proclaim_the_restauration_of_austria_hungary
+        icon = GFX_focus_help_austria
         prerequisite = { focus = accept_uk_domination focus = med_effort_naval_race}
         x = -1
         y = 1
@@ -328,10 +328,9 @@ focus_tree = {
         relative_position_id = accept_uk_domination
         available_if_capitulated = yes
         bypass = {
-            date > 1904.00.00
+            date < 1904.01.01
         }
         available = {
-            date < 1904.01.01
             GER = {
                 has_war = no
             }

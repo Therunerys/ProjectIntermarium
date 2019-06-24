@@ -1588,4 +1588,9 @@ spriteTypes = {
 		name = "GFX_focus_RUS_begin_railway_expansion"
 		texturefile = "gfx/interface/goals/focus_RUS_begin_railway_expansion.dds"
 	}
+
+	spriteType = {
+		name = "GFX_focus_help_austria"
+		texturefile = "gfx/interface/goals/focus_help_austria.dds"
+	}
 }

@@ -1,7 +1,5 @@
 spriteTypes = {	
 
-
-
 	SpriteType = {
 		name = "GFX_idea_traits_strip"
 		texturefile = "gfx/interface/ideas/idea_traits_strip.dds"
@@ -3713,5 +3711,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_scares_of_the_genocide"
 		texturefile = "gfx/interface/ideas/the_war_to_end_all_wars.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_wilhelmina_idea"
+		texturefile = "gfx/interface/ideas/wilhelmina_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nicolaas_pierson_idea"
+		texturefile = "gfx/interface/ideas/nicolaas_pierson_idea.dds"
 	}
 }

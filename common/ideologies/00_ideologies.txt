@@ -150,7 +150,7 @@ ideologies = {
 			absolute_monarchy = {
 			}
 
-			semi-constitutional = {
+			semi_constitutional = {
 			}
 		}
 		
