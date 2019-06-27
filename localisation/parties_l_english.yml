@@ -34,12 +34,15 @@
  ###########Change
  constitutional_monarchy:0 "Constitutional Monarchy
  constitutional_monarchy_desc:0 "Constitutional monarchy differs from absolute monarchy (in which a monarch holds absolute power) in that constitutional monarchs are bound to exercise their powers and authorities within the limits prescribed within an established legal framework."
- GER_fascism_party:0 "NSDAP"
- GER_fascism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"
- GER_communism_party:0 "KPD"
- GER_democratic_party:1 "Zentrum"
- GER_neutrality_party_:1 "DNVP"
- GER_neutrality_party_long:1 "Deutschnationale Volkspartei"
+ GER_fascism_party:0 "FKP"
+ GER_fascism_party_long:0 "German Reich Party"
+ GER_communism_party:0 "SPD"
+ GER_communism_party_long:0 "Sozialdemokratische Partei Deutschlands"
+ GER_democratic_party:0 "Hohenzollern"
+ GER_democratic_party_long:0 "House of Hohenzollern"
+ GER_authoritarian_party:0 "Hohenzollern"
+ GER_authoritarian_party_long:0 "House of Hohenzollern"
+
  POL_fascism_party:0 "ONR-Falanga"
  POL_fascism_party_long:0 "Oboz Narodowo Radykalny-Falanga"
  POL_communism_party:0 "Polish Socialist Party"
@@ -337,9 +340,14 @@
  IRE_neutrality_party_long:0 "Páirtí an Lucht Oibre"
  AFG_neutrality_party:0 "Barakzai"
  AFG_neutrality_party_long:0 "Barakzai royal family"
- LUX_democratic_party:0 "Rietspartei"
- LUX_communism_party:0 "KPL"
- LUX_communism_party_long:0 "Kommunistesch Partei Lëtzebuerg"
+
+ LUX_democratic_party:0 "Nassau-Weilburg"
+ LUX_democratic_party_long:0 "House of Nassau-Weilburg"
+ LUX_communism_party:0 "Socialist Party"
+ LUX_communism_party_long:0 "Socialist Party
+ LUX_authoritarian_party:0 "Nassau-Weilburg"
+ LUX_authoritarian_party_long:0 "House of Nassau-Weilburg"
+
  BHU_neutrality_party:0 "Wangchuk Dynasty"
  SLO_fascism_party:0 "HSLS"
  SLO_fascism_party_long:0 "Hlinkova Slovenská Ludová Strana"

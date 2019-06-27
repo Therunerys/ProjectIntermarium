@@ -1,7 +1,5 @@
 ﻿capital = 64
 
-oob = "GER_1936"
-
 # Starting tech
 set_technology = {
 
@@ -17,17 +15,17 @@ set_war_support = 0.50
 #####################
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = authoritarian
 	last_election = "1888.6.15"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 2
-	fascism = 8
-	communism = 6
-	neutrality = 84
+	democratic = 0
+	fascism = 0
+	communism = 0
+	authoritarian = 100
 }
 
 create_faction = Mittelmächte
@@ -48,11 +46,11 @@ if = {
 		has_dlc = "Together for Victory"
 	}
 	set_autonomy = {
-		target = GER
+		target = GEA
 		autonomous_state = autonomy_integrated_puppet
 	}
 	else = {
-		puppet = GER
+		puppet = GEA
 	}
 }
 
@@ -66,42 +64,9 @@ create_country_leader = {
 	desc = "POLITICS_WILHELM_II_DESC"
 	picture = WilhelmII.dds
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = semi_constitutional
 	traits = {
 		anti_democrat imperial_connections
-	}
-}
-
-create_country_leader = {
-	name = "Friedrich Ebert"
-	desc = "POLITICS_WILHELM_II_DESC"
-	picture = "FriedrichEbert.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Anton Drexler"
-	desc = "POLITICS_WILHELM_II_DESC"
-	picture = "AntonDrexler.dds"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Karl Liebknecht"
-	desc = "POLITICS_WILHELM_II_DESC"
-	picture = "KarlLiebknecht.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		
 	}
 }
 

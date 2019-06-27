@@ -1,7 +1,5 @@
 ﻿capital = 8
 
-oob = "LUX_1936"
-
 # Starting tech
 set_technology = {
 
@@ -10,38 +8,32 @@ set_technology = {
 set_research_slots = 3
 set_convoys = 0
 set_stability = 0.75
-set_war_support = 0.35
+set_war_support = 0.45
 
 #####################
 ##### POLITICS ######
 #####################
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 90
-		}
-
-		fascism = {
-			popularity = 2
-		}
-		
-		communism = {
-			popularity = 1
-		}
-
-		neutrality = {
-			popularity = 7
-		}
-	}
-	
-	ruling_party = democratic
+	ruling_party = authoritarian
+	last_election = "1898.6.15"
 	election_frequency = 48
 	elections_allowed = no
 }
 
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 0
+	authoritarian = 100
+}
+
+
 add_ideas = {
+	civilian_economy
+	volunteer_only 
+	limited_exports
+	paul_eyschen
 }
 
 #####################
@@ -49,22 +41,22 @@ add_ideas = {
 #####################
 
 create_country_leader = {
-	name = "Charlotte"
-	desc = "POLITICS_JOSEPH_BECH_DESC"
-	picture = "charlotte.dds"
-	expire = "1965.1.1"
-	ideology = despotism
+	name = "Adolphe"
+	desc = ""
+	picture = "adolphe.dds"
+	expire = "1905.1.1"
+	ideology = semi_constitutional
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Émile Reuter"
-	desc = "POLITICS_JOSEPH_BECH_DESC"
-	picture = "reuter.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
+	name = "Paul Eyschen"
+	desc = ""
+	picture = "paul_eyschen.dds"
+	expire = "1905.1.1"
+	ideology = constitutional_monarchy
 	traits = {
 		#
 	}

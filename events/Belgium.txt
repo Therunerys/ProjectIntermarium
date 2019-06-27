@@ -157,6 +157,7 @@ country_event = { #Belgiun Absolute monarchy
     		ideology = absolute_monarchy
     		popularity = 1
 		}
+		add_ideas = { paul_joseph }
 		set_country_leader_ideology = semi_constitutional
 	}
 }

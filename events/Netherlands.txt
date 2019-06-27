@@ -147,6 +147,7 @@ country_event = { #Netherlands Absolute monarchy
 			nicolaas_pierson
 		}
 		set_country_leader_ideology = semi_constitutional
+		add_ideas = { nicolaas_pierson }
 		set_politics = {
 			ruling_party = absolute_monarchy
 			elections_allowed = no
