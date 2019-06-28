@@ -343,3 +343,6 @@
  CLICK_TO_SHOW_ARMIES:0 "Click to §HShow§! armies belonging to this group.\n"
  TOGGLE_ARMY_GROUP_VIEW_ARMIES_DIVISIONS:0 "Switch between viewing the armies or divisions in this army group."
  DIVISION_VIEW_SELECT_ARMY:0 "Click to select this division's army."
+
+ flametroopers:0 "Flamethrower Troops"
+ flametroopers_desc:0 "Human BBQ."

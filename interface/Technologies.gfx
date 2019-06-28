@@ -75,83 +75,28 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_tent2_medium"
-		texturefile = "gfx/interface/technologies/tent2.dds"
+		name = "GFX_gasmask_medium"
+		texturefile = "gfx/interface/technologies/soldiergasmask.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_gunpowder_medium"
-		texturefile = "gfx/interface/technologies/gunpowder.dds"
+		name = "GFX_flamethrower_medium"
+		texturefile = "gfx/interface/technologies/flamethrower.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_bullets1_medium"
-		texturefile = "gfx/interface/technologies/abullets1.dds"
+		name = "GFX_flamerange1_medium"
+		texturefile = "gfx/interface/technologies/flamethrowerfire1.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_bullets2_medium"
-		texturefile = "gfx/interface/technologies/abullets2.dds"
+		name = "GFX_flamerbackpack_medium"
+		texturefile = "gfx/interface/technologies/flamethrowerbackpack.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_bullets3_medium"
-		texturefile = "gfx/interface/technologies/abullets3.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_knife_medium"
-		texturefile = "gfx/interface/technologies/knife.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_bayonet_medium"
-		texturefile = "gfx/interface/technologies/bayonet.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_axe_medium"
-		texturefile = "gfx/interface/technologies/axe.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_shovel_medium"
-		texturefile = "gfx/interface/technologies/shovel.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_pickaxe_medium"
-		texturefile = "gfx/interface/technologies/pick.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_reciever_medium"
-		texturefile = "gfx/interface/technologies/reciever.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_scope_medium"
-		texturefile = "gfx/interface/technologies/scope.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_helmet1_medium"
-		texturefile = "gfx/interface/technologies/helmet0.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_helmet2_medium"
-		texturefile = "gfx/interface/technologies/helmet1.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_helmet3_medium"
-		texturefile = "gfx/interface/technologies/helmet2.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_helmet4_medium"
-		texturefile = "gfx/interface/technologies/helmet3.dds"
+		name = "GFX_flamerange2_medium"
+		texturefile = "gfx/interface/technologies/flamethrowerfire2.dds"
 	}
 
 	SpriteType = {
@@ -166,37 +111,22 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_cav_pistol_medium"
-		texturefile = "gfx/interface/technologies/pistol.dds"
+		texturefile = "gfx/interface/technologies/cav_pistol.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_cav_sword_medium"
-		texturefile = "gfx/interface/technologies/sword.dds"
+		texturefile = "gfx/interface/technologies/cav_sword.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_cav_spear_medium"
-		texturefile = "gfx/interface/technologies/spear.dds"
+		name = "GFX_cav_gasmask_medium"
+		texturefile = "gfx/interface/technologies/cav_gasmask.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_motorised_infantry_medium"
 		texturefile = "gfx/interface/technologies/truck.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_paratroopers_medium"
-		texturefile = "gfx/interface/technologies/parachute1.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_paratroopers2_medium"
-		texturefile = "gfx/interface/technologies/parachute2.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_paratroopers3_medium"
-		texturefile = "gfx/interface/technologies/parachute3.dds"
 	}
 
 	SpriteType = {
