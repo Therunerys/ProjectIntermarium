@@ -926,7 +926,27 @@ leader_traits = {
 			}
 		}
 	}
-	
+
+	minister = {
+		random = no
+		political_power_factor = 0.05
+		stability_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	chancellor = {
+		random = no
+		political_power_factor = 0.05
+		stability_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	shadow_of_calles = {
 		random = no
 		sprite = 13
@@ -3388,16 +3408,6 @@ leader_traits = {
 				factor = 0
 				has_navy_size = { unit = carrier size < 1 }
 			}
-		}
-	}
-	##########new
-	minister = {
-		random = no
-		political_power_factor = 0.05
-		stability_factor = 0.05
-		
-		ai_will_do = {
-			factor = 1
 		}
 	}
 }

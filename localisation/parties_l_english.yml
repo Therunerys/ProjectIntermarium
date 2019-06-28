@@ -18,6 +18,8 @@
  #########NEW
  crowned_republic:0 "Crowned Republic"
  crowned_republic_desc:0 "A crowned republic, or crowned democracy, is a form of constitutional monarchy where the monarch's role is commonly seen as largely ceremonial and where all the royal prerogatives are prescribed by custom and law in such a way that the monarch has limited discretion over governmental and constitutional issues."
+ semi_constitutional:0 "Semi Constitutional"
+ semi_constitutional_desc:0 "Semi Constitutional"
  #########NEW
  socialism:0 "Socialism"
  socialism_desc:0 "Striving for equality and a socialist state by reformist means, democratic socialism aims to abolish or mitigate the effects of capitalism with public mandate."

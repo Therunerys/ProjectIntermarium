@@ -1,6 +1,39 @@
 ideas = {
 
 	country = {
+		william_ii = {
+			available = {
+				original_tag = GER
+			}
+			allowed = {
+				original_tag = GER
+			}
+
+			allowed_civil_war = {
+				original_tag = GER
+			}
+			picture = william_ii
+			removal_cost = -1
+			traits = { popular_figurehead }
+		}
+	
+		chlodwig = {
+
+			available = {
+				original_tag = GER
+			}
+			allowed = {
+				original_tag = GER
+			}
+
+			allowed_civil_war = {
+				original_tag = GER
+			}
+			picture = chlodwig
+			removal_cost = -1
+			traits = { chancellor }
+		}
+
 		imperial_pride = {
 
 			picture = imperial_pride
