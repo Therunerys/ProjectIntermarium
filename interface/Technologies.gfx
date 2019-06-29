@@ -160,33 +160,28 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_tech_special_forces_medium"
+		name = "GFX_special_forces_medium"
+		texturefile = "gfx/interface/technologies/special_troops.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_special_training_medium"
 		texturefile = "gfx/interface/technologies/special_training.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_stricter_conscription_medium"
-		texturefile = "gfx/interface/technologies/strict_conscript.dds"
+		name = "GFX_loosen_the_rules_medium"
+		texturefile = "gfx/interface/technologies/loosen_the_rules.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_lighter_conscription_medium"
-		texturefile = "gfx/interface/technologies/light_conscript.dds"
+		name = "GFX_tighten_the_rules_medium"
+		texturefile = "gfx/interface/technologies/tighten_the_rules.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_elite_units_medium"
-		texturefile = "gfx/interface/technologies/elite_training.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_extreme_cold_training_medium"
-		texturefile = "gfx/interface/technologies/acclimatization_cold.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_extreme_hot_training_medium"
-		texturefile = "gfx/interface/technologies/acclimatization_hot.dds"
+		name = "GFX_indoctrinate_special_forces_medium"
+		texturefile = "gfx/interface/technologies/indoctrinate_special_forces.dds"
 	}
 	#
 	###################################################################################################SUPPORT EQUIPMENT
