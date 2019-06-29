@@ -568,7 +568,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = morale_training
+			leads_to_tech = advanced_artillery_upgrade
 			research_cost_coeff = 1
 		}
 		
@@ -602,6 +602,51 @@ technologies = {
 			}
 		}
 	}
+
+	advanced_artillery_upgrade = {
+
+		artillery = {
+			hard_attack = 0.05
+			soft_attack = 0.05
+		}
+		artillery_brigade = {
+			hard_attack = 0.05
+			soft_attack = 0.05
+		}
+		
+		start_year = 1911
+
+		
+		research_cost = 1
+		folder = {
+			name = artillery_folder
+			position = { x = -3 y = 20 }
+		}
+		
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 2
+				date > "1912.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1913.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1914.1.1"
+			}
+		}
+	}
+	
 
 	mountain_gun = {
 
