@@ -1,3 +1,4 @@
+
 state={
 	id=292
 	name="STATE_292"
@@ -6,13 +7,14 @@ state={
 		owner = JSM
 		buildings = {
 			infrastructure = 1
+
 		}
 		add_core_of = JSM
 
 	}
 
 	provinces={
-		4974 5058 5099 7970 8101 10815 10901 10923 12749 
+		4603 4974 5058 5099 7970 8101 10815 10901 10923 12455 12749 
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000
