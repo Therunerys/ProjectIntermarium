@@ -522,11 +522,8 @@ technologies = {
 
 	artillery_maintenance = {
 
-		artillery = {
-			defense = 0.02
-		}
 		artillery_brigade = {
-			defense = 0.02
+			reliability = 0.1
 		}
 
 		path = {
