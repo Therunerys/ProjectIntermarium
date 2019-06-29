@@ -56,17 +56,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1938.1.1"
+				date > "1901.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1939.1.1"
+				date > "1902.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1939.1.1"
+				date > "1903.1.1"
 			}
 		}
 	}
@@ -79,7 +79,6 @@ technologies = {
 
 		path = {
 			leads_to_tech = artillery_training
-			research_cost_coeff = 1
 		}
 		path = {
             leads_to_tech = improved_shells
@@ -107,17 +106,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1938.1.9"
+				date > "1904.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1939.1.1"
+				date > "1905.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1939.1.6"
+				date > "1906.1.1"
 			}
 		}
 	}
@@ -132,7 +131,7 @@ technologies = {
 			leads_to_tech = artillery_training
 			research_cost_coeff = 1
 		}
-
+		start_year = 1903
 		research_cost = 1
 		folder = {
 			name = artillery_folder
@@ -145,6 +144,21 @@ technologies = {
 
 		ai_will_do = {
 			factor = 2
+			
+			modifier = {
+				factor = 2
+				date > "1904.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1905.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1906.1.1"
+			}
 		}
 	}
 
@@ -157,7 +171,7 @@ technologies = {
 			hard_attack = 0.1
 		}
 		
-
+		start_year = 1903
 		path = {
 			leads_to_tech = artillery_training
 			research_cost_coeff = 1
@@ -175,6 +189,21 @@ technologies = {
 
 		ai_will_do = {
 			factor = 2
+			
+			modifier = {
+				factor = 2
+				date > "1904.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1905.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1906.1.1"
+			}
 		}
 	}
 
@@ -201,23 +230,23 @@ technologies = {
 		categories = {
 			artillery
 		}
-		
+		start_year = 1903
 		ai_will_do = {
 			factor = 2
-
+			
 			modifier = {
 				factor = 2
-				date > "1937.1.1"
+				date > "1904.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1938.1.1"
+				date > "1905.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1939.1.1"
+				date > "1906.1.1"
 			}
 		}
 	}
@@ -253,17 +282,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1940.1.6"
+				date > "1904.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1941.1.1"
+				date > "1905.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1942.1.1"
+				date > "1906.1.1"
 			}
 		}
 	}
@@ -297,12 +326,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1941.1.6"
+				date > "1904.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1905.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1942.1.1"
+				date > "1906.1.1"
 			}
 		}
 	}
@@ -337,17 +371,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1941.1.9"
+				date > "1908.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1942.1.1"
+				date > "1909.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1942.1.6"
+				date > "1910.1.1"
 			}
 		}
 	}
@@ -379,6 +413,21 @@ technologies = {
 
 		ai_will_do = {
 			factor = 2
+			
+			modifier = {
+				factor = 2
+				date > "1908.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1909.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1910.1.1"
+			}
 		}
 	}
 
@@ -409,6 +458,21 @@ technologies = {
 
 		ai_will_do = {
 			factor = 2
+			
+			modifier = {
+				factor = 2
+				date > "1908.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1909.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1910.1.1"
+			}
 		}
 	}
 	
@@ -441,17 +505,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1943.1.6"
+				date > "1908.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1944.1.1"
+				date > "1909.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1945.1.1"
+				date > "1910.1.1"
 			}
 		}
 	}
@@ -485,17 +549,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1943.1.6"
+				date > "1908.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1944.1.1"
+				date > "1909.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1945.1.1"
+				date > "1910.1.1"
 			}
 		}
 	}
@@ -527,17 +591,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1941.1.9"
+				date > "1912.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1942.1.1"
+				date > "1913.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1942.1.6"
+				date > "1914.1.1"
 			}
 		}
 	}
