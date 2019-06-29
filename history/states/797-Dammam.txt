@@ -1,10 +1,12 @@
+
 state={
 	id=797
 	name="STATE_797"
 	resources={
 		oil=3.000
 	}
-	history = {
+
+	history={
 		owner = TUR
 		buildings = {
 			infrastructure = 2
@@ -12,10 +14,13 @@ state={
 				naval_base = 6
 
 			}
+
 		}
+
 	}
+
 	provinces={
-		1955 12702 10850
+		1955 4932 10850 12702 
 	}
 	manpower=200000
 	buildings_max_level_factor=1.000
