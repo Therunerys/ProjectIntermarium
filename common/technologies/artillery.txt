@@ -15,7 +15,7 @@ technologies = {
         }	
 		
 		research_cost = 1.5
-		start_year = 1898
+		start_year = 1900
 		folder = {
 			name = artillery_folder
 			position = { x = -3 y = 0 }
@@ -53,6 +53,21 @@ technologies = {
 
 		ai_will_do = {
 			factor = 2
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1939.1.1"
+			}
 		}
 	}
 	
