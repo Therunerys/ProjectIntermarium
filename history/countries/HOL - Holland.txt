@@ -46,7 +46,7 @@ add_ideas = {
 	civilian_economy
 	volunteer_only 
 	limited_exports
-	nicolaas_pierson
+	wilhelmina
 }
 
 #####################
@@ -54,22 +54,22 @@ add_ideas = {
 #####################
 
 create_country_leader = {
-	name = "Nicolaas Pierson"
-	desc = ""
-	picture = "nicolaas_pierson.dds"
+	name = "Wilhelmina"
+	desc = "POLITICS_DIRK_JAN_DE_GEER_DESC"
+	picture = "wilhelmina.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = constitutional_monarchy
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Wilhelmina"
-	desc = "POLITICS_DIRK_JAN_DE_GEER_DESC"
-	picture = "wilhelmina.dds"
+	name = "Nicolaas Pierson"
+	desc = ""
+	picture = "nicolaas_pierson.dds"
 	expire = "1965.1.1"
-	ideology = constitutional_monarchy
+	ideology = conservatism
 	traits = {
 		#
 	}

@@ -1,21 +1,7 @@
 ﻿capital = 37
 
-oob = "DEN_1936"
-
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_support = 1		
-	tech_recon = 1
-	tech_engineers = 1
-	
-	early_fighter = 1
-	cv_early_fighter = 1
-	early_submarine = 1
-	early_destroyer = 1
-	early_heavy_cruiser = 1
-	transport = 1
 }
 
 set_research_slots = 3
@@ -28,28 +14,24 @@ set_war_support = 0.4
 #####################
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 95
-		}
-
-		fascism = {
-			popularity = 1
-		}
-		
-		communism = {
-			popularity = 2
-		}
-
-		neutrality = {
-			popularity = 2
-		}
-	}
-	
 	ruling_party = democratic
-	election_frequency = 48
-	elections_allowed = yes
+	last_election = "1898.4.5"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 70
+	fascism = 0
+	communism = 30
+	authoritarian = 0
+}
+
+add_ideas = {
+	civilian_economy
+	volunteer_only 
+	limited_exports
+	Christian_ix
 }
 
 #####################
@@ -57,47 +39,32 @@ set_politics = {
 #####################
 
 create_country_leader = {
-	name = "Niels Neergaard"
-	desc = "POLITICS_THORVALD_STAUNING_DESC"
-	picture = "neergaard.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
+	name = "Christian IX"
+	desc = ""
+	picture = "Christian_ix.dds"
+	expire = "1905.1.1"
+	ideology = constitutional_monarchy
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Christian X of Denmark"
-	desc = "POLITICS_FRITS_CLAUSEN_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	expire = "1965.1.1"
-	ideology = despotism
+	name = "Hugo Egmont"
+	desc = ""
+	picture = "Hugo_Egmont.dds"
+	expire = "1900.4.27"
+	ideology = constitutional_monarchy
 	traits = {
 		#
 	}
 }
 
-create_country_leader = {
-	name = "Marie-Sophie Nielsen"
-	desc = "POLITICS_AKSEL_LARSEN_DESC"
-	picture = "nielsen.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Cay Lembcke"
-	desc = "POLITICS_PETER_ROCHEGUNE_MUNCH_DESC"
-	picture = "lembcke.dds"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		#
-	}
+add_ideas = {
+	civilian_economy
+	volunteer_only 
+	limited_exports
+	Christian_ix
 }
 
 #####################
