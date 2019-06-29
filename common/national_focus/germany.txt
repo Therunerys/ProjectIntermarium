@@ -1,0 +1,20 @@
+focus_tree = {
+	id = german_focus
+    
+    country = {
+        factor = 1
+        
+        modifier = {
+            add = 10
+            tag = GER
+        }
+    }
+    
+    default = no
+
+    focus = {
+        }
+    }
+
+    
+}
