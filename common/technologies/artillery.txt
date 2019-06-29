@@ -302,7 +302,10 @@ technologies = {
 			leads_to_tech = morale_training
 			research_cost_coeff = 1
 		}
-		
+		path = {
+			leads_to_tech = improved_artillery_upgrade1
+			research_cost_coeff = 1
+		}
 		research_cost = 2
 		start_year = 1907
 		folder = {
@@ -334,6 +337,66 @@ technologies = {
 		}
 	}
 	
+	improved_artillery_upgrade1	 = {
+
+		artillery = {
+			soft_attack = 0.1
+		}
+		artillery_brigade = {
+			soft_attack = 0.1
+		}
+		
+		start_year = 1907
+
+		path = {
+			leads_to_tech = improved_artillery_upgrade2
+		}
+		
+		research_cost = 1
+		folder = {
+			name = artillery_folder
+			position = { x = -2 y = 14 }
+		}
+		
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	improved_artillery_upgrade2	 = {
+
+		artillery = {
+			hard_attack = 0.1
+		}
+		artillery_brigade = {
+			hard_attack = 0.1
+		}
+		
+		start_year = 1907
+
+		path = {
+			leads_to_tech = explosive_artillery3
+		}
+		
+		research_cost = 1
+		folder = {
+			name = artillery_folder
+			position = { x = -2 y = 16 }
+		}
+		
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
 	morale_training = {
 
 		artillery = {
@@ -351,7 +414,7 @@ technologies = {
 		start_year = 1907
 		folder = {
 			name = artillery_folder
-			position = { x = -3 y = 14 }
+			position = { x = -4 y = 14 }
 		}
 		
 		categories = {
@@ -395,7 +458,7 @@ technologies = {
 		start_year = 1907
 		folder = {
 			name = artillery_folder
-			position = { x = -3 y = 16 }
+			position = { x = -4 y = 16 }
 		}
 		
 		categories = {
