@@ -11,14 +11,14 @@ state={
 
 		}
 		victory_points = {
-			12727 5 
+			4968 5 
 		}
 		add_core_of = JSM
 
 	}
 
 	provinces={
-		5024 5093 8004 8060 12727 12813 12870 
+		5024 8004 8060 12813 12870 10791 13220 7995 10892 4968 5027 2057
 	}
 	manpower=1240000
 	state_category=rural
