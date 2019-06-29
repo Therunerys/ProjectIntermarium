@@ -1,23 +1,20 @@
-
 state={
 	id=292
 	name="STATE_292"
 
 	history={
-		owner = JSM
+		owner = 
 		buildings = {
-			infrastructure = 0
-
+			infrastructure = 1
 		}
-		add_core_of = JSM
-		add_claim_by = TUR
+		add_core_of = 
 
 	}
 
 	provinces={
-		4603 4974 5058 5099 8101 10815 10901 12455 12749 
+		4974 5058 5099 7970 8101 10815 10901 10923 12749 
 	}
-	manpower=10000
+	manpower=100000
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=pastoral
 }
