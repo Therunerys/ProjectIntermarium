@@ -297,6 +297,10 @@
 #
 explosive_artillery:0 "Artillery I"
 explosive_artillery_desc:0 "Artillery will allow us to rain down fire on our enemies from the above and unxepectedly."
+improved_artillery_speed:0 "Artillery Wheels"
+improved_artillery_speed_desc:0 "Artillery Wheels"
+improved_artillery_attack:0 "Improved Artillery Attack"
+improved_artillery_attack_desc:0 "We learned in the development how to make in the artillery in the most efficient way."
 antiair_equipment1:0 "Anti-Air I"
 antiair_equipment1_desc:0 "By simply using machineguns to fire at planes, we can deter them pretty effectively."
 sirens:0 "Sirens"
