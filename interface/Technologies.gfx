@@ -436,6 +436,18 @@ spriteTypes = {
 	#####################################################################################################ARTILLERY
 	#
 	SpriteType = {
+		name = "GFX_interwar_artillery_medium"
+		texturefile = "gfx/interface/technologies/interwar_artillery.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_artillery_upgrade1_medium"
+		texturefile = "gfx/interface/technologies/artillery1imp.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_artillery_upgrade2_medium"
+		texturefile = "gfx/interface/technologies/artillery2imp.dds"
+	}
+	SpriteType = {
 		name = "GFX_explosive_artillery_medium"
 		texturefile = "gfx/interface/technologies/artillery.dds"
 	}
