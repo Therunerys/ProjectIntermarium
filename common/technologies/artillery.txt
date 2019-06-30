@@ -80,16 +80,7 @@ technologies = {
 		path = {
 			leads_to_tech = artillery_training
 		}
-		path = {
-            leads_to_tech = improved_shells
-        }		    
-		path = {
-			leads_to_tech = improved_artillery_speed
-        }
-
-		path = {
-			leads_to_tech = improved_artillery_attack
-        }
+		
 		research_cost = 1.5
 		start_year = 1903
 		folder = {
@@ -128,14 +119,14 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = artillery_training
+			leads_to_tech = explosive_artillery2
 			research_cost_coeff = 1
 		}
-		start_year = 1903
+		start_year = 1904
 		research_cost = 1
 		folder = {
 			name = artillery_folder
-			position = { x = -5 y = 6 }
+			position = { x = -5 y = 10 }
 		}
 		
 		categories = {
@@ -147,17 +138,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1904.1.1"
-			}
-			
-			modifier = {
-				factor = 2
 				date > "1905.1.1"
 			}
 			
 			modifier = {
-				factor = 5
+				factor = 2
 				date > "1906.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1907.1.1"
 			}
 		}
 	}
@@ -171,16 +162,16 @@ technologies = {
 			hard_attack = 0.1
 		}
 		
-		start_year = 1903
+		start_year = 1904
 		path = {
-			leads_to_tech = artillery_training
+			leads_to_tech = explosive_artillery2
 			research_cost_coeff = 1
 		}
 		
 		research_cost = 1
 		folder = {
 			name = artillery_folder
-			position = { x = -1 y = 6 }
+			position = { x = -1 y = 10 }
 		}
 		
 		categories = {
@@ -192,17 +183,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1904.1.1"
-			}
-			
-			modifier = {
-				factor = 2
 				date > "1905.1.1"
 			}
 			
 			modifier = {
-				factor = 5
+				factor = 2
 				date > "1906.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1907.1.1"
 			}
 		}
 	}
@@ -217,20 +208,20 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = artillery_training
+			leads_to_tech = explosive_artillery2
 			research_cost_coeff = 1
 		}
 		
 		research_cost = 1
 		folder = {
 			name = artillery_folder
-			position = { x = -3 y = 6 }
+			position = { x = -3 y = 10 }
 		}
 		
 		categories = {
 			artillery
 		}
-		start_year = 1903
+		start_year = 1904
 		ai_will_do = {
 			factor = 2
 			
@@ -270,7 +261,7 @@ technologies = {
 		start_year = 1903
 		folder = {
 			name = artillery_folder
-			position = { x = -3 y = 8 }
+			position = { x = -3 y = 6 }
 		}
 		
 		categories = {
@@ -307,14 +298,21 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = explosive_artillery2
-		}
+            leads_to_tech = improved_shells
+        }		    
+		path = {
+			leads_to_tech = improved_artillery_speed
+        }
+
+		path = {
+			leads_to_tech = improved_artillery_attack
+        }
 		
 		research_cost = 1
 		start_year = 1903
 		folder = {
 			name = artillery_folder
-			position = { x = -3 y = 10 }
+			position = { x = -3 y = 8 }
 		}
 		
 		categories = {
@@ -395,7 +393,7 @@ technologies = {
 			soft_attack = 0.1
 		}
 		
-		start_year = 1907
+		start_year = 1908
 
 		path = {
 			leads_to_tech = improved_artillery_upgrade2
@@ -416,17 +414,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1908.1.1"
-			}
-			
-			modifier = {
-				factor = 2
 				date > "1909.1.1"
 			}
 			
 			modifier = {
-				factor = 5
+				factor = 2
 				date > "1910.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1911.1.1"
 			}
 		}
 	}
@@ -440,7 +438,7 @@ technologies = {
 			hard_attack = 0.1
 		}
 		
-		start_year = 1907
+		start_year = 1909
 
 		path = {
 			leads_to_tech = explosive_artillery3
@@ -461,17 +459,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1908.1.1"
+				date > "1910.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1909.1.1"
+				date > "1911.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1910.1.1"
+				date > "1912.1.1"
 			}
 		}
 	}
@@ -490,7 +488,7 @@ technologies = {
 		}
 		
 		research_cost = 1
-		start_year = 1907
+		start_year = 1908
 		folder = {
 			name = artillery_folder
 			position = { x = -4 y = 14 }
@@ -505,17 +503,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1908.1.1"
-			}
-			
-			modifier = {
-				factor = 2
 				date > "1909.1.1"
 			}
 			
 			modifier = {
-				factor = 5
+				factor = 2
 				date > "1910.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1911.1.1"
 			}
 		}
 	}
@@ -531,7 +529,7 @@ technologies = {
 		}
 		
 		research_cost = 1
-		start_year = 1907
+		start_year = 1909
 		folder = {
 			name = artillery_folder
 			position = { x = -4 y = 16 }
@@ -546,17 +544,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1908.1.1"
+				date > "1910.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1909.1.1"
+				date > "1911.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1910.1.1"
+				date > "1912.1.1"
 			}
 		}
 	}
@@ -614,7 +612,7 @@ technologies = {
 			soft_attack = 0.05
 		}
 		
-		start_year = 1911
+		start_year = 1912
 
 		
 		research_cost = 1
@@ -632,17 +630,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1912.1.1"
-			}
-			
-			modifier = {
-				factor = 2
 				date > "1913.1.1"
 			}
 			
 			modifier = {
-				factor = 5
+				factor = 2
 				date > "1914.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1915.1.1"
 			}
 		}
 	}

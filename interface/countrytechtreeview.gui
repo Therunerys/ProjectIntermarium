@@ -822,6 +822,19 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "artillery_year4"
+					position = { x = 60 y = 890 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1904"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "artillery_year5"
 					position = { x = 60 y = 1030 }
 					textureFile = ""
 					font = "hoi_36header"
@@ -834,7 +847,33 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "artillery_year5"
+					name = "artillery_year6"
+					position = { x = 60 y = 1170 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1908"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "artillery_year7"
+					position = { x = 60 y = 1310 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1909"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "artillery_year8"
 					position = { x = 60 y = 1450 }
 					textureFile = ""
 					font = "hoi_36header"
@@ -847,12 +886,12 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "artillery_year6"
-					position = { x = 60 y = 1730 }
+					name = "artillery_year9"
+					position = { x = 60 y = 1590 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1915"
+					text = "1912"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
