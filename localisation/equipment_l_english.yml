@@ -2674,9 +2674,9 @@
  anti_tank_equipment_1:0 "Towed Anti-Tank"
  anti_tank_equipment_1_short:0 "Anti-Tank"
  anti_tank_equipment_1_desc:0 "Artillery specialized in defeating armored targets like Tanks, it generally fires armor piercing shells."
- artillery_equipment:0 "Towed Artillery"
- artillery_equipment_short:0 "Artillery"
- artillery_equipment_desc:0 "Artillery refers to large-caliber weapons, such as cannons and howitzers that are operated by crews, which can project munitions far beyond the effective range of personal weapons."
+ artillery_equipment:0 "Basic Artillery"
+ artillery_equipment_short:0 "Basic Artillery"
+ artillery_equipment_desc:0 "Artillery will allow us to rain down fire on our enemies from the above and unxepectedly."
  
  #artillery
  FRA_artillery_equipment_1:0 "Canon de 75 modèle 1897"
@@ -3431,3 +3431,4 @@
  USA_motorized_rocket_equipment:0 "T27 Xylophone"
  USA_motorized_rocket_equipment_1:0 "T27 Xylophone"
  USA_motorized_rocket_equipment_1_short:0 "Xylophone"
+ artillery_equipment:0 "Basic Artillery"

@@ -120,7 +120,6 @@ technologies = {
 		
 		path = {
 			leads_to_tech = explosive_artillery2
-			research_cost_coeff = 1
 		}
 		start_year = 1904
 		research_cost = 1
@@ -165,7 +164,6 @@ technologies = {
 		start_year = 1904
 		path = {
 			leads_to_tech = explosive_artillery2
-			research_cost_coeff = 1
 		}
 		
 		research_cost = 1
@@ -209,7 +207,6 @@ technologies = {
 		
 		path = {
 			leads_to_tech = explosive_artillery2
-			research_cost_coeff = 1
 		}
 		
 		research_cost = 1
@@ -644,6 +641,7 @@ technologies = {
 			}
 		}
 	}
+	
 	
 
 	mountain_gun = {
