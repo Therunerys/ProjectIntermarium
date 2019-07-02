@@ -436,29 +436,13 @@ spriteTypes = {
 	#####################################################################################################ARTILLERY
 	#
 	SpriteType = {
-		name = "GFX_advanced_artillery_upgrade_medium"
-		texturefile = "gfx/interface/technologies/artillery5.dds"
-	}
-	SpriteType = {
-		name = "GFX_interwar_artillery_medium"
-		texturefile = "gfx/interface/technologies/interwar_artillery.dds"
-	}
-	SpriteType = {
-		name = "GFX_improved_artillery_upgrade1_medium"
-		texturefile = "gfx/interface/technologies/artillery1imp.dds"
-	}
-	SpriteType = {
-		name = "GFX_improved_artillery_upgrade2_medium"
-		texturefile = "gfx/interface/technologies/artillery2imp.dds"
-	}
-	SpriteType = {
 		name = "GFX_explosive_artillery_medium"
 		texturefile = "gfx/interface/technologies/artillery.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_improved_shells_medium"
-		texturefile = "gfx/interface/technologies/better_shells.dds"
+		name = "GFX_interwar_artillery_medium"
+		texturefile = "gfx/interface/technologies/interwar_artillery.dds"
 	}
 
 	SpriteType = {
@@ -477,8 +461,33 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_improved_artillery_speed_medium"
+		texturefile = "gfx/interface/technologies/NOTHINGYET.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_shells_medium"
+		texturefile = "gfx/interface/technologies/better_shells.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_artillery_attack_medium"
+		texturefile = "gfx/interface/technologies/rocket_artillery3.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_explosive_artillery2_medium"
 		texturefile = "gfx/interface/technologies/artillery2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_artillery_upgrade1_medium"
+		texturefile = "gfx/interface/technologies/artillery1imp.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_artillery_upgrade2_medium"
+		texturefile = "gfx/interface/technologies/artillery2imp.dds"
 	}
 
 	SpriteType = {
@@ -494,6 +503,11 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_explosive_artillery3_medium"
 		texturefile = "gfx/interface/technologies/artillery3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_advanced_artillery_upgrade_medium"
+		texturefile = "gfx/interface/technologies/artillery5.dds"
 	}
 	#
 	#########################################################################################################MORTARS
