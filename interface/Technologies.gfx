@@ -510,38 +510,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/artillery5.dds"
 	}
 	#
-	#########################################################################################################MORTARS
-	#
-	SpriteType = {
-		name = "GFX_mortar_experiments_medium"
-		texturefile = "gfx/interface/technologies/mortar_experiments.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_improved_explosive_compound_medium"
-		texturefile = "gfx/interface/technologies/compound.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_new_projectiles_medium"
-		texturefile = "gfx/interface/technologies/shrapnel.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_explosive_mortar_medium"
-		texturefile = "gfx/interface/technologies/mortar1.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_explosive_mortar1_medium"
-		texturefile = "gfx/interface/technologies/mortar2.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_propelled_shells_medium"
-		texturefile = "gfx/interface/technologies/rockets.dds"
-	}
-	#
 	#######################################################################################################ANTIAIR
 	#
 	SpriteType = {
@@ -587,33 +555,8 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_higher_caliber_rounds_medium"
-		texturefile = "gfx/interface/technologies/higher_caliber_rounds.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_antitank2_medium"
-		texturefile = "gfx/interface/technologies/antitank2.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_better_penetration_medium"
-		texturefile = "gfx/interface/technologies/better_penetration.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_antitank3_medium"
-		texturefile = "gfx/interface/technologies/antitank3.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_new_types_of_ammunition_medium"
-		texturefile = "gfx/interface/technologies/new_types_of_ammunition.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_antitank4_medium"
-		texturefile = "gfx/interface/technologies/antitank4.dds"
+		name = "GFX_antitank_grenades_medium"
+		texturefile = "gfx/interface/technologies/antitank_grenades.dds"
 	}
 	#
 	##########################################################################################################DOCTRINES

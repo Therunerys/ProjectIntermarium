@@ -778,7 +778,19 @@ guiTypes = {
 					format = center
 					Orientation = "UPPER_LEFT"
 				}
-	
+
+				instantTextBoxType = {
+					name = "artillery_subtitle_anti_tank"
+					position = { x = 515 y = 1000 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "ARTILLERY_TITLE_AT"
+					maxWidth = 290
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+				}
 			}	
 
 				instantTextBoxType = {

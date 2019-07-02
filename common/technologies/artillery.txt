@@ -360,6 +360,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		path = {
+			leads_to_tech = antitank1
+			research_cost_coeff = 1
+		}
+
 		research_cost = 2
 		start_year = 1907
 		folder = {
@@ -648,6 +653,96 @@ technologies = {
 			modifier = {
 				factor = 5
 				date > "1915.1.1"
+			}
+		}
+	}
+
+	############################# ANTITANK TREE ###########################
+
+	antitank1 = {
+	
+		enable_equipments = {
+			antitank1
+		}
+
+		enable_subunits = {
+			anti_tank
+			anti_tank_brigade
+		}
+
+		path = {
+			leads_to_tech = antitank_grenades
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1908
+		folder = {
+			name = artillery_folder
+			position = { x = 2 y = 14 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 2
+				date > "1909.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1910.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1911.1.1"
+			}
+		}
+	}
+
+	antitank_grenades = {
+	
+		anti_tank = {
+			hard_attack = 0.2
+		}
+
+		anti_tank_brigade = {
+			hard_attack = 0.2
+		}
+
+		research_cost = 2
+		start_year = 1911
+		folder = {
+			name = artillery_folder
+			position = { x = 2 y = 18 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 2
+				date > "1912.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1913.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1914.1.1"
 			}
 		}
 	}
