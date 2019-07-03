@@ -2741,12 +2741,11 @@
  SOV_artillery_equipment_2:0 "M1940 107 mm"
  SOV_artillery_equipment_3:0 "M1943 152 mm"
  
- ITA_artillery_equipment_1:0 "Cannone da 75/27 modello 06"
- ITA_artillery_equipment_1_short:0 "Cannone da 75/27"
- ITA_artillery_equipment_2:0 "Cannone da 149/40 modello 35"
- ITA_artillery_equipment_2_short:0 "Cannone da 149/40 m/35"
- ITA_artillery_equipment_3:0 "Obice da 210/22 modello 35"
- 
+ ITA_artillery_equipment:0 "Cannone da 149/23"
+ ITA_artillery_equipment_1:0 "Cannone da 149/35 A"
+ ITA_artillery_equipment_2:0 "Cannone da 75/27 modello 06"
+ ITA_artillery_equipment_3:0 "Cannone da 75/27 modello 11"
+
  JAP_artillery_equipment_1:0 "Type 95 75 mm"
  JAP_artillery_equipment_1_short:0 "Type 95 75 mm"
  JAP_artillery_equipment_2:0 "Type 91 10 cm"
