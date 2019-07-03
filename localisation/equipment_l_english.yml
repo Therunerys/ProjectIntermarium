@@ -2679,10 +2679,12 @@
  artillery_equipment_desc:0 "Artillery will allow us to rain down fire on our enemies from the above and unxepectedly."
  
  #artillery
- FRA_artillery_equipment_1:0 "Canon de 75 modèle 1897"
- FRA_artillery_equipment_1_short:0 "Canon de 75 mle 1897"
- FRA_artillery_equipment_2:0 "Canon de 105 L mle 1936"
- FRA_artillery_equipment_3:0 "Canon de 155mm GPF"
+ FRA_artillery_equipment:0 "Matériel de 75mm Mle 1897"
+ FRA_artillery_equipment_short:0 "French 75"
+ FRA_artillery_equipment_1:0 "Need to find"
+ FRA_artillery_equipment_1_short:0 "Need to find"
+ FRA_artillery_equipment_2:0 "Canon de 75 modèle 1905 Schneider"
+ FRA_artillery_equipment_3:0 "Canon de 75 modèle 1912 Schneider"
  
  CZE_artillery_equipment_1:0 "8 cm kanon vz. 30"
  CZE_artillery_equipment_1_short:0 "8 cm kanon vz. 30"
@@ -2713,10 +2715,11 @@
  CAN_artillery_equipment_2:0 "QF 25-pounder"
  CAN_artillery_equipment_3:0 "BL 5.5-inch Medium Gun"
  
- AST_artillery_equipment_1:0 "QF 18-pounder"
- AST_artillery_equipment_1_short:0 "QF 18-pounder"
- AST_artillery_equipment_2:0 "QF 25-pounder"
- AST_artillery_equipment_3:0 "BL 5.5-inch Medium Gun"
+ AHE_artillery_equipment:0 "9 cm Feldkanone M 75/96"
+ AHE_artillery_equipment_1:0 "8 cm Feldkanone M. 99"
+ AHE_artillery_equipment_2:0 "8 cm FK M. 5"
+ AHE_artillery_equipment_3:0 "Need to find"
+ AHE_artillery_equipment_3_short:0 "Need to find"
  
  NZL_artillery_equipment_1:0 "QF 18-pounder"
  NZL_artillery_equipment_1_short:0 "QF 18-pounder"
