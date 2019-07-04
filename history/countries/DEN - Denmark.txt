@@ -31,12 +31,23 @@ add_ideas = {
 	civilian_economy
 	volunteer_only 
 	limited_exports
-	Christian_ix
+	hugo_Egmont
 }
 
 #####################
 ###### LEADERS ######
 #####################
+
+create_country_leader = {
+	name = "Hugo Egmont"
+	desc = ""
+	picture = "Hugo_Egmont.dds"
+	expire = "1900.4.27"
+	ideology = constitutional_monarchy
+	traits = {
+		#
+	}
+}
 
 create_country_leader = {
 	name = "Christian IX"
@@ -50,23 +61,15 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Hugo Egmont"
+	name = "Peter Christian Knudsen"
 	desc = ""
-	picture = "Hugo_Egmont.dds"
-	expire = "1900.4.27"
-	ideology = constitutional_monarchy
+	picture = "Peter_Christian_Knudsen.dds"
+	expire = "1910.1.1"
+	ideology = Socialism
 	traits = {
 		#
 	}
 }
-
-add_ideas = {
-	civilian_economy
-	volunteer_only 
-	limited_exports
-	Christian_ix
-}
-
 #####################
 ####### ARMY ########
 #####################

@@ -46,7 +46,7 @@ add_ideas = {
 	civilian_economy
 	volunteer_only 
 	limited_exports
-	paul_joseph
+	paul_joseph 
 	disunited_army
 	backed_great_powers
 }
@@ -54,7 +54,6 @@ add_ideas = {
 #####################
 ###### LEADERS ######
 #####################
-
 
 create_country_leader = {
 	name = "Leopold II"
@@ -84,6 +83,7 @@ create_country_leader = {
 		minister
 	}
 }
+
 create_country_leader = {
 	name = "Leopold II"
 	desc = ""
@@ -94,6 +94,7 @@ create_country_leader = {
 		#
 	}
 }
+
 
 #####################
 ####### ARMY ########
