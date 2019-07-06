@@ -1782,8 +1782,15 @@
  YUG_super_heavy_tank_equipment_1_short:0 "Kraljevic Marko"
  YUG_modern_tank_equipment_1:0 "Projekat Igman"
  YUG_modern_tank_equipment_1_short:0 "Igman"
- 
-
+#
+#
+#
+#
+ #         ARMORED CARS AND TANKS
+#
+#
+#
+# 
  gw_tank_equipment:0 "Great War Tank"
  gw_tank_equipment_short:0 "Great War Tank"
  gw_tank_equipment_desc:0 "Tanks in World War I were developed separately and simultaneously by the United Kingdom and France as a means to break the deadlock of trench warfare on the Western Front. The name Tank was adopted by the British during the early stages of their development, as a security measure to conceal their purpose. Early tanks were armed with machineguns and small cannons, moved slowly, and were armored only enough to stop small arms fire."
@@ -2872,13 +2879,22 @@
  
  GER_infantry_equipment_0:0 "Gewehr 98"
  GER_infantry_equipment_0_short:0 "Gewehr 98"
- GER_infantry_equipment_1:0 "Kar 98"
- GER_infantry_equipment_1_short:0 "Kar 98"
- GER_infantry_equipment_2:0 "Kar 98A"
- GER_infantry_equipment_2_short:0 "Kar 98A"
- GER_infantry_equipment_3:0 "Kar 98AZ"
- GER_infantry_equipment_3_short:0 "Kar 98AZ"
+ GER_infantry_equipment_1:0 "Kar 98A"
+ GER_infantry_equipment_1_short:0 "Kar 98A"
+ GER_infantry_equipment_2:0 "Kar 98AZ"
+ GER_infantry_equipment_2_short:0 "Kar 98AZ"
+ GER_infantry_equipment_3:0 "Machinenpistole 1910"
+ GER_infantry_equipment_3_short:0 "MP 10"
  GER_flamethrowers:0 "Flammenwerfer"
+
+ FRA_infantry_equipment_0:0 "Lebel Modèle 1886"
+ FRA_infantry_equipment_0_short:0 "Lebel M1886"
+ FRA_infantry_equipment_1:0 "Fusil Automatique Modèle 1902"
+ FRA_infantry_equipment_1_short:0 "Fusil Automatique M1902"
+ FRA_infantry_equipment_2:0 "Meunier Modèle 1908"
+ FRA_infantry_equipment_2_short:0 "Meunier M1908"
+ FRA_infantry_equipment_3:0 "Chauchat Modèle 1910"
+ FRA_infantry_equipment_3_short:0 "Chauchat M1910"
 
  #SOV_infantry_equipment_0:0 "M-N M1891/30"
  #SOV_infantry_equipment_0_short:0 "M-N 1891/30"

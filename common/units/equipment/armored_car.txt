@@ -1,0 +1,206 @@
+equipments = {
+
+	# Armored Car 1 #
+	armored_car_1 = {
+		year = 1898
+	
+		is_archetype = yes
+		is_buildable = no
+		is_convertable = yes
+		picture = archetype_light_tank_equipment			
+		type = armor
+		group_by = archetype
+		
+		interface_category = interface_category_armor
+		
+		upgrades = {
+			tank_reliability_upgrade
+			tank_engine_upgrade
+			tank_armor_upgrade
+			tank_gun_upgrade
+		}
+
+		#Misc Abilities
+		maximum_speed = 5
+		reliability = 0.5
+
+		#Defensive Abilities
+		defense = 2
+		breakthrough = 10
+		hardness = 0.6
+		armor_value = 5
+
+		#Offensive Abilities
+		soft_attack = 10
+		hard_attack = 0
+		ap_attack = 0
+		air_attack = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 8
+		
+		build_cost_ic = 8
+		resources = {
+			oil = 1
+			steel = 2
+		}
+
+		fuel_consumption = 2.0
+	}
+
+	# Armored Car 2 #
+	armored_car_2 = {
+		year = 1902
+		
+		archetype = armored_car_1
+		parent = armored_car_1
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+
+		#Misc Abilities
+		maximum_speed = 6
+		reliability = 0.55
+
+		#Defensive Abilities
+		defense = 3
+		breakthrough = 12
+		armor_value = 5
+
+		#Offensive Abilities
+		soft_attack = 12
+		hard_attack = 0
+		ap_attack = 0
+		air_attack = 0
+
+		build_cost_ic = 8
+	}
+
+	# Armored Car 3 #
+	armored_car_3 = {
+		year = 1905
+		
+		archetype = armored_car_2
+		parent = armored_car_2
+		priority = 10
+		visual_level = 1
+		is_convertable = yes
+
+		#Misc Abilities
+		maximum_speed = 6
+		reliability = 0.6
+
+		#Defensive Abilities
+		defense = 4
+		breakthrough = 12
+		armor_value = 6
+
+		#Offensive Abilities
+		soft_attack = 14
+		hard_attack = 0
+		ap_attack = 0
+		air_attack = 0		
+		
+		build_cost_ic = 10
+		resources = {
+			oil = 1
+			steel = 3
+		}
+	}
+
+	# Armored Car 4 #
+	armored_car_4 = {
+		year = 1907
+	
+		archetype = armored_car_3
+		parent = armored_car_3
+		priority = 10
+		visual_level = 2
+		is_convertable = yes
+
+		#Misc Abilities
+		maximum_speed = 7
+		reliability = 0.65
+
+		#Defensive Abilities
+		defense = 5
+		breakthrough = 14
+		armor_value = 7
+
+		#Offensive Abilities
+		soft_attack = 15
+		hard_attack = 0
+		ap_attack = 0
+		air_attack = 0	
+		
+		build_cost_ic = 10
+		resources = {
+			oil = 1
+			steel = 3
+		}
+	}
+
+	# Armored Car 5 #
+	armored_car_5 = {
+		year = 1910
+	
+		archetype = armored_car_4
+		parent = armored_car_4
+		priority = 10
+		visual_level = 2
+		is_convertable = yes
+
+		#Misc Abilities
+		maximum_speed = 8
+		reliability = 0.75
+
+		#Defensive Abilities
+		defense = 6
+		breakthrough = 15
+		armor_value = 8
+
+		#Offensive Abilities
+		soft_attack = 17
+		hard_attack = 0
+		ap_attack = 0
+		air_attack = 0	
+		
+		build_cost_ic = 12
+		resources = {
+			oil = 2
+			steel = 5
+		}
+	}
+
+	# Armored Car 6 #
+	armored_car_6 = {
+		year = 1913
+	
+		archetype = armored_car_5
+		parent = armored_car_5
+		priority = 10
+		visual_level = 2
+		is_convertable = yes
+
+		#Misc Abilities
+		maximum_speed = 10
+		reliability = 0.85
+
+		#Defensive Abilities
+		defense = 8
+		breakthrough = 20
+		armor_value = 10
+
+		#Offensive Abilities
+		soft_attack = 20
+		hard_attack = 0
+		ap_attack = 0
+		air_attack = 0	
+		
+		build_cost_ic = 12
+		resources = {
+			oil = 2
+			steel = 5
+		}
+	}
+}
