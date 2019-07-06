@@ -36,7 +36,7 @@ add_ideas = {
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
-	chlodwig
+	ahoe_minister_head_gov_zentrum_1
 	imperial_pride
 	reichsbank
 	imperial_army_of_germany

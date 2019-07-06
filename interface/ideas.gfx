@@ -3733,7 +3733,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/william_ii.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_chlodwig"
+		name = "GFX_idea_ahoe_minister_head_gov_zentrum_1"
 		texturefile = "gfx/interface/ideas/chlodwig.dds"
 	}
 	spriteType = {

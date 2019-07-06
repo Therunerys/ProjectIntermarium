@@ -1,0 +1,25 @@
+################ Made by LG
+ideas = {
+
+	ahoe_minister_head_gov = { 
+	
+		law = yes
+		
+		#Head of The Government
+		ahoe_minister_head_gov_zentrum_1 = {
+			
+			traits = { chancellor }
+
+			visible = { 
+			#has_government = democratic
+			tag = GER
+			}
+
+			cancel_if_invalid = no
+			
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+	}
+}
