@@ -1,6 +1,22 @@
 ideas = {
 
 	country = {
+		Pierre_Waldeck_Rousseau = {
+
+			available = {
+				original_tag = FRA
+			}
+			allowed = {
+				original_tag = FRA
+			}
+
+			allowed_civil_war = {
+				original_tag = FRA
+			}
+			picture = Pierre_Waldeck_Rousseau
+			removal_cost = -1
+			traits = { minister }
+		}
 
 		FRA_victors_of_wwi = {
 			

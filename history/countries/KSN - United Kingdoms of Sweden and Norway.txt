@@ -33,6 +33,8 @@ add_ideas = {
 	civilian_economy
 	volunteer_only 
 	limited_exports
+	Johannes_Steen
+	Erik_Gustaf_Bostrom
 }
 
 #####################
@@ -44,7 +46,18 @@ create_country_leader = {
 	desc = "POLITICS_OSCAR_II_DESC"
 	picture = OscarII.dds
 	expire = "1905.12.8"
-	ideology = constitutional_monarchy
+	ideology = liberalism
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Oscar II"
+	desc = "POLITICS_OSCAR_II_DESC"
+	picture = OscarII.dds
+	expire = "1905.12.8"
+	ideology = authoritarian
 	traits = {
 
 	}

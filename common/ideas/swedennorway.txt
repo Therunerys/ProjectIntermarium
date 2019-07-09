@@ -1,6 +1,41 @@
 ideas = {
 	country = {
-	
+
+		Johannes_Steen = {
+
+			available = {
+				original_tag = KSN
+			}
+			allowed = {
+				original_tag = KSN
+			}
+
+			allowed_civil_war = {
+				original_tag = KSN
+			}
+			picture = Johannes_Steen
+			removal_cost = -1
+			traits = { minister }
+
+		}
+
+		Erik_Gustaf_Bostrom = {
+
+			available = {
+				original_tag = KSN
+			}
+			allowed = {
+				original_tag = KSN
+			}
+
+			allowed_civil_war = {
+				original_tag = KSN
+			}
+			picture = Erik_Gustaf_Bostrom
+			removal_cost = -1
+			traits = { minister }
+
+		}
 	}
 
 	political_advisor = {

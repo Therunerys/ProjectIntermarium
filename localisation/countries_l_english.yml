@@ -1,10 +1,10 @@
 ﻿l_english:
  GER_fascism:0 "German Reich"
  GER_fascism_DEF:0 "the German Reich"
- GER_democratic:0 "German Republic"
- GER_democratic_DEF:0 "the German Republic"
+ GER_democratic:0 "German Empire"
+ GER_democratic_DEF:0 "the German Empire"
  GER_authoritarian:1 "German Empire"
- GGER_authoritarian_DEF:1 "the German Empire"
+ GER_authoritarian_DEF:1 "the German Empire"
  GER_communism:0 "Socialist Republic of Germany"
  GER_communism_DEF:0 "the Socialist Republic of Germany"
  GER_fascism_ADJ:0 "German"

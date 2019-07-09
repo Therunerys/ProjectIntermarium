@@ -2592,6 +2592,8 @@
  backed_great_powers_desc:0 "Have Great Britain & French Republic honour the treaty of london 1839 having both countries gurantee Belgium's independence."
  nicolaas_pierson:0 "Nicolaas Pierson"
  german_assistance:0 "German Assistance"
+ Johannes_Steen:0 "Johannes Steen"
+ Erik_Gustaf_Bostrom:0 "Erik Gustaf Bostrom"
  ###############################
  full_naval_effort_idea:0 "Full Naval Effort"
  full_naval_effort_idea_desc:0 "Full Naval Effort"
@@ -2614,7 +2616,9 @@
  industrial_effort_idea:0 "Four Year Plan"
  industrial_effort_idea:0 "We need an ambitious plan to provide for the armament and ultimate self-sufficiency of the nation. This should be achieved within the next four years."
 ##############################################
- minister_stuff:0 "Ministers"
+ minister_stuff:0 "Cabinet"
 
  ahoe_minister_head_gov:0 "Head of The Government"
  ahoe_minister_head_gov_zentrum_1:0 "Chlodwig Carl Viktor"
+ ahoe_foreign_minister_gov:0 "Minister for Foreign Affairs"
+ ahoe_foreign_minister_govzentrum_1:0 "Bernhard von Bülow"

@@ -15,17 +15,17 @@ set_war_support = 0.50
 #####################
 
 set_politics = {
-	ruling_party = authoritarian
+	ruling_party = democratic
 	last_election = "1888.6.15"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 0
-	fascism = 0
-	communism = 0
-	authoritarian = 100
+	democratic = 70
+	fascism = 3
+	communism = 27
+	authoritarian = 0
 }
 
 create_faction = Mittelmächte
@@ -36,7 +36,7 @@ add_ideas = {
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
-	ahoe_minister_head_gov_zentrum_1
+	chlodwig
 	imperial_pride
 	reichsbank
 	imperial_army_of_germany
@@ -61,13 +61,35 @@ if = {
 #####################
 
 create_country_leader = {
+	name = "August Bebel"
+	desc = ""
+	picture = August_Bebel.dds
+	expire = "1965.1.1"
+	ideology = Socialism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
 	name = "Wilhelm II"
 	desc = "POLITICS_WILHELM_II_DESC"
 	picture = WilhelmII.dds
 	expire = "1965.1.1"
-	ideology = semi_constitutional
+	ideology = social_conservatism
 	traits = {
-		anti_democrat imperial_connections
+		imperial_connections
+	}
+}
+
+create_country_leader = {
+	name = "Wilhelm II"
+	desc = "POLITICS_WILHELM_II_DESC"
+	picture = WilhelmII.dds
+	expire = "1965.1.1"
+	ideology = authoritarian
+	traits = {
+		imperial_connections
 	}
 }
 

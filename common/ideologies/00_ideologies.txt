@@ -4,9 +4,15 @@ ideologies = {
 	
 		types = {
 			
+			social_conservatism = {
+			}
+			
 			conservatism = {
 			}
-		
+
+			social_liberalism = {
+			}
+			
 			liberalism = {
 			}
 		
