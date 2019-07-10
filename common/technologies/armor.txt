@@ -6,6 +6,10 @@ technologies = {
 			armored_car_1
 		}
 
+		enable_subunits = {
+			armored_cars
+		}
+
 		path = {
             leads_to_tech = armored_car2
             research_cost_coeff = 1
@@ -63,6 +67,10 @@ technologies = {
             leads_to_tech = armored_car4
         }
 
+        path = {
+            leads_to_tech = tank_prototype
+        }
+
 		research_cost = 2
 		start_year = 1922
 		folder = {
@@ -105,21 +113,17 @@ technologies = {
 		}
 	}
 
-	armored_car5 = {
+	tank_prototype = {
 
-		enable_equipments = {
-			armored_car_5
-		}
-
-		path = {
-            leads_to_tech = armored_car6
+        path = {
+            leads_to_tech = light_tank1
         }
 
 		research_cost = 2
-		start_year = 1924
+		start_year = 1923
 		folder = {
 			name = armour_folder
-			position = { x = -4 y = 16 }
+			position = { x = 4 y = 10 }
 		}
 		
 		ai_will_do = {
@@ -131,17 +135,13 @@ technologies = {
 		}
 	}
 
-	armored_car6 = {
-
-		enable_equipments = {
-			armored_car_6
-		}
+	light_tank1 = {
 
 		research_cost = 2
-		start_year = 1921
+		start_year = 1923
 		folder = {
 			name = armour_folder
-			position = { x = -4 y = 20 }
+			position = { x = 4 y = 16 }
 		}
 		
 		ai_will_do = {
