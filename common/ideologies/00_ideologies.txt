@@ -4,6 +4,8 @@ ideologies = {
 	
 		types = {
 			
+			Socialism = {
+			}
 			social_conservatism = {
 			}
 			
@@ -71,7 +73,9 @@ ideologies = {
 		
 		types = {
 			
-			Socialism = {
+			radical_Socialism = {
+			}
+			marxism = {
 			}
 		}
 		

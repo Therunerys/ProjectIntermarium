@@ -15,17 +15,17 @@ set_war_support = 0.50
 #####################
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = authoritarian
 	last_election = "1898.6.15"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 70
+	democratic = 27
 	fascism = 3
-	communism = 27
-	authoritarian = 0
+	communism = 0
+	authoritarian = 70
 }
 
 create_faction = Mittelmächte
@@ -57,8 +57,19 @@ if = {
 
 
 #####################
-###### LEADERS #######
+###### LEADERS ######
 #####################
+
+create_country_leader = {
+	name = "Karl Liebknecht"
+	desc = ""
+	picture = Karl_Liebknecht.dds
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		
+	}
+}
 
 create_country_leader = {
 	name = "August Bebel"
@@ -76,18 +87,7 @@ create_country_leader = {
 	desc = "POLITICS_WILHELM_II_DESC"
 	picture = WilhelmII.dds
 	expire = "1965.1.1"
-	ideology = social_conservatism
-	traits = {
-		imperial_connections
-	}
-}
-
-create_country_leader = {
-	name = "Wilhelm II"
-	desc = "POLITICS_WILHELM_II_DESC"
-	picture = WilhelmII.dds
-	expire = "1965.1.1"
-	ideology = absolute_monarchy
+	ideology = semi_constitutional
 	traits = {
 		imperial_connections
 	}

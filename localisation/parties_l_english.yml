@@ -1,6 +1,6 @@
 ﻿l_english:
- communism:0 "Socialist"
- communism_noun:0 "Socialism"
+ communism:0 "Radical Socialism"
+ communism_noun:0 "Radical Socialism"
  democratic:0 "Democratic"
  democratic_noun:0 "Democracy"
  fascism:0 "Ultranationalist"
@@ -23,6 +23,10 @@
  semi_constitutional:0 "Semi Constitutional"
  semi_constitutional_desc:0 "Semi Constitutional"
  #########NEW
+ marxism:0 "Marxism"
+ marxism_desc:0 "Marxism"
+ radical_Socialism:0 "Radical Socialism"
+ radical_Socialism_desc:0 "Radical Socialism"
  socialism:0 "Socialism"
  socialism_desc:0 "Striving for equality and a socialist state by reformist means, democratic socialism aims to abolish or mitigate the effects of capitalism with public mandate."
  nazism_desc:0 "Rooted in extreme nationalism, National Socialism is driven by ideas of Germanic supremacy. It promotes aggressive expansionism and a totalitarian state where the people are united under a leader with absolute power, the Führer."
@@ -42,12 +46,12 @@
  
  GER_fascism_party:0 "FKP"
  GER_fascism_party_long:0 "German Reich Party"
- GER_communism_party:0 "SPD"
- GER_communism_party_long:0 "Sozialdemokratische Partei Deutschlands"
- GER_democratic_party:0 "Zentrum"
- GER_democratic_party_long:0 "Deutsche Zentrumspartei"
- GER_authoritarian_party:0 "Hohenzollern"
- GER_authoritarian_party_long:0 "House of Hohenzollern"
+ GER_communism_party:0 "KPD"
+ GER_communism_party_long:0 "Kommunistische Partei Deutschlands"
+ GER_democratic_party:0 "SPD"
+ GER_democratic_party_long:0 "Sozialdemokratische Partei Deutschlands"
+ GER_authoritarian_party:0 "Zentrum"
+ GER_authoritarian_party_long:0 "Deutsche Zentrumspartei"
 
  POL_fascism_party:0 "ONR-Falanga"
  POL_fascism_party_long:0 "Oboz Narodowo Radykalny-Falanga"
@@ -56,10 +60,10 @@
  POL_democratic_party_long:0 "Polskie Stronnictwo Ludowe"
  POL_neutrality_party:0 "Regency Council"
  ENG_democratic_party:0 "Conservative Party"
- ITA_communism_party:0 "Partito Comunista Italiano"
- ITA_democratic_party:0 "Partito Popolare Italiano"
- ITA_fascism_party:0 "Partito Nazionale Fascista"
- ITA_neutrality_party:0 "Partito Nazionale Monarchico"
+
+ ITA_communism_party:0 "Partito Socialista Italiano"
+ ITA_democratic_party:0 "Destra storica"
+
  JAP_communism_party:0 "Nihon Kyosan-to"
  JAP_democratic_party:0 "Rikken Minseito"
  JAP_fascism_party:0 "Taisei Yokusankai"
