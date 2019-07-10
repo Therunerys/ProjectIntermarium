@@ -33,7 +33,7 @@ add_to_faction = AUS
 add_to_faction = GEA
 
 add_ideas = {
-	limited_exports
+	free_trade
 	limited_conscription
 	partial_economic_mobilisation
 	chlodwig

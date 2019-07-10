@@ -3733,15 +3733,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/william_ii.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_chlodwig "
-		texturefile = "gfx/interface/ideas/chlodwig.dds"
+		name = "GFX_idea_chlodwig"
+		texturefile = "gfx/interface/ideas/chlodwig_idea.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_christian_ix_idea"
 		texturefile = "gfx/interface/ideas/Christian_ix_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_hugo_Egmont_idea"
+		name = "GFX_idea_hugo_Egmont"
 		texturefile = "gfx/interface/ideas/Hugo_Egmont_idea.dds"
 	}
 	spriteType = {
@@ -3751,5 +3751,9 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_Johannes_Steen_idea"
 		texturefile = "gfx/interface/ideas/Johannes_Steen_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pierre_waldeck_rousseau_idea"
+		texturefile = "gfx/interface/ideas/Pierre_Waldeck_Rousseau_idea.dds"
 	}
 }

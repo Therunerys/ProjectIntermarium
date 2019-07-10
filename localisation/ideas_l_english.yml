@@ -2594,6 +2594,7 @@
  german_assistance:0 "German Assistance"
  Johannes_Steen:0 "Johannes Steen"
  Erik_Gustaf_Bostrom:0 "Erik Gustaf Bostrom"
+ pierre_waldeck_rousseau:0 "Pierre Waldeck Rousseau"
  ###############################
  full_naval_effort_idea:0 "Full Naval Effort"
  full_naval_effort_idea_desc:0 "Full Naval Effort"
@@ -2615,10 +2616,3 @@
  GER_fort_idea_desc:0 "German Forts"
  industrial_effort_idea:0 "Four Year Plan"
  industrial_effort_idea:0 "We need an ambitious plan to provide for the armament and ultimate self-sufficiency of the nation. This should be achieved within the next four years."
-##############################################
- minister_stuff:0 "Cabinet"
-
- ahoe_minister_head_gov:0 "Head of The Government"
- ahoe_minister_head_gov_zentrum_1:0 "Chlodwig Carl Viktor"
- ahoe_foreign_minister_gov:0 "Minister for Foreign Affairs"
- ahoe_foreign_minister_govzentrum_1:0 "Bernhard von Bülow"

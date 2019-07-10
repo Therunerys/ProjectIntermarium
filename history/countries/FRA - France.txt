@@ -51,6 +51,7 @@ add_ideas = {
 	civilian_economy
 	volunteer_only 
 	limited_exports
+	pierre_waldeck_rousseau
 }
 
 give_guarantee = BEL
