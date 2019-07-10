@@ -158,6 +158,10 @@ ideologies = {
 
 			semi_constitutional = {
 			}
+			
+			authoritarian = {
+
+			}
 		}
 		
 		dynamic_faction_names = {
