@@ -5,7 +5,7 @@ set_technology = {
 
 }
 
-set_research_slots = 3
+set_research_slots = 4
 set_convoys = 200
 set_stability = 0.50
 set_war_support = 0.75
@@ -28,7 +28,7 @@ set_popularities = {
 
 add_ideas = {
 	free_trade
-	limited_conscription
+	volunteer_only
 	partial_economic_mobilisation
 }
 

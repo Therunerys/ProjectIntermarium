@@ -1,4 +1,4 @@
-leader_traits = {
+﻿leader_traits = {
 	
 	dictator = {
 		random = no
@@ -928,6 +928,16 @@ leader_traits = {
 	}
 
 	minister = {
+		random = no
+		political_power_factor = 0.05
+		stability_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	president = {
 		random = no
 		political_power_factor = 0.05
 		stability_factor = 0.05
