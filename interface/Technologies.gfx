@@ -376,14 +376,15 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_FRA_armored_car5_medium"
-		texturefile = "gfx/interface/technologies/FRA_armoredcar5.dds"
+		name = "GFX_FRA_tank_prototype_medium"
+		texturefile = "gfx/interface/technologies/FRA_tankprototype.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_FRA_armored_car6_medium"
-		texturefile = "gfx/interface/technologies/FRA_armoredcar6.dds"
+		name = "GFX_FRA_light_tank1_medium"
+		texturefile = "gfx/interface/technologies/FRA_lighttank1.dds"
 	}
+
 	#
 	#####################################################################################################ARTILLERY
 	#
