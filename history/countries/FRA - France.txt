@@ -71,6 +71,17 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Henri Brisson"
+	desc = ""
+	picture = "Henri_Brisson.dds"
+	expire = "1965.1.1"
+	ideology = radical_Socialism
+	traits = {
+		
+	}
+}
+
 #####################
 ####### ARMY ########
 #####################

@@ -3764,4 +3764,8 @@ spriteTypes = {
 		name = "GFX_idea_Walter_Hauser"
 		texturefile = "gfx/interface/ideas/Walter_Hauser_idea.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_Luigi_Pelloux"
+		texturefile = "gfx/interface/ideas/Luigi_Pelloux_idea.dds"
+	}
 }

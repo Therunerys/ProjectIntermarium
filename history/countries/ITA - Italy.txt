@@ -29,7 +29,7 @@ set_popularities = {
 }
 
 add_ideas = {
-	export_focus
+	free_focus
 	limited_conscription
 	partial_economic_mobilisation
 	Luigi_Pelloux
@@ -45,6 +45,28 @@ create_country_leader = {
 	picture = "umberto_I.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Umberto I"
+	desc = ""
+	picture = "umberto_I.dds"
+	expire = "1965.1.1"
+	ideology = absolute_monarchy
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Filippo Turati"
+	desc = ""
+	picture = "Filippo_Turati.dds"
+	expire = "1965.1.1"
+	ideology = radical_Socialism
 	traits = {
 		
 	}

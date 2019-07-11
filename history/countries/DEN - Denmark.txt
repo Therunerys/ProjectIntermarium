@@ -65,7 +65,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Peter_Christian_Knudsen.dds"
 	expire = "1910.1.1"
-	ideology = Socialism
+	ideology = radical_Socialism
 	traits = {
 		#
 	}

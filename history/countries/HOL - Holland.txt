@@ -35,10 +35,10 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 57
+	democratic = 94
 	fascism = 0
-	communism = 3
-	authoritarian = 40
+	communism = 6
+	authoritarian = 0
 }
 
 
@@ -52,10 +52,21 @@ add_ideas = {
 #####################
 ###### LEADERS ######
 #####################
+#create_country_leader = {
+#	name = "Nicolaas Pierson"
+#	desc = ""
+#	picture = "nicolaas_pierson.dds"
+#	expire = "1965.1.1"
+#	ideology = conservatism
+#	traits = {
+#		#
+#	}
+#}
+
 create_country_leader = {
-	name = "Nicolaas Pierson"
+	name = "Wilhelmina"
 	desc = ""
-	picture = "nicolaas_pierson.dds"
+	picture = "wilhelmina.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
@@ -64,11 +75,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Wilhelmina"
-	desc = "POLITICS_DIRK_JAN_DE_GEER_DESC"
+	name = "Pieter Jelles Troelstra"
+	desc = ""
 	picture = "wilhelmina.dds"
 	expire = "1965.1.1"
-	ideology = constitutional_monarchy
+	ideology = marxism
 	traits = {
 		#
 	}
