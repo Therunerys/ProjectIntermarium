@@ -32,7 +32,7 @@ set_politics = {
 			banned = yes
 		}
 
-		neutrality = {
+		authoritarian = {
 			popularity = 10
 		}
 	}

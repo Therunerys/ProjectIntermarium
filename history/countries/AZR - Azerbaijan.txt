@@ -20,7 +20,7 @@ set_politics = {
 			popularity = 40
 		}
 		
-		neutrality = {
+		authoritarian = {
 			popularity = 30
 		}		
 	}

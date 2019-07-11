@@ -31,12 +31,12 @@ set_politics = {
 			popularity = 10
 		}
 
-		neutrality = {
+		authoritarian = {
 			popularity = 68
 		}
 	}
 
-	ruling_party = neutrality
+	ruling_party = authoritarian
 	election_frequency = 48
 	elections_allowed = yes
 }

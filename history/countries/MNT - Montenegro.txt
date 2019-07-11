@@ -17,7 +17,7 @@ set_war_support = 0.20
 #####################
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = authoritarian
 	last_election = "1841.10.7"
 	election_frequency = 48
 	elections_allowed = no
@@ -27,7 +27,7 @@ set_popularities = {
 	democratic = 2
 	fascism = 8
 	communism = 5
-	neutrality = 85
+	authoritarian = 85
 }
 
 #####################
