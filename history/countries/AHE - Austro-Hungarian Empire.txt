@@ -1,14 +1,11 @@
 capital = 4
 
-oob = "AUS_1936"
-
 # Starting tech
 set_technology = {
-
 }
 
 set_research_slots = 4
-set_convoys = 200
+set_convoys = 100
 set_stability = 0.40
 set_war_support = 0.30
 
@@ -17,17 +14,17 @@ set_war_support = 0.30
 #####################
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = authoritarian
 	last_election = "1848.12.2"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 17
-	fascism = 7
-	communism = 15
-	neutrality = 61
+	democratic = 0
+	fascism = 0
+	communism = 20
+	authoritarian = 100
 }
 
 add_ideas = {
@@ -45,7 +42,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/AHE/FranzJoseph.dds"
 	expire = "1916.1.1"
-	ideology = despotism
+	ideology = authoritarian
 	traits = {
 		anti_democrat imperial_connections
 	}
