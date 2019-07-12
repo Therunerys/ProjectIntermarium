@@ -36,7 +36,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = authoritarian
 	election_frequency = 48
 	elections_allowed = yes
 }
