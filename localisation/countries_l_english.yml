@@ -71,6 +71,20 @@
  USA_democratic_ADJ:0 "American"
  USA_authoritarian_ADJ:0 "American"
  USA_communism_ADJ:0 "American"
+<<<<<<< HEAD
+ KSN_fascism:0 "United Empires of Sweden and Norway"
+ KSN_fascism_DEF:0 "The United Empires of Sweden and Norway"
+ KSN_democratic:0 "Sweden-Norway"
+ KSN_democratic_DEF:0 "The United Kingdoms of Sweden and Norway"
+ KSN_authoritarian:0 "United Kingdoms of Sweden and Norwayn"
+ KSN_authoritarian_DEF:0 "The United Kingdoms of Sweden and Norway"
+ KSN_communism:0 "United People's of Sweden and Norway"
+ KSN_communism_DEF:0 "the United People's of Sweden and Norway"
+ KSN_fascism_ADJ:0 "Sweden-Norway"
+ KSN_democratic_ADJ:0 "Sweden-Norway"
+ KSN_authoritarian_ADJ:0 "Sweden-Norway"
+ KSN_communism_ADJ:0 "Sweden-Norway"
+=======
  KSN_fascism:0 "State of Sweden-Norway"
  KSN_fascism_DEF:0 "the State of Sweden-Norway"
  KSN_democratic:0 "Sweden-Norway"
@@ -83,6 +97,7 @@
  KSN_democratic_ADJ:0 "Swedish-Norwegian"
  KSN_authoritarian_ADJ:0 "Swedish-Norwegian"
  KSN_communism_ADJ:0 "Scandinavian"
+>>>>>>> master
  FRA_fascism:2 "French State"
  FRA_fascism_DEF:2 "the French State"
  FRA_democratic:0 "French Republic"
