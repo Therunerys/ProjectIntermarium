@@ -57,8 +57,8 @@
  RUS_fascism_party_long:0 "Beloye Russkoye Dvizheniye"
  RUS_communism_party:0 "Bolsheviks"
  RUS_democratic_party:0 "Progressivnyy Blok"
- #RUS_authoritarian_party:0 "Zentrum"
- #RUS_authoritarian_party_long:0 "Deutsche Zentrumspartei"
+ RUS_authoritarian_party:0 "PSS"
+ RUS_authoritarian_party_long:0 "Pravitel'stvuyushchiy Senat"
 
  POL_fascism_party:0 "ONR-Falanga"
  POL_fascism_party_long:0 "Oboz Narodowo Radykalny-Falanga"
