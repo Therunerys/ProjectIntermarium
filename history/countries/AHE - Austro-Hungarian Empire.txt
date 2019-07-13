@@ -40,7 +40,7 @@ add_ideas = {
 #####################
 
 create_country_leader = {
-	name = "Franz Joseph"
+	name = "Franz Joseph I"
 	desc = ""
 	picture = "gfx/leaders/AHE/FranzJoseph.dds"
 	expire = "1916.1.1"
