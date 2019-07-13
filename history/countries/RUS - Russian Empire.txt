@@ -20,10 +20,10 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 0
-	fascism = 0
-	communism = 0
-	authoritarian = 100
+	democratic = 9
+	fascism = 13
+	communism = 35
+	authoritarian = 43
 }
 
 add_ideas = {
@@ -37,7 +37,7 @@ add_ideas = {
 #####################
 
 create_country_leader = {
-	name = "Tsar Nikolai II"
+	name = "Nikolai II"
 	desc = "POLITICS_KONSTANTIN_RODZAEVSKY_DESC"
 	picture = "TsarNikolai.dds"
 	expire = "1953.3.1"

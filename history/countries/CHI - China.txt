@@ -16,8 +16,6 @@ set_war_support = 0.15
 ##### POLITICS ######
 #####################
 
-puppet = MON
-
 set_politics = {
 
 	parties = {
@@ -38,7 +36,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = authoritarian
 	election_frequency = 48
 	elections_allowed = yes
 }
