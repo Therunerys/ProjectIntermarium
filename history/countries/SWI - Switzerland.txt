@@ -27,8 +27,8 @@ set_popularities = {
 }
 
 add_ideas = {
-	authoritarian_idea
 	Walter_Hauser
+	neutrality_idea
 	limited_conscription
 }
 
