@@ -532,3 +532,12 @@
  BEL_fascism_party_long:0 "Ultranationalist Party"
  BEL_authoritarian_party:0 "Saxe-Coburg and Gotha"
  BEL_authoritarian_party_long:0 "House of Saxe-Coburg and Gotha"
+
+ #AHE_fascism_party:0 "FKP"
+ #AHE_fascism_party_long:0 "German Reich Party"
+ AHE_communism_party:0 "SPÖ"
+ AHE_communism_party_long:0 "Sozialdemokratische Partei Österreichs"
+ AHE_democratic_party:0 "DFP"
+ AHE_democratic_party_long:0 "Deutsche Fortschrittspartei"
+ AHE_authoritarian_party:0 "CS"
+ AHE_authoritarian_party_long:0 "Christlichsoziale Partei"
