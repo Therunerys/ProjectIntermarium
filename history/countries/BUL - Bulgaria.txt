@@ -14,20 +14,21 @@ set_war_support = 0.60
 #####################
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = authoritarian
 	last_election = "1898.0.0"
 	election_frequency = 36
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 100
+	democratic = 15
 	fascism = 0
-	communism = 0
-	authoritarian = 0
+	communism = 4
+	authoritarian = 81
 }
 
 add_ideas = {
+
 	balkan_league
 	bulgarian_tsardom
 }
@@ -37,44 +38,11 @@ add_ideas = {
 #####################
 
 create_country_leader = {
-	name = "Boris III"
-	desc = "POLITICS_BORIS_III_DESC"
-	picture = "Boris_III.dds"
+	name = "Ferdinand I"
+	desc = ""
+	picture = "Ferdinand_I.dds"
 	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Aleksandar Stamboliyski"
-	desc = "POLITICS_GEORGI_DIMITROV_DESC"
-	picture = "stamboliyski.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Aleksandar Tsankov"
-	desc = "POLITICS_ZIVCO_TOPALOVIC_DESC"
-	picture = "tsankov.dds"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Dimitar Blagoev"
-	desc = "POLITICS_HRISTO_LUKOV_DESC"
-	picture = "blagotev.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = principality
 	traits = {
 		#
 	}
