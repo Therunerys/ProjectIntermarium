@@ -29,6 +29,7 @@ set_popularities = {
 }
 
 add_ideas = {
+	Gheorghe_Grigore
 	balkan_league
 	hungarian_oppression
 	oil_fields
