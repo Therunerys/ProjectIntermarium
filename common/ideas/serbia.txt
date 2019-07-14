@@ -1,6 +1,20 @@
 ideas = {
 	country = {
+		hiremoreworkers_idea = {
+			available = {
+				original_tag = SER
+			}
+			allowed = {
+				original_tag = SER
+			}
 
+			allowed_civil_war = {
+				original_tag = SER
+			}
+			modifier = {
+     			consumer_goods_factor = 0.05
+			}
+		}
 		Vladan_Dordevic = {
 
 			available = {
