@@ -70,9 +70,9 @@ ai_will_do = {
  factor = 100
  } 
  completion_reward = { 
-add_stability = 0.1
-add_war_support = 0.1
-add_manpower = -9600
+add_stability = 0.02
+add_war_support = 0.02
+add_manpower = 1000
  } 
 
  } 
@@ -125,7 +125,9 @@ add_manpower = -9600
 			factor = 1
 		} 
 		completion_reward = { 
-			add_stability = 0.05
+			add_stability = 0.02
+
+                                                add_manpower = 10000
  		} 
 	} 
 
@@ -163,8 +165,7 @@ ai_will_do = {
  factor = 10000
  } 
 completion_reward = { 
-add_stability = 0.05
-add_war_support = 0.05
+add_stability = 0.02
 
 add_politcal_power = 100
  } 
@@ -232,11 +233,10 @@ add_research_slot = 1
 focus = { 
 id = SER_openserbianpoliticalsphere
 icon = GFX_goal_generic_demand_territory
-x = 5
-y = 1
+x = 22
+y = 0
 cost = 2
 available_if_capitulated = yes 
-prerequisite = { focus = SER_reformedtheserbianhealthcare } 
 ai_will_do = { 
  factor = 1
  } 
@@ -245,6 +245,63 @@ add_political_power = 100
  } 
 
  } 
+#Focus for Cut Ties With Austria-Hungary
+focus = { 
+id = SER_cuttieswithaustriahungary
+icon = GFX_focus_renounce_the_treaty_of_trianon
+x = 21
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SER_improvetieswithbalkancountries } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+RUS = {
+                add_opinion_modifier = {
+                    target = SER
+                    modifier = medium_decrease 
+                }
+            }
+ } 
+
+ } 
+#Focus for Improve Ties With Balkan Countries
+focus = { 
+id = SER_improvetieswithbalkancountries
+icon = GFX_goal_molotov_ribbentrop_pact
+x = 22
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SER_openserbianpoliticalsphere } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+SER = {
+                add_opinion_modifier = {
+                    target = BUL
+                    modifier = medium_increase 
+                }
+            }
+SER = {
+                add_opinion_modifier = {
+                    target = MNT
+                    modifier = medium_increase 
+                }
+            }
+SER = {
+                add_opinion_modifier = {
+                    target = ROM
+                    modifier = medium_increase 
+                }
+            }
+ } 
+
+ } 
+
 
 #End of focuses 
  }
