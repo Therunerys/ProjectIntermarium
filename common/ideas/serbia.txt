@@ -1,0 +1,297 @@
+ideas = {
+	country = {
+
+		Vladan_Dordevic = {
+
+			available = {
+				original_tag = SER
+			}
+			allowed = {
+				original_tag = SER
+			}
+
+			allowed_civil_war = {
+				original_tag = SER
+			}
+			picture = Vladan_Dordevic
+			removal_cost = -1
+			traits = { minister }
+
+		}
+	}
+
+	political_advisor = {
+
+		SER_cg = {
+
+			picture = generic_political_advisor_europe_5
+			
+			allowed = {
+				original_tag = SER
+			}
+			
+			traits = { compassionate_gentleman }
+		}
+
+		SER_sw = {
+
+			picture = generic_political_advisor_europe_2
+
+			allowed = {
+				original_tag = SER
+			}
+			
+			traits = { silent_workhorse }
+		}
+
+		SER_coi = {
+
+			picture = generic_political_advisor_europe_3
+			
+			allowed = {
+				original_tag = SER
+			}
+			
+			traits = { captain_of_industry }
+		}
+		SER_stc = {
+
+			picture = generic_political_advisor_african_3
+			
+			allowed = {
+				original_tag =	SER
+			}
+			
+			traits = { smooth_talking_charmer }
+		}
+	}
+
+	# MILITARY
+	army_chief = {
+
+		SER_acog = {
+			
+			picture = generic_army_europe_5
+			
+			allowed = {
+				original_tag = SWE
+			}
+			
+			traits = { army_chief_old_guard }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SER_aco2 = {
+			
+			picture = generic_army_europe_1
+			
+			allowed = {
+				original_tag = SER
+			}
+			
+			traits = { army_chief_organizational_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SER_acd1 = {
+			
+			picture = generic_army_europe_6
+			
+			allowed = {
+				original_tag = SER
+			}
+					
+			traits = { army_chief_defensive_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SER_acd2 = {
+			
+			picture = generic_army_europe_3
+			
+			allowed = {
+				original_tag = SER
+			}
+
+			traits = { army_chief_drill_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	air_chief = {
+		
+
+		SER_acgs2 = {
+			
+			picture = generic_air_europe_3
+			
+			allowed = {
+				original_tag = SER
+			}
+			
+
+			
+			traits = { air_chief_ground_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SER_acaw2 = {
+			
+			picture = generic_air_europe_3
+			
+			allowed = {
+				original_tag = SER
+			}
+			
+
+			
+			traits = { air_chief_all_weather_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	navy_chief = {
+
+		SER_nccr2 = {
+			
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = SER
+			}
+			
+
+			
+			traits = { navy_chief_commerce_raiding_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SER_ncr2 = {
+			
+			picture = generic_navy_europe_1
+			
+			allowed = {
+				original_tag = SER
+			}
+			
+
+			
+			traits = { navy_chief_reform_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SER_ncdb2 = {
+			
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = SER
+			}
+			
+
+			
+			traits = { navy_chief_decisive_battle_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	high_command = {
+
+		SER_ar2 = {
+			
+			picture = generic_army_europe_1
+			
+			allowed = {
+				original_tag = SER
+			}
+			
+
+			
+			traits = { army_artillery_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		SER_ai2 = {
+			
+			picture = generic_army_europe_2
+
+			allowed = {
+				original_tag = SER
+			}
+			
+
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SER_abi2 = {
+			
+			picture = generic_air_europe_2
+			
+			allowed = {
+				original_tag = SER
+			}
+			
+
+			
+			traits = { air_bomber_interception_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SER_nfl2 = {
+			
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = SER
+			}
+			
+
+			
+			traits = { navy_fleet_logistics_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+}
