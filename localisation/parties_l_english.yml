@@ -240,14 +240,10 @@
  YUG_neutrality_party_2:0 "Monarchists"
  YUG_fascism_party:0 "JRZ"
  YUG_fascism_party_long:0 "Jugoslovanska radikalna skupnost"
- SER_communism_party:0 "League of Communists"
- SER_communism_party_long:0 "League of Communists"
- SER_democratic_party:0 "Mihailovic Chetniks"
- SER_democratic_party_long:0 "Mihailovic Chetniks"
- SER_fascism_party:1 "National Salvation"
- SER_fascism_party_long:1 "Government of National Salvation"
- SER_neutrality_party:0 "Royalists"
- SER_neutrality_party_long:0 "Royalists"
+
+ SER_democratic_party:0 "SNS"
+ SER_democratic_party_long:0 "Serbian Progressive Party"
+
  BUL_neutrality_party:0 "Tsar Boris loyalists"
  BUL_communism_party:0 "BCP"
  BUL_communism_party_long:0 "Bulgarian Communist Party"
