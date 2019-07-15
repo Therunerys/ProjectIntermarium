@@ -1,7 +1,5 @@
 ﻿capital = 112
 
-oob = "POR_1936"
-
 # Starting tech
 set_technology = {
 	
@@ -17,28 +15,17 @@ set_war_support = 0.34
 #####################
 
 set_politics = {
-
-	parties = {
-		democratic = {
-			popularity = 85
-		}
-
-		fascism = {
-			popularity = 3
-		}
-		
-		communism = {
-			popularity = 2
-		}
-		
-		authoritarian = {
-			popularity = 10
-		}
-	}
-	
-	ruling_party = authoritarian
-	election_frequency = 48
+	ruling_party = democratic
+	election_frequency = 36
+	last_election = "1899.4.16"
 	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 100
+	fascism = 0
+	communism = 0
+	authoritarian = 0
 }
 
 add_ideas = {
@@ -49,33 +36,11 @@ add_ideas = {
 #####################
 
 create_country_leader = {
-	name = "António José de Almeida"
-	desc = "POLITICS_ANTÓNIO_DE_OLIVEIRA_SALAZAR_DESC"
-	picture = "antonio.dds"
-	expire = "1923.10.5"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Bento Gonçalves"
-	desc = "POLITICS_BENTO_GONCALVES_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
+	name = "Carlos I"
+	desc = ""
+	picture = "Carlos_I.dds"
 	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Francisco de Barcelos Rolão Preto"
-	desc = "POLITICS_FRANSISCO_BARCELOS_ROLAO_PRETO_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = liberalism
 	traits = {
 		#
 	}

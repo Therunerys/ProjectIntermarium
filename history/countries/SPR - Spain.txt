@@ -38,7 +38,7 @@ add_ideas = {
 
 create_country_leader = {
 	name = "Alfonso XIII"
-	desc = "POLITICS_MANUEL_AZANA_DESC"
+	desc = ""
 	picture = "alfonso_XIII.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
