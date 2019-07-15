@@ -1,5 +1,22 @@
 ideas = {
+	country = {
+		Jose_Luciano_de_Castro = {
 
+			available = {
+				original_tag = POR
+			}
+			allowed = {
+				original_tag = POR
+			}
+
+			allowed_civil_war = {
+				original_tag = POR
+			}
+			picture = Jose_Luciano_de_Castro
+			removal_cost = -1
+			traits = { minister }
+		}
+	}
 	political_advisor = {
 
 		POR_augusto_de_vasconcelos = {
