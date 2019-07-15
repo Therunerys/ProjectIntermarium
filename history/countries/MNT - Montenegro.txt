@@ -28,6 +28,10 @@ set_popularities = {
 	authoritarian = 100
 }
 
+add_ideas = {
+	Bozo_Petrovic_Njegos
+}
+
 #####################
 ###### LEADERS ######
 #####################

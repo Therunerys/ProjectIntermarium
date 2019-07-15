@@ -1,0 +1,296 @@
+ideas = {
+	country = {
+		Bozo_Petrovic_Njegos = {
+
+			available = {
+				original_tag = MNT
+			}
+			allowed = {
+				original_tag = MNT
+			}
+
+			allowed_civil_war = {
+				original_tag = MNT
+			}
+			picture = Bozo_Petrovic_Njegos
+			removal_cost = -1
+			traits = { minister }
+
+		}
+	}
+
+	political_advisor = {
+
+		MNT_cg = {
+
+			picture = generic_political_advisor_europe_5
+			
+			allowed = {
+				original_tag = MNT
+			}
+			
+			traits = { compassionate_gentleman }
+		}
+
+		MNT_sw = {
+
+			picture = generic_political_advisor_europe_2
+
+			allowed = {
+				original_tag = MNT
+			}
+			
+			traits = { silent_workhorse }
+		}
+
+		MNT_coi = {
+
+			picture = generic_political_advisor_europe_3
+			
+			allowed = {
+				original_tag = MNT
+			}
+			
+			traits = { captain_of_industry }
+		}
+		MNT_stc = {
+
+			picture = generic_political_advisor_african_3
+			
+			allowed = {
+				original_tag =	MNT
+			}
+			
+			traits = { smooth_talking_charmer }
+		}
+	}
+
+	# MILITARY
+	army_chief = {
+
+		MNT_acog = {
+			
+			picture = generic_army_europe_5
+			
+			allowed = {
+				original_tag = SWE
+			}
+			
+			traits = { army_chief_old_guard }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		MNT_aco2 = {
+			
+			picture = generic_army_europe_1
+			
+			allowed = {
+				original_tag = MNT
+			}
+			
+			traits = { army_chief_organizational_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		MNT_acd1 = {
+			
+			picture = generic_army_europe_6
+			
+			allowed = {
+				original_tag = MNT
+			}
+					
+			traits = { army_chief_defensive_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		MNT_acd2 = {
+			
+			picture = generic_army_europe_3
+			
+			allowed = {
+				original_tag = MNT
+			}
+
+			traits = { army_chief_drill_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	air_chief = {
+		
+
+		MNT_acgs2 = {
+			
+			picture = generic_air_europe_3
+			
+			allowed = {
+				original_tag = MNT
+			}
+			
+
+			
+			traits = { air_chief_ground_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		MNT_acaw2 = {
+			
+			picture = generic_air_europe_3
+			
+			allowed = {
+				original_tag = MNT
+			}
+			
+
+			
+			traits = { air_chief_all_weather_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	navy_chief = {
+
+		MNT_nccr2 = {
+			
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = MNT
+			}
+			
+
+			
+			traits = { navy_chief_commerce_raiding_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		MNT_ncr2 = {
+			
+			picture = generic_navy_europe_1
+			
+			allowed = {
+				original_tag = MNT
+			}
+			
+
+			
+			traits = { navy_chief_reform_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		MNT_ncdb2 = {
+			
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = MNT
+			}
+			
+
+			
+			traits = { navy_chief_decisive_battle_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	high_command = {
+
+		MNT_ar2 = {
+			
+			picture = generic_army_europe_1
+			
+			allowed = {
+				original_tag = MNT
+			}
+			
+
+			
+			traits = { army_artillery_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		MNT_ai2 = {
+			
+			picture = generic_army_europe_2
+
+			allowed = {
+				original_tag = MNT
+			}
+			
+
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		MNT_abi2 = {
+			
+			picture = generic_air_europe_2
+			
+			allowed = {
+				original_tag = MNT
+			}
+			
+
+			
+			traits = { air_bomber_interception_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		MNT_nfl2 = {
+			
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = MNT
+			}
+			
+
+			
+			traits = { navy_fleet_logistics_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+}
