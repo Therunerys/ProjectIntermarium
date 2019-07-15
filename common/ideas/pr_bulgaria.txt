@@ -1,6 +1,23 @@
 ideas = {
 
 	country = {
+		Todor_Ivanchov = {
+
+			available = {
+				original_tag = BUL
+			}
+			allowed = {
+				original_tag = BUL
+			}
+
+			allowed_civil_war = {
+				original_tag = BUL
+			}
+			picture = Todor_Ivanchov
+			removal_cost = -1
+			traits = { minister }
+		}
+
 		balkan_league_bul_1 = {
 
 			picture = balkan_league
