@@ -3784,4 +3784,8 @@ spriteTypes = {
 		name = "GFX_idea_Vladan_Dordevic"
 		texturefile = "gfx/interface/ideas/Vladan_Dordevic_idea.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_Todor_Ivanchov"
+		texturefile = "gfx/interface/ideas/Todor_Ivanchov_idea.dds"
+	}
 }
