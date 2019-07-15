@@ -3745,14 +3745,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/Hugo_Egmont_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_Erik_Gustaf_Bostrom_idea"
-		texturefile = "gfx/interface/ideas/Erik_Gustaf_Bostrom_idea.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_Johannes_Steen_idea"
-		texturefile = "gfx/interface/ideas/Johannes_Steen_idea.dds"
-	}
-	spriteType = {
 		name = "GFX_idea_pierre_waldeck_rousseau_idea"
 		texturefile = "gfx/interface/ideas/Pierre_Waldeck_Rousseau_idea.dds"
 	}
@@ -3788,4 +3780,23 @@ spriteTypes = {
 		name = "GFX_idea_Todor_Ivanchov"
 		texturefile = "gfx/interface/ideas/Todor_Ivanchov_idea.dds"
 	}
-}
+    spriteType = {
+        name = "GFX_idea_Bozo_Petrovic_Njegos"
+        texturefile = "gfx/interface/ideas/Bozo_Petrovic_Njegos.tga"
+	}
+    spriteType = {
+        name = "GFX_idea_Erik_Gustaf_Bostrom"
+        texturefile = "gfx/interface/ideas/Erik_Gustaf_Bostrom.tga"	
+	}
+    spriteType = {
+        name = "GFX_idea_Georgios_Theotokis"
+        texturefile = "gfx/interface/ideas/Georgios_Theotokis.tga"	
+	}
+    spriteType = {
+        name = "GFX_idea_Halil_Rifat_Pasha"
+        texturefile = "gfx/interface/ideas/Halil_Rifat_Pasha.tga"
+	}
+    spriteType = {
+        name = "GFX_idea_Johannes_Steen"
+        texturefile = "gfx/interface/ideas/Johannes_Steen.tga"
+}		
