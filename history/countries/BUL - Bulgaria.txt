@@ -28,7 +28,7 @@ set_popularities = {
 }
 
 add_ideas = {
-
+	Todor_Ivanchov
 	balkan_league
 	bulgarian_tsardom
 }
