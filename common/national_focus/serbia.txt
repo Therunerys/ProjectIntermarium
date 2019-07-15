@@ -1,4 +1,76 @@
 focus_tree = { 
+<<<<<<< HEAD
+id = SER_focus
+country = { 
+factor = 0 
+modifier = { 
+add = 10 
+tag = SER 
+} 
+} 
+#Focus for Stabilize And Industrialize Serbia
+focus = { 
+id = SER_stabilizeandindustrializeserbia
+icon = GFX_goal_continuous_increase_nu
+x = 6
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SER_stabilizeserbia } 
+mutually_exclusive = { focus = SER_readypeopleforwar } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_politcal_power = 50
+add_war_support = 0.02
+add_stability = 0.02
+ } 
+
+ } 
+
+#Focus for Purchase Russian Arms Factories
+focus = { 
+id = SER_purchaserussianarmsfactories
+icon = GFX_goal_generic_positive_trade_relations
+x = 9
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SER_purchaserussianfactories } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_manpower = -10000
+add_politcal_power = -50
+
+add_offsite_building = { type = arms_factory level = 2 }
+ } 
+
+ } 
+
+#Focus for Ready People For War
+focus = { 
+id = SER_readypeopleforwar
+icon = GFX_goal_generic_small_arms
+x = 3
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SER_stabilizeserbia } 
+mutually_exclusive = { focus = SER_stabilizeandindustrializeserbia } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_manpower = +10000
+add_politcal_power = 25
+ } 
+
+ } 
+
+=======
 	id = serbia_focus
 	country = { 
 		factor = 1
@@ -7,58 +79,63 @@ focus_tree = {
 			tag = SER 
 		} 
 	} 
+>>>>>>> master
 #Focus for Mobilize Army
-	focus = { 
-		id = SER_mobilizearmy
-		icon = GFX_goal_generic_soviet_construction
-		x = 17
-		y = 0
-		cost = 10
-		available_if_capitulated = yes 
-		ai_will_do = { 
- 		factor = 1
- 		} 
-		completion_reward = { 
-			add_manpower = 10000
- 		} 
- 	} 
+focus = { 
+id = SER_mobilizearmy
+icon = GFX_goal_generic_soviet_construction
+x = 18
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_manpower = 10000
+add_tech_bonus = { bonus = 0.5 uses = 2 category = infantry_equipment}
+ } 
+
+ } 
 
 #Focus for Prospect For Oil
-	focus = { 
-		id = SER_prospectforoil
-		icon = GFX_goal_generic_forceful_treaty
-		x = 14
-		y = 2
-		cost = 12
-		available_if_capitulated = yes 
-		prerequisite = { focus = SER_industrializecountry } 
-		ai_will_do = { 
-		 	factor = 1
-		} 
-		completion_reward = { 
-			add_resource = { type = oil amount = 8 state = 107 }
- 		} 
- 	} 
+focus = { 
+id = SER_prospectforoil
+icon = GFX_goal_generic_forceful_treaty
+x = 14
+y = 2
+cost = 12
+available_if_capitulated = yes 
+prerequisite = { focus = SER_industrializecountry } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_resource = { type = oil amount = 8 state = 107 }
+ } 
+
+ } 
 
 #Focus for Prospect For Steel
-	focus = { 
-		id = SER_prospectforsteel
-		icon = GFX_goal_generic_small_arms
-		x = 14
-		y = 3
-		cost = 10
-		available_if_capitulated = yes 
-		prerequisite = { focus = SER_prospectforoil } 
-		ai_will_do = { 
- 			factor = 1
- 		} 
-		completion_reward = { 
-			add_resource = { type = steel amount = 8 state = 107 }
-		} 
- 	} 
+focus = { 
+id = SER_prospectforsteel
+icon = GFX_goal_generic_small_arms
+x = 14
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SER_prospectforoil } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_resource = { type = steel amount = 8 state = 107 }
+ } 
+
+ } 
 
 #Focus for Stabilize Serbia
-focus = {
+focus = { 
 id = SER_stabilizeserbia
 icon = GFX_goal_tripartite_pact
 x = 4
@@ -69,93 +146,98 @@ prerequisite = { focus = SER_hiremoreworkers }
 ai_will_do = { 
  factor = 100
  } 
- completion_reward = { 
+completion_reward = { 
 add_stability = 0.02
 add_war_support = 0.02
-add_manpower = 1000
+add_manpower = 9600
  } 
 
  } 
 
 #Focus for Hire More Workers
-	focus = { 
-		id = SER_hiremoreworkers
-		icon = GFX_goal_generic_forceful_treaty
-		x = 2
-		y = 2
-		cost = 10
-		available_if_capitulated = yes 
-		prerequisite = { focus = SER_grantmoreaccesstocivillians } 
-		ai_will_do = { 
- 			factor = 500
- 		} 
-		completion_reward = { 
-			add_stability = 0.05
-			add_ideas = hiremoreworkers_idea
- 		} 
- 	} 
+focus = { 
+id = SER_hiremoreworkers
+icon = GFX_goal_generic_forceful_treaty
+x = 2
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SER_grantmorerightstocivillians } 
+ai_will_do = { 
+ factor = 500
+ } 
+completion_reward = { 
+add_stability = 0.02
+
+add_manpower = -5000
+ } 
+
+ } 
 
 #Focus for Purchase Russian Factories
-	focus = { 
-		id = SER_purchaserussianfactories
-		icon = GFX_goal_generic_wolf_pack
-		x = 9
-		y = 1
-		cost = 10
-		available_if_capitulated = yes 
-		prerequisite = { focus = SER_reformrussianties } 
-		ai_will_do = { 
-		 factor = 500
-		} 
-		completion_reward = { 
-			add_offsite_building = { type = industrial_complex level = 3 }
- 		} 
-	} 
+focus = { 
+id = SER_purchaserussianfactories
+icon = GFX_goal_generic_wolf_pack
+x = 9
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SER_reformrussianties } 
+ai_will_do = { 
+ factor = 500
+ } 
+completion_reward = { 
+add_offsite_building = { type = industrial_complex level = 3 }
+ } 
 
-#Focus for Grant More Access To Civillians
-	focus = { 
-		id = SER_grantmoreaccesstocivillians
-		icon = GFX_goal_generic_neutrality_focus
-		x = 2
-		y = 1
-		cost = 10
-		available_if_capitulated = yes 
-		prerequisite = { focus = SER_reformedtheserbianhealthcare } 
-		ai_will_do = { 
-			factor = 1
-		} 
-		completion_reward = { 
-			add_stability = 0.02
+ } 
 
-                                                add_manpower = 10000
- 		} 
-	} 
+#Focus for Grant More Rights To Civillians
+focus = { 
+id = SER_grantmorerightstocivillians
+icon = GFX_goal_generic_neutrality_focus
+x = 2
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SER_reformserbianhealthcare } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_stability = 0.02
+
+add_manpower = 10000
+ } 
+
+ } 
 
 #Focus for Reform Russian Ties
-	focus = { 
-		id = SER_reformrussianties
-		icon = GFX_goal_rhineland
-		x = 9
-		y = 0
-		cost = 10
-		available_if_capitulated = yes 
-		ai_will_do = { 
-		 	factor = 1
- 		} 
-		completion_reward = { 
-			RUS = {
+focus = { 
+id = SER_reformrussianties
+icon = GFX_goal_rhineland
+x = 9
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+RUS = {
                 add_opinion_modifier = {
                     target = SER
                     modifier = medium_increase 
                 }
             }
-			add_stability = 0.05
- 		} 
- 	} 
+add_stability = 0.01
+ } 
 
-#Focus for Reformed The Serbian Healthcare
+ } 
+
+#Focus for Reform Serbian Healthcare
 focus = { 
-id = SER_reformedtheserbianhealthcare
+id = SER_reformserbianhealthcare
 icon = GFX_goal_tripartite_pact
 x = 4
 y = 0
@@ -166,6 +248,7 @@ ai_will_do = {
  } 
 completion_reward = { 
 add_stability = 0.02
+
 
 add_politcal_power = 100
  } 
@@ -184,7 +267,7 @@ ai_will_do = {
  factor = 1
  } 
 completion_reward = { 
-107 = { limit = { free_building_slots = { building = industrial_complex size > 0 include_locked = yes } } add_extra_state_shared_building_slots = 3 add_building_construction = { type = industrial_complex level = 3 instant_build = yes } set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER }
+107 = { limit = { free_building_slots = { building = industrial_complex size > 0 include_locked = yes } } add_extra_state_shared_building_slots = 2 add_building_construction = { type = industrial_complex level = 2 instant_build = yes } set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER }
 
  consumer_goods_factor = 0.05
  } 
@@ -197,16 +280,16 @@ id = SER_industrializecountry
 icon = GFX_goal_generic_construction2
 x = 13
 y = 1
-cost = 10
+cost = 12
 available_if_capitulated = yes 
 prerequisite = { focus = SER_industrializebelgrade } 
 ai_will_do = { 
  factor = 1
  } 
 completion_reward = { 
-108= { limit = { free_building_slots = { building = industrial_complex size > 0 include_locked = yes } } add_extra_state_shared_building_slots = 3 add_building_construction = { type = industrial_complex level = 3 instant_build = yes } set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER }
+108= { limit = { free_building_slots = { building = industrial_complex size > 0 include_locked = yes } } add_extra_state_shared_building_slots = 2 add_building_construction = { type = industrial_complex level = 2 instant_build = yes } set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER }
 
-107= { limit = { free_building_slots = { building = industrial_complex size > 0 include_locked = yes } } add_extra_state_shared_building_slots = 3 add_building_construction = { type = industrial_complex level = 3 instant_build = yes } set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER }
+107= { limit = { free_building_slots = { building = industrial_complex size > 0 include_locked = yes } } add_extra_state_shared_building_slots = 2 add_building_construction = { type = industrial_complex level = 2 instant_build = yes } set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER }
  } 
 
  } 
@@ -245,6 +328,7 @@ add_political_power = 100
  } 
 
  } 
+
 #Focus for Cut Ties With Austria-Hungary
 focus = { 
 id = SER_cuttieswithaustriahungary
@@ -258,7 +342,7 @@ ai_will_do = {
  factor = 1
  } 
 completion_reward = { 
-RUS = {
+AUS = {
                 add_opinion_modifier = {
                     target = SER
                     modifier = medium_decrease 
@@ -267,6 +351,7 @@ RUS = {
  } 
 
  } 
+
 #Focus for Improve Ties With Balkan Countries
 focus = { 
 id = SER_improvetieswithbalkancountries
@@ -301,7 +386,6 @@ SER = {
  } 
 
  } 
-
 
 #End of focuses 
  }
