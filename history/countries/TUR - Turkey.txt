@@ -14,8 +14,6 @@ set_war_support = 0.30
 ##### POLITICS ######
 #####################
 
-puppet = MNT
-
 set_politics = {
 	ruling_party = authoritarian
 	election_frequency = 48

@@ -1,7 +1,5 @@
 ﻿capital = 105 # Montenegro
 
-oob = "MON_1936"
-
 # Starting tech
 set_technology = {
 	
@@ -24,10 +22,10 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 2
-	fascism = 8
-	communism = 5
-	authoritarian = 85
+	democratic = 0
+	fascism = 0
+	communism = 0
+	authoritarian = 100
 }
 
 #####################
@@ -35,36 +33,12 @@ set_popularities = {
 #####################
 
 create_country_leader = {
-	name = "Sekula Drljević"
+	name = "Nicholas I"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	picture = "gfx/leaders/MNT/Nicholas_I.dds"
 	expire = "1953.3.1"
-	ideology = fascism_ideology
+	ideology = principality
 	traits = {
 		
 	}
 }
-
-create_country_leader = {
-	name = "Novica Radović"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-	expire = "1953.3.1"
-	ideology = oligarchism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Blažo Jovanović"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-	expire = "1953.3.1"
-	ideology = leninism
-	traits = {
-		
-	}
-}
-
-
