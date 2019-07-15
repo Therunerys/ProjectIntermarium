@@ -1,11 +1,7 @@
 ﻿capital = 47
 
-oob = "GRE_1936"
-
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
-
 }
 
 set_research_slots = 3
@@ -18,32 +14,22 @@ set_war_support = 0.30
 #####################
 
 set_politics = {
+	ruling_party = democratic
+	last_election = "1898.0.0"
+	election_frequency = 36
+	elections_allowed = yes
+}
 
-	parties = {
-		democratic = { 
-			popularity = 23
-		}
-
-		fascism = {
-			popularity = 0
-		}
-		
-		communism = {
-			popularity = 12
-		}
-		
-		authoritarian = { 
-			popularity = 65
-		}
-	}
-	
-	ruling_party = authoritarian
-	election_frequency = 48
-	elections_allowed = no
+set_popularities = {
+	democratic = 100
+	fascism = 0
+	communism = 0
+	authoritarian = 0
 }
 
 add_ideas = {
-	balkan_league
+	#balkan_league
+	Georgios_Theotokis
 }
 
 #####################
@@ -51,33 +37,11 @@ add_ideas = {
 #####################
 
 create_country_leader = {
-	name = "Constantine I"
-	desc = "POLITICS_IOANNIS_METAXAS_DESC"
-	picture = "Constantine_I.dds"
+	name = "George I"
+	desc = ""
+	picture = "George_I.dds"
 	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Dimitrios Rallis"
-	desc = "POLITICS_IOANNIS_METAXAS_DESC"
-	picture = "rallis.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Pandelis Pouliopoulos"
-	desc = "POLITICS_IOANNIS_METAXAS_DESC"
-	picture = "pantelis.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = liberalism
 	traits = {
 		#
 	}
