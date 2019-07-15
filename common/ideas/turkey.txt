@@ -1,6 +1,23 @@
 ideas = {
 
 	country = {
+		Halil_Rifat_Pasha = {
+
+			available = {
+				original_tag = TUR
+			}
+			allowed = {
+				original_tag = TUR
+			}
+
+			allowed_civil_war = {
+				original_tag = TUR
+			}
+			picture = Halil_Rifat_Pasha
+			removal_cost = -1
+			traits = { minister }
+
+		}
 		brink_of_collapse = {
 
 			picture = brink_of_collapse

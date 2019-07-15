@@ -28,6 +28,7 @@ set_popularities = {
 }
 
 add_ideas = {
+	Halil_Rifat_Pasha
 	brink_of_collapse
 	high_famine
 	ineffective_army
