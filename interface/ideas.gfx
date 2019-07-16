@@ -3811,5 +3811,13 @@ spriteTypes = {
     spriteType = {
         name = "GFX_idea_Francisco_Silvela"
         texturefile = "gfx/interface/ideas/Francisco_Silvela.tga"
-	}
-}
+    }
+    spriteType = {
+        name = "GFX_idea_Jose_Luciano_de_Castro"
+        texturefile = "gfx/interface/ideas/Jose_Luciano_de_Castro.tga"
+    }
+    spriteType = {
+        name = "GFX_idea_Lord_George_Hamilton"
+        texturefile = "gfx/interface/ideas/Lord_George_Hamilton.dds"
+    }
+}		

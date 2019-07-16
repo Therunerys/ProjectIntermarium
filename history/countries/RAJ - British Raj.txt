@@ -1,7 +1,5 @@
 ﻿capital = 439
 
-oob = "RAJ_1936"
-
 # Starting tech
 set_technology = {
 	
@@ -9,40 +7,28 @@ set_technology = {
 
 set_research_slots = 3
 set_convoys = 150
-set_stability = 0.46
-set_war_support = 0.25
+set_stability = 0.60
+set_war_support = 0.40
 
 #####################
 ##### POLITICS ######
 #####################
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 9
-		}
-
-		fascism = {
-			popularity = 7
-		}
-		
-		communism = {
-			popularity = 13
-		}
-
-		authoritarian = {
-			popularity = 71
-		}
-	}
-	
 	ruling_party = authoritarian
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 0
+	authoritarian = 100
 }
 
 add_ideas = {
-
+	Lord_George_Hamilton
 }
 
 #####################
@@ -50,46 +36,13 @@ add_ideas = {
 #####################
 
 create_country_leader = {
-	name = "Frederic Thesiger"
-	desc = "POLITICS_LORD_LINLITHGOW_DESC"
-	picture = "chelmsword.dds"
+	name = "Victoria I"
+	desc = ""
+	picture = "victoria.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = absolute_monarchy
 	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Manabendra Nath Roy"
-	desc = "POLITICS_VD_SAVARKAR_DESC"
-	picture = "roy.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Kartar Singh Sarabha"
-	desc = "POLITICS_LORD_LINLITHGOW_DESC"
-	picture = "kartar.dds"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Hasrat Mohani"
-	desc = "POLITICS_LORD_LINLITHGOW_DESC"
-	picture = "mohani.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		
+		#
 	}
 }
 
