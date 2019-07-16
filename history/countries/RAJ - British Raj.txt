@@ -36,9 +36,9 @@ add_ideas = {
 #####################
 
 create_country_leader = {
-	name = "Victoria I"
+	name = "George Curzon"
 	desc = ""
-	picture = "victoria.dds"
+	picture = "George_Curzon.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
 	traits = {
