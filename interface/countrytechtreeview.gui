@@ -586,6 +586,45 @@ guiTypes = {
 						format = left
 						Orientation = "UPPER_LEFT"
 					}
+
+					instantTextBoxType = {
+						name = "armour_year7"
+						position = { x = 1240 y = 50 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1902"
+						maxWidth = 80
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
+
+					instantTextBoxType = {
+						name = "armour_year8"
+						position = { x = 1375 y = 190 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1905"
+						maxWidth = 80
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
+
+					instantTextBoxType = {
+						name = "armour_year9"
+						position = { x = 1450 y = 330 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1910"
+						maxWidth = 80
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
 				}	
 			}
 
@@ -620,6 +659,19 @@ guiTypes = {
 					maxHeight = 62
 					format = center
 					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "armour_subtitle_upgrades"
+					position = { x = 385 y = -60  }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "ARMOUR_TITLE_UPGRADES"
+					maxWidth = 200
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
 				}			
 			}	
 
@@ -627,6 +679,14 @@ guiTypes = {
 			gridboxtype = {
 				name = "armored_car1_tree"
 				position = { x = 0 y = 172 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
+			gridboxtype = {
+				name = "plating_upgrade_tree"
+				position = { x = 375 y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
