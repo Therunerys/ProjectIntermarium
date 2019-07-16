@@ -421,6 +421,7 @@
  CAN_democratic_ADJ:0 "Canadian"
  CAN_authoritarian_ADJ:0 "Canadian"
  CAN_communism_ADJ:0 "Canadian"
+
  CHI_fascism:0 "Chinese Empire"
  CHI_fascism_DEF:0 "Chinese Empire"
  CHI_democratic:0 "Republic of China"
@@ -433,6 +434,7 @@
  CHI_democratic_ADJ:0 "Chinese"
  CHI_authoritarian_ADJ:0 "Chinese"
  CHI_communism_ADJ:0 "Chinese"
+ 
  PRC_fascism:0 "Chinese Empire"
  PRC_fascism_DEF:0 "the Chinese Empire"
  PRC_democratic:0 "Chinese Republic"
