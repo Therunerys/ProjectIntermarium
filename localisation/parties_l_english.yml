@@ -286,9 +286,11 @@
  RAJ_democratic_party_long:0 "Indian Independence Movement"
  RAJ_fascism_party:0 "AIHA"
  RAJ_fascism_party_long:0 "All-India Hindu Assembly"
- PER_communism_party:0 "Tudeh Party"
- PER_communism_party_long:0 "Tudeh Party"
- PER_authoritarian_party:0 "Pahlavi Dynasty"
+
+ #PER_communism_party:0 "Tudeh Party"
+# PER_communism_party_long:0 "Tudeh Party"
+ PER_authoritarian_party:0 "Qajar dynasty"
+
  COL_communism_party:0 "PCC"
  COL_communism_party_long:0 "Partido Comunista Colombiano"
  COL_democratic_party:0 "PLC"
@@ -541,3 +543,5 @@
  AHE_democratic_party_long:0 "Deutsche Fortschrittspartei"
  AHE_authoritarian_party:0 "CS"
  AHE_authoritarian_party_long:0 "Christlichsoziale Partei"
+
+ JSM_authoritarian_party:0 "House of Rashid"

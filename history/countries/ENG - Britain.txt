@@ -26,6 +26,8 @@ add_to_faction = QLD
 add_to_faction = NSW
 add_to_faction = TAS
 add_to_faction = VIC
+add_to_faction = AFG
+
 
 if = {
 	limit = {
@@ -92,6 +94,10 @@ if = {
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.2
 	}
+	set_autonomy = {
+		target = AFG
+		autonomous_state = autonomy_puppet
+	}
 	else = {
 		puppet = MAL
 		puppet = RAJ
@@ -102,6 +108,7 @@ if = {
 		puppet = VIC
 		puppet = TAS
 		puppet = QLD
+		puppet = AFG
 	}
 }
 

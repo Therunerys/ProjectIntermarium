@@ -6,15 +6,15 @@ set_technology = {
 
 set_research_slots = 2
 set_convoys = 0
-set_stability = 0.57
-set_war_support = 0.23
+set_stability = 0.40
+set_war_support = 0.30
 
 #####################
 ##### POLITICS ######
 #####################
+
 set_politics = {
 	ruling_party = authoritarian
-	last_election = "1848.12.2"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -29,39 +29,14 @@ set_popularities = {
 #####################
 ###### LEADERS ######
 #####################
-create_country_leader = {
-	name = "Abdur Rahman Khan"
-	desc = ""
-	picture = "amanullah.dds"
-	expire = "1901.10.1"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
 
 create_country_leader = {
 	name = "Abdur Rahman Khan"
 	desc = ""
-	picture = "amanullah.dds"
-	expire = "1901.10.1"
-	ideology = despotism
+	picture = "Abdur_Rahman_Khan.dds"
+	expire = "1965.1.1"
+	ideology = absolute_monarchy
 	traits = {
 		#
 	}
-}
-
-#####################
-####### ARMY ########
-#####################
-
-create_corps_commander = {
-	name = "Sardar Shah Wali Khan"
-	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
-	traits = { desert_fox }
-	skill = 4
-	attack_skill = 5
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 3
 }
