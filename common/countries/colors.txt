@@ -12,7 +12,7 @@ ORG = {
 
 WAS = {
 	color = rgb { 6 10 99 }
-	color_ui = rgb { 219 113 0 }
+	color_ui = rgb { 6 10 99 }
 }
 
 VIC = {
