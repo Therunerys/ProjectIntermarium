@@ -15,21 +15,20 @@ set_war_support = 0.34
 #####################
 
 set_politics = {
-	ruling_party = democratic
-	election_frequency = 36
-	last_election = "1899.4.16"
-	elections_allowed = yes
+	ruling_party = authoritarian
+	election_frequency = 48
+	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 100
+	democratic = 0
 	fascism = 0
 	communism = 0
-	authoritarian = 0
+	authoritarian = 100
 }
 
 add_ideas = {
-	Jose_Luciano_de_Castro
+	
 }
 
 #####################
@@ -37,11 +36,11 @@ add_ideas = {
 #####################
 
 create_country_leader = {
-	name = "Carlos I"
+	name = "Guangxu Emperor"
 	desc = ""
-	picture = "Carlos_I.dds"
+	picture = "Guangxu_Emperor.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = absolute_monarchy
 	traits = {
 		#
 	}
