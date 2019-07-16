@@ -9,7 +9,6 @@ state=
 	{
 		owner = JAP
 		add_core_of = CHI
-		GER
 		buildings = {
 			infrastructure = 5
 			arms_factory = 1
