@@ -3821,7 +3821,11 @@ spriteTypes = {
         texturefile = "gfx/interface/ideas/Lord_George_Hamilton.tga"
     }
     spriteType = {
-        name = "GFX_idea_Bir_Shumsher"
+        name = "GFX_idea_Bir_Shumsher_Jang_Bahadur_Rana"
         texturefile = "gfx/interface/ideas/Bir_Shumsher_Jang_Bahadur_Rana.tga"
+    }
+    spriteType = {
+        name = "GFX_idea_Yamagata_Aritomo"
+        texturefile = "gfx/interface/ideas/Yamagata_Aritomo.tga"
     }
 }		
