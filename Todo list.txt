@@ -4,6 +4,7 @@
 - Russian-Ottoman border
 - Post Balkan-War borders
 - Small, Medium and non-default flags
+- Localisation
 
 ################## TODO #####################
 - fix techtrees in mtgnavalfolder --------------- WIP
