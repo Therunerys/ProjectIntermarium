@@ -72,9 +72,10 @@
  ITA_democratic_party:0 "Destra storica"
  ITA_authoritarian_party:0 "House of Savoy"
 
- JAP_communism_party:0 "Nihon Kyosan-to"
- JAP_democratic_party:0 "Rikken Minseito"
- JAP_fascism_party:0 "Taisei Yokusankai"
+ #JAP_communism_party:0 "Nihon Kyosan-to"
+ JAP_democratic_party:0 "Kenseitō"
+ #JAP_fascism_party:0 "Taisei Yokusankai"
+
  USA_communism_party:0 "Communist Party USA"
  USA_democratic_party:0 "Democratic Party"
  USA_republican_party:0 "Republican Party"
