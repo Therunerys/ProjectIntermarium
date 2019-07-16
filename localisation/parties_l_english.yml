@@ -374,7 +374,9 @@
  HON_democratic_party:0 "PLH"
  HON_communism_party:0 "PCH"
  HON_communism_party_long:0 "Partido Comunista de Honduras"
- NEP_authoritarian_party:0 "Rana Dynasty"
+
+ NEP_authoritarian_party:0 "Shah dynasty"
+
  PAN_democratic_party:0 "PLD"
  PAN_democratic_party_long:0 "Partido Liberal Doctrinario"
  PAN_communism_party:0 "PPP"

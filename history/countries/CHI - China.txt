@@ -1,48 +1,35 @@
 ﻿capital = 613 # Nanjing
 
-oob = "CHI_1936"
-
 # Starting tech
 set_technology = {
 
 }
 
 set_research_slots = 3
-set_convoys = 100
-set_stability = 0.40
-set_war_support = 0.15
+set_convoys = 150
+set_stability = 0.66
+set_war_support = 0.34
 
 #####################
 ##### POLITICS ######
 #####################
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 78
-		}
-
-		fascism = {
-			popularity = 9
-		}
-		
-		communism = {
-			popularity = 12
-		}
-		
-		authoritarian = { 
-			popularity = 1
-		}
-	}
-	
-	ruling_party = authoritarian
-	election_frequency = 48
+	ruling_party = democratic
+	election_frequency = 36
+	last_election = "1899.4.16"
 	elections_allowed = yes
 }
 
-add_ideas = {
+set_popularities = {
+	democratic = 100
+	fascism = 0
+	communism = 0
+	authoritarian = 0
+}
 
+add_ideas = {
+	Jose_Luciano_de_Castro
 }
 
 #####################
@@ -50,46 +37,13 @@ add_ideas = {
 #####################
 
 create_country_leader = {
-	name = "Xu Shichang"
-	desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
-	picture = "xu.dds"
+	name = "Carlos I"
+	desc = ""
+	picture = "Carlos_I.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = liberalism
 	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Puyi"
-	desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
-	picture = "puyi.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Chen Duxiu"
-	desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
-	picture = "chen.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Wang Jingwei"
-	desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
-	picture = "wang.dds"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		
+		#
 	}
 }
 
