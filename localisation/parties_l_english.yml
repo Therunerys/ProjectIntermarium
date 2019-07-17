@@ -461,10 +461,10 @@
  INS_democratic_party:0 "PNI" #Indonesian National Party founded by Sukarno
  INS_communism_party:0 "PKI" #Partai Komunis Indonesia
  INS_authoritarian_party:0 "Democrats" #made up, in reality this guy was a member of PNI 
- MAL_fascism_party:0 "Panoceanic Unionists"
- MAL_democratic_party:0 "United Malays National Organisation" #or UMNO or PEKEMBAR
- MAL_communism_party:0 "Malayan Communist Party" #or MCP
- MAL_authoritarian_party:0 "Kesatuan Melayu Muda" #or KMM 
+ #MAL_fascism_party:0 "Panoceanic Unionists"
+ #MAL_democratic_party:0 "United Malays National Organisation" #or UMNO or PEKEMBAR
+ #MAL_communism_party:0 "Malayan Communist Party" #or MCP
+ #MAL_authoritarian_party:0 "Kesatuan Melayu Muda" #or KMM 
  LAO_fascism_party:0 "Tribal Centralization Party"
  LAO_democratic_party:0 "Democratic Party"
  LAO_communism_party:0 "Pathet Lao"
