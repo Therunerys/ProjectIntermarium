@@ -1,7 +1,7 @@
 sub_units = {
 
 	landships = {
-		sprite = armored_cars
+		sprite = landships
 		map_icon_category = armored
 		priority = 2501
 		ai_priority = 2000
@@ -23,7 +23,7 @@ sub_units = {
 		combat_width = 4
 
 		need = {
-			armored_car_1 = 50
+			landship_1 = 50
 		}
 
 		manpower = 500

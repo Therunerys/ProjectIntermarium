@@ -47,3 +47,4 @@ equipments = {
 
 		fuel_consumption = 5
 	}
+}

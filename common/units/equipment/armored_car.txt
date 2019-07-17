@@ -80,7 +80,7 @@ equipments = {
 	armored_car_3 = {
 		year = 1905
 		
-		archetype = armored_car_2
+		archetype = armored_car_1
 		parent = armored_car_2
 		priority = 10
 		visual_level = 1
@@ -112,7 +112,7 @@ equipments = {
 	armored_car_4 = {
 		year = 1907
 	
-		archetype = armored_car_3
+		archetype = armored_car_1
 		parent = armored_car_3
 		priority = 10
 		visual_level = 2
