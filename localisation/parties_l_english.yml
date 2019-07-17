@@ -72,9 +72,10 @@
  ITA_democratic_party:0 "Destra storica"
  ITA_authoritarian_party:0 "House of Savoy"
 
- JAP_communism_party:0 "Nihon Kyosan-to"
- JAP_democratic_party:0 "Rikken Minseito"
- JAP_fascism_party:0 "Taisei Yokusankai"
+ #JAP_communism_party:0 "Nihon Kyosan-to"
+ JAP_democratic_party:0 "Kenseitō"
+ #JAP_fascism_party:0 "Taisei Yokusankai"
+
  USA_communism_party:0 "Communist Party USA"
  USA_democratic_party:0 "Democratic Party"
  USA_republican_party:0 "Republican Party"
@@ -93,12 +94,14 @@
  AUS_democratic_party_long:0 "Sozialdemokratische Partei Österreichs"
  AUS_fascism_party:1 "DNSAP"
  AUS_authoritarian_party:1 "Council of Austia-Hungary"
- CHI_communism_party:0 "CPC"
- CHI_communism_party_long:0 "Communist Party of China"
- CHI_democratic_party:0 "China Democratic League"
- CHI_fascism_party:1 "BSB"
- CHI_fascism_party_long:1 "Blue Shirt Society"
- CHI_authoritarian_party:0 "Kuomintang"
+
+ #CHI_communism_party:0 "CPC"
+ #CHI_communism_party_long:0 "Communist Party of China"
+ #CHI_democratic_party:0 "China Democratic League"
+ #CHI_fascism_party:1 "BSB"
+ #CHI_fascism_party_long:1 "Blue Shirt Society"
+ CHI_authoritarian_party:0 "Aisin Gioro"
+
  XSM_authoritarian_party:0 "Ma Clique"
  XSM_communism_party:0 "CPC"
  XSM_communism_party_long:0 "Communist Party of China"
@@ -326,8 +329,7 @@
  ELS_fascism_party_long:0 "Partido Nacional 'Pro-Patria'"
  GUA_democratic_party:0 "PLP"
  GUA_democratic_party_long:0 "Progressive Liberal Party"
- SIA_authoritarian_party:0 "Khana Ratsadon"
- SIA_authoritarian_party_long:0 "Khana Ratsadon"
+ SIA_authoritarian_party:0 "Chakri Dynasty"
  URG_democratic_party:0 "Colorado"
  URG_democratic_party_long:0 "Partido Colorado"
  URG_communism_party:0 "PCU"
@@ -374,7 +376,9 @@
  HON_democratic_party:0 "PLH"
  HON_communism_party:0 "PCH"
  HON_communism_party_long:0 "Partido Comunista de Honduras"
- NEP_authoritarian_party:0 "Rana Dynasty"
+
+ NEP_authoritarian_party:0 "Shah dynasty"
+
  PAN_democratic_party:0 "PLD"
  PAN_democratic_party_long:0 "Partido Liberal Doctrinario"
  PAN_communism_party:0 "PPP"
@@ -457,10 +461,10 @@
  INS_democratic_party:0 "PNI" #Indonesian National Party founded by Sukarno
  INS_communism_party:0 "PKI" #Partai Komunis Indonesia
  INS_authoritarian_party:0 "Democrats" #made up, in reality this guy was a member of PNI 
- MAL_fascism_party:0 "Panoceanic Unionists"
- MAL_democratic_party:0 "United Malays National Organisation" #or UMNO or PEKEMBAR
- MAL_communism_party:0 "Malayan Communist Party" #or MCP
- MAL_authoritarian_party:0 "Kesatuan Melayu Muda" #or KMM 
+ #MAL_fascism_party:0 "Panoceanic Unionists"
+ #MAL_democratic_party:0 "United Malays National Organisation" #or UMNO or PEKEMBAR
+ #MAL_communism_party:0 "Malayan Communist Party" #or MCP
+ #MAL_authoritarian_party:0 "Kesatuan Melayu Muda" #or KMM 
  LAO_fascism_party:0 "Tribal Centralization Party"
  LAO_democratic_party:0 "Democratic Party"
  LAO_communism_party:0 "Pathet Lao"

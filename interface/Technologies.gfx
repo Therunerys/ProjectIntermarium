@@ -353,6 +353,38 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/supportradio4.dds"
 	}
 	#
+	############################################################################################TANKS AND ARMOR UPGRADES
+	#
+	SpriteType = {
+		name = "GFX_plating_upgrade_medium"
+		texturefile = "gfx/interface/technologies/tankplates.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_shell_upgrade_medium"
+		texturefile = "gfx/interface/technologies/tankshell.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_maintenance_upgrade_medium"
+		texturefile = "gfx/interface/technologies/tankmaintenance.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_camo_upgrade_medium"
+		texturefile = "gfx/interface/technologies/tankcamo.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_engine_upgrade_medium"
+		texturefile = "gfx/interface/technologies/tankengine.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_suspension_upgrade_medium"
+		texturefile = "gfx/interface/technologies/tanksuspension.dds"
+	}
+	#
 	############################################################################################FRENCH TANKS AND ARMOR
 	#
 	SpriteType = {
@@ -383,6 +415,38 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_FRA_light_tank1_medium"
 		texturefile = "gfx/interface/technologies/FRA_lighttank1.dds"
+	}
+	#
+	############################################################################################GERMAN TANKS AND ARMOR
+	#
+	SpriteType = {
+		name = "GFX_GER_armored_car1_medium"
+		texturefile = "gfx/interface/technologies/GER_armoredcar1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_armored_car2_medium"
+		texturefile = "gfx/interface/technologies/GER_armoredcar2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_armored_car3_medium"
+		texturefile = "gfx/interface/technologies/GER_armoredcar3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_armored_car4_medium"
+		texturefile = "gfx/interface/technologies/GER_armoredcar4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_tank_prototype_medium"
+		texturefile = "gfx/interface/technologies/GER_tankprototype.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_light_tank1_medium"
+		texturefile = "gfx/interface/technologies/GER_lighttank1.dds"
 	}
 
 	#
