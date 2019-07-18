@@ -224,6 +224,8 @@
 #
 #
 #
+ prototype_tank:0 "Prototype Model"
+ prototype_tank_desc:0 "Our engineers are proposing building a new kind of armored vehicle. We must build a prototype first to test the abilities of such vehicles."
  plating_upgrade:0 "Plating Upgrade"
  plating_upgrade_desc:0 "Our vehicles have problems with their armor, encountering situations when even simple firearms can penetrate the armor."
  shell_upgrade:0 "Improved Shells"
