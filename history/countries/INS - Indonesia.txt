@@ -1,14 +1,12 @@
 ﻿capital = 335 #Jakarta
 
-oob = "INS_1936"
-
 # Starting tech
 set_technology = {
 
 }
 
 set_research_slots = 3
-set_convoys = 50
+set_convoys = 100
 set_stability = 0.63
 set_war_support = 0.38
 
@@ -16,67 +14,37 @@ set_war_support = 0.38
 ##### POLITICS ######
 #####################
 
+#####################
+##### POLITICS ######
+#####################
+
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 79
-		}
-
-		fascism = {
-			popularity = 0
-		}
-		
-		communism = {
-			popularity = 8
-		}
-		authoritarian = {
-			popularity = 13
-		}
-	}
-
-	ruling_party = democratic
+	ruling_party = authoritarian
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 0
+	authoritarian = 100
 }
 
 add_ideas = {
-
+	
 }
-
 #####################
 ###### LEADERS ######
 #####################
 
 create_country_leader = {
-	name = "Johan Paul van Limburg Stirum"
+	name = "Willem Rooseboom"
 	desc = ""
-	picture = "johan.dds"
-	expire = "1953.3.1"
-	ideology = conservatism
+	picture = "Willem_Rooseboom.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian
 	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Henk Sneevliet"
-	desc = ""
-	picture = "henk.dds"
-	expire = "1953.3.1"
-	ideology = stalinism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Wilhelmina"
-	desc = ""
-	picture = "wilhelmina.dds"
-	expire = "1953.3.1"
-	ideology = despotism
-	traits = {
-		
+		#
 	}
 }
