@@ -36,9 +36,9 @@ add_ideas = {
 #####################
 
 create_country_leader = {
-	name = "Victoria I"
+	name = "Under British Imperial Rule"
 	desc = ""
-	picture = "victoria.dds"
+	picture = "british_crown2.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
 	traits = {
