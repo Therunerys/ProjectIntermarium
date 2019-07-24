@@ -549,3 +549,10 @@
  AHE_authoritarian_party_long:0 "Christlichsoziale Partei"
 
  JSM_authoritarian_party:0 "House of Rashid"
+
+ WAS_democratic_party:0 "Ministerialist"
+ WAS_communism_party:0 "Australian Labor Party"
+
+ CST_democratic_party_long:0 "National Defence League"
+ CST_democratic_party:0 "NDL"
+ CST_communism_party:0 "Australian Labor Party"
