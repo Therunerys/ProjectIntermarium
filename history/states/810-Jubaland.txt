@@ -1,0 +1,25 @@
+state={
+	id=810
+	name="STATE_810"
+
+	history={
+		owner = ENG
+		add_core_of = SOM
+		buildings = {
+			infrastructure = 3
+			12941 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		11014 12941 
+	}
+	manpower=0
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

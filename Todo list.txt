@@ -5,6 +5,9 @@
 - Post Balkan-War borders
 - Small, Medium and non-default flags
 - Localisation
+- Canberra
+- Zanzibar-Mainland Connection
+- C I T Y N A M E S
 
 ################## TODO #####################
 - fix techtrees in mtgnavalfolder --------------- WIP
