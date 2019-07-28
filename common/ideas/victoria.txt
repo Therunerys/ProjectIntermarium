@@ -1,0 +1,297 @@
+ideas = {
+	country = {
+
+		Allan_McLean = {
+
+			available = {
+				original_tag = VIC
+			}
+			allowed = {
+				original_tag = VIC
+			}
+
+			allowed_civil_war = {
+				original_tag = VIC
+			}
+			picture = Allan_McLean
+			removal_cost = -1
+			traits = { minister }
+
+		}
+	}
+
+	political_advisor = {
+
+		VIC_cg = {
+
+			picture = generic_political_advisor_europe_5
+			
+			allowed = {
+				original_tag = VIC
+			}
+			
+			traits = { compassionate_gentleman }
+		}
+
+		VIC_sw = {
+
+			picture = generic_political_advisor_europe_2
+
+			allowed = {
+				original_tag = VIC
+			}
+			
+			traits = { silent_workhorse }
+		}
+
+		VIC_coi = {
+
+			picture = generic_political_advisor_europe_3
+			
+			allowed = {
+				original_tag = VIC
+			}
+			
+			traits = { captain_of_industry }
+		}
+		VIC_stc = {
+
+			picture = generic_political_advisor_african_3
+			
+			allowed = {
+				original_tag =	VIC
+			}
+			
+			traits = { smooth_talking_charmer }
+		}
+	}
+
+	# MILITARY
+	army_chief = {
+
+		VIC_acog = {
+			
+			picture = generic_army_europe_5
+			
+			allowed = {
+				original_tag = SWE
+			}
+			
+			traits = { army_chief_old_guard }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		VIC_aco2 = {
+			
+			picture = generic_army_europe_1
+			
+			allowed = {
+				original_tag = VIC
+			}
+			
+			traits = { army_chief_organizational_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		VIC_acd1 = {
+			
+			picture = generic_army_europe_6
+			
+			allowed = {
+				original_tag = VIC
+			}
+					
+			traits = { army_chief_defensive_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		VIC_acd2 = {
+			
+			picture = generic_army_europe_3
+			
+			allowed = {
+				original_tag = VIC
+			}
+
+			traits = { army_chief_drill_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	air_chief = {
+		
+
+		VIC_acgs2 = {
+			
+			picture = generic_air_europe_3
+			
+			allowed = {
+				original_tag = VIC
+			}
+			
+
+			
+			traits = { air_chief_ground_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		VIC_acaw2 = {
+			
+			picture = generic_air_europe_3
+			
+			allowed = {
+				original_tag = VIC
+			}
+			
+
+			
+			traits = { air_chief_all_weather_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	navy_chief = {
+
+		VIC_nccr2 = {
+			
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = VIC
+			}
+			
+
+			
+			traits = { navy_chief_commerce_raiding_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		VIC_ncr2 = {
+			
+			picture = generic_navy_europe_1
+			
+			allowed = {
+				original_tag = VIC
+			}
+			
+
+			
+			traits = { navy_chief_reform_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		VIC_ncdb2 = {
+			
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = VIC
+			}
+			
+
+			
+			traits = { navy_chief_decisive_battle_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	high_command = {
+
+		VIC_ar2 = {
+			
+			picture = generic_army_europe_1
+			
+			allowed = {
+				original_tag = VIC
+			}
+			
+
+			
+			traits = { army_artillery_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		VIC_ai2 = {
+			
+			picture = generic_army_europe_2
+
+			allowed = {
+				original_tag = VIC
+			}
+			
+
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		VIC_abi2 = {
+			
+			picture = generic_air_europe_2
+			
+			allowed = {
+				original_tag = VIC
+			}
+			
+
+			
+			traits = { air_bomber_interception_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		VIC_nfl2 = {
+			
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = VIC
+			}
+			
+
+			
+			traits = { navy_fleet_logistics_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+}
