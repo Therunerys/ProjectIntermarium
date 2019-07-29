@@ -1,74 +1,32 @@
 ﻿capital = 461
 
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-}
-
-set_convoys = 20
-
-
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 25
-		}
-
-		fascism = {
-			popularity = 20
-		}
-		
-		communism = {
-			popularity = 5
-			#banned = no #default is no
-		}
-		
-		authoritarian = { 
-			popularity = 50
-		}
-	}
-	
 	ruling_party = authoritarian
-	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-1939.1.1 = {
-	set_politics = {
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 0
+	authoritarian = 100
+}
 
-	parties = {
-		democratic = { 
-			popularity = 25
-		}
-
-		fascism = {
-			popularity = 20
-		}
-		
-		communism = {
-			popularity = 5
-			#banned = no #default is no
-		}
-		
-		authoritarian = { 
-			popularity = 50
-		}
-	}
+add_ideas = {
 	
-	ruling_party = authoritarian
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-	}
-}	
+}
+
+#####################
+###### LEADERS ######
+#####################
 
 create_country_leader = {
-	name = "Mohammed V"
+	name = "Mulai Abd al-Aziz IV"
 	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_1.dds"
-	ideology = despotism
+	picture = "Abdelaziz.dds"
+	expire = "1965.1.1"
+	ideology = absolute_monarchy
 	traits = {
 		#
 	}

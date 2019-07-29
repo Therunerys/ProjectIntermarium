@@ -12,8 +12,7 @@ set_war_support = 0.80
 
 set_politics = {
 	ruling_party = authoritarian
-	last_election = "1888.6.15"
-	election_frequency = 4
+	election_frequency = 48
 	elections_allowed = no
 }
 
@@ -45,7 +44,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/GEA/Albrecht.dds"
 	expire = "1912.1.1"
-	ideology = despotism
+	ideology = authoritarian
 	traits = {
 		#
 	}
@@ -56,7 +55,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/GEA/Gustav.dds"
 	expire = "1906.1.1"
-	ideology = despotism
+	ideology = authoritarian
 	traits = {
 		#
 	}
@@ -67,7 +66,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/GEA/Eduard.dds"
 	expire = "1901.1.1"
-	ideology = despotism
+	ideology = authoritarian
 	traits = {
 		#
 	}
