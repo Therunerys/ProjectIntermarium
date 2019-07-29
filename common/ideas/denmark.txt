@@ -1,7 +1,7 @@
 ideas = {
 	
 	country = {
-		Christian_ix = {
+		christian_ix = {
 			available = {
 				original_tag = DEN
 			}
@@ -17,7 +17,7 @@ ideas = {
 			traits = { popular_figurehead }
 		}
 	
-		Hugo_Egmont = {
+		hugo_Egmont = {
 
 			available = {
 				original_tag = DEN

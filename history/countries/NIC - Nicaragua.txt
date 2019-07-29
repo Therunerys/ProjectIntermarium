@@ -27,12 +27,12 @@ set_politics = {
 			#banned = no #default is no
 		}
 
-		neutrality = {
+		authoritarian = {
 			popularity = 70
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = authoritarian
 	last_election = "1934.11.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -66,12 +66,12 @@ create_country_leader = {
 				#banned = no #default is no
 			}
 
-			neutrality = {
+			authoritarian = {
 				popularity = 70
 			}
 		}
 		
-		ruling_party = neutrality
+		ruling_party = authoritarian
 		last_election = "1936.12.8"
 		election_frequency = 48
 		elections_allowed = no

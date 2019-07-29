@@ -1,32 +1,48 @@
 ﻿capital = 521
 
-#oob = "AST_1936"
-set_stability = 0.8
-set_war_support = 0.3
 # Starting tech
 set_technology = {
 
 }
 
+set_research_slots = 3
+set_convoys = 100
+set_stability = 0.63
+set_war_support = 0.38
+
+#####################
+##### POLITICS ######
+#####################
+
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 98
-		}
-
-		fascism = {
-			popularity = 0
-		}
-		
-		communism = {
-			popularity = 2
-			#banned = no #default is no
-		}
-	}
-	
 	ruling_party = democratic
-	last_election = "1934.9.15"
-	election_frequency = 36
+	last_election = "1899.3.1"
+	election_frequency = 48
 	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 65
+	fascism = 0
+	communism = 35
+	authoritarian = 0
+}
+
+add_ideas = {
+	Robert_Philp
+}
+
+#####################
+###### LEADERS ######
+#####################
+
+create_country_leader = {
+	name = "Cochrane-Baillie"
+	desc = ""
+	picture = "Cochrane_Baillie.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
 }

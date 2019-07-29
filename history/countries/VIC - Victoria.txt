@@ -1,32 +1,43 @@
 ﻿capital = 517
 
-#oob = "AST_1936"
-set_stability = 0.8
-set_war_support = 0.3
-# Starting tech
-set_technology = {
+set_research_slots = 3
+set_convoys = 100
+set_stability = 0.63
+set_war_support = 0.38
 
-}
+#####################
+##### POLITICS ######
+#####################
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 98
-		}
-
-		fascism = {
-			popularity = 0
-		}
-		
-		communism = {
-			popularity = 2
-			#banned = no #default is no
-		}
-	}
-	
 	ruling_party = democratic
-	last_election = "1934.9.15"
-	election_frequency = 36
+	last_election = "1898.1.1"
+	election_frequency = 24
 	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 80
+	fascism = 0
+	communism = 20
+	authoritarian = 0
+}
+
+add_ideas = {
+	Allan_McLean
+}
+
+#####################
+###### LEADERS ######
+#####################
+
+create_country_leader = {
+	name = "Thomas Brassey"
+	desc = ""
+	picture = "Thomas_Brassey.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
 }

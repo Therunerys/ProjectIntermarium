@@ -1,7 +1,5 @@
 ﻿capital = 336 #Kuala Lumpur
 
-oob = "MAL_1936"
-
 # Starting tech
 set_technology = {
 	
@@ -17,28 +15,16 @@ set_war_support = 0.53
 #####################
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 20
-		}
-
-		fascism = { 
-			popularity = 2
-		}
-		
-		communism = {
-			popularity = 10
-		}
-
-		neutrality = {
-			popularity = 68
-		}
-	}
-
-	ruling_party = neutrality
+	ruling_party = authoritarian
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 0
+	authoritarian = 100
 }
 
 add_ideas = {
@@ -50,12 +36,12 @@ add_ideas = {
 #####################
 
 create_country_leader = {
-	name = "George Maxwell"
+	name = "Under British Imperial Rule"
 	desc = ""
-	picture = "maxwell.dds"
-	expire = "1953.3.1"
-	ideology = despotism
+	picture = "british_crown2.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian
 	traits = {
-		
+		#
 	}
 }

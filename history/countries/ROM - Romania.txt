@@ -1,10 +1,8 @@
-﻿capital = 46
-
-oob = "ROM_1936"
+capital = 46
 
 # Starting tech
 set_technology = {
-
+	#
 }
 
 set_research_slots = 3
@@ -17,31 +15,21 @@ set_war_support = 0.6
 #####################
 
 set_politics = {
+	ruling_party = democratic
+	last_election = "1897.3.1"
+	election_frequency = 36
+	elections_allowed = yes
+}
 
-	parties = {
-		democratic = { 
-			popularity = 15
-		}
-
-		fascism = {
-			popularity = 18
-		}
-		
-		communism = {
-			popularity = 2
-		}
-		
-		neutrality = { 
-			popularity = 65
-		}
-	}
-	
-	ruling_party = neutrality
-	election_frequency = 48
-	elections_allowed = no
+set_popularities = {
+	democratic = 100
+	fascism = 0
+	communism = 0
+	authoritarian = 0
 }
 
 add_ideas = {
+	Gheorghe_Grigore
 	balkan_league
 	hungarian_oppression
 	oil_fields
@@ -52,46 +40,13 @@ add_ideas = {
 #####################
 
 create_country_leader = {
-	name = "Ferdinand I"
-	desc = "POLITICS_GHEORGHE_TATARESCU_DESC"
-	picture = "Ferdinand_I.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Alexandru Averescu"
-	desc = "POLITICS_CONSTANTIN_PARHON_DESC"
-	picture = "averescu.dds"
-	expire = "1965.1.1"
+	name = "Carol I"
+	desc = ""
+	picture = "Carol_I.dds"
+	expire = "1960.1.1"
 	ideology = conservatism
 	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Gheorghe Cristescu"
-	desc = "POLITICS_ARMAND_CALINESCU_DESC"
-	picture = "argetoianu.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Elena Bacaloglu"
-	desc = "POLITICS_OCTAVIAN_GOGA_DESC"
-	picture = "bacaloglu.dds"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		#
+		
 	}
 }
 

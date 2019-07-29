@@ -1,7 +1,5 @@
 ﻿capital = 49
 
-oob = "TUR_1936"
-
 # Starting tech
 set_technology = {
 
@@ -9,30 +7,28 @@ set_technology = {
 
 set_research_slots = 3
 set_convoys = 200
-set_stability = 0.25
-set_war_support = 0.20
+set_stability = 0.40
+set_war_support = 0.30
 
 #####################
 ##### POLITICS ######
 #####################
 
-puppet = MNT
-
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1876.8.31"
+	ruling_party = authoritarian
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 9
-	fascism = 4
-	communism = 7
-	neutrality = 80
+	democratic = 0
+	fascism = 0
+	communism = 0
+	authoritarian = 100
 }
 
 add_ideas = {
+	Halil_Rifat_Pasha
 	brink_of_collapse
 	high_famine
 	ineffective_army
@@ -45,43 +41,11 @@ add_ideas = {
 #####################
 
 create_country_leader = {
-	name = "Mehmed VI"
-	desc = "POLITICS_ISMET_INÖNÜ_DESC"
-	picture = "Mehmed_VI.dds"
+	name = "Abdul Hamid II"
+	desc = ""
+	picture = "Abdul_Hamid_II.dds"
 	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Sefik Hüsnü"
-	desc = "POLITICS_SEFIK_HUSNU_DESC"
-	picture = "gfx/leaders/TUR/Portrait_Turkey_Sefik_Husnu.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Celâl Bayar"
-	desc = "POLITICS_CELAL_BAYAR_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Fevzi Çakmak"
-	desc = "POLITICS_OGUZ_REMZI_ARIK_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = absolute_monarchy
 	traits = {
 		#
 	}

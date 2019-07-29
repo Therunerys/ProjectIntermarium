@@ -41,12 +41,12 @@ set_politics = {
 			popularity = 1
 		}
 
-		neutrality = {
+		authoritarian = {
 			popularity = 79
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = authoritarian
 	last_election = "1933.7.1"
 	election_frequency = 36
 	elections_allowed = yes
@@ -68,12 +68,12 @@ set_politics = {
 				popularity = 1
 			}
 
-			neutrality = {
+			authoritarian = {
 				popularity = 79
 			}
 		}
 		
-		ruling_party = neutrality
+		ruling_party = authoritarian
 		last_election = "1939.7.1"
 		election_frequency = 36
 		elections_allowed = yes

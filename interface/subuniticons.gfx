@@ -10,17 +10,16 @@ spriteTypes = {
 	##################################
 	### Large images for DIVISIONS ###
 
-	spriteType = { name = "GFX_unit_walker_armor_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_modern_armor_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_marine_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/unit_marine_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_mountaineers_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_mountain_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_motorized_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_motorized_icon.dds" noOfFrames = 2 }
-	spriteType = { name = "GFX_unit_heavy_armor_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_heavy_armor_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_anti_air_icon_medium" 								textureFile = "gfx/interface/counters/divisions_large/support_unit_anti_air_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_anti_air_brigade_icon_medium"						textureFile = "gfx/interface/counters/divisions_large/unit_anti_air_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_cavalry_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_cavalry_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_infantry_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_infantry_icon.dds" noOfFrames = 2 }
-	spriteType = { name = "GFX_unit_grenadiers_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_grenadiers_icon.dds" noOfFrames = 2 }
-	spriteType = { name = "GFX_unit_snipers_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_snipers_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_flametroopers_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_flametroopers_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_armored_cars_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_armored_cars_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_landships_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_landships_icon.dds" noOfFrames = 2 }
 	#spriteType = { name = "GFX_unit_bicycle_battalion_icon_medium"						textureFile = "gfx/interface/counters/divisions_large/unit_bicycle_battalion_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_medium_armor_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_medium_tank_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_light_armor_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_light_tank_icon.dds" noOfFrames = 2 }
@@ -34,8 +33,8 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_engineer_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_engineer_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_paratrooper_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_paratroop_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_motorized_rocket_brigade_icon_medium"				textureFile = "gfx/interface/counters/divisions_large/unit_motorized_rocket_brigade_icon.dds" noOfFrames = 2 }
-	spriteType = { name = "GFX_unit_field_hospital_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/support_unit_field_hospital_icon.dds" noOfFrames = 2 }	
-	spriteType = { name = "GFX_unit_military_police_icon_medium"						textureFile = "gfx/interface/counters/divisions_large/support_unit_military_police_icon.dds" noOfFrames = 2 }	
+	spriteType = { name = "GFX_unit_field_hospital_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/support_unit_field_hospital_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_military_police_icon_medium"						textureFile = "gfx/interface/counters/divisions_large/support_unit_military_police_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_signal_company_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/support_unit_signal_company_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_maintenance_company_icon_medium"					textureFile = "gfx/interface/counters/divisions_large/support_unit_maintenance_company_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_logistics_company_icon_medium"						textureFile = "gfx/interface/counters/divisions_large/support_unit_logistics_company_icon.dds" noOfFrames = 2 }	
@@ -45,17 +44,16 @@ spriteTypes = {
 	####################################################
 	### Small images for DIVISIONS (On-map-counters) ###
 
-	spriteType = { name = "GFX_unit_walker_armor_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_modern_armor_icon.dds" noOfFrames = 2}
 	spriteType = { name = "GFX_unit_marine_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_marine_icon.dds" noOfFrames = 2}
 	spriteType = { name = "GFX_unit_mountaineers_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_mountain_icon.dds" noOfFrames = 2}
 	spriteType = { name = "GFX_unit_motorized_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_motorized_icon.dds" noOfFrames = 2}
-	spriteType = { name = "GFX_unit_heavy_armor_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_heavy_armor_icon.dds" noOfFrames = 2}
 	spriteType = { name = "GFX_unit_anti_air_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_anti_air_icon.dds" noOfFrames = 2}
 	spriteType = { name = "GFX_unit_anti_air_brigade_icon_medium_white"					textureFile = "gfx/interface/counters/divisions_small/onmap_unit_anti_air_icon.dds" noOfFrames = 2}
 	spriteType = { name = "GFX_unit_cavalry_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_cavalry_icon.dds" noOfFrames = 2}
 	spriteType = { name = "GFX_unit_infantry_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_infantry_icon.dds" noOfFrames = 2 }
-	spriteType = { name = "GFX_unit_grenadiers_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_grenadiers_icon.dds" noOfFrames = 2 }
-	spriteType = { name = "GFX_unit_snipers_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_snipers_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_flametroopers_icon_medium_white"					textureFile = "gfx/interface/counters/divisions_small/onmap_unit_flametroopers_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_armored_cars_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_armored_cars_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_landships_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_landships_icon.dds" noOfFrames = 2}
 	spriteType = { name = "GFX_unit_medium_tank_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_medium_tank_icon.dds" noOfFrames = 2}
 	spriteType = { name = "GFX_unit_medium_armor_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_medium_tank_icon.dds" noOfFrames = 2}
 	spriteType = { name = "GFX_unit_light_tank_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_light_tank_icon.dds" noOfFrames = 2}

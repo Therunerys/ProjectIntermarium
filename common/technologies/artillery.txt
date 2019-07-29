@@ -31,17 +31,18 @@ technologies = {
 		artillery = {
 			soft_attack = 0.1
 		}
+
 		artillery_brigade = {
 			soft_attack = 0.1
 		}
 		
-
 		path = {
 			leads_to_tech = explosive_artillery1
 			research_cost_coeff = 1
 		}
 		
 		research_cost = 1
+		start_year = 1900
 		folder = {
 			name = artillery_folder
 			position = { x = -3 y = 2 }
@@ -53,6 +54,21 @@ technologies = {
 
 		ai_will_do = {
 			factor = 2
+			
+			modifier = {
+				factor = 2
+				date > "1901.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1902.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1903.1.1"
+			}
 		}
 	}
 	
@@ -64,18 +80,8 @@ technologies = {
 
 		path = {
 			leads_to_tech = artillery_training
-			research_cost_coeff = 1
 		}
-		path = {
-            leads_to_tech = improved_shells
-        }		    
-		path = {
-			leads_to_tech = improved_artillery_speed
-        }
-
-		path = {
-			leads_to_tech = improved_artillery_attack
-        }
+		
 		research_cost = 1.5
 		start_year = 1903
 		folder = {
@@ -92,92 +98,39 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1938.1.9"
+				date > "1904.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1939.1.1"
+				date > "1905.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1939.1.6"
+				date > "1906.1.1"
 			}
 		}
 	}
 
-	improved_artillery_speed = {
-
-		artillery_brigade = {
-			maximum_speed = 0.05 
-		}
-		
-		path = {
-			leads_to_tech = artillery_training
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1
-		folder = {
-			name = artillery_folder
-			position = { x = -5 y = 6 }
-		}
-		
-		categories = {
-			artillery
-		}
-
-		ai_will_do = {
-			factor = 2
-		}
-	}
-
-	improved_artillery_attack = {
+	artillery_training = {
 
 		artillery = {
-			hard_attack = 0.1
+			soft_attack = 0.05
+			max_organisation = 5
 		}
+
 		artillery_brigade = {
-			hard_attack = 0.1
-		}
-		
-
-		path = {
-			leads_to_tech = artillery_training
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1
-		folder = {
-			name = artillery_folder
-			position = { x = -1 y = 6 }
-		}
-		
-		categories = {
-			artillery
-		}
-
-		ai_will_do = {
-			factor = 2
-		}
-	}
-
-	improved_shells = {
-
-		artillery = {
-			soft_attack = 0.1
-		}
-		artillery_brigade = {
-			soft_attack = 0.1
+			soft_attack = 0.05
+			max_organisation = 5
 		}
 		
 		path = {
-			leads_to_tech = artillery_training
-			research_cost_coeff = 1
+			leads_to_tech = precision_training
 		}
 		
 		research_cost = 1
+		start_year = 1904
 		folder = {
 			name = artillery_folder
 			position = { x = -3 y = 6 }
@@ -189,41 +142,48 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 2
-
+			
 			modifier = {
 				factor = 2
-				date > "1937.1.1"
+				date > "1905.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1938.1.1"
+				date > "1906.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1939.1.1"
+				date > "1907.1.1"
 			}
 		}
 	}
-
-	artillery_training = {
+	
+	precision_training = {
 
 		artillery = {
-			soft_attack = 0.05
-			max_organisation = 5
+			soft_attack = 0.1
 		}
+
 		artillery_brigade = {
-			soft_attack = 0.05
-			max_organisation = 5
+			soft_attack = 0.1
 		}
 		
 		path = {
-			leads_to_tech = precision_training
-		}
+            leads_to_tech = improved_shells
+        }		
+
+		path = {
+			leads_to_tech = improved_artillery_speed
+        }
+
+		path = {
+			leads_to_tech = improved_artillery_attack
+        }
 		
 		research_cost = 1
-		start_year = 1903
+		start_year = 1905
 		folder = {
 			name = artillery_folder
 			position = { x = -3 y = 8 }
@@ -238,26 +198,68 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1940.1.6"
+				date > "1906.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1941.1.1"
+				date > "1907.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1942.1.1"
+				date > "1908.1.1"
 			}
 		}
 	}
-	
-	precision_training = {
+
+	improved_artillery_speed = {
+
+		artillery_brigade = {
+			maximum_speed = 0.05 
+		}
+		
+		path = {
+			leads_to_tech = explosive_artillery2
+		}
+
+		research_cost = 1
+		start_year = 1906
+		folder = {
+			name = artillery_folder
+			position = { x = -5 y = 10 }
+		}
+		
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 2
+				date > "1907.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1908.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1909.1.1"
+			}
+		}
+	}
+
+	improved_shells = {
 
 		artillery = {
 			soft_attack = 0.1
 		}
+
 		artillery_brigade = {
 			soft_attack = 0.1
 		}
@@ -267,7 +269,7 @@ technologies = {
 		}
 		
 		research_cost = 1
-		start_year = 1903
+		start_year = 1906
 		folder = {
 			name = artillery_folder
 			position = { x = -3 y = 10 }
@@ -282,16 +284,66 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1941.1.6"
+				date > "1907.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1908.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1942.1.1"
+				date > "1909.1.1"
 			}
 		}
 	}
-	
+
+	improved_artillery_attack = {
+
+		artillery = {
+			hard_attack = 0.1
+		}
+
+		artillery_brigade = {
+			hard_attack = 0.1
+		}
+		
+		start_year = 1906
+		path = {
+			leads_to_tech = explosive_artillery2
+		}
+		
+		research_cost = 1
+		folder = {
+			name = artillery_folder
+			position = { x = -1 y = 10 }
+		}
+		
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 2
+				date > "1907.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1908.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1909.1.1"
+			}
+		}
+	}
+
 	explosive_artillery2 = {
 	
 		enable_equipments = {
@@ -302,7 +354,17 @@ technologies = {
 			leads_to_tech = morale_training
 			research_cost_coeff = 1
 		}
-		
+
+		path = {
+			leads_to_tech = improved_artillery_upgrade1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = antitank1
+			research_cost_coeff = 1
+		}
+
 		research_cost = 2
 		start_year = 1907
 		folder = {
@@ -319,17 +381,107 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1941.1.9"
+				date > "1908.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1942.1.1"
+				date > "1909.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1942.1.6"
+				date > "1910.1.1"
+			}
+		}
+	}
+	
+	improved_artillery_upgrade1	 = {
+
+		artillery = {
+			soft_attack = 0.1
+		}
+
+		artillery_brigade = {
+			soft_attack = 0.1
+		}
+		
+		path = {
+			leads_to_tech = improved_artillery_upgrade2
+		}
+		
+		research_cost = 1
+		start_year = 1908
+		folder = {
+			name = artillery_folder
+			position = { x = -2 y = 14 }
+		}
+		
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 2
+				date > "1909.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1910.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1911.1.1"
+			}
+		}
+	}
+
+	improved_artillery_upgrade2	 = {
+
+		artillery = {
+			hard_attack = 0.1
+		}
+
+		artillery_brigade = {
+			hard_attack = 0.1
+		}
+		
+		path = {
+			leads_to_tech = explosive_artillery3
+		}
+		
+		research_cost = 1
+		start_year = 1909
+		folder = {
+			name = artillery_folder
+			position = { x = -2 y = 16 }
+		}
+		
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 2
+				date > "1910.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1911.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1912.1.1"
 			}
 		}
 	}
@@ -339,6 +491,7 @@ technologies = {
 		artillery = {
 			max_organisation = 5
 		}
+
 		artillery_brigade = {
 			max_organisation = 5
 		}
@@ -348,10 +501,10 @@ technologies = {
 		}
 		
 		research_cost = 1
-		start_year = 1907
+		start_year = 1908
 		folder = {
 			name = artillery_folder
-			position = { x = -3 y = 14 }
+			position = { x = -4 y = 14 }
 		}
 		
 		categories = {
@@ -363,28 +516,25 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1943.1.6"
+				date > "1909.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1944.1.1"
+				date > "1910.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1945.1.1"
+				date > "1911.1.1"
 			}
 		}
 	}
 
 	artillery_maintenance = {
 
-		artillery = {
-			defense = 0.02
-		}
 		artillery_brigade = {
-			defense = 0.02
+			reliability = 0.1
 		}
 
 		path = {
@@ -392,10 +542,10 @@ technologies = {
 		}
 		
 		research_cost = 1
-		start_year = 1907
+		start_year = 1909
 		folder = {
 			name = artillery_folder
-			position = { x = -3 y = 16 }
+			position = { x = -4 y = 16 }
 		}
 		
 		categories = {
@@ -407,17 +557,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1943.1.6"
+				date > "1910.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1944.1.1"
+				date > "1911.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1945.1.1"
+				date > "1912.1.1"
 			}
 		}
 	}
@@ -429,7 +579,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = morale_training
+			leads_to_tech = advanced_artillery_upgrade
 			research_cost_coeff = 1
 		}
 		
@@ -449,39 +599,150 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1941.1.9"
+				date > "1912.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1942.1.1"
+				date > "1913.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1942.1.6"
+				date > "1914.1.1"
 			}
 		}
 	}
 
-	mountain_gun = {
+	advanced_artillery_upgrade = {
 
-		research_cost = 1
-
-		# only from focus!!! #####
-		allow = {
-			always = no
+		artillery = {
+			hard_attack = 0.05
+			soft_attack = 0.05
 		}
 
 		artillery_brigade = {
-			mountain = {
-				movement = 0.15 #If you change this - Change the custom tooltip too: RAJ_revive_the_screw_guns_effect ROM_modern_at_guns_tech_tt
+			hard_attack = 0.05
+			soft_attack = 0.05
+		}
+		
+		research_cost = 1
+		start_year = 1912
+		folder = {
+			name = artillery_folder
+			position = { x = -3 y = 20 }
+		}
+		
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 2
+				date > "1913.1.1"
 			}
+			
+			modifier = {
+				factor = 2
+				date > "1914.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1915.1.1"
+			}
+		}
+	}
+
+	############################# ANTITANK TREE ###########################
+
+	antitank1 = {
+	
+		enable_equipments = {
+			antitank1
+		}
+
+		enable_subunits = {
+			anti_tank
+			anti_tank_brigade
+		}
+
+		path = {
+			leads_to_tech = antitank_grenades
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1908
+		folder = {
+			name = artillery_folder
+			position = { x = 2 y = 14 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 2
+				date > "1909.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1910.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1911.1.1"
+			}
+		}
+	}
+
+	antitank_grenades = {
+	
+		anti_tank = {
+			hard_attack = 0.2
 		}
 
 		anti_tank_brigade = {
-			mountain = {
-				movement = 0.15 #If you change this - Change the custom tooltip too: RAJ_revive_the_screw_guns_effect ROM_modern_at_guns_tech_tt
+			hard_attack = 0.2
+		}
+
+		research_cost = 2
+		start_year = 1911
+		folder = {
+			name = artillery_folder
+			position = { x = 2 y = 18 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 2
+				date > "1912.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1913.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1914.1.1"
 			}
 		}
 	}

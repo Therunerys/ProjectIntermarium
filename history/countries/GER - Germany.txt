@@ -16,16 +16,16 @@ set_war_support = 0.50
 
 set_politics = {
 	ruling_party = authoritarian
-	last_election = "1888.6.15"
+	last_election = "1898.6.15"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 0
-	fascism = 0
+	democratic = 27
+	fascism = 3
 	communism = 0
-	authoritarian = 100
+	authoritarian = 70
 }
 
 create_faction = Mittelmächte
@@ -33,7 +33,7 @@ add_to_faction = AUS
 add_to_faction = GEA
 
 add_ideas = {
-	limited_exports
+	free_trade
 	limited_conscription
 	partial_economic_mobilisation
 	chlodwig
@@ -57,8 +57,30 @@ if = {
 
 
 #####################
-###### LEADERS #######
+###### LEADERS ######
 #####################
+
+create_country_leader = {
+	name = "Karl Liebknecht"
+	desc = ""
+	picture = Karl_Liebknecht.dds
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "August Bebel"
+	desc = ""
+	picture = August_Bebel.dds
+	expire = "1965.1.1"
+	ideology = Socialism
+	traits = {
+		
+	}
+}
 
 create_country_leader = {
 	name = "Wilhelm II"
@@ -67,7 +89,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = semi_constitutional
 	traits = {
-		anti_democrat imperial_connections
+		imperial_connections
 	}
 }
 

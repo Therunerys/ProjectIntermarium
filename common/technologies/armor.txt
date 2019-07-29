@@ -1,17 +1,25 @@
 technologies = {
 
-	new_kind_of_warfare = {
+	armored_car1 = {
+
+		enable_equipments = {
+			armored_car_1
+		}
+
+		enable_subunits = {
+			armored_cars
+		}
 
 		path = {
-            leads_to_tech = prototype_experiments
+            leads_to_tech = armored_car2
             research_cost_coeff = 1
         }
 
 		research_cost = 3
-		start_year = 1920
+		start_year = 1898
 		folder = {
 			name = armour_folder
-			position = { x = 0 y = 0 }
+			position = { x = -4 y = 0 }
 		}
 		
 		ai_will_do = {
@@ -23,56 +31,18 @@ technologies = {
 		}
 	}
 
-	prototype_experiments = {
-
-		enable_subunits = {
-			light_armor
-		}
+	armored_car2 = {
 
 		enable_equipments = {
-			prototype_tank
+			armored_car_2
 		}
 
 		path = {
-            leads_to_tech = first_light_tank
-        }
-
-        path = {
-            leads_to_tech = first_medium_tank
-        }
-
-        path = {
-            leads_to_tech = added_machinegun
+            leads_to_tech = armored_car3
         }
 
 		research_cost = 2
-		start_year = 1921
-		folder = {
-			name = armour_folder
-			position = { x = 0 y = 2 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			armor
-		}
-	}
-
-	first_light_tank = {
-
-		enable_equipments = {
-			light_tank_1
-		}
-
-		path = {
-            leads_to_tech = second_light_tank
-        }
-
-		research_cost = 2
-		start_year = 1922
+		start_year = 1904
 		folder = {
 			name = armour_folder
 			position = { x = -4 y = 4 }
@@ -87,50 +57,22 @@ technologies = {
 		}
 	}
 
-	second_light_tank = {
+	armored_car3 = {
 
 		enable_equipments = {
-			light_tank_2
+			armored_car_3
 		}
 
 		path = {
-            leads_to_tech = third_light_tank
+            leads_to_tech = armored_car4
         }
 
         path = {
-            leads_to_tech = first_medium_tank
-            research_cost_coeff = 0.9
+            leads_to_tech = tank_prototype
         }
 
 		research_cost = 2
-		start_year = 1923
-		folder = {
-			name = armour_folder
-			position = { x = -4 y = 6 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			armor
-		}
-	}
-
-	third_light_tank = {
-
-		enable_equipments = {
-			light_tank_3
-		}
-
-		path = {
-            leads_to_tech = second_medium_tank
-            research_cost_coeff = 0.9
-        }
-
-		research_cost = 2
-		start_year = 1924
+		start_year = 1908
 		folder = {
 			name = armour_folder
 			position = { x = -4 y = 8 }
@@ -145,170 +87,40 @@ technologies = {
 		}
 	}
 
-	first_medium_tank = {
+	armored_car4 = {
 
 		enable_equipments = {
-			medium_tank_1
+			armored_car_4
 		}
-
-		enable_subunits = {
-			medium_armor
-		}
-
-		path = {
-            leads_to_tech = second_medium_tank
-        }
 
         path = {
-            leads_to_tech = second_light_tank
+            leads_to_tech = armored_car5
         }
+
+		research_cost = 2
+		start_year = 1912
+		folder = {
+			name = armour_folder
+			position = { x = -4 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	tank_prototype = {
 
         path = {
-            leads_to_tech = first_heavy_tank
+            leads_to_tech = light_tank1
         }
 
 		research_cost = 2
-		start_year = 1921
-		folder = {
-			name = armour_folder
-			position = { x = 0 y = 6 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			armor
-		}
-	}
-
-	second_medium_tank = {
-
-		enable_equipments = {
-			medium_tank_2
-		}
-
-		path = {
-            leads_to_tech = third_medium_tank
-        }
-
-        path = {
-            leads_to_tech = first_heavy_tank
-            research_cost_coeff = 0.9
-        }
-
-		research_cost = 2
-		start_year = 1921
-		folder = {
-			name = armour_folder
-			position = { x = 0 y = 8 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			armor
-		}
-	}
-
-	third_medium_tank = {
-
-		enable_equipments = {
-			medium_tank_3
-		}
-
-		path = {
-            leads_to_tech = fourth_medium_tank
-        }
-
-        path = {
-            leads_to_tech = second_heavy_tank
-            research_cost_coeff = 0.9
-        }
-
-		research_cost = 2
-		start_year = 1921
-		folder = {
-			name = armour_folder
-			position = { x = 0 y = 10 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			armor
-		}
-	}
-
-	fourth_medium_tank = {
-
-		enable_equipments = {
-			medium_tank_4
-		}
-
-		research_cost = 2
-		start_year = 1921
-		folder = {
-			name = armour_folder
-			position = { x = 0 y = 12 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			armor
-		}
-	}
-
-	first_heavy_tank = {
-
-		enable_equipments = {
-			heavy_tank_1
-		}
-
-		enable_subunits = {
-			heavy_armor
-		}
-
-		path = {
-            leads_to_tech = second_heavy_tank
-        }
-
-		research_cost = 2
-		start_year = 1921
-		folder = {
-			name = armour_folder
-			position = { x = 4 y = 8 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			armor
-		}
-	}
-
-	second_heavy_tank = {
-
-		enable_equipments = {
-			heavy_tank_2
-		}
-
-		path = {
-            leads_to_tech = suspension_experiments
-        }
-
-		research_cost = 2
-		start_year = 1921
+		start_year = 1911
 		folder = {
 			name = armour_folder
 			position = { x = 4 y = 10 }
@@ -323,159 +135,21 @@ technologies = {
 		}
 	}
 
-	added_machinegun = {
-
-		category_all_armor = {
-			soft_attack = 0.01
-			defense = 0.01
-		}
-
-		path = {
-            leads_to_tech = improved_barrel
-        }
-
-		research_cost = 2
-		start_year = 1923
-		folder = {
-			name = armour_folder
-			position = { x = 8 y = 4 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			armor
-		}
-	}
-
-	improved_barrel = {
-
-		category_all_armor = {
-			soft_attack = 0.02
-			hard_attack = 0.01
-		}
-
-		path = {
-            leads_to_tech = improved_engine
-        }
-
-		research_cost = 2
-		start_year = 1923
-		folder = {
-			name = armour_folder
-			position = { x = 8 y = 6 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			armor
-		}
-	}
-
-	improved_engine = {
-
-		army_armor_speed_factor = 0.02
-
-		path = {
-            leads_to_tech = improved_suspension
-        }
-
-        path = {
-            leads_to_tech = first_heavy_tank
-            research_cost_coeff = 0.9
-        }
-
-		research_cost = 2
-		start_year = 1923
-		folder = {
-			name = armour_folder
-			position = { x = 8 y = 8 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			armor
-		}
-	}
-
-	improved_suspension = {
-
-		army_armor_speed_factor = 0.01
-
-		path = {
-            leads_to_tech = suspension_experiments
-        }
-
-        path = {
-            leads_to_tech = second_heavy_tank
-            research_cost_coeff = 0.9
-        }
-
-		research_cost = 2
-		start_year = 1923
-		folder = {
-			name = armour_folder
-			position = { x = 8 y = 10 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			armor
-		}
-	}
-
-	suspension_experiments = {
-
-		path = {
-            leads_to_tech = first_walker_tank
-        }
-
-		research_cost = 2
-		start_year = 1923
-		folder = {
-			name = armour_folder
-			position = { x = 6 y = 12 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			armor
-		}
-	}
-
-	first_walker_tank = {
+	light_tank1 = {
 
 		enable_equipments = {
-			walker_tank_1
+			landship_1
 		}
 
 		enable_subunits = {
-			walker_armor
+			landships
 		}
 
-		path = {
-            leads_to_tech = second_walker_tank
-        }
-
 		research_cost = 2
-		start_year = 1923
+		start_year = 1914
 		folder = {
 			name = armour_folder
-			position = { x = 6 y = 14 }
+			position = { x = 4 y = 16 }
 		}
 		
 		ai_will_do = {
@@ -487,21 +161,28 @@ technologies = {
 		}
 	}
 
-	second_walker_tank = {
+	plating_upgrade = {
 
-		enable_equipments = {
-			walker_tank_2
+		category_all_armor = {
+			armor_value = 0.05
+			maximum_speed = -0.02
 		}
 
 		path = {
-            leads_to_tech = third_walker_tank
+            leads_to_tech = shell_upgrade
+            research_cost_coeff = 1
         }
 
-		research_cost = 2
-		start_year = 1923
+        path = {
+            leads_to_tech = maintenance_upgrade
+            research_cost_coeff = 1
+        }
+
+		research_cost = 3
+		start_year = 1902
 		folder = {
 			name = armour_folder
-			position = { x = 6 y = 16 }
+			position = { x = 0 y = 0 }
 		}
 		
 		ai_will_do = {
@@ -513,21 +194,33 @@ technologies = {
 		}
 	}
 
-	third_walker_tank = {
+	shell_upgrade = {
 
-		enable_equipments = {
-			walker_tank_3
+		category_all_armor = {
+			soft_attack = 0.05
+			hard_attack = 0.05
 		}
 
 		path = {
-            leads_to_tech = secret_research
+            leads_to_tech = camo_upgrade
+            research_cost_coeff = 1
         }
 
-		research_cost = 2
-		start_year = 1923
+        path = {
+            leads_to_tech = engine_upgrade
+            research_cost_coeff = 1
+        }
+
+        path = {
+            leads_to_tech = suspension_upgrade
+            research_cost_coeff = 1
+        }
+
+		research_cost = 3
+		start_year = 1905
 		folder = {
 			name = armour_folder
-			position = { x = 6 y = 18 }
+			position = { x = -2 y = 2 }
 		}
 		
 		ai_will_do = {
@@ -539,13 +232,98 @@ technologies = {
 		}
 	}
 
-	secret_research = {
+	maintenance_upgrade = {
 
-		research_cost = 2
-		start_year = 1923
+		category_all_armor = {
+			reliability = 0.1
+		}
+
+		path = {
+            leads_to_tech = camo_upgrade
+            research_cost_coeff = 1
+        }
+
+        path = {
+            leads_to_tech = engine_upgrade
+            research_cost_coeff = 1
+        }
+
+        path = {
+            leads_to_tech = suspension_upgrade
+            research_cost_coeff = 1
+        }
+
+		research_cost = 3
+		start_year = 1905
 		folder = {
 			name = armour_folder
-			position = { x = 6 y = 20 }
+			position = { x = 2 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	camo_upgrade = {
+
+		category_all_armor = {
+			defense = 0.05
+		}
+
+		research_cost = 3
+		start_year = 1910
+		folder = {
+			name = armour_folder
+			position = { x = -3 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	engine_upgrade = {
+
+		category_all_armor = {
+			maximum_speed = 0.02
+		}
+
+		research_cost = 3
+		start_year = 1910
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	suspension_upgrade = {
+
+		category_all_armor = {
+			breakthrough = 0.02
+		}
+
+		research_cost = 3
+		start_year = 1910
+		folder = {
+			name = armour_folder
+			position = { x = 3 y = 4 }
 		}
 		
 		ai_will_do = {

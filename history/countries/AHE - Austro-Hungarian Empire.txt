@@ -1,14 +1,11 @@
 capital = 4
 
-oob = "AUS_1936"
-
 # Starting tech
 set_technology = {
-
 }
 
 set_research_slots = 4
-set_convoys = 200
+set_convoys = 100
 set_stability = 0.40
 set_war_support = 0.30
 
@@ -17,20 +14,22 @@ set_war_support = 0.30
 #####################
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1848.12.2"
-	election_frequency = 48
-	elections_allowed = no
+	ruling_party = democratic
+	last_election = "1897.3.1"
+	election_frequency = 36
+	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 17
-	fascism = 7
-	communism = 15
-	neutrality = 61
+	democratic = 77
+	fascism = 0
+	communism = 23
+	authoritarian = 0
 }
 
 add_ideas = {
+	Heinrich_Ritter
+	Kalman_Szell
 	eternal_empire
 	ineffective_army
 	angry_ethnicities
@@ -41,27 +40,15 @@ add_ideas = {
 #####################
 
 create_country_leader = {
-	name = "Francis Joseph I"
+	name = "Franz Joseph I"
 	desc = ""
 	picture = "gfx/leaders/AHE/FranzJoseph.dds"
 	expire = "1916.1.1"
-	ideology = despotism
-	traits = {
-		anti_democrat imperial_connections
-	}
-}
-
-
-create_country_leader = {
-	name = "Karl Renner"
-	desc = "POLITICS_KARL_RENNER_DESC"
-	picture = "renner.dds"
 	ideology = conservatism
 	traits = {
-		#
+		imperial_connections
 	}
 }
-
 
 #####################
 ####### ARMY ########

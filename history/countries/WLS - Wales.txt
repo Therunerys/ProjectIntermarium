@@ -27,7 +27,7 @@ set_politics = {
 			#banned = no #default is no
 		}
 		
-		neutrality = { 
+		authoritarian = { 
 			popularity = 0
 		}
 	}
@@ -70,7 +70,7 @@ set_politics = {
 			#banned = no #default is no
 		}
 		
-		neutrality = { 
+		authoritarian = { 
 			popularity = 0
 		}
 	}

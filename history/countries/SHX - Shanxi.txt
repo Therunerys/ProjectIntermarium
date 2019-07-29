@@ -36,11 +36,11 @@ set_politics = {
 			#banned = no #default is no
 		}
 		
-		neutrality = { 
+		authoritarian = { 
 			popularity = 100
 		}
 	}
-	ruling_party = neutrality
+	ruling_party = authoritarian
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no

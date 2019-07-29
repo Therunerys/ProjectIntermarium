@@ -48,7 +48,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1923
+		start_year = 1902
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = 6 }
@@ -80,7 +80,7 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1927
+		start_year = 1908
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = 15 }
@@ -107,7 +107,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1932
+		start_year = 1910
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = 21 }
@@ -135,7 +135,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1902
+		start_year = 1900
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = 3 }
@@ -163,7 +163,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1902
+		start_year = 1904
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = 9 }
@@ -191,7 +191,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1902
+		start_year = 1908
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = 15 }
@@ -214,7 +214,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1902
+		start_year = 1912
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = 24 }
@@ -268,7 +268,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1902
+		start_year = 1908
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = 15 }
@@ -295,7 +295,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1902
+		start_year = 1910
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = 21 }
@@ -323,7 +323,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1902
+		start_year = 1904
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = 9 }
@@ -346,7 +346,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1902
+		start_year = 1909
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = 18 }
@@ -369,7 +369,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1902
+		start_year = 1912
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = 24 }
@@ -392,7 +392,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1902
+		start_year = 1906
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = 12 }
@@ -423,7 +423,7 @@ technologies = {
 		}	
 
 		research_cost = 1.5
-		start_year = 1904
+		start_year = 1900
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = 3 }
@@ -477,7 +477,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1902
+		start_year = 1906
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = 12 }
@@ -499,7 +499,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1902
+		start_year = 1909
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = 18 }
@@ -535,7 +535,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1921
+		start_year = 1895
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = 0 }
@@ -562,7 +562,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1921
+		start_year = 1900
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = 3 }
@@ -589,7 +589,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1921
+		start_year = 1908
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = 15 }
@@ -617,7 +617,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1921
+		start_year = 1904
 		folder = {
 			name = infantry_folder
 			position = { x = 1 y = 9 }
@@ -645,7 +645,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1921
+		start_year = 1906
 		folder = {
 			name = infantry_folder
 			position = { x = 1 y = 12 }
@@ -688,7 +688,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1936
+		start_year = 1909
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = 18 }
@@ -705,21 +705,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-				factor = 2
-				date > "1937.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1938.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1939.1.1"
-			}
 		}
 	}
 	
@@ -747,7 +732,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1936
+		start_year = 1895
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = 0 }
@@ -785,7 +770,7 @@ technologies = {
 		
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1902
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = 6 }
@@ -817,7 +802,7 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1943
+		start_year = 1906
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = 12 }
@@ -866,7 +851,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1936
+		start_year = 1895
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = 0 }
@@ -895,7 +880,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1902
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = 6 }
@@ -918,7 +903,7 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1943
+		start_year = 1906
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = 12 }
@@ -984,7 +969,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1942
+		start_year = 1902
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = 6 }
@@ -1019,10 +1004,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1942
+		start_year = 1904
 		folder = {
 			name = infantry_folder
-			position = { x = -2 y = 9 }
+			position = { x = -1 y = 9 }
 		}
 		
 		categories = {
@@ -1053,10 +1038,10 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1944
+		start_year = 1904
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = 9 }
+			position = { x = 1 y = 9 }
 		}
 		
 		categories = {
@@ -1077,7 +1062,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1944
+		start_year = 1908
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = 15 }

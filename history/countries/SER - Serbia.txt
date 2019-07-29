@@ -1,7 +1,5 @@
 ﻿capital = 107
 
-oob = "YUG_1936"
-
 # Starting tech
 set_technology = {
 
@@ -17,21 +15,21 @@ set_war_support = 0.50
 #####################
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1889.3.6"
-	election_frequency = 48
-	elections_allowed = no
+	ruling_party = democratic
+	last_election = "1898.0.0"
+	election_frequency = 36
+	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 4
-	fascism = 3
-	communism = 2
-	neutrality = 91
+	democratic = 100
+	fascism = 0
+	communism = 0
+	authoritarian = 0
 }
 
 add_ideas = {
-	
+	Vladan_Dordevic
 }
 
 #####################
@@ -39,45 +37,12 @@ add_ideas = {
 #####################
 
 create_country_leader = {
-	name = "Draza Mihailovic"
+	name = "Alexander I"
 	desc = ""
-	picture = "Portrait_Yugoslavia_Prince_Paul.dds"
-	expire = "1965.1.1"
+	picture = "Alexander_I.dds"
+	expire = "1960.1.1"
 	ideology = conservatism
 	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Milan Nedic"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Peter Karadordevic"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-	expire = "1965.1.1"
-	ideology = Despotism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Zivorad Jovanovic"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {
-		#
+		
 	}
 }

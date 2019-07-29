@@ -9,17 +9,39 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_GER_infantry_weapons1_medium"
-		texturefile = "gfx/interface/technologies/GER_infantry_weapons1.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_GER_infantry_weapons2_medium"
 		texturefile = "gfx/interface/technologies/GER_infantry_weapons2.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_GER_infantry_weapons3_medium"
+		name = "GFX_GER_infantry_weapons2_medium"
 		texturefile = "gfx/interface/technologies/GER_infantry_weapons3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/GER_infantry_weapons4.dds"
+	}
+
+	######################### FRENCH INFANTRY WEAPONS #########################
+
+	SpriteType = {
+		name = "GFX_FRA_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/FRA_infantry_weapons1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_FRA_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/FRA_infantry_weapons2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_FRA_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/FRA_infantry_weapons3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_FRA_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/FRA_infantry_weapons4.dds"
 	}
 
 	####################### INFANTRY TREE ##########################
@@ -331,107 +353,102 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/supportradio4.dds"
 	}
 	#
-	############################################################################################TANKS AND ARMOR
+	############################################################################################TANKS AND ARMOR UPGRADES
 	#
 	SpriteType = {
-		name = "GFX_new_kind_of_warfare_medium"
-		texturefile = "gfx/interface/technologies/blueprint.dds"
+		name = "GFX_plating_upgrade_medium"
+		texturefile = "gfx/interface/technologies/tankplates.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_prototype_experiments_medium"
-		texturefile = "gfx/interface/technologies/tank_prototype.dds"
+		name = "GFX_shell_upgrade_medium"
+		texturefile = "gfx/interface/technologies/tankshell.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_added_machinegun_medium"
-		texturefile = "gfx/interface/technologies/added_machinegun.dds"
+		name = "GFX_maintenance_upgrade_medium"
+		texturefile = "gfx/interface/technologies/tankmaintenance.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_improved_barrel_medium"
-		texturefile = "gfx/interface/technologies/improved_barrel.dds"
+		name = "GFX_camo_upgrade_medium"
+		texturefile = "gfx/interface/technologies/tankcamo.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_improved_engine_medium"
-		texturefile = "gfx/interface/technologies/improved_engine.dds"
+		name = "GFX_engine_upgrade_medium"
+		texturefile = "gfx/interface/technologies/tankengine.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_improved_suspension_medium"
-		texturefile = "gfx/interface/technologies/improved_suspension.dds"
+		name = "GFX_suspension_upgrade_medium"
+		texturefile = "gfx/interface/technologies/tanksuspension.dds"
+	}
+	#
+	############################################################################################FRENCH TANKS AND ARMOR
+	#
+	SpriteType = {
+		name = "GFX_FRA_armored_car1_medium"
+		texturefile = "gfx/interface/technologies/FRA_armoredcar1.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_first_light_tank_medium"
-		texturefile = "gfx/interface/technologies/tank_light_1.dds"
+		name = "GFX_FRA_armored_car2_medium"
+		texturefile = "gfx/interface/technologies/FRA_armoredcar2.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_second_light_tank_medium"
-		texturefile = "gfx/interface/technologies/tank_light_2.dds"
+		name = "GFX_FRA_armored_car3_medium"
+		texturefile = "gfx/interface/technologies/FRA_armoredcar3.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_third_light_tank_medium"
-		texturefile = "gfx/interface/technologies/tank_light_3.dds"
+		name = "GFX_FRA_armored_car4_medium"
+		texturefile = "gfx/interface/technologies/FRA_armoredcar4.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_first_medium_tank_medium"
-		texturefile = "gfx/interface/technologies/tank_medium_1.dds"
+		name = "GFX_FRA_tank_prototype_medium"
+		texturefile = "gfx/interface/technologies/FRA_tankprototype.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_second_medium_tank_medium"
-		texturefile = "gfx/interface/technologies/tank_medium_2.dds"
+		name = "GFX_FRA_light_tank1_medium"
+		texturefile = "gfx/interface/technologies/FRA_lighttank1.dds"
+	}
+	#
+	############################################################################################GERMAN TANKS AND ARMOR
+	#
+	SpriteType = {
+		name = "GFX_GER_armored_car1_medium"
+		texturefile = "gfx/interface/technologies/GER_armoredcar1.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_third_medium_tank_medium"
-		texturefile = "gfx/interface/technologies/tank_medium_3.dds"
+		name = "GFX_GER_armored_car2_medium"
+		texturefile = "gfx/interface/technologies/GER_armoredcar2.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_fourth_medium_tank_medium"
-		texturefile = "gfx/interface/technologies/tank_medium_4.dds"
+		name = "GFX_GER_armored_car3_medium"
+		texturefile = "gfx/interface/technologies/GER_armoredcar3.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_first_heavy_tank_medium"
-		texturefile = "gfx/interface/technologies/tank_heavy_1.dds"
+		name = "GFX_GER_armored_car4_medium"
+		texturefile = "gfx/interface/technologies/GER_armoredcar4.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_second_heavy_tank_medium"
-		texturefile = "gfx/interface/technologies/tank_heavy_2.dds"
+		name = "GFX_GER_tank_prototype_medium"
+		texturefile = "gfx/interface/technologies/GER_tankprototype.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_suspension_experiments_medium"
-		texturefile = "gfx/interface/technologies/top_secret_research.dds"
+		name = "GFX_GER_light_tank1_medium"
+		texturefile = "gfx/interface/technologies/GER_lighttank1.dds"
 	}
 
-	SpriteType = {
-		name = "GFX_first_walker_tank_medium"
-		texturefile = "gfx/interface/technologies/tank_walker_1.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_second_walker_tank_medium"
-		texturefile = "gfx/interface/technologies/tank_walker_2.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_third_walker_tank_medium"
-		texturefile = "gfx/interface/technologies/tank_walker_3.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_secret_research_medium"
-		texturefile = "gfx/interface/technologies/secret_tech.dds"
-	}
 	#
 	#####################################################################################################ARTILLERY
 	#
@@ -441,8 +458,8 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_improved_shells_medium"
-		texturefile = "gfx/interface/technologies/better_shells.dds"
+		name = "GFX_interwar_artillery_medium"
+		texturefile = "gfx/interface/technologies/interwar_artillery.dds"
 	}
 
 	SpriteType = {
@@ -461,8 +478,33 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_improved_artillery_speed_medium"
+		texturefile = "gfx/interface/technologies/NOTHINGYET.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_shells_medium"
+		texturefile = "gfx/interface/technologies/better_shells.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_artillery_attack_medium"
+		texturefile = "gfx/interface/technologies/rocket_artillery3.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_explosive_artillery2_medium"
 		texturefile = "gfx/interface/technologies/artillery2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_artillery_upgrade1_medium"
+		texturefile = "gfx/interface/technologies/artillery1imp.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_artillery_upgrade2_medium"
+		texturefile = "gfx/interface/technologies/artillery2imp.dds"
 	}
 
 	SpriteType = {
@@ -479,37 +521,10 @@ spriteTypes = {
 		name = "GFX_explosive_artillery3_medium"
 		texturefile = "gfx/interface/technologies/artillery3.dds"
 	}
-	#
-	#########################################################################################################MORTARS
-	#
-	SpriteType = {
-		name = "GFX_mortar_experiments_medium"
-		texturefile = "gfx/interface/technologies/mortar_experiments.dds"
-	}
 
 	SpriteType = {
-		name = "GFX_improved_explosive_compound_medium"
-		texturefile = "gfx/interface/technologies/compound.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_new_projectiles_medium"
-		texturefile = "gfx/interface/technologies/shrapnel.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_explosive_mortar_medium"
-		texturefile = "gfx/interface/technologies/mortar1.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_explosive_mortar1_medium"
-		texturefile = "gfx/interface/technologies/mortar2.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_propelled_shells_medium"
-		texturefile = "gfx/interface/technologies/rockets.dds"
+		name = "GFX_advanced_artillery_upgrade_medium"
+		texturefile = "gfx/interface/technologies/artillery5.dds"
 	}
 	#
 	#######################################################################################################ANTIAIR
@@ -557,33 +572,8 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_higher_caliber_rounds_medium"
-		texturefile = "gfx/interface/technologies/higher_caliber_rounds.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_antitank2_medium"
-		texturefile = "gfx/interface/technologies/antitank2.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_better_penetration_medium"
-		texturefile = "gfx/interface/technologies/better_penetration.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_antitank3_medium"
-		texturefile = "gfx/interface/technologies/antitank3.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_new_types_of_ammunition_medium"
-		texturefile = "gfx/interface/technologies/new_types_of_ammunition.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_antitank4_medium"
-		texturefile = "gfx/interface/technologies/antitank4.dds"
+		name = "GFX_antitank_grenades_medium"
+		texturefile = "gfx/interface/technologies/antitank_grenades.dds"
 	}
 	#
 	##########################################################################################################DOCTRINES
