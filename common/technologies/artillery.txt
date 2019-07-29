@@ -365,6 +365,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		path = {
+			leads_to_tech = antiair1
+			research_cost_coeff = 1
+		}
+
 		research_cost = 2
 		start_year = 1907
 		folder = {
@@ -392,96 +397,6 @@ technologies = {
 			modifier = {
 				factor = 5
 				date > "1910.1.1"
-			}
-		}
-	}
-	
-	improved_artillery_upgrade1	 = {
-
-		artillery = {
-			soft_attack = 0.1
-		}
-
-		artillery_brigade = {
-			soft_attack = 0.1
-		}
-		
-		path = {
-			leads_to_tech = improved_artillery_upgrade2
-		}
-		
-		research_cost = 1
-		start_year = 1908
-		folder = {
-			name = artillery_folder
-			position = { x = -2 y = 14 }
-		}
-		
-		categories = {
-			artillery
-		}
-
-		ai_will_do = {
-			factor = 2
-			
-			modifier = {
-				factor = 2
-				date > "1909.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1910.1.1"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "1911.1.1"
-			}
-		}
-	}
-
-	improved_artillery_upgrade2	 = {
-
-		artillery = {
-			hard_attack = 0.1
-		}
-
-		artillery_brigade = {
-			hard_attack = 0.1
-		}
-		
-		path = {
-			leads_to_tech = explosive_artillery3
-		}
-		
-		research_cost = 1
-		start_year = 1909
-		folder = {
-			name = artillery_folder
-			position = { x = -2 y = 16 }
-		}
-		
-		categories = {
-			artillery
-		}
-
-		ai_will_do = {
-			factor = 2
-			
-			modifier = {
-				factor = 2
-				date > "1910.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1911.1.1"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "1912.1.1"
 			}
 		}
 	}
@@ -552,6 +467,96 @@ technologies = {
 			artillery
 		}
 		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 2
+				date > "1910.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1911.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1912.1.1"
+			}
+		}
+	}
+
+	improved_artillery_upgrade1	 = {
+
+		artillery = {
+			soft_attack = 0.1
+		}
+
+		artillery_brigade = {
+			soft_attack = 0.1
+		}
+		
+		path = {
+			leads_to_tech = improved_artillery_upgrade2
+		}
+		
+		research_cost = 1
+		start_year = 1908
+		folder = {
+			name = artillery_folder
+			position = { x = -2 y = 14 }
+		}
+		
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 2
+				date > "1909.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1910.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1911.1.1"
+			}
+		}
+	}
+
+	improved_artillery_upgrade2	 = {
+
+		artillery = {
+			hard_attack = 0.1
+		}
+
+		artillery_brigade = {
+			hard_attack = 0.1
+		}
+		
+		path = {
+			leads_to_tech = explosive_artillery3
+		}
+		
+		research_cost = 1
+		start_year = 1909
+		folder = {
+			name = artillery_folder
+			position = { x = -2 y = 16 }
+		}
+		
+		categories = {
+			artillery
+		}
+
 		ai_will_do = {
 			factor = 2
 			
@@ -721,6 +726,95 @@ technologies = {
 		folder = {
 			name = artillery_folder
 			position = { x = 2 y = 18 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 2
+				date > "1912.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1913.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1914.1.1"
+			}
+		}
+	}
+
+	############################# ANTIAIR TREE ###########################
+
+	antiair1 = {
+	
+		enable_equipments = {
+			antiair1
+		}
+
+		enable_subunits = {
+			anti_air
+			anti_air_brigade
+		}
+
+		path = {
+			leads_to_tech = improved_antiair
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1908
+		folder = {
+			name = artillery_folder
+			position = { x = -8 y = 14 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 2
+				date > "1909.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1910.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1911.1.1"
+			}
+		}
+	}
+
+	improved_antiair = {
+	
+		anti_air = {
+			air_attack = 0.2
+		}
+		anti_air_brigade = {
+			air_attack = 0.2
+		}
+
+		research_cost = 2
+		start_year = 1911
+		folder = {
+			name = artillery_folder
+			position = { x = -8 y = 18 }
 		}
 		
 		categories = {

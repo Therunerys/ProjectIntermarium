@@ -479,7 +479,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_improved_artillery_speed_medium"
-		texturefile = "gfx/interface/technologies/NOTHINGYET.dds"
+		texturefile = "gfx/interface/technologies/artillery_speed.dds"
 	}
 
 	SpriteType = {
@@ -535,33 +535,8 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_sirens_medium"
-		texturefile = "gfx/interface/technologies/siren.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_added_machineguns_medium"
+		name = "GFX_improved_antiair_medium"
 		texturefile = "gfx/interface/technologies/added_antiair.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_antiair2_medium"
-		texturefile = "gfx/interface/technologies/antiair2.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_new_optics_medium"
-		texturefile = "gfx/interface/technologies/antiair_scope.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_antiair3_medium"
-		texturefile = "gfx/interface/technologies/antiair3.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_flak_towers_medium"
-		texturefile = "gfx/interface/technologies/antiair_tower.dds"
 	}
 	#
 	######################################################################################################ANTITANK
