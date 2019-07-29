@@ -319,10 +319,12 @@
  armored_car_4:0 "Advanced Armored Car"
  armored_car_4_short:0 "Advanced Armored Car"
  armored_car_4_desc:0 "Our most advanced design yet, highly mobile and strong armor, it can break even the strongest of front lines."
- landship_1:0 "Landship"
- landship_1_short:0 "Landship"
- landship_1_desc:0 "The latest design from our engineers is highly advanced and easy to produce. Stronger armour and better offensive capabilities will allow us to punch through enemy frontlines easily, while inflicting minimal casualties on our side."
-
+ landship_1:0 "Prototype Landship"
+ landship_1_short:0 "Prototype Landship"
+ landship_1_desc:0 "An early version for the purpose of testing."
+ landship_2:0 "Landship"
+ landship_2_short:0 "Landship"
+ landship_2_desc:0 "The latest design from our engineers is highly advanced and easy to produce. Stronger armour and better offensive capabilities will allow us to punch through enemy frontlines easily, while inflicting minimal casualties on our side."
 
 
  gw_tank_equipment:0 "Great War Tank"

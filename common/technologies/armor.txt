@@ -119,6 +119,14 @@ technologies = {
             leads_to_tech = light_tank1
         }
 
+        enable_equipments = {
+			landship_1
+		}
+
+		enable_subunits = {
+			landships
+		}
+
 		research_cost = 2
 		start_year = 1911
 		folder = {
@@ -138,11 +146,7 @@ technologies = {
 	light_tank1 = {
 
 		enable_equipments = {
-			landship_1
-		}
-
-		enable_subunits = {
-			landships
+			landship_2
 		}
 
 		research_cost = 2
