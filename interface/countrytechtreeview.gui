@@ -737,7 +737,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "artillery_subtitle_artillery"
-					position = { x = 105 y = 55 }
+					position = { x = 330 y = 55 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -750,7 +750,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "artillery_subtitle_anti_tank"
-					position = { x = 515 y = 1000 }
+					position = { x = 750 y = 1000 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -763,7 +763,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "artillery_subtitle_anti_air"
-					position = { x = -185 y = 1000 }
+					position = { x = 60 y = 1000 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
