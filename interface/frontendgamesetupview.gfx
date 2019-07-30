@@ -221,12 +221,12 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_select_date_1921"
-		texturefile = "gfx/interface/select_date_1921.dds"
+		name = "GFX_select_date_1900"
+		texturefile = "gfx/interface/select_date_1900.dds"
 	}
 	spriteType = {
-		name = "GFX_select_date_placeholder"
-		texturefile = "gfx/interface/select_date_placeholder.dds"
+		name = "GFX_select_date_1909"
+		texturefile = "gfx/interface/select_date_1909.dds"
 	}
 	
 	spriteType = {

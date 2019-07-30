@@ -2,9 +2,6 @@
  BM_HISTORY_TITLE:0 "Brief History"
  NEW_DAWN_NAME:0 "New Dawn"
  NEW_DAWN_DESC:0 "A new century dawns on the world. Industrialization is in full swing and countries must adapt to the new standards. Tensions rise between countries and particularly the balkans. Will the world succumb to the darkness ?"
- HITTING_FAN_NAME:0 "The Hitting of the Fan"
- HITTING_FAN_DESC:0 "Yup, that's right! That umbrella collection is about to come in real handy."
- ENG_NEW_DAWN_DESC:0 "As the british dominion expanded during the colonial era, it was able to secure its new territories. But there are concerns of various independance movements in the Raj.\n\n Still being considered a superpower, they can dictate the way the world goes."
  FRA_NEW_DAWN_DESC:0 "The French Third Republic is preparing for war. They seek to take back Alsace-Lorraine from Germany and to secure their colonies in Africa. A growing socialist sentiment is worrying some politicians, but they doubt that it can cause harm to the republic."
  GER_NEW_DAWN_DESC:0 "Enjoying the victories of the past century, germany has been rapidly industrializing. While the industrialization is still ongoing, they have also been involved in the naval race with the British. Still not as powerful as the British fleet, they managed to rapidly increase the number of ships."
  AUS_NEW_DAWN_DESC:0 "Unrest in the Austro-Hungarian empire is starting to be really worrying. Franz Ferdinands plan to federalize the country is only in its foundations and experts say that it will be not enough to stabilize the country. The army is also in a very bad shape and it needs to be reformed to be effective again."
@@ -12,3 +9,6 @@
  TUR_NEW_DAWN_DESC:0 "The Ottoman Empire has been struggling for the last couple of centuries since the Siege of Vienna. While maintaining control over the balkans, they have been losing influence over the territory. They must modernize the whole army and industry if they hope to recover their past glories."
  KSN_NEW_DAWN_DESC:0 "The union between Norway and Sweden has been quiet successful. They maintained their neutrality, developed their industry and maintained good relations with it neighbours."
  OTHER_NEW_DAWN_DESC:0 "The nations of the world, great and small, are not all content to hold their breath awaiting the outbreak of a global conflict. All will have to make difficult decisions and balance ideals with pragmatism to have an impact on the future of the world."
+
+ THE_COMING_STORM_NAME:0 "The Coming Storm"
+ THE_COMING_STORM_DESC:0 "Tensions rise between the major powers. After the crisis in Benelux has been averted, the world hoped to take a breath and not fall into war. Major powers however see it differently, talks of a Polish uprising are spreading and the world awaits how The Russian Empire will handle the situation."
