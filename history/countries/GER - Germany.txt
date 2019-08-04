@@ -28,9 +28,10 @@ set_popularities = {
 	authoritarian = 70
 }
 
-create_faction = Mittelmächte
-add_to_faction = AUS
+create_faction = cp
+add_to_faction = AHE
 add_to_faction = GEA
+add_to_faction = ITA
 
 add_ideas = {
 	free_trade

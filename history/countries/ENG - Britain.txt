@@ -13,7 +13,7 @@ set_war_support = 0.50
 ##### POLITICS ######
 #####################
 
-create_faction = Commonwealth
+create_faction = com
 add_to_faction = ENG
 add_to_faction = RAJ
 add_to_faction = CAN
@@ -28,12 +28,20 @@ add_to_faction = TAS
 add_to_faction = VIC
 add_to_faction = AFG
 
+declare_war_on = {
+		target = SFR
+		type = annex_everything
+}
+declare_war_on = {
+		target = ORG
+		type = annex_everything
+}
+
 
 if = {
 	limit = {
 		OR = {
 			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
 		}
 	}
 	set_autonomy = {
