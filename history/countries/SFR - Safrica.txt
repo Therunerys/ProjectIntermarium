@@ -1,34 +1,45 @@
 ﻿capital = 275
 
-oob = "SAF_1936"
-
 set_stability = 0.6
 set_war_support = 0.1
 # Starting tech
 set_technology = {
 	
 }
-set_convoys = 25
+
+#####################
+##### POLITICS ######
+#####################
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 75
-		}
-
-		fascism = {
-			popularity = 20
-		}
-		
-		communism = {
-			popularity = 5
-		}
-	}
-	
 	ruling_party = democratic
-	last_election = "1933.5.17"
+	last_election = "1898.1.1"
 	election_frequency = 60
 	elections_allowed = yes
 }
 
+set_popularities = {
+	democratic = 100
+	fascism = 0
+	communism = 0
+	authoritarian = 0
+}
+
+add_ideas = {
+	Francis_William_Reitz
+}
+
+#####################
+###### LEADERS ######
+#####################
+
+create_country_leader = {
+	name = "Paul Kruger"
+	desc = ""
+	picture = "Paul_Kruger.dds"
+	expire = "1965.1.1"
+	ideology = republicanism
+	traits = {
+		#
+	}
+}

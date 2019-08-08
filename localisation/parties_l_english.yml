@@ -23,6 +23,8 @@
  semi_constitutional:0 "Semi Constitutional"
  semi_constitutional_desc:0 "Semi Constitutional"
  #########NEW
+ republicanism:0 "Republicanism"
+ republicanism_desc:0 "Republicanism"
  marxism:0 "Marxism"
  marxism_desc:0 "Marxism"
  radical_Socialism:0 "Radical Socialism"
@@ -556,3 +558,7 @@
  CST_democratic_party_long:0 "National Defence League"
  CST_democratic_party:0 "NDL"
  CST_communism_party:0 "Australian Labor Party"
+
+ SFR_democratic_party:0 "Volksraad"
+
+ ORG_democratic_party:0 "Volksraad"

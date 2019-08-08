@@ -1,6 +1,4 @@
-﻿capital = 275
-
-oob = "SAF_1936"
+﻿capital = 803
 
 set_stability = 0.6
 set_war_support = 0.1
@@ -8,26 +6,40 @@ set_war_support = 0.1
 set_technology = {
 	
 }
-set_convoys = 25
+
+#####################
+##### POLITICS ######
+#####################
+
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 75
-		}
-
-		fascism = {
-			popularity = 20
-		}
-		
-		communism = {
-			popularity = 5
-		}
-	}
-	
 	ruling_party = democratic
-	last_election = "1933.5.17"
+	last_election = "1898.1.1"
 	election_frequency = 60
 	elections_allowed = yes
 }
 
+set_popularities = {
+	democratic = 100
+	fascism = 0
+	communism = 0
+	authoritarian = 0
+}
+
+add_ideas = {
+	
+}
+
+#####################
+###### LEADERS ######
+#####################
+
+create_country_leader = {
+	name = "Martinus Theunis Steyn"
+	desc = ""
+	picture = "Martinus_Theunis_Steyn.dds"
+	expire = "1965.1.1"
+	ideology = republicanism
+	traits = {
+		#
+	}
+}

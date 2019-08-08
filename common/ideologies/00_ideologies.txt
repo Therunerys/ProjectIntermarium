@@ -14,7 +14,9 @@ ideologies = {
 
 			social_liberalism = {
 			}
+			republicanism = {
 			
+			}
 			liberalism = {
 			}
 		
