@@ -1,4 +1,4 @@
-﻿capital = 361
+capital = 361
 
 oob = "USA_1936"
 
@@ -38,7 +38,7 @@ set_politics = {
 }
 
 add_ideas = {
-
+william_mckinley_jr
 }
 
 set_autonomy = {
@@ -51,7 +51,7 @@ set_autonomy = {
 #####################
 
 create_country_leader = {
-	name = "Woodrow Wilson"
+	name = "William McKinley Jr."
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
 	picture = "woodrow.dds"
 	expire = "1947.1.1"

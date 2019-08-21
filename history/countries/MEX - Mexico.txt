@@ -38,12 +38,16 @@ set_politics = {
 	elections_allowed = yes
 }
 
+add_ideas = {
+porfirio_diaz
+}
+
 set_stability = 0.75
 
 create_country_leader = {
-	name = "Lázaro Cárdenas"
+	name = "Porfirio Díaz"
 	desc = "POLITICS_LAZARO_CARDENAS_DESC"
-	picture = "Portrait_Mexico_Lazaro_Cardenas.dds"
+	picture = name
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {

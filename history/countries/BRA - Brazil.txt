@@ -24,11 +24,11 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 0
+			popularity = 60
 		}
 
 		fascism = {
-			popularity = 0
+			popularity = 10
 		}
 		
 		communism = {
@@ -36,22 +36,26 @@ set_politics = {
 		}
 		
 		authoritarian = { 
-			popularity = 100
+			popularity = 30
 		}
 	}
 	
-	ruling_party = authoritarian
+	ruling_party = democratic
 	last_election = "1934.7.17"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
+}
+
+add_ideas = {
+
 }
 
 create_country_leader = {
-	name = "Getúlio Vargas"
+	name = "Campos Sales"
 	desc = "POLITICS_GETULIO_VARGAS_DESC"
 	picture = "Portrait_Brazil_Getulio_Vargas.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = conservatism
 	traits = {
 		#
 	}

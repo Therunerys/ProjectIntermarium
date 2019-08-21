@@ -1,0 +1,18 @@
+ideas = {
+	country = {
+		campos_sales = {
+
+			available = {
+				original_tag = BRA
+			}
+			allowed = {
+				original_tag = BRA
+			}
+
+			allowed_civil_war = {
+				original_tag = BRA
+			}
+			picture = name
+			removal_cost = -1
+			traits = { minister }
+		}
