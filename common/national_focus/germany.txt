@@ -1630,14 +1630,10 @@ focus_tree = {
     focus = {
         id = a_small_change
         icon = GFX_goal_renounce_the_treaty_of_trianon
-<<<<<<< Updated upstream
         x = 24
-=======
         prerequisite = { focus = open_german_political_sphere }
         relative_position_id = open_german_political_sphere
         x = 2
->>>>>>> Stashed changes
-        y = 1
         cost = 2
 
         available_if_capitulated = no
