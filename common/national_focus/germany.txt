@@ -1628,3 +1628,17 @@ focus_tree = {
         }
     }
 }        
+focus = {
+        id = a_small_change
+        icon = GFX_goal_renounce the treaty of trianon
+        x = 24
+        y = 1
+        cost = 2
+
+        available_if_capitulated = no
+
+        completion_reward = {
+         
+        }
+    }
+}        
