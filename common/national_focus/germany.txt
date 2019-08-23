@@ -1611,7 +1611,7 @@ focus_tree = {
     }  
 }
 
-######################################################### END OF THE INSDUSTRIAL TREE, START OF THE POLITICAL TREE
+ ######################################################### END OF THE INSDUSTRIAL TREE, START OF THE POLITICAL TREE
     focus = {
         id = open_german_political_sphere
         icon = GFX_goal_generic_production
