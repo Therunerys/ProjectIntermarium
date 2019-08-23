@@ -306,11 +306,9 @@
  CZE_communism_party_long:0 "Komunistická strana Ceskoslovenska"
  CZE_democratic_party:0 "CSNS"
  CZE_democratic_party_long:0 "Ceská strana národne sociální"
- CHL_fascism_party:0 "VPS"
- CHL_fascism_party_long:0 "Vanguardia Popular Socialista"
- CHL_democratic_party:0 "Partido Liberal"
- CHL_communism_party:0 "PCCh"
- CHL_communism_party_long:0 "Partido Comunista de Chile"
+
+ CHL_democratic_party:0 "Partido Coalición"
+
  ETH_authoritarian_party:0 "Solomonic Dynasty"
  ETH_democratic_party:0 "Woyane rebellion"
  ALB_authoritarian_party:0 "House of Zogu"
