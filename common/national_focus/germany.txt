@@ -1628,10 +1628,7 @@ focus_tree = {
         }
     }
 }        
-<<<<<<< HEAD
 
-=======
->>>>>>> master
 focus = {
         id = a_small_change
         icon = GFX_goal_renounce the treaty of trianon
