@@ -1608,13 +1608,11 @@ focus_tree = {
                 }
             }
         }
-    }
-
-    
+    }  
 }
 
 ######################################################### END OF THE INSDUSTRIAL TREE, START OF THE POLITICAL TREE
- focus = {
+    focus = {
         id = open_german_political_sphere
         icon = GFX_goal_generic_production
         x = 24
@@ -1624,15 +1622,21 @@ focus_tree = {
         available_if_capitulated = no
 
         completion_reward = {
-         add_political_power = 50
+            add_political_power = 50
         }
     }
-}        
+        
 
-focus = {
+    focus = {
         id = a_small_change
         icon = GFX_goal_renounce_the_treaty_of_trianon
+<<<<<<< Updated upstream
         x = 24
+=======
+        prerequisite = { focus = open_german_political_sphere }
+        relative_position_id = open_german_political_sphere
+        x = 2
+>>>>>>> Stashed changes
         y = 1
         cost = 2
 
