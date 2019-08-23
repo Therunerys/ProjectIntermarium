@@ -1633,7 +1633,7 @@ focus_tree = {
         x = 24
         prerequisite = { focus = open_german_political_sphere }
         relative_position_id = open_german_political_sphere
-        x = 2
+        y = 2
         cost = 2
 
         available_if_capitulated = no
