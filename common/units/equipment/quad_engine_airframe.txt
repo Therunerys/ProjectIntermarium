@@ -1,8 +1,8 @@
 equipments = {
 	
-	# Basic strat_bomber
-	strat_bomber_equipment_0 = {
-		year = 1933
+	# Early Zeppelin
+	early_zeppelin = {
+		year = 1901
 
 		is_archetype = yes
 		is_convertable = yes
