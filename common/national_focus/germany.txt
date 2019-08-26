@@ -1655,7 +1655,7 @@ focus_tree = {
         relative_position_id = open_german_political_sphere
         cost = 2
 
-	mutually_exclusive = {
+		mutually_exclusive = {
             focus = the_old_way
         }
 
@@ -1663,6 +1663,24 @@ focus_tree = {
 
         completion_reward = {
          	custom_effect_tooltip = the_constitutional_way_tooltip
+        }
+    }
+
+    focus = {
+        id = free_speech_reform
+        icon = GFX_focus_generic_treaty
+        x = 0
+        y = 1
+        prerequisite = { focus = the_constitutional_way }
+        relative_position_id = the_constitutional_way
+        cost = 4
+
+        available_if_capitulated = no
+
+        completion_reward = {
+			add_political_power	= 150
+        	add_stability = -0.05
+       		add_war_support = -0.05
         }
     }
 }        
