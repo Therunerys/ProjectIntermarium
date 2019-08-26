@@ -1684,3 +1684,19 @@ focus_tree = {
         }
     }
 }        
+ ###################################################################
+ START OF DIPLOMACY TREE
+    focus = {
+        id = revisit_foreign_relations
+        icon = GFX_goal_generic_intelligence_exchange
+        x = 28
+        y = 0
+        cost = 1
+        
+        available_if_capitulated = no
+
+        completion_reward = {
+			add_political_power	= 50
+	    }
+	}
+}
