@@ -2,37 +2,258 @@ technologies = {
 	#
 	############################# IMPROVE THE OLD ################################
 	#
-	improve_the_old = {
+	early_entrencment = {
+
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+
+		max_dig_in = 2
+		dig_in_speed_factor	= 0.05
+
+		path = {
+			leads_to_tech = integrated_artillery
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = specialized_defense
+			research_cost_coeff = 1
+		}
+
+		doctrine = yes
+		research_cost = 2.25
+
+		categories = {
+			land_doctrine
+		}
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		ai_research_weights = {
+		#
+		}
+	}
+
+################ first right doctrine
+
+	integrated_artillery = {
+
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+
+		
+
+		path = {
+			leads_to_tech = superior_firepower
+			research_cost_coeff = 1
+		}
+
+		doctrine = yes
+		research_cost = 4.5
+
+		categories = {
+			land_doctrine
+		}
+
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = 2 }
+		}
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		ai_research_weights = {
+			#
+		}
+	}
+
+	superior_firepower = {
+
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+
+		enable_tactic = tactic_barrage
+
+		path = {
+			leads_to_tech = mass_charge
+			research_cost_coeff = 1
+		}
+
+		doctrine = yes
+		research_cost = 4.5
+
+		categories = {
+			land_doctrine
+		}
+
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = 4 }
+		}
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		ai_research_weights = {
+			#
+		}
+	}
+
+################ first left doctrine
+
+	specialized_defense = {
+
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+
+		enable_tactic = tactic_elastic_defense
+
+		path = {
+			leads_to_tech = defense_in_depth
+			research_cost_coeff = 1
+		}
+
+		doctrine = yes
+		research_cost = 4.5
+
+		categories = {
+			land_doctrine
+		}
+
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -2 y = 2 }
+		}
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		ai_research_weights = {
+			#
+		}
+	}
+
+	defense_in_depth = {
+
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+
+		path = {
+			leads_to_tech = mass_charge
+			research_cost_coeff = 1
+		}
+
+		doctrine = yes
+		research_cost = 4.5
+
+		categories = {
+			land_doctrine
+		}
+
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -2 y = 4 }
+		}
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		ai_research_weights = {
+			#
+		}
+	}
+
+############################## middle first 
+
+	mass_charge = {
+
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+
+		enable_tactic = tactic_human_wave_tactics
+
+		path = {
+			leads_to_tech = unorthodox_warfare
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = conventional_warfare
+			research_cost_coeff = 1
+		}
+
+		doctrine = yes
+		research_cost = 4.5
+
+		categories = {
+			land_doctrine
+		}
+
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 6 }
+		}
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		ai_research_weights = {
+			#
+		}
+	}
+
+################ second right doctrine
+
+	unorthodox_warfare = {
 
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 
 		xor={
-			study_a_new
+			conventional_warfare
 		}
-
-		category_all_infantry = {
-			max_organisation = 5
-		}
-
-		land_reinforce_rate = 0.02
 
 		path = {
-			leads_to_tech = trench_defense
+			leads_to_tech = mechanized_tactics
 			research_cost_coeff = 1
 		}
 
 		doctrine = yes
-		research_cost = 3
+		research_cost = 4.5
 
 		categories = {
 			land_doctrine
 		}
 
+
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -8 y = 0 }
+			position = { x = 2 y = 8 }
 		}
 
 		ai_will_do = {
@@ -40,36 +261,25 @@ technologies = {
 		}
 
 		ai_research_weights = {
-			armor = 3.0
+			#
 		}
 	}
 
-	trench_defense = {
+	mechanized_tactics = {
 
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 
-		max_dig_in = 10
-		dig_in_speed_factor = 0.20
+
 
 		path = {
-			leads_to_tech = extensive_preparation
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = artillery_shelling
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = study_tanks
+			leads_to_tech = early_tank_stategies
 			research_cost_coeff = 1
 		}
 
 		doctrine = yes
-		research_cost = 1.5
+		research_cost = 4.5
 
 		categories = {
 			land_doctrine
@@ -78,7 +288,7 @@ technologies = {
 
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -8 y = 2 }
+			position = { x = 2 y = 10 }
 		}
 
 		ai_will_do = {
@@ -86,31 +296,25 @@ technologies = {
 		}
 
 		ai_research_weights = {
-			infantry_weapons = 1.5
-			motorized_equipment = 1.0
+			#
 		}
 	}
 
-	extensive_preparation = {
+	early_tank_stategies = {
 
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 
-		path = {
-			leads_to_tech = cavalry_support
-			research_cost_coeff = 1
-		}
+		enable_tactic = tactic_blitz
 
 		path = {
-			leads_to_tech = infantry_domination
+			leads_to_tech = combined_offensives
 			research_cost_coeff = 1
 		}
-
-		max_planning = 0.1
 
 		doctrine = yes
-		research_cost = 1.5
+		research_cost = 4.5
 
 		categories = {
 			land_doctrine
@@ -119,577 +323,76 @@ technologies = {
 
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -6 y = 4 }
+			position = { x = 2 y = 12 }
+		}
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		ai_research_weights = {
+			#
 		}
 	}
 
-	artillery_shelling = {
+	combined_offensives = {
 
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 
-		path = {
-			leads_to_tech = cavalry_support
-			research_cost_coeff = 1
-		}
 
-		path = {
-			leads_to_tech = infantry_domination
-			research_cost_coeff = 1
-		}
-
-		category_line_artillery = {
-			soft_attack = 0.10
-		}
 
 		doctrine = yes
-		research_cost = 1.5
+		research_cost = 4.5
 
 		categories = {
 			land_doctrine
 		}
 
-		folder = {
-			name = land_doctrine_folder
-			position = { x = -8 y = 4 }
-		}
-	}
-
-	study_tanks = {
-
-		xp_research_type = army
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
-
-		path = {
-			leads_to_tech = cavalry_support
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = infantry_domination
-			research_cost_coeff = 1
-		}
-
-		category_tanks = {
-			max_organisation = 2
-			soft_attack = 0.05
-			default_morale = 0.05
-		}
-
-		doctrine = yes
-		research_cost = 1.5
-
-		categories = {
-			land_doctrine
-		}
 
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -10 y = 4 }
-		}
-	}
-	#
-	############################# INFANTRY DOMINATION ################################
-	#
-	infantry_domination = {
-
-		xp_research_type = army
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
-
-		path = {
-			leads_to_tech = assault
-			research_cost_coeff = 1
+			position = { x = 2 y = 14 }
 		}
 
-		category_all_infantry = {
-			soft_attack = 0.05
-			hard_attack = 0.05
-			max_organisation = 0.05
+		ai_will_do = {
+			factor = 20
 		}
 
-		doctrine = yes
-		research_cost = 1.5
-
-		categories = {
-			land_doctrine
-		}
-
-		folder = {
-			name = land_doctrine_folder
-			position = { x = -5 y = 8 }
+		ai_research_weights = {
+			#
 		}
 	}
 
-	assault = {
+	################ second right doctrine
 
-		xp_research_type = army
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
-
-		path = {
-			leads_to_tech = overwhelming_assault
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = pocket_defense
-			research_cost_coeff = 1
-		}
-
-		category_all_infantry = {
-			soft_attack = 0.05
-		}
-
-		doctrine = yes
-		research_cost = 1.5
-
-		categories = {
-			land_doctrine
-		}
-
-		folder = {
-			name = land_doctrine_folder
-			position = { x = -5 y = 10 }
-		}
-	}
-
-	overwhelming_assault = {
-
-		xp_research_type = army
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
-
-		path = {
-			leads_to_tech = infantry_storm
-			research_cost_coeff = 1
-		}
-
-		category_all_infantry = {
-			breakthrough = 0.1
-			max_organisation = 2
-		}
-
-		doctrine = yes
-		research_cost = 1.5
-
-		categories = {
-			land_doctrine
-		}
-
-		folder = {
-			name = land_doctrine_folder
-			position = { x = -7 y = 12 }
-		}
-	}
-
-	infantry_storm = {
-
-		xp_research_type = army
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
-
-		path = {
-			leads_to_tech = artillery_assault
-			research_cost_coeff = 1
-		}
-
-		category_all_infantry = {
-			breaktrough = 0.05
-			recovery_rate = 0.05
-		}
-
-		doctrine = yes
-		research_cost = 1.5
-
-		categories = {
-			land_doctrine
-		}
-
-		folder = {
-			name = land_doctrine_folder
-			position = { x = -7 y = 14 }
-		}
-	}
-
-	artillery_assault = {
-
-		xp_research_type = army
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
-
-		category_line_artillery = {
-			soft_attack = 0.1
-			hard_attack = 0.05
-		}
-
-		doctrine = yes
-		research_cost = 1.5
-
-		categories = {
-			land_doctrine
-		}
-
-		folder = {
-			name = land_doctrine_folder
-			position = { x = -7 y = 16 }
-		}
-	}
-
-	pocket_defense = {
-
-		xp_research_type = army
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
-
-		path = {
-			leads_to_tech = makeshift_barricades
-			research_cost_coeff = 1
-		}
-
-		no_supply_grace = 72
-		out_of_supply_factor = -0.10
-
-		category_all_infantry = {
-			defense = 0.05
-		}
-
-		doctrine = yes
-		research_cost = 1.5
-
-		categories = {
-			land_doctrine
-		}
-
-		folder = {
-			name = land_doctrine_folder
-			position = { x = -3 y = 12 }
-		}
-	}
-
-	makeshift_barricades = {
-
-		xp_research_type = army
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
-
-		path = {
-			leads_to_tech = flank_defense
-			research_cost_coeff = 1
-		}
-
-		max_dig_in = 5
-		dig_in_speed_factor = 0.05
-
-		category_all_infantry = {
-			defense = 0.05
-		}
-
-		doctrine = yes
-		research_cost = 1.5
-
-		categories = {
-			land_doctrine
-		}
-
-		folder = {
-			name = land_doctrine_folder
-			position = { x = -3 y = 14 }
-		}
-	}
-
-	flank_defense = {
-
-		xp_research_type = army
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
-
-		category_all_infantry = {
-			defense = 0.05
-		}
-
-		doctrine = yes
-		research_cost = 1.5
-
-		categories = {
-			land_doctrine
-		}
-
-		folder = {
-			name = land_doctrine_folder
-			position = { x = -3 y = 16 }
-		}
-	}
-	#
-	############################ CAVALRY SUPPORT ##################################
-	#
-	cavalry_support = {
-
-		xp_research_type = army
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
-
-		path = {
-			leads_to_tech = incorporation_of_cavalry
-			research_cost_coeff = 1
-		}
-
-		cavalry = {
-			max_organisation = 5
-			soft_attack = 0.05
-		}
-
-		doctrine = yes
-		research_cost = 1.5
-
-		categories = {
-			land_doctrine
-		}
-
-		folder = {
-			name = land_doctrine_folder
-			position = { x = -11 y = 8 }
-		}
-	}
-
-	incorporation_of_cavalry = {
-
-		xp_research_type = army
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
-
-		path = {
-			leads_to_tech = flank_support
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = cavalry_charge
-			research_cost_coeff = 1
-		}
-
-		cavalry = {
-			max_organisation = 5
-			recovery_rate = 0.05
-		}
-
-		doctrine = yes
-		research_cost = 1.5
-
-		categories = {
-			land_doctrine
-		}
-
-		folder = {
-			name = land_doctrine_folder
-			position = { x = -11 y = 10 }
-		}
-	}
-
-	flank_support = {
-
-		xp_research_type = army
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
-
-		path = {
-			leads_to_tech = improve_anti_tank_capabilities
-			research_cost_coeff = 1
-		}
-
-		cavalry = {
-			soft_attack = 0.05
-			defense = 0.05
-		}
-
-		doctrine = yes
-		research_cost = 1.5
-
-		categories = {
-			land_doctrine
-		}
-
-		folder = {
-			name = land_doctrine_folder
-			position = { x = -13 y = 12 }
-		}
-	}
-
-	improve_anti_tank_capabilities = {
-
-		xp_research_type = army
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
-
-		path = {
-			leads_to_tech = horse_mail
-			research_cost_coeff = 1
-		}
-
-		cavalry = {
-			breaktrough = 0.05
-			hard_attack = 0.05
-		}
-
-		doctrine = yes
-		research_cost = 1.5
-
-		categories = {
-			land_doctrine
-		}
-
-		folder = {
-			name = land_doctrine_folder
-			position = { x = -13 y = 14 }
-		}
-	}
-
-	horse_mail = {
-
-		xp_research_type = army
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
-
-		category_army = {
-			max_organisation = 10
-			recovery_rate = 0.05
-		}
-
-		doctrine = yes
-		research_cost = 1.5
-
-		categories = {
-			land_doctrine
-		}
-
-		folder = {
-			name = land_doctrine_folder
-			position = { x = -13 y = 16 }
-		}
-	}
-
-	cavalry_charge = {
-
-		xp_research_type = army
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
-
-		path = {
-			leads_to_tech = infantry_support
-			research_cost_coeff = 1
-		}
-
-		cavalry = {
-			soft_attack = 0.05
-			breakthrough = 0.05
-		}
-
-		doctrine = yes
-		research_cost = 1.5
-
-		categories = {
-			land_doctrine
-		}
-
-		folder = {
-			name = land_doctrine_folder
-			position = { x = -9 y = 12 }
-		}
-	}
-
-	infantry_support = {
-
-		xp_research_type = army
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
-
-		path = {
-			leads_to_tech = horse_breeding
-			research_cost_coeff = 1
-		}
-
-		cavalry = {
-			breakthrough = 0.05
-		}
-
-		category_all_infantry = {
-			soft_attack = 0.05
-		}
-
-		doctrine = yes
-		research_cost = 1.5
-
-		categories = {
-			land_doctrine
-		}
-
-		folder = {
-			name = land_doctrine_folder
-			position = { x = -9 y = 14 }
-		}
-	}
-
-	horse_breeding = {
-
-		xp_research_type = army
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
-
-		cavalry = {
-			max_organisation = 5
-		}
-
-		doctrine = yes
-		research_cost = 1.5
-
-		categories = {
-			land_doctrine
-		}
-
-		folder = {
-			name = land_doctrine_folder
-			position = { x = -9 y = 16 }
-		}
-	}
-
-	#
-	################## STUDY A NEW ############################################################
-	#
-	study_a_new = {
+	conventional_warfare = {
 
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 
 		xor={
-			improve_the_old
-		}
-
-		category_all_infantry = {
-			soft_attack = 5
-		}
-
-		category_army = {
-			maximum_speed = 0.02
+			unorthodox_warfare
 		}
 
 		path = {
-			leads_to_tech = conduct_tests
+			leads_to_tech = improved_infantry_training
 			research_cost_coeff = 1
 		}
 
 		doctrine = yes
-		research_cost = 3
+		research_cost = 4.5
 
 		categories = {
 			land_doctrine
 		}
 
+
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 6 y = 0 }
+			position = { x = -2 y = 8 }
 		}
 
 		ai_will_do = {
@@ -697,47 +400,34 @@ technologies = {
 		}
 
 		ai_research_weights = {
-			armor = 3.0
+			#
 		}
 	}
 
-	conduct_tests = {
+	improved_infantry_training = {
 
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 
-		category_army = {
-			max_organisation = 5
-			soft_attack = 0.05
-			hard_attack = 0.02
-		}
+
 
 		path = {
-			leads_to_tech = mobilize_the_infantry
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = improve_the_tanks
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = improve_the_roads
+			leads_to_tech = infantry_tactics
 			research_cost_coeff = 1
 		}
 
 		doctrine = yes
-		research_cost = 1.5
+		research_cost = 4.5
 
 		categories = {
 			land_doctrine
 		}
 
+
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 6 y = 2 }
+			position = { x = -2 y = 10 }
 		}
 
 		ai_will_do = {
@@ -745,575 +435,73 @@ technologies = {
 		}
 
 		ai_research_weights = {
-			infantry_weapons = 1.5
-			motorized_equipment = 1.0
+			#
 		}
 	}
 
-	mobilize_the_infantry = {
+	infantry_tactics = {
 
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 
-		path = {
-			leads_to_tech = begin_mobilisation
-			research_cost_coeff = 1
-		}
+		enable_tactic = tactic_infantry_charge
 
 		path = {
-			leads_to_tech = rely_on_tank_support
+			leads_to_tech = fire_brigades
 			research_cost_coeff = 1
-		}
-
-		category_all_infantry {
-			maximum_speed = 0.02
 		}
 
 		doctrine = yes
-		research_cost = 1.5
+		research_cost = 4.5
 
 		categories = {
 			land_doctrine
 		}
 
+
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 4 y = 4 }
+			position = { x = -2 y = 12 }
+		}
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		ai_research_weights = {
+			#
 		}
 	}
 
-	improve_the_tanks = {
+	fire_brigades = {
 
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 
-		path = {
-			leads_to_tech = begin_mobilisation
-			research_cost_coeff = 1
-		}
 
-		path = {
-			leads_to_tech = rely_on_tank_support
-			research_cost_coeff = 1
-		}
-
-		category_armor = {
-			soft_attack = 0.05
-			hard_attack = 0.02
-			breakthrough = 0.02
-		}
 
 		doctrine = yes
-		research_cost = 1.5
+		research_cost = 4.5
 
 		categories = {
 			land_doctrine
 		}
 
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 6 y = 4 }
-		}
-	}
-
-	improve_the_roads = {
-
-		xp_research_type = army
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
-
-		path = {
-			leads_to_tech = begin_mobilisation
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = rely_on_tank_support
-			research_cost_coeff = 1
-		}
-
-		category_army = {
-			maximum_speed = 0.01
-		}
-
-		org_loss_when_moving = -0.15
-
-		doctrine = yes
-		research_cost = 1.5
-
-		categories = {
-			land_doctrine
-		}
 
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 8 y = 4 }
+			position = { x = -2 y = 14 }
+		}
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		ai_research_weights = {
+			#
 		}
 	}
-	#
-	####################### BEGIN MOBILISATION ###################################
-	#
-	begin_mobilisation = {
-
-		xp_research_type = army
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
-
-		path = {
-			leads_to_tech = encirclement_tactics
-			research_cost_coeff = 1
-		}
-
-		motorized = {
-			soft_attack = 0.05
-			max_organisation = 5
-		}
-
-		category_all_armor = {
-			soft_attack = 0.05
-			max_organisation = 5
-		}
-
-		doctrine = yes
-		research_cost = 1.5
-
-		categories = {
-			land_doctrine
-		}
-
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 3 y = 8 }
-		}
-	}
-
-	encirclement_tactics = {
-
-		xp_research_type = army
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
-
-		path = {
-			leads_to_tech = general_mobility
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = artillery_mobility
-			research_cost_coeff = 1
-		}
-
-		motorized = {
-			soft_attack = 0.05
-		}
-
-		category_all_armor = {
-			soft_attack = 0.05
-		}
-
-		doctrine = yes
-		research_cost = 1.5
-
-		categories = {
-			land_doctrine
-		}
-
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 3 y = 10 }
-		}
-	}
-
-	general_mobility = {
-
-		xp_research_type = army
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
-
-		path = {
-			leads_to_tech = blitz
-			research_cost_coeff = 1
-		}
-
-		motorized = {
-			maximum_speed = 0.05
-		}
-
-		category_armor = {
-			maximum_speed = 0.05
-		}
-
-		doctrine = yes
-		research_cost = 1.5
-
-		categories = {
-			land_doctrine
-		}
-
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 1 y = 12 }
-		}
-	}
-
-	blitz = {
-
-		xp_research_type = army
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
-
-		path = {
-			leads_to_tech = partisan_support
-			research_cost_coeff = 1
-		}
-
-		motorized = {
-			soft_attack = 0.10
-		}
-
-		category_all_armor = {
-			hard_attack = 0.05
-			soft_attack = 0.10
-		}
-
-		doctrine = yes
-		research_cost = 1.5
-
-		categories = {
-			land_doctrine
-		}
-
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 1 y = 14 }
-		}
-	}
-
-	partisan_support = {
-
-		xp_research_type = army
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
-
-		partisan_effect = 0.2
-		attrition = -0.05
-
-		doctrine = yes
-		research_cost = 1.5
-
-		categories = {
-			land_doctrine
-		}
-
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 1 y = 16 }
-		}
-	}
-
-	artillery_mobility = {
-
-		xp_research_type = army
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
-
-		path = {
-			leads_to_tech = railway_transport
-			research_cost_coeff = 1
-		}
-
-		category_line_artillery = {
-			soft_attack = 0.05
-			maximum_speed = 0.05
-		}
-
-		doctrine = yes
-		research_cost = 1.5
-
-		categories = {
-			land_doctrine
-		}
-
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 5 y = 12 }
-		}
-	}
-
-	railway_transport = {
-
-		xp_research_type = army
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
-
-		path = {
-			leads_to_tech = faster_deployment
-			research_cost_coeff = 1
-		}
-
-		category_army = {
-			maximum_speed = 0.02
-		}
-
-		doctrine = yes
-		research_cost = 1.5
-
-		categories = {
-			land_doctrine
-		}
-
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 5 y = 14 }
-		}
-	}
-
-	faster_deployment = {
-
-		xp_research_type = army
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
-
-		land_reinforce_rate = 0.05
-
-		doctrine = yes
-		research_cost = 1.5
-
-		categories = {
-			land_doctrine
-		}
-
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 5 y = 16 }
-		}
-	}
-	#
-	##################### ARMOR INCORPORATION ####################################
-	#
-	rely_on_tank_support = {
-
-		xp_research_type = army
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
-
-		path = {
-			leads_to_tech = direct_battlefield_support
-			research_cost_coeff = 1
-		}
-
-		category_all_armor = {
-			soft_attack = 0.05
-		}
-
-		doctrine = yes
-		research_cost = 1.5
-
-		categories = {
-			land_doctrine
-		}
-
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 9 y = 8 }
-		}
-	}
-
-	direct_battlefield_support = {
-
-		xp_research_type = army
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
-
-		path = {
-			leads_to_tech = fix_the_weaknesses
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = plan_ahead_of_time
-			research_cost_coeff = 1
-		}
-
-		category_all_armor = {
-			soft_attack = 0.1
-		}
-
-		doctrine = yes
-		research_cost = 1.5
-
-		categories = {
-			land_doctrine
-		}
-
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 9 y = 10 }
-		}
-	}
-
-	fix_the_weaknesses = {
-
-		xp_research_type = army
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
-
-		path = {
-			leads_to_tech = smokescreen_blitz
-			research_cost_coeff = 1
-		}
-
-		category_all_armor = {
-			defense = 0.05
-		}
-
-		doctrine = yes
-		research_cost = 1.5
-
-		categories = {
-			land_doctrine
-		}
-
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 7 y = 12 }
-		}
-	}
-
-	smokescreen_blitz = {
-
-		xp_research_type = army
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
-
-		path = {
-			leads_to_tech = unexpected_attack
-			research_cost_coeff = 1
-		}
-
-		category_all_armor = {
-			soft_attack = 0.10
-			hard_attack = 0.05
-			breakthrough = 0.10
-		}
-
-		doctrine = yes
-		research_cost = 1.5
-
-		categories = {
-			land_doctrine
-		}
-
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 7 y = 14 }
-		}
-	}
-
-	unexpected_attack = {
-
-		xp_research_type = army
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
-
-		category_all_armor = {
-			max_organisation = 10
-			soft_attack = 0.10
-			breakthrough = 0.10
-		}
-
-		doctrine = yes
-		research_cost = 1.5
-
-		categories = {
-			land_doctrine
-		}
-
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 7 y = 16 }
-		}
-	}
-
-	plan_ahead_of_time = {
-
-		xp_research_type = army
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
-
-		path = {
-			leads_to_tech = reinforced_defense_positions
-			research_cost_coeff = 1
-		}
-
-		category_all_armor = {
-			max_organisation = 5
-		}
-
-		planning_speed = 0.2
-
-		doctrine = yes
-		research_cost = 1.5
-
-		categories = {
-			land_doctrine
-		}
-
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 11 y = 12 }
-		}
-	}
-
-	reinforced_defense_positions= {
-
-		xp_research_type = army
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
-
-		path = {
-			leads_to_tech = supply_trains
-			research_cost_coeff = 1
-		}
-
-		category_army = {
-			defense = 0.1
-		}
-
-		doctrine = yes
-		research_cost = 1.5
-
-		categories = {
-			land_doctrine
-		}
-
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 11 y = 14 }
-		}
-	}
-
-	supply_trains = {
-
-		xp_research_type = army
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
-
-		attrition = -0.1
-		org_loss_when_moving = -0.1
-
-		doctrine = yes
-		research_cost = 1.5
-
-		categories = {
-			land_doctrine
-		}
-
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 11 y = 16 }
-		}
-	}
+	
 }

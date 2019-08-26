@@ -2271,46 +2271,14 @@ guiTypes = {
 			}
 
 			iconType = {
-				name ="improve_the_old_bg"
+				name = "early_entrencment_bg"
 				spriteType = "GFX_doctrine_western_front_bg"
-				position = { x=235 y=130 }
-			}
-
-			iconType = {
-				name ="study_a_new_bg"
-				spriteType = "GFX_doctrine_eastern_front_bg"
-				position = { x=1110 y=130 }
-			}
-
-			instantTextBoxType = {
-				name = "study_a_new_title"
-				position = { x = 1300 y = 5 }
-				textureFile = ""
-				font = "hoi_33"
-				borderSize = {x = 0 y = 4}
-				text = "STUDY_A_NEW_DOCTRINE_LABEL"
-				maxWidth = 400
-				maxHeight = 122
-				format = center
-				Orientation = "UPPER_LEFT"
-			}
-
-			instantTextBoxType = {
-				name = "study_a_new_desc"
-				position = { x = 1235 y = 45 }
-				textureFile = ""
-				font = "hoi_20b"
-				borderSize = {x = 0 y = 4}
-				text = "STUDY_A_NEW_DOCTRINE_DESC"
-				maxWidth = 550
-				maxHeight = 122
-				format = center
-				Orientation = "UPPER_LEFT"
+				position = { x=1010 y=130 }
 			}
 
 			instantTextBoxType = {
 				name = "improve_the_old_title"
-				position = { x = 445 y = 5 }
+				position = { x = 700 y = 5 }
 				textureFile = ""
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
@@ -2323,7 +2291,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "improve_the_old_desc"
-				position = { x = 380 y = 45 }
+				position = { x = 700 y = 45 }
 				textureFile = ""
 				font = "hoi_20b"
 				borderSize = {x = 0 y = 4}
@@ -2335,8 +2303,8 @@ guiTypes = {
 			}
 	
 			gridboxtype = {
-				name = "improve_the_old_tree"
-				position = { x=700 y=172 }
+				name = "early_entrencment_tree"
+				position = { x=1000 y=172 }
 				size = { width = 850 height = 1150 }
 				slotsize = { width=60 height=60 }
 				format = "UP"
@@ -2344,21 +2312,7 @@ guiTypes = {
 				background = {
 					name = "Background"
 					quadTextureSprite ="GFX_fullborder_tiled"
-					position = { x=-475 y=-50 }					
-				}
-			}
-
-			gridboxtype = {
-				name = "study_a_new_tree"
-				position = { x=725 y=172 }
-				size = { width = 850 height = 1150 }
-				slotsize = { width=60 height=60 }
-				format = "UP"
-
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_fullborder_tiled"
-					position = { x=375 y=-50 }					
+					position = { x=0 y=-50 }					
 				}
 			}
 		}
