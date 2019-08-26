@@ -1683,9 +1683,30 @@ focus_tree = {
        		add_war_support = -0.05
         }
     }
+
+    focus = {
+        id = celebrations_of_reich
+        icon = GFX_focus_generic_military_mission
+        x = 0
+        y = 1
+        prerequisite = { focus = the_old_way }
+        available = {
+            has_political_power > 100
+        }
+        relative_position_id = the_old_way
+        cost = 4
+
+        available_if_capitulated = no
+
+        completion_reward = {
+            add_political_power = -100
+            add_stability = 0.05
+            add_war_support = 0.05
+        }
+    }
       
- ###################################################################
- START OF DIPLOMACY TREE
+################################################################### START OF DIPLOMACY TREE
+
     focus = {
         id = revisit_foreign_relations
         icon = GFX_goal_generic_intelligence_exchange
