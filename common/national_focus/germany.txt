@@ -1683,7 +1683,7 @@ focus_tree = {
        		add_war_support = -0.05
         }
     }
-}        
+      
  ###################################################################
  START OF DIPLOMACY TREE
     focus = {
