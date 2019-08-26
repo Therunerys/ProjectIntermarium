@@ -1614,7 +1614,7 @@ focus_tree = {
  ######################################################### END OF THE INSDUSTRIAL TREE, START OF THE POLITICAL TREE
     focus = {
         id = open_german_political_sphere
-        icon = GFX_goal_generic_production
+        icon = GFX_goal_generic_neutrality_focus
         x = 24
         y = 0
         cost = 1
@@ -1626,20 +1626,43 @@ focus_tree = {
         }
     }
         
-
     focus = {
-        id = a_small_change
-        icon = GFX_goal_renounce_the_treaty_of_trianon
-        x = 0
-        y = 2
+        id = the_old_way
+        icon = GFX_focus_rom_royal_dictatorship
+        x = -2
+        y = 1
         prerequisite = { focus = open_german_political_sphere }
         relative_position_id = open_german_political_sphere
         cost = 2
 
+        mutually_exclusive = {
+            focus = the_constitutional_way
+        }
+
         available_if_capitulated = no
 
         completion_reward = {
-         
+         	custom_effect_tooltip = the_old_way_tooltip
+        }
+    }
+
+    focus = {
+        id = the_constitutional_way
+        icon = GFX_focus_generic_treaty
+        x = 2
+        y = 1
+        prerequisite = { focus = open_german_political_sphere }
+        relative_position_id = open_german_political_sphere
+        cost = 2
+
+	mutually_exclusive = {
+            focus = the_old_way
+        }
+
+        available_if_capitulated = no
+
+        completion_reward = {
+         	custom_effect_tooltip = the_constitutional_way_tooltip
         }
     }
 }        
