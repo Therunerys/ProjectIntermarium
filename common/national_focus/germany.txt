@@ -1,3 +1,8 @@
+######################################################
+# German Focus Tree
+# By LG & R3B
+######################################################
+
 focus_tree = {
 	id = german_focus
     
@@ -1628,7 +1633,7 @@ focus_tree = {
         
     focus = {
         id = the_old_way
-        icon = GFX_focus_rom_royal_dictatorship
+        icon = GFX_focus_ger_return_of_the_kaiser
         x = -2
         y = 1
         prerequisite = { focus = open_german_political_sphere }
@@ -1678,6 +1683,7 @@ focus_tree = {
         available_if_capitulated = no
 
         completion_reward = {
+            custom_effect_tooltip = event_will_create
 			add_political_power	= 150
         	add_stability = -0.05
        		add_war_support = -0.05
@@ -1686,7 +1692,7 @@ focus_tree = {
 
     focus = {
         id = celebrations_of_reich
-        icon = GFX_focus_generic_military_mission
+        icon = GFX_focus_ger_revive_kaiserreich
         x = 0
         y = 1
         prerequisite = { focus = the_old_way }
@@ -1704,11 +1710,50 @@ focus_tree = {
             add_war_support = 0.05
         }
     }
-      
+    
+    focus = {
+        id = oppose_socialist_threat
+        icon = GFX_goal_generic_secret_weapon
+        x = 0
+        y = 2
+        prerequisite = { focus = celebrations_of_reich }
+        relative_position_id = the_old_way
+        cost = 5
 
- ###################################################################
- START OF DIPLOMACY TREE
-        focus = {
+        available_if_capitulated = no
+
+        completion_reward = {
+            add_popularity = {
+                ideology = democratic
+                popularity = -0.05
+            }
+        }
+    }
+      
+    focus = {
+        id = chancellor_people
+        icon = GFX_focus_generic_military_mission #need new gfx
+        x = 0
+        y = 2
+        prerequisite = { focus = free_speech_reform }
+        available = {
+            has_political_power > 100
+        }
+        relative_position_id = the_constitutional_way
+        cost = 5
+
+        available_if_capitulated = no
+
+        completion_reward = {
+            custom_effect_tooltip = event_will_create
+            add_political_power = -100
+            add_stability = 0.05
+        }
+    }
+
+ ################################################################### START OF DIPLOMACY TREE
+
+    focus = {
         id = diplomacy_effort
         icon = GFX_goal_generic_neutrality_focus
         x = 28
@@ -1736,13 +1781,15 @@ focus_tree = {
 
         completion_reward = {
             AHE = {
-                add_opinion_modifier = { target = GER modifier = small_increase }
-            ITA = {
-                add_opinion_modifier = { target = GER modifier = small_increase }
-            GER = {
-                add_opinion_modifier = { target = AHE modifier = small_increase }
-                add_opinion_modifier = { target = ITA modifier = small_increase }
+                add_opinion_modifier = { target = GER modifier = medium_increase }
             }
+            ITA = {
+                add_opinion_modifier = { target = GER modifier = medium_increase }
+            }
+            GER = {
+                add_opinion_modifier = { target = AHE modifier = medium_increase }
+                add_opinion_modifier = { target = ITA modifier = medium_increase }
+            }     
         }
     }
 }                
