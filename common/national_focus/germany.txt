@@ -1705,19 +1705,44 @@ focus_tree = {
         }
     }
       
-################################################################### START OF DIPLOMACY TREE
+
+ ###################################################################
+ START OF DIPLOMACY TREE
+        focus = {
+        id = diplomacy_effort
+        icon = GFX_goal_generic_neutrality_focus
+        x = 28
+        y = 0
+        cost = 1
+
+        available_if_capitulated = no
+
+        completion_reward = {
+            add_political_power = 50
+        }
+    }
+
 
     focus = {
         id = revisit_foreign_relations
         icon = GFX_goal_generic_intelligence_exchange
-        x = 28
-        y = 0
-        cost = 1
+        x = 0
+        y = 1
+        prerequisite = { focus = diplomacy_effort }
+        relative_position_id = diplomacy_effort
+        cost = 2
         
         available_if_capitulated = no
 
         completion_reward = {
-			add_political_power	= 50
-	    }
-	}
-}
+            AHE = {
+                add_opinion_modifier = { target = GER modifier = small_increase }
+            ITA = {
+                add_opinion_modifier = { target = GER modifier = small_increase }
+            GER = {
+                add_opinion_modifier = { target = AHE modifier = small_increase }
+                add_opinion_modifier = { target = ITA modifier = small_increase }
+            }
+        }
+    }
+}                
