@@ -1751,6 +1751,43 @@ focus_tree = {
         }
     }
 
+    focus = {
+        id = germanisation
+        icon = GFX_goal_generic_propaganda
+        x = 0
+        y = 3
+        prerequisite = { focus = oppose_socialist_threat }
+        relative_position_id = the_old_way
+        cost = 5
+
+        available_if_capitulated = no
+
+        completion_reward = {
+            add_popularity = {
+                ideology = democratic
+                popularity = -0.05
+            }
+            add_stability = -0.05
+            add_political_power = 100
+        }
+    }
+
+    focus = { #end of the_old_way bunch
+        id = stable_reich
+        icon = GFX_goal_generic_major_alliance
+        x = 0
+        y = 4
+        prerequisite = { focus = germanisation }
+        relative_position_id = the_old_way
+        cost = 5
+
+        available_if_capitulated = no
+
+        completion_reward = {
+            add_stability = 0.05
+        }
+    }
+      
  ################################################################### START OF DIPLOMACY TREE
 
     focus = {
