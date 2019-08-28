@@ -1793,7 +1793,7 @@ focus_tree = {
     focus = {
         id = diplomacy_effort
         icon = GFX_goal_generic_neutrality_focus
-        x = 28
+        x = 34
         y = 0
         cost = 1
 
@@ -1829,4 +1829,70 @@ focus_tree = {
             }     
         }
     }
-}                
+
+
+    focus = {
+        id = our_trade_with_ottomans
+        icon = 
+        x = -2
+        y = 2
+        prerequisite = { focus = revisit_foreign_relations }
+        relative_position_id = revisit_foreign_relations
+        cost = 2
+
+        available_if_capitulated = no
+
+        completion_reward = {
+            custom_effect_tooltip = our_ottoman_trade
+        }
+    }
+
+    focus = {
+        id = continue_ottoman_trade
+        icon = 
+        x = 0
+        y = 3
+        prerequisite = { focus = our_trade_with_ottomans }
+        relative_position_id = our_trade_with_ottomans
+        cost = 1
+
+        available_if_capitulated = no
+
+        completion_reward = {
+            
+        }
+    }    
+
+    focus = {
+        id = increase_berlin_istanbul_trade
+        icon = 
+        x = 0
+        y = 4
+        prerequisite = { focus = continue_ottoman_trade }
+        relative_position_id = continue_ottoman_trade
+        cost = 1
+
+        available_if_capitulated = no
+
+        completion_reward = {
+            
+        }
+    }        
+
+
+    focus = {
+        id = construct_berlin_baghdad_railway
+        icon = 
+        x = 0
+        y = 5
+        prerequisite = { focus = increase_berlin_istanbul_trade }
+        relative_position_id = increase_berlin_istanbul_trade
+        cost = 1
+
+        available_if_capitulated = no
+
+        completion_reward = {    
+
+        }
+    }
+}        
