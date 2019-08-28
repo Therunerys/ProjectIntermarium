@@ -1807,7 +1807,7 @@ focus_tree = {
 
     focus = {
         id = revisit_foreign_relations
-        icon = GFX_goal_generic_intelligence_exchange
+        icon = GFX_goal_generic_major_alliance
         x = 0
         y = 1
         prerequisite = { focus = diplomacy_effort }
@@ -1830,14 +1830,13 @@ focus_tree = {
         }
     }
 
-
     focus = {
-        id = our_trade_with_ottomans
-        icon = 
-        x = -2
+        id =  the_central_powers
+        icon = GFX_goal_generic_intelligence_exchange
+        x = 2
         y = 2
         prerequisite = { focus = revisit_foreign_relations }
-        relative_position_id = revisit_foreign_relations
+        relative_position_id = diplomacy_effort
         cost = 2
 
         available_if_capitulated = no
@@ -1848,12 +1847,28 @@ focus_tree = {
     }
 
     focus = {
+        id = our_trade_with_ottomans
+        icon = GFX_goal_generic_intelligence_exchange
+        x = -2
+        y = 2
+        prerequisite = { focus = revisit_foreign_relations }
+        relative_position_id = diplomacy_effort
+        cost = 2
+
+        available_if_capitulated = no
+
+        completion_reward = {
+            custom_effect_tooltip = our_ottoman_trade
+        }
+    }
+
+    focus = { #continue ottoman trade bunch
         id = continue_ottoman_trade
-        icon = 
-        x = 0
+        icon = GFX_goal_generic_intelligence_exchange
+        x = -3
         y = 3
         prerequisite = { focus = our_trade_with_ottomans }
-        relative_position_id = our_trade_with_ottomans
+        relative_position_id = diplomacy_effort
         cost = 4
 
         available_if_capitulated = no
@@ -1865,9 +1880,9 @@ focus_tree = {
 
     focus = {
         id = increase_berlin_istanbul_trade
-        icon = 
+        icon = GFX_goal_generic_intelligence_exchange
         x = 0
-        y = 4
+        y = 1
         prerequisite = { focus = continue_ottoman_trade }
         relative_position_id = continue_ottoman_trade
         cost = 5
@@ -1880,13 +1895,62 @@ focus_tree = {
     }        
 
 
-    focus = {
+    focus = { 
         id = construct_berlin_baghdad_railway
-        icon = 
+        icon = GFX_goal_generic_intelligence_exchange
         x = 0
-        y = 5
+        y = 2
         prerequisite = { focus = increase_berlin_istanbul_trade }
-        relative_position_id = increase_berlin_istanbul_trade
+        relative_position_id = continue_ottoman_trade
+        cost = 1
+
+        available_if_capitulated = no
+
+        completion_reward = {    
+
+        }
+    }
+
+    focus = { #finish ottoman trade bunch
+        id = tariffs_ottoman_trade
+        icon = GFX_goal_generic_intelligence_exchange
+        x = -1
+        y = 3
+        prerequisite = { focus = our_trade_with_ottomans }
+        relative_position_id = diplomacy_effort
+        cost = 4
+
+        available_if_capitulated = no
+
+        completion_reward = {
+            
+        }
+    }    
+
+    focus = {
+        id = embargo_ottoman_trade
+        icon = GFX_goal_generic_intelligence_exchange
+        x = 0
+        y = 1
+        prerequisite = { focus = tariffs_ottoman_trade }
+        relative_position_id = tariffs_ottoman_trade
+        cost = 5
+
+        available_if_capitulated = no
+
+        completion_reward = {
+            
+        }
+    }        
+
+
+    focus = {
+        id = scrap_berlin_baghdad_railway
+        icon = GFX_goal_generic_intelligence_exchange
+        x = 0
+        y = 2
+        prerequisite = { focus = embargo_ottoman_trade }
+        relative_position_id = tariffs_ottoman_trade
         cost = 1
 
         available_if_capitulated = no
