@@ -1812,7 +1812,7 @@ focus_tree = {
         y = 1
         prerequisite = { focus = diplomacy_effort }
         relative_position_id = diplomacy_effort
-        cost = 2
+        cost = 4
         
         available_if_capitulated = no
 
@@ -1854,7 +1854,7 @@ focus_tree = {
         y = 3
         prerequisite = { focus = our_trade_with_ottomans }
         relative_position_id = our_trade_with_ottomans
-        cost = 1
+        cost = 4
 
         available_if_capitulated = no
 
@@ -1870,7 +1870,7 @@ focus_tree = {
         y = 4
         prerequisite = { focus = continue_ottoman_trade }
         relative_position_id = continue_ottoman_trade
-        cost = 1
+        cost = 5
 
         available_if_capitulated = no
 
