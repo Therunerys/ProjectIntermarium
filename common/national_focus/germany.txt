@@ -1869,12 +1869,40 @@ focus_tree = {
         y = 3
         prerequisite = { focus = our_trade_with_ottomans }
         relative_position_id = diplomacy_effort
-        cost = 4
+        cost = 10
 
         available_if_capitulated = no
 
         completion_reward = {
-            
+            GER = {
+                add_opinion_modifier = { target = TUR modifier = small_increase }
+            }
+            TUR = {
+                add_opinion_modifier = { target = GER modifier = small_increase }
+            }
+            add_ideas = otto_GER_trade
+            TUR = {
+                add_ideas = GER_otto_trade
+            }
+        }
+    }   
+
+    focus = { 
+        id = free_ottoman_trade
+        icon = GFX_goal_generic_intelligence_exchange
+        x = 0
+        y = 1
+        prerequisite = { focus = continue_ottoman_trade }
+        relative_position_id = continue_ottoman_trade
+        cost = 10
+
+        available_if_capitulated = no
+
+        completion_reward = {
+            add_ideas = otto_GER_trade2
+            TUR = {
+                add_ideas = otto_GER_trade2
+            }
         }
     }    
 
@@ -1882,24 +1910,128 @@ focus_tree = {
         id = increase_berlin_istanbul_trade
         icon = GFX_goal_generic_intelligence_exchange
         x = 0
-        y = 1
-        prerequisite = { focus = continue_ottoman_trade }
+        y = 2
+        prerequisite = { focus = free_ottoman_trade }
         relative_position_id = continue_ottoman_trade
-        cost = 5
+        cost = 14.3
+
+        available_if_capitulated = no
+
+        completion_reward = { 
+
+            GER = {
+                add_opinion_modifier = { target = TUR modifier = medium_increase }
+            }
+            TUR = {
+                add_opinion_modifier = { target = GER modifier = medium_increase }
+            }
+
+            diplomatic_relation = {
+                    country = TUR
+                    relation = non_aggression_pact
+                    active = yes
+            }
+            TUR = {
+                diplomatic_relation = {
+                    country = GER
+                    relation = non_aggression_pact
+                    active = yes
+                }
+            }
+            
+            effect_tooltip = { 
+                341 = {
+                    
+                    add_resource = {
+                        type = steel
+                        amount = 12
+                    }
+                
+                    add_resource = {
+                        type = tungsten
+                        amount = 8
+                    }
+                    
+                    add_resource = {
+                        type = chromium
+                        amount = 6
+                    }
+                }
+            }
+
+            effect_tooltip = { 
+                64 = {
+                    
+                    add_resource = {
+                        type = steel
+                        amount = 12
+                    }
+                
+                    add_resource = {
+                        type = tungsten
+                        amount = 8
+                    }
+                    
+                    add_resource = {
+                        type = chromium
+                        amount = 6
+                    }
+                }
+            }
+        }
+    }        
+
+    focus = {
+        id = increase_berlin_istanbul_development
+        icon = GFX_goal_generic_intelligence_exchange
+        x = 0
+        y = 3
+        prerequisite = { focus = free_ottoman_trade }
+        relative_position_id = continue_ottoman_trade
+        cost = 14.3
 
         available_if_capitulated = no
 
         completion_reward = {
-            
+            effect_tooltip = { 
+                341 = {
+                    add_extra_state_shared_building_slots = 2
+                    add_building_construction = {
+                        type = industrial_complex
+                        level = 2
+                        instant_build = yes
+                    }
+                    add_building_construction = {
+                        type = infrastructure
+                        level = 2
+                        instant_build = yes
+                    }
+                }
+            }
+
+            effect_tooltip = { 
+                64 = {
+                    add_extra_state_shared_building_slots = 2
+                    add_building_construction = {
+                        type = industrial_complex
+                        level = 2
+                        instant_build = yes
+                    }
+                    add_building_construction = {
+                        type = infrastructure
+                        level = 2
+                        instant_build = yes
+                    }
+                }
+            }
         }
     }        
-
 
     focus = { 
         id = construct_berlin_baghdad_railway
         icon = GFX_goal_generic_intelligence_exchange
         x = 0
-        y = 2
+        y = 4
         prerequisite = { focus = increase_berlin_istanbul_trade }
         relative_position_id = continue_ottoman_trade
         cost = 1

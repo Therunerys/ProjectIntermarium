@@ -118,6 +118,74 @@ ideas = {
 				can_create_factions = yes
 			}
 		}
+
+		GER_otto_trade = {
+
+			picture = generic_foreigns_capital
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				local_resources_factor = 0.10
+				consumer_goods_factor = -0.03
+			}
+		}
+
+		GER_otto_trade2 = {
+
+			picture = generic_foreigns_capital
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			targeted_modifier = { 
+				tag = GER
+				trade_opinion_factor = 0.5
+				extra_trade_to_target_factor = 0.15
+				trade_cost_for_target_factor = -0.15
+			}
+		}
+
+		otto_GER_trade = {
+
+			picture = generic_foreigns_capital
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				local_resources_factor = 0.10
+				consumer_goods_factor = -0.03
+			}
+		}
+
+		otto_GER_trade2 = {
+
+			picture = generic_foreigns_capital
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			targeted_modifier = { 
+				tag = TUR
+				trade_opinion_factor = 0.5
+				extra_trade_to_target_factor = 0.15
+				trade_cost_for_target_factor = -0.15
+			}
+		}
 		######################################## Focus tree
 		full_naval_effort_idea = {
 
