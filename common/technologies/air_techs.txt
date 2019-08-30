@@ -479,7 +479,7 @@ technologies = {
 
 		folder = {
 			name = air_techs_folder
-			position = { x = 6 y = 4 }
+			position = { x = 9 y = 4 }
 		}
 
 		categories = {
@@ -498,19 +498,225 @@ technologies = {
 		enable_equipments = {
 			early_zeppelin
 		}
+
+		path = {
+			leads_to_tech = zeppelin_framework
+			research_cost_coeff = 1
+		}
 	
 		research_cost = 2
 		start_year = 1901
 		
 		folder = {
 			name = air_techs_folder
-			position = { x = 6 y = 6 }
+			position = { x = 9 y = 6 }
 		}
 
 		categories = {
 			heavy_air
 			air_equipment
 			cat_strategic_bomber
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	zeppelin_framework = {
+
+		air_strategic_bomber_bombing_factor = 0.05
+
+		path = {
+			leads_to_tech = second_zeppelin
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1901
+		
+		folder = {
+			name = air_techs_folder
+			position = { x = 9 y = 10 }
+		}
+
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	second_zeppelin = {
+
+		enable_equipments = {
+			zeppelin1
+		}
+
+		path = {
+			leads_to_tech = zeppelin_stabilizers
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 2
+		start_year = 1901
+		
+		folder = {
+			name = air_techs_folder
+			position = { x = 9 y = 14 }
+		}
+
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	zeppelin_stabilizers = {
+
+		air_strategic_bomber_bombing_factor = 0.05
+
+		path = {
+			leads_to_tech = third_zeppelin
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1901
+		
+		folder = {
+			name = air_techs_folder
+			position = { x = 9 y = 18 }
+		}
+
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	third_zeppelin = {
+
+		enable_equipments = {
+			zeppelin2
+		}
+
+		path = {
+			leads_to_tech = fourth_zeppelin
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = first_bomber
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 2
+		start_year = 1901
+		
+		folder = {
+			name = air_techs_folder
+			position = { x = 9 y = 22 }
+		}
+
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	fourth_zeppelin = {
+
+		enable_equipments = {
+			zeppelin3
+		}
+	
+		research_cost = 2
+		start_year = 1901
+		
+		folder = {
+			name = air_techs_folder
+			position = { x = 9 y = 30 }
+		}
+
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	first_bomber = {
+
+		enable_equipments = {
+			bomber1
+		}
+
+		path = {
+			leads_to_tech = second_bomber
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 2
+		start_year = 1901
+		
+		folder = {
+			name = air_techs_folder
+			position = { x = 6 y = 24 }
+		}
+
+		categories = {
+			medium_air
+			tactical_bomber
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	second_bomber = {
+
+		enable_equipments = {
+			bomber2
+		}
+	
+		research_cost = 2
+		start_year = 1901
+		
+		folder = {
+			name = air_techs_folder
+			position = { x = 6 y = 28 }
+		}
+
+		categories = {
+			medium_air
+			tactical_bomber
+			air_equipment
 		}
 		
 		ai_will_do = {

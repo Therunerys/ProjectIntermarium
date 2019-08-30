@@ -1950,23 +1950,7 @@ guiTypes = {
 			gridboxtype = {
 				name = "recon_balloons_tree"
 				position = { x = 340 y = 32 }
-				size = { width = 400 height = 2075 }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
-			}
-
-			gridboxtype = {
-				name = "early_bomber_tree"
-				position = { x = 1075 y = 32 }
-				size = { width = 400 height = 1000 }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
-			}
-
-			gridboxtype = {
-				name = "strategic_bomber1_tree"
-				position = { x = 1610 y = 32 }
-				size = { width = 200 height = 1000 }
+				size = { width = 400 height = 2200 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
