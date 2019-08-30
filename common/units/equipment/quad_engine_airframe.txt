@@ -123,7 +123,7 @@ equipments = {
 	}
 	
 	# Transport plane
-	transport_plane_equipment_0 = {
+	transport_plane = {
 		year = 1933
 
 		is_archetype = yes
@@ -142,12 +142,12 @@ equipments = {
 		######### AIR SPECS #########
 		air_defence = 20
 		air_agility = 10
-		air_range = 1000
+		air_range = 500
 		air_superiority = 0
 		maximum_speed = 300
 		reliability = 0.8
 
-		build_cost_ic = 180
+		build_cost_ic = 200
 
 		resources = {
 			oil = 1

@@ -149,7 +149,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1936
+		start_year = 1902
 
 		folder = {
 			name = air_techs_folder
@@ -178,8 +178,19 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		path = {
+			leads_to_tech = transport_planes
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+            plane_frame = 1
+            plane_engine = 1
+            plane_cockpit = 1
+        }
+	
 		research_cost = 2
-		start_year = 1903
+		start_year = 1904
 
 		folder = {
 			name = air_techs_folder
@@ -208,7 +219,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1903
+		start_year = 1905
 
 		folder = {
 			name = air_techs_folder
@@ -238,7 +249,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1903
+		start_year = 1907
 
 		folder = {
 			name = air_techs_folder
@@ -272,7 +283,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1903
+		start_year = 1908
 
 		folder = {
 			name = air_techs_folder
@@ -312,7 +323,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1903
+		start_year = 1910
 
 		folder = {
 			name = air_techs_folder
@@ -337,7 +348,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1903
+		start_year = 1912
 
 		folder = {
 			name = air_techs_folder
@@ -367,7 +378,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1903
+		start_year = 1911
 
 		folder = {
 			name = air_techs_folder
@@ -392,7 +403,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1903
+		start_year = 1913
 
 		folder = {
 			name = air_techs_folder
@@ -422,7 +433,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1936
+		start_year = 1911
 		folder = {
 			name = air_techs_folder
 			position = { x = 3 y = 26 }
@@ -446,7 +457,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1940
+		start_year = 1913
 		folder = {
 			name = air_techs_folder
 			position = { x = 3 y = 30 }
@@ -533,7 +544,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1901
+		start_year = 1903
 		
 		folder = {
 			name = air_techs_folder
@@ -561,9 +572,14 @@ technologies = {
 			leads_to_tech = zeppelin_stabilizers
 			research_cost_coeff = 1
 		}
+
+		path = {
+			leads_to_tech = transport_planes
+			research_cost_coeff = 1
+		}
 	
 		research_cost = 2
-		start_year = 1901
+		start_year = 1905
 		
 		folder = {
 			name = air_techs_folder
@@ -581,6 +597,34 @@ technologies = {
 		}
 	}
 
+	transport_planes = {
+
+		enable_equipments = {
+			transport_plane
+		}
+
+		dependencies = {
+            first_plane = 1
+        }
+	
+		research_cost = 2
+		start_year = 1906
+		
+		folder = {
+			name = air_techs_folder
+			position = { x = 6 y = 16 }
+		}
+
+		categories = {
+			heavy_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	zeppelin_stabilizers = {
 
 		air_strategic_bomber_bombing_factor = 0.05
@@ -591,7 +635,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1901
+		start_year = 1907
 		
 		folder = {
 			name = air_techs_folder
@@ -626,7 +670,7 @@ technologies = {
 		}
 	
 		research_cost = 2
-		start_year = 1901
+		start_year = 1909
 		
 		folder = {
 			name = air_techs_folder
@@ -651,7 +695,7 @@ technologies = {
 		}
 	
 		research_cost = 2
-		start_year = 1901
+		start_year = 1913
 		
 		folder = {
 			name = air_techs_folder
@@ -681,7 +725,7 @@ technologies = {
 		}
 	
 		research_cost = 2
-		start_year = 1901
+		start_year = 1910
 		
 		folder = {
 			name = air_techs_folder
@@ -706,7 +750,7 @@ technologies = {
 		}
 	
 		research_cost = 2
-		start_year = 1901
+		start_year = 1912
 		
 		folder = {
 			name = air_techs_folder
