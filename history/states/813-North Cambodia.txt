@@ -1,0 +1,25 @@
+state={
+	id=813
+	name="STATE_813"
+
+	history={
+		add_core_of = CAM
+		add_core_of = LAO
+		owner = SIA
+		add_core_of = SIA
+		victory_points = {
+			7376 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces={
+		1592 12460 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+}

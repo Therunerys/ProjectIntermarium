@@ -1,0 +1,22 @@
+state={
+	id=812
+	name="STATE_812"
+	history={
+		add_core_of = CAM
+		owner = SIA
+		add_core_of = SIA
+		victory_points = {
+			7376 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+	provinces={
+		1353 4251 4302 4359 5236 7404 10134 10177 10467 12191 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+}
