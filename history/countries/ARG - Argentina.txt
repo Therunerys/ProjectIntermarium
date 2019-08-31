@@ -23,34 +23,38 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 5
+			popularity = 60
 		}
 
 		fascism = {
-			popularity = 5
+			popularity = 0
 		}
 		
 		communism = {
-			popularity = 12
+			popularity = 0
 		}
 		
 		authoritarian = { 
-			popularity = 78
+			popularity = 40
 		}
 	}
-	
-	ruling_party = authoritarian
+
+	add_ideas = {
+julio_aregentino_roca
+}
+
+	ruling_party = democratic
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Agustín Pedro Justo"
+	name = "Julio Argentino Roca"
 	desc = "POLITICS_AGUSTIN_PEDRO_JUSTO_DESC"
 	picture = "Portrait_Argentina_Agustin_Pedro_Justo.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = Conservatism
 	traits = {
 		#
 	}

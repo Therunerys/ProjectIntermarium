@@ -1,4 +1,4 @@
-﻿capital = 361
+capital = 361
 
 oob = "USA_1936"
 
@@ -20,15 +20,15 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 98
+			popularity = 100
 		}
 
 		fascism = {
-			popularity = 1
+			popularity = 0
 		}
 		
 		communism = {
-			popularity = 1
+			popularity = 0
 		}
 	}
 	
@@ -38,7 +38,7 @@ set_politics = {
 }
 
 add_ideas = {
-
+theodore_roosevelt
 }
 
 set_autonomy = {
@@ -51,11 +51,11 @@ set_autonomy = {
 #####################
 
 create_country_leader = {
-	name = "Woodrow Wilson"
+	name = "William McKinley Jr."
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
 	picture = "woodrow.dds"
 	expire = "1947.1.1"
-	ideology = liberalism
+	ideology = republicanism
 	traits = {
 
 	}
