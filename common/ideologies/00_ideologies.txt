@@ -40,24 +40,22 @@ ideologies = {
 		color = { 61 59 160 }
 		
 		rules = {
-			can_declare_war_on_same_ideology = no
 			can_force_government = yes
 			can_send_volunteers = yes
 			can_puppet = yes
-			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = yes
 			can_guarantee_other_ideologies = yes
 		}
-		
-		can_host_government_in_exile = yes
-		
-		war_impact_on_world_tension = 0.25		# no major danger, remember this this the 40s!
-		faction_impact_on_world_tension = 0.1
-		
-		faction_modifiers = {
-			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		can_collaborate = yes
+
+		modifiers = {
+			justify_war_goal_when_in_major_war_time = -0.50
 		}
-		ai_democratic = yes # uses the democratic AI behaviour
+		
+		#can_host_government_in_exile = yes
+		
+		war_impact_on_world_tension = 0.5
+		faction_impact_on_world_tension = 1.0
+		ai_neutral = yes
 	}
 
 
@@ -81,19 +79,21 @@ ideologies = {
 		
 		color = { 175 35 35 }
 		
-		war_impact_on_world_tension = 0.75		#Commie less threatening
-		faction_impact_on_world_tension = 0.5
+		war_impact_on_world_tension = 1.0		#Commie less threatening
+		faction_impact_on_world_tension = 1.5
 		
-		ai_communist = yes # uses the commie AI behaviour
+		ai_neutral = yes # uses the commie AI behaviour
 		
 		rules = {
 			can_force_government = yes
 			can_send_volunteers = yes
 			can_puppet = yes
+			can_guarantee_other_ideologies = yes
 		}
 		
 		modifiers = {
 			puppet_cost_factor = -0.3
+			justify_war_goal_when_in_major_war_time = -0.50
 		}
 		
 		faction_modifiers = {
@@ -129,20 +129,21 @@ ideologies = {
 		
 		color = { 40 40 40 }
 		
-		war_impact_on_world_tension = 1.0			#evil!
+		war_impact_on_world_tension = 0.5			#evil!
 		faction_impact_on_world_tension = 1.0
 		
 		rules = {
 			can_force_government = yes
 			can_send_volunteers = yes
 			can_puppet = yes
+			can_guarantee_other_ideologies = yes
 		}
-		
+		can_collaborate = yes
 		modifiers = {
-			justify_war_goal_when_in_major_war_time = -0.80
+			justify_war_goal_when_in_major_war_time = -0.50
 		}
 
-		ai_fascist = yes # uses the fascist AI behaviour
+		ai_neutral = yes # uses the fascist AI behaviour
 	}
 	
 	authoritarian = {
@@ -172,20 +173,21 @@ ideologies = {
 		}
 		
 		color = { 70 70 70 }
-		
-		war_impact_on_world_tension = 1.0			
+		can_collaborate = yes
+		war_impact_on_world_tension = 0.5			
 		faction_impact_on_world_tension = 1.0
 		
 		rules = {
 			can_force_government = yes
 			can_send_volunteers = yes
 			can_puppet = yes
+			can_guarantee_other_ideologies = yes
 		}
 		
 		modifiers = {
-			justify_war_goal_when_in_major_war_time = -0.80
+			justify_war_goal_when_in_major_war_time = -0.50
 		}
 
-		ai_fascist = yes # uses the fascist AI behaviour
+		ai_neutral = yes # uses the fascist AI behaviour
 	}
 }
