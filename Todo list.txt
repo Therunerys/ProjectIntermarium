@@ -1,10 +1,10 @@
-################## ACTUAL TODO ####################
+################## ACTUAL TODO (RisingSun) ####################
 - Boxer rebellion
-- Boer war
-- Post Balkan-War borders
 - Small, Medium and non-default flags
 - Canberra
-- Zanzibar-Mainland Connection
+- Better Zanzibar
+- Serbian Borders (Nis and Belgrade)
+- Treaty of Paris borders (Waiting on Eternom)
 
 ################## TODO #####################
 - fix techtrees in mtgnavalfolder --------------- WIP
