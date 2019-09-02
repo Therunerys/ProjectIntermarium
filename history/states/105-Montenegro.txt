@@ -9,13 +9,13 @@ state={
 
 	history={
 		victory_points = {
-			9809 3 
+			9821 3 
 		}
 		owner = MNT
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-			9809 = {
+			9821 = {
 				naval_base = 1
 
 			}
@@ -26,7 +26,7 @@ state={
 	}
 
 	provinces={
-		9809 9821 11858 
+		9821 
 	}
 	manpower=645500
 	buildings_max_level_factor=1.000
