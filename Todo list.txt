@@ -5,6 +5,7 @@
 - Better Zanzibar
 - Serbian Borders (Nis and Belgrade)
 - Treaty of Paris borders (Waiting on Eternom)
+- Fes, Morocco Capital
 
 ################## TODO #####################
 - fix techtrees in mtgnavalfolder --------------- WIP
