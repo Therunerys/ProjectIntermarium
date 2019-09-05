@@ -1,9 +1,7 @@
 ################## ACTUAL TODO (RisingSun) ####################
-- Boxer rebellion
 - Small, Medium and non-default flags
 - Canberra
 - Better Zanzibar
-- Serbian Borders (Nis and Belgrade)
 - Treaty of Paris borders (Waiting on Eternom)
 - Fes, Morocco Capital
 

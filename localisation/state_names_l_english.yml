@@ -225,7 +225,7 @@
  STATE_224:0 "Bryansk"
  STATE_225:0 "Sumy"
  STATE_226:0 "Dnipropetrovsk"
- STATE_227:1 "Donetsk"
+ STATE_227:1 "Yuzovka"
  STATE_228:0 "Voroshilovgrad"
  STATE_229:1 "Azerbaijan"
  STATE_230:0 "Armenia"
@@ -818,3 +818,4 @@
  STATE_817:0 "Outer Montenegro"
  STATE_818:0 "Thesally"
  STATE_819:0 "Channel Isles"
+ STATE_820:0 "Weihaiwei"

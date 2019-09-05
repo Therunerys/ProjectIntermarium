@@ -8,6 +8,7 @@ state={
 	history={
 		owner = CHI
 		add_core_of = CHI
+add_core_of = BOX
 		add_core_of = TIB
 		GER
 		buildings = {

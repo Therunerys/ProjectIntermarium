@@ -1,0 +1,37 @@
+﻿capital = 597
+
+# Starting tech
+set_technology = {
+
+}
+
+declare_war_on = {
+		target = CHI
+		type = annex_everything
+}
+
+#set_research_slots = 3
+#set_convoys = 150
+#set_stability = 0.66
+#set_war_support = 0.34
+
+#####################
+##### POLITICS ######
+#####################
+
+set_politics = {
+	ruling_party = authoritarian
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 0
+	authoritarian = 100
+}
+
+add_ideas = {
+	
+}
