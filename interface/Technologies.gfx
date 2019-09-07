@@ -44,6 +44,28 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/FRA_infantry_weapons4.dds"
 	}
 
+	######################### BRITISH INFANTRY WEAPONS #########################
+
+	SpriteType = {
+		name = "GFX_ENG_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/ENG_infantry_weapons1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ENG_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/ENG_infantry_weapons2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ENG_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/ENG_infantry_weapons3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ENG_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/ENG_infantry_weapons4.dds"
+	}
+
 	####################### INFANTRY TREE ##########################
 
 	SpriteType = {
@@ -385,7 +407,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/tanksuspension.dds"
 	}
 	#
-	############################################################################################FRENCH TANKS AND ARMOR
+	############################################################################################ FRENCH TANKS AND ARMOR
 	#
 	SpriteType = {
 		name = "GFX_FRA_armored_car1_medium"
@@ -417,7 +439,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/FRA_lighttank1.dds"
 	}
 	#
-	############################################################################################GERMAN TANKS AND ARMOR
+	############################################################################################ GERMAN TANKS AND ARMOR
 	#
 	SpriteType = {
 		name = "GFX_GER_armored_car1_medium"
@@ -447,6 +469,38 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_GER_light_tank1_medium"
 		texturefile = "gfx/interface/technologies/GER_lighttank1.dds"
+	}
+	#
+	############################################################################################ BRITISH TANKS AND ARMOR
+	#
+	SpriteType = {
+		name = "GFX_ENG_armored_car1_medium"
+		texturefile = "gfx/interface/technologies/ENG_armoredcar1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ENG_armored_car2_medium"
+		texturefile = "gfx/interface/technologies/ENG_armoredcar2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ENG_armored_car3_medium"
+		texturefile = "gfx/interface/technologies/ENG_armoredcar3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ENG_armored_car4_medium"
+		texturefile = "gfx/interface/technologies/ENG_armoredcar4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ENG_tank_prototype_medium"
+		texturefile = "gfx/interface/technologies/ENG_tankprototype.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ENG_light_tank1_medium"
+		texturefile = "gfx/interface/technologies/ENG_lighttank1.dds"
 	}
 
 	#

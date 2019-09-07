@@ -1,14 +1,18 @@
 equipments = {
 
-	antiair1 = {
+	antiair = {
 		year = 1908
+		picture = archetype_anti_air_equipment
 
 		is_archetype = yes
-		picture = archetype_anti_air_equipment		
+		is_buildable = no
+		active = no
+
 		type = {
 			anti_air
 			infantry #adding infantry type
 		}
+		
 		group_by = archetype
 		
 		interface_category = interface_category_land
@@ -35,5 +39,14 @@ equipments = {
 		resources = {
 			steel = 2
 		}
+	}
+
+	antiair_0 = {
+		year = 1908
+
+		archetype = antiair
+		active = no
+
+		priority = 20
 	}
 }

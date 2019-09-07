@@ -1,7 +1,7 @@
 equipments = {
 	
 	# Early Zeppelin
-	early_zeppelin = {
+	zeppelin = {
 		year = 1901
 
 		is_archetype = yes
@@ -47,12 +47,21 @@ equipments = {
 		fuel_consumption = 0.8
 	}
 
+	zeppelin_0 = {
+		year = 1898
+
+		archetype = zeppelin
+		active = no
+
+		priority = 20
+	}
+
 	# Basic Zeppelin
-	zeppelin1 = {
+	zeppelin_1 = {
 		year = 1940
 
-		archetype = early_zeppelin
-		parent = early_zeppelin
+		archetype = zeppelin
+		parent = zeppelin_0
 		priority = 140
 
 		######### AIR SPECS #########
@@ -73,11 +82,11 @@ equipments = {
 	}
 	
 	# Improved Zeppelin
-	zeppelin2 = {
+	zeppelin_2 = {
 		year = 1944
 
-		archetype = early_zeppelin
-		parent = zeppelin1
+		archetype = zeppelin
+		parent = zeppelin_1
 		priority = 140
 		
 		######### AIR SPECS #########
@@ -98,11 +107,11 @@ equipments = {
 	}
 
 	# Advanced Zeppelin
-	zeppelin3 = {
+	zeppelin_3 = {
 		year = 1944
 
-		archetype = early_zeppelin
-		parent = zeppelin2
+		archetype = zeppelin
+		parent = zeppelin_2
 		priority = 140
 		
 		######### AIR SPECS #########
@@ -124,7 +133,7 @@ equipments = {
 	
 	# Transport plane
 	transport_plane = {
-		year = 1933
+		year = 1906
 
 		is_archetype = yes
 		is_convertable = yes
@@ -134,7 +143,7 @@ equipments = {
 		sprite = medium_plane
 		air_map_icon_frame = 12
 		priority = 125
-		active = yes
+		active = no
 	
 		interface_category = interface_category_air
 		interface_overview_category_index = 6

@@ -1,15 +1,19 @@
 equipments = {
 
+	# Support Equipment #
 	support_equipment = {
-		year = 1921
+		year = 1898
+		picture = supportcrate
 
 		is_archetype = yes
-		picture = supportcrate
 		is_buildable = no
+		active = no
+
 		type = {
 			infantry
 			motorized
 		}
+
 		group_by = archetype
 		
 		interface_category = interface_category_land
@@ -26,11 +30,13 @@ equipments = {
 		}
 	}
 
-	support_equipment_1 = {
-		year = 1918
+	# Support Equipment #
+	support_equipment_0 = {
+		year = 1898
 
 		archetype = support_equipment
-		priority = 20	
-	}
+		active = no
 
+		priority = 20
+	}
 }

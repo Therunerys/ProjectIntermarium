@@ -362,9 +362,9 @@ fire_brigades_desc:0 "Fire Brigades"
 #
 #
 #
-PLANE_STAGE1:0 "§GFirst blueprints for planes are created showing that the idea of such a vehicle is possible.§ \n"
-PLANE_STAGE2:0 "§GPrototype planes had problems and we need to improve the frame, engine and cockpit before we can produce a functioning plane.§ \n"
-ZEPPELIN_STAGE1:0 "§GFirst blueprints for zeppelins are created showing that the idea of such a vehicle is possible.§ \n"
+PLANE_STAGE1:0 "\n§GFirst blueprints for planes are created showing that the idea of such a vehicle is possible.§"
+PLANE_STAGE2:0 "\n§GPrototype planes had problems and we need to improve the frame, engine and cockpit before we can produce a functioning plane.§"
+ZEPPELIN_STAGE1:0 "\n§GFirst blueprints for zeppelins are created showing that the idea of such a vehicle is possible.§"
 
 
  basic_machine_tools:0 "Basic Machine Tools"

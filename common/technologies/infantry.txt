@@ -410,7 +410,7 @@ technologies = {
 	flamethrower = {
 
 		enable_equipments = {
-			flamethrowers
+			flamethrowers_0
 		}
 		
 		enable_subunits = {
@@ -521,7 +521,7 @@ technologies = {
 		}
 
 		enable_equipments = {
-			cavalry_equipment
+			cavalry_equipment_0
 		}
 
 		path = {
@@ -667,12 +667,7 @@ technologies = {
 		}
 
 		enable_equipments = {
-			motorized_equipment_1
-		}
-
-		path = {
-			leads_to_tech = amphibious_mechanized_infantry
-			research_cost_coeff = 1
+			motorized_equipment_0
 		}
 
 		on_research_complete = {

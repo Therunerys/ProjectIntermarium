@@ -3,7 +3,7 @@ technologies = {
 	explosive_artillery = {
 
 		enable_equipments = {
-			artillery_equipment
+			artillery_equipment_0
 		}
 
 		enable_subunits = {
@@ -667,7 +667,7 @@ technologies = {
 	antitank1 = {
 	
 		enable_equipments = {
-			antitank1
+			antitank_0
 		}
 
 		enable_subunits = {
@@ -757,7 +757,7 @@ technologies = {
 	antiair1 = {
 	
 		enable_equipments = {
-			antiair1
+			antiair_0
 		}
 
 		enable_subunits = {

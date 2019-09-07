@@ -1,14 +1,18 @@
 equipments = {
 
-	antitank1 = {
+	antitank = {
 		year = 1908
+		picture = archetype_anti_tank_equipment
 
 		is_archetype = yes
-		picture = archetype_anti_tank_equipment		
+		is_buildable = no
+		active = no
+
 		type = { 
 			anti_tank
 			infantry #adding infantry type
 		}
+		
 		group_by = archetype
 		
 		interface_category = interface_category_land
@@ -37,5 +41,14 @@ equipments = {
 			tungsten = 2
 			steel = 2
 		}
+	}
+
+	antitank_0 = {
+		year = 1908
+
+		archetype = antitank
+		active = no
+
+		priority = 20
 	}
 }

@@ -2,14 +2,18 @@ equipments = {
 
 	artillery_equipment = {
 		year = 1898
+		picture = archetype_artillery_equipment
 
 		is_archetype = yes
-		picture = archetype_artillery_equipment		
+		is_buildable = no
+		active = no
+				
 		type = {
 			artillery
 			infantry #adding infantry type
 			#motorized #Removing motorized type
 		}
+
 		group_by = archetype
 		
 		interface_category = interface_category_land
@@ -39,11 +43,20 @@ equipments = {
 		}
 	}
 
+	artillery_equipment_0 = {
+		year = 1898
+
+		archetype = artillery_equipment
+		active = no
+
+		priority = 20
+	}
+
 	artillery_equipment_1 = {
 		year = 1903
 
 		archetype = artillery_equipment
-		parent = artillery_equipment
+		parent = artillery_equipment_0
 		priority = 50
 		visual_level = 1
 

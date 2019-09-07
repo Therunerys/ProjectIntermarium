@@ -341,7 +341,10 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 
-
+		path = {
+			leads_to_tech = centralized_fire_control
+			research_cost_coeff = 1
+		}
 
 		doctrine = yes
 		research_cost = 4.5
@@ -480,7 +483,10 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 
-
+		path = {
+			leads_to_tech = centralized_fire_control
+			research_cost_coeff = 1
+		}
 
 		doctrine = yes
 		research_cost = 4.5
@@ -504,4 +510,115 @@ technologies = {
 		}
 	}
 	
+	centralized_fire_control = { 
+		
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+		
+		path = {
+			leads_to_tech = concentrated_fireplans
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = mass_motorization
+			research_cost_coeff = 1
+		}
+
+		doctrine = yes
+		research_cost = 4.5
+
+		categories = {
+			land_doctrine
+		}
+
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 16 }
+		}
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		ai_research_weights = {
+			#
+		}
+	}
+	
+	concentrated_fireplans = { 
+		
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+		
+		xor = {
+			mass_motorization
+		}
+
+		doctrine = yes
+		research_cost = 4.5
+
+		categories = {
+			land_doctrine
+		}
+
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -2 y = 18 }
+		}
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		ai_research_weights = {
+			#
+		}
+	}
+	
+	mass_motorization = { 
+		
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+		
+		xor = {
+			concentrated_fireplans
+		}
+		
+		path = {
+			leads_to_tech = continuous_offensive
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = mobile_infantry
+			research_cost_coeff = 1
+		}
+
+		doctrine = yes
+		research_cost = 4.5
+
+		categories = {
+			land_doctrine
+		}
+
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = 18 }
+		}
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		ai_research_weights = {
+			#
+		}
+	}
 }

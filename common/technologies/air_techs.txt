@@ -170,7 +170,7 @@ technologies = {
 	first_plane = {
 
 		enable_equipments = {
-			recon_plane
+			recon_plane_0
 		}
 
 		path = {
@@ -424,7 +424,7 @@ technologies = {
 	first_navbomber = {
 
 		enable_equipments = {
-			nav_bomber1
+			nav_bomber_0
 		}
 	
 		path = {
@@ -453,7 +453,7 @@ technologies = {
 	second_navbomber = {
 
 		enable_equipments = {
-			nav_bomber2
+			nav_bomber_1
 		}
 		
 		research_cost = 2
@@ -507,7 +507,7 @@ technologies = {
 	first_zeppelin = {
 
 		enable_equipments = {
-			early_zeppelin
+			zeppelin_0
 		}
 
 		path = {
@@ -565,7 +565,7 @@ technologies = {
 	second_zeppelin = {
 
 		enable_equipments = {
-			zeppelin1
+			zeppelin_1
 		}
 
 		path = {
@@ -656,7 +656,7 @@ technologies = {
 	third_zeppelin = {
 
 		enable_equipments = {
-			zeppelin2
+			zeppelin_2
 		}
 
 		path = {
@@ -691,7 +691,7 @@ technologies = {
 	fourth_zeppelin = {
 
 		enable_equipments = {
-			zeppelin3
+			zeppelin_3
 		}
 	
 		research_cost = 2
@@ -716,7 +716,7 @@ technologies = {
 	first_bomber = {
 
 		enable_equipments = {
-			bomber1
+			bomber_0
 		}
 
 		path = {
@@ -746,7 +746,7 @@ technologies = {
 	second_bomber = {
 
 		enable_equipments = {
-			bomber2
+			bomber_1
 		}
 	
 		research_cost = 2
@@ -765,379 +765,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-		}
-	}
-	
-	early_bomber = {
-
-		enable_equipments = {
-			tac_bomber_equipment_0
-		}
-	
-		path = {
-			leads_to_tech = heavy_fighter1
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = tactical_bomber1
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 2
-		start_year = 1933
-		folder = {
-			name = air_techs_folder
-			position = { x = 2 y = 2 }
-		}
-		
-		categories = {
-			medium_air
-			tactical_bomber
-			air_equipment
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	heavy_fighter1 = {
-
-		enable_equipments = {
-			heavy_fighter_equipment_0
-		}
-	
-		path = {
-			leads_to_tech = heavy_fighter2
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 2
-		start_year = 1936
-		folder = {
-			name = air_techs_folder
-			position = { x = -2 y = 4 }
-		}
-		
-		categories = {
-			medium_air
-			air_equipment
-			cat_heavy_fighter
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	heavy_fighter2 = {
-
-		enable_equipments = {
-			heavy_fighter_equipment_1
-		}
-	
-		path = {
-			leads_to_tech = heavy_fighter3
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 2
-		start_year = 1940
-		folder = {
-			name = air_techs_folder
-			position = { x = -2 y = 8 }
-		}
-		
-		categories = {
-			medium_air
-			air_equipment
-			cat_heavy_fighter
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	heavy_fighter3 = {
-
-		enable_equipments = {
-			heavy_fighter_equipment_2
-		}
-		
-		#path = {
-		#	leads_to_tech = jet_fighter1
-		#	research_cost_coeff = 1.2
-		#}
-
-		research_cost = 2
-		start_year = 1944
-		folder = {
-			name = air_techs_folder
-			position = { x = -2 y = 14 }
-		}
-		
-		categories = {
-			medium_air
-			air_equipment
-			cat_heavy_fighter
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	tactical_bomber1 = {
-
-		enable_equipments = {
-			tac_bomber_equipment_1
-		}
-	
-		path = {
-			leads_to_tech = tactical_bomber2
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1936
-
-		folder = {
-			name = air_techs_folder
-			position = { x = 2 y = 6 }
-		}
-		
-		categories = {
-			medium_air
-			tactical_bomber
-			air_equipment
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 1.2
-				is_major = yes
-				date > "1936.1.1"
-			}
-			
-			modifier = {
-				factor = 1.2
-				is_major = yes
-				date > "1938.1.1"
-			}
-			
-			modifier = {
-				factor = 5
-				is_major = yes
-				date > "1940.1.1"
-			}
-		}
-	}
-	
-	tactical_bomber2 = {
-
-		enable_equipments = {
-			tac_bomber_equipment_2
-		}
-	
-		path = {
-			leads_to_tech = tactical_bomber3
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 2
-		start_year = 1940
-		folder = {
-			name = air_techs_folder
-			position = { x = 2 y = 10 }
-		}
-		
-		categories = {
-			medium_air
-			tactical_bomber
-			air_equipment
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 1.2
-				is_major = yes
-				date > "1940.1.1"
-			}
-			
-			modifier = {
-				factor = 1.2
-				is_major = yes
-				date > "1941.1.1"
-			}
-			
-			modifier = {
-				factor = 5
-				is_major = yes
-				date > "1944.1.1"
-			}
-		}
-	}
-	
-	tactical_bomber3 = {
-
-		enable_equipments = {
-			tac_bomber_equipment_3
-		}
-		
-		path = {
-			leads_to_tech = jet_tactical_bomber1
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1944
-		folder = {
-			name = air_techs_folder
-			position = { x = 2 y = 16 }
-		}
-		
-		categories = {
-			medium_air
-			tactical_bomber
-			air_equipment
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 1.2
-				is_major = yes
-				date > "1944.1.1"
-			}
-			
-			modifier = {
-				factor = 1.2
-				is_major = yes
-				date > "1945.1.1"
-			}
-		}
-	}
-	
-	strategic_bomber1 = {
-
-		enable_equipments = {
-			strat_bomber_equipment_0
-		}
-	
-		path = {
-			leads_to_tech = strategic_bomber2
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1936
-		folder = {
-			name = air_techs_folder
-			position = { x = 0 y = 6 }
-		}
-		
-		categories = {
-			heavy_air
-			air_equipment
-			cat_strategic_bomber
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 5
-				tag = ENG
-			}
-			
-			modifier = {
-				factor = 5
-				tag = USA
-			}
-		}
-	}
-	
-	strategic_bomber2 = {
-
-		enable_equipments = {
-			strat_bomber_equipment_1
-		}
-	
-		path = {
-			leads_to_tech = strategic_bomber3
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 2
-		start_year = 1940
-		folder = {
-			name = air_techs_folder
-			position = { x = 0 y = 12 }
-		}
-		
-		categories = {
-			heavy_air
-			air_equipment
-			cat_strategic_bomber
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 5
-				tag = ENG
-			}
-			
-			modifier = {
-				factor = 5
-				tag = USA
-			}
-		}
-	}
-	
-	strategic_bomber3 = {
-
-		enable_equipments = {
-			strat_bomber_equipment_2
-		}
-		
-		path = {
-			leads_to_tech = jet_strategic_bomber1
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1944
-		folder = {
-			name = air_techs_folder
-			position = { x = 0 y = 18 }
-		}
-		
-		categories = {
-			heavy_air
-			air_equipment
-			cat_strategic_bomber
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 5
-				tag = ENG
-			}
-			
-			modifier = {
-				factor = 5
-				tag = USA
-			}
 		}
 	}
 }

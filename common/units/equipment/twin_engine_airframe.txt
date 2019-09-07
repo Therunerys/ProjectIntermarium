@@ -1,8 +1,8 @@
 equipments = {
 	
 	# Early Bomber
-	bomber1 = {
-		year = 1933
+	bomber = {
+		year = 1910
 
 		is_archetype = yes
 		is_convertable = yes
@@ -52,12 +52,21 @@ equipments = {
 		fuel_consumption = 0.36
 	}
 
-	# Basic Bomber
-	bomber2 = {
-		year = 1936
+	bomber_0 = {
+		year = 1910
 
-		archetype = bomber1
-		parent = bomber1
+		archetype = bomber
+		active = no
+
+		priority = 20
+	}
+
+	# Basic Bomber
+	bomber_1 = {
+		year = 1912
+
+		archetype = bomber
+		parent = bomber_0
 		priority = 110
 		
 		######### AIR SPECS #########

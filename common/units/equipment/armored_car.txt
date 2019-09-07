@@ -1,13 +1,15 @@
 equipments = {
 
-	# Armored Car 1 #
-	armored_car_1 = {
+	# Armored Car #
+	armored_car = {
 		year = 1898
+		picture = archetype_light_tank_equipment
 	
 		is_archetype = yes
 		is_buildable = no
 		is_convertable = yes
-		picture = archetype_light_tank_equipment			
+		active = no
+			
 		type = armor
 		group_by = archetype
 		
@@ -48,12 +50,22 @@ equipments = {
 		fuel_consumption = 2.0
 	}
 
-	# Armored Car 2 #
-	armored_car_2 = {
+	# Armored Car #
+	armored_car_0 = {
+		year = 1898
+
+		archetype = armored_car
+		active = no
+
+		priority = 20
+	}
+
+	# Armored Car 1 #
+	armored_car_1 = {
 		year = 1902
 		
-		archetype = armored_car_1
-		parent = armored_car_1
+		archetype = armored_car
+		parent = armored_car_0
 		priority = 10
 		visual_level = 0
 		is_convertable = yes
@@ -76,12 +88,12 @@ equipments = {
 		build_cost_ic = 8
 	}
 
-	# Armored Car 3 #
-	armored_car_3 = {
+	# Armored Car 2 #
+	armored_car_2 = {
 		year = 1905
 		
-		archetype = armored_car_1
-		parent = armored_car_2
+		archetype = armored_car
+		parent = armored_car_1
 		priority = 10
 		visual_level = 1
 		is_convertable = yes
@@ -108,12 +120,12 @@ equipments = {
 		}
 	}
 
-	# Armored Car 4 #
-	armored_car_4 = {
+	# Armored Car 3 #
+	armored_car_3 = {
 		year = 1907
 	
-		archetype = armored_car_1
-		parent = armored_car_3
+		archetype = armored_car
+		parent = armored_car_2
 		priority = 10
 		visual_level = 2
 		is_convertable = yes

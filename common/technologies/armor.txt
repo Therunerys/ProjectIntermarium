@@ -3,7 +3,7 @@ technologies = {
 	armored_car1 = {
 
 		enable_equipments = {
-			armored_car_1
+			armored_car_0
 		}
 
 		enable_subunits = {
@@ -34,7 +34,7 @@ technologies = {
 	armored_car2 = {
 
 		enable_equipments = {
-			armored_car_2
+			armored_car_1
 		}
 
 		path = {
@@ -60,7 +60,7 @@ technologies = {
 	armored_car3 = {
 
 		enable_equipments = {
-			armored_car_3
+			armored_car_2
 		}
 
 		path = {
@@ -90,7 +90,7 @@ technologies = {
 	armored_car4 = {
 
 		enable_equipments = {
-			armored_car_4
+			armored_car_3
 		}
 
         path = {
@@ -120,7 +120,7 @@ technologies = {
         }
 
         enable_equipments = {
-			landship_1
+			landship_0
 		}
 
 		enable_subunits = {
@@ -146,7 +146,7 @@ technologies = {
 	light_tank1 = {
 
 		enable_equipments = {
-			landship_2
+			landship_1
 		}
 
 		research_cost = 2

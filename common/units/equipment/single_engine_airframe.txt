@@ -50,12 +50,21 @@ equipments = {
 		fuel_consumption = 0.21
 	}
 
+	recon_plane_0 = {
+		year = 1904
+
+		archetype = recon_plane
+		active = no
+
+		priority = 20
+	}
+
 	# Early Fighter
 	fighter1 = {
 		year = 1907
 
 		archetype = recon_plane
-		parent = recon_plane
+		parent = recon_plane_0
 		priority = 10
 
 		######### AIR SPECS #########
@@ -135,7 +144,7 @@ equipments = {
 	}
 
 	# Early CAS
-	CAS1 = {
+	CAS = {
 		year = 1911
 
 		is_archetype = yes
@@ -183,11 +192,20 @@ equipments = {
 		fuel_consumption = 0.26
 	}
 
+	CAS1 = {
+		year = 1911
+
+		archetype = CAS
+		active = no
+
+		priority = 20
+	}
+
 	# Basic CAS
 	CAS2 = {
 		year = 1913
 
-		archetype = CAS1
+		archetype = CAS
 		parent = CAS1
 		priority = 40
 
@@ -213,8 +231,8 @@ equipments = {
 	}
 
 	# Basic nav_bomber
-	nav_bomber1 = {
-		year = 1933
+	nav_bomber = {
+		year = 1911
 
 		is_archetype = yes
 		is_convertable = yes
@@ -260,12 +278,21 @@ equipments = {
 		fuel_consumption = 0.28
 	}
 
-	# Improved nav_bomber
-	nav_bomber2 = {
-		year = 1940
+	nav_bomber_0 = {
+		year = 1911
 
-		archetype = nav_bomber1
-		parent = nav_bomber1
+		archetype = nav_bomber
+		active = no
+
+		priority = 20
+	}
+
+	# Improved nav_bomber
+	nav_bomber_1 = {
+		year = 1913
+
+		archetype = nav_bomber
+		parent = nav_bomber_0
 		priority = 60
 
 		######### AIR SPECS #########

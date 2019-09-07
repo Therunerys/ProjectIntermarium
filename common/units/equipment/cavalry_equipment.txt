@@ -2,12 +2,12 @@ equipments = {
 
 	# Regular cavalry equipment #
 	cavalry_equipment = {
-		year = 1921
+		year = 1895
 		picture = archetype_cavalry_equipment
 	
 		is_archetype = yes
 		is_buildable = no
-		active = yes
+		active = no
 
 		type = infantry
 
@@ -37,5 +37,14 @@ equipments = {
 		resources = {
 			steel = 2
 		}
+	}
+
+	cavalry_equipment_0 = {
+		year = 1895
+
+		archetype = cavalry_equipment
+		active = no
+
+		priority = 20
 	}
 }
