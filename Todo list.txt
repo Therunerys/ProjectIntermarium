@@ -4,6 +4,10 @@
 - Better Zanzibar
 - Treaty of Paris borders (Waiting on Eternom)
 - Fes, Morocco Capital
+- Remove Panama Canal
+- Aland island should be Russian
+- Cores in Balkans, Finland (and pretty much everywhere)
+- 1000 days war (Columbia)
 
 ################## TODO #####################
 - fix techtrees in mtgnavalfolder --------------- WIP
