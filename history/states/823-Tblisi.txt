@@ -1,0 +1,25 @@
+state={
+	id=823
+	name="STATE_823"
+
+	history={
+		owner = RUS
+		victory_points = {
+			1599 5 
+		}
+#		buildings = {
+#			infrastructure = 4
+#			industrial_complex = 2
+#			air_base = 3
+#		}
+		add_core_of = GEO
+		add_core_of = RUS
+
+	}
+
+	provinces={
+		1599 6669 9702 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

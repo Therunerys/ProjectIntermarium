@@ -1,0 +1,28 @@
+state={
+	id=822
+	name="STATE_822"
+
+	history={
+		owner = RUS
+		victory_points = {
+			3653 3 
+		}
+		buildings = {
+			infrastructure = 3
+			3653 = {
+				naval_base = 2
+				coastal_bunker = 1
+
+			}
+
+		}
+		add_core_of = GEO
+		add_core_of = RUS
+	}
+
+	provinces={
+		3653 3656 11599 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
