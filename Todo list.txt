@@ -1,11 +1,9 @@
 ################## ACTUAL TODO (RisingSun) ####################
 - Small, Medium and non-default flags
 - Canberra
-- Better Zanzibar
-- Treaty of Paris borders (Waiting on Eternom)
+- Austria, Post WW1 borders
 - Fes, Morocco Capital
 - Remove Panama Canal
-- Aland island should be Russian
 - Cores in Balkans, Finland (and pretty much everywhere)
 - 1000 days war (Columbia)
 

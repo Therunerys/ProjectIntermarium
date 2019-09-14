@@ -7,6 +7,9 @@ state={
 		victory_points = {
 			651 1 
 		}
+		victory_points = {
+			3594 3 
+		}
 		owner = FRA
 		buildings = {
 			infrastructure = 6

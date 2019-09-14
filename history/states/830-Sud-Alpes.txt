@@ -1,0 +1,14 @@
+state={
+	id=830
+	name="STATE_830"
+	history = {
+		owner = TUR
+		add_core_of = GRE
+		add_core_of = BUL
+	}
+	provinces={
+		11774 11905
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
