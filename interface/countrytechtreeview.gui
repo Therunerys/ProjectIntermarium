@@ -2257,7 +2257,7 @@ guiTypes = {
 			iconType = {
 				name = "early_entrencment_bg"
 				spriteType = "GFX_doctrine_western_front_bg"
-				position = { x=1010 y=130 }
+				position = { x=160 y=130 }
 			}
 
 			instantTextBoxType = {
@@ -2288,8 +2288,8 @@ guiTypes = {
 	
 			gridboxtype = {
 				name = "early_entrencment_tree"
-				position = { x=1000 y=172 }
-				size = { width = 850 height = 1150 }
+				position = { x=150 y=172 }
+				size = { width = 550 height = 1500 }
 				slotsize = { width=60 height=60 }
 				format = "UP"
 

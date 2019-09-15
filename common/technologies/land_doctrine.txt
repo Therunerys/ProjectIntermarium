@@ -1,6 +1,6 @@
 technologies = {
 	#
-	############################# IMPROVE THE OLD ################################
+	############################# MAIN TREE ################################
 	#
 	early_entrencment = {
 
@@ -41,16 +41,14 @@ technologies = {
 		#
 		}
 	}
-
-################ first right doctrine
-
+	#
+	################ FIRST RIGHT/TOP DOCTRINE #####################
+	#
 	integrated_artillery = {
 
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
-
-		
 
 		path = {
 			leads_to_tech = superior_firepower
@@ -113,9 +111,9 @@ technologies = {
 			#
 		}
 	}
-
-################ first left doctrine
-
+	#
+	################ FIRST LEFT/BOTTOM DOCTRINE #####################
+	#
 	specialized_defense = {
 
 		xp_research_type = army
@@ -183,9 +181,9 @@ technologies = {
 			#
 		}
 	}
-
-############################## middle first 
-
+	#
+	################ MIDDLE DOCTRINE #####################
+	#
 	mass_charge = {
 
 		xp_research_type = army
@@ -225,9 +223,9 @@ technologies = {
 			#
 		}
 	}
-
-################ second right doctrine
-
+	#
+	################ SECOND RIGHT/TOP DOCTRINE #####################
+	#
 	unorthodox_warfare = {
 
 		xp_research_type = army
@@ -367,9 +365,9 @@ technologies = {
 			#
 		}
 	}
-
-	################ second right doctrine
-
+	#
+	################ SECOND LEFT/BOTTOM DOCTRINE #####################
+	#
 	conventional_warfare = {
 
 		xp_research_type = army
@@ -509,7 +507,9 @@ technologies = {
 			#
 		}
 	}
-	
+	#
+	################ SECOND MIDDLE DOCTRINE #####################
+	#
 	centralized_fire_control = { 
 		
 		xp_research_type = army
@@ -517,7 +517,12 @@ technologies = {
 		xp_research_bonus = 1.00
 		
 		path = {
-			leads_to_tech = concentrated_fireplan
+			leads_to_tech = concentrated_fireplans
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = mass_motorization
 			research_cost_coeff = 1
 		}
 
@@ -528,10 +533,9 @@ technologies = {
 			land_doctrine
 		}
 
-
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -2 y = 14 }
+			position = { x = 0 y = 16 }
 		}
 
 		ai_will_do = {
@@ -542,7 +546,9 @@ technologies = {
 			#
 		}
 	}
-	
+	#
+	################ BIG LEFT/BOTTOM BRANCH #####################
+	#
 	concentrated_fireplans = { 
 		
 		xp_research_type = army
@@ -573,7 +579,7 @@ technologies = {
 
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -2 y = 14 }
+			position = { x = -2 y = 18 }
 		}
 
 		ai_will_do = {
@@ -584,7 +590,129 @@ technologies = {
 			#
 		}
 	}
-	
+	#
+	################ SMALL LEFT/BOTTOM BRANCH #####################
+	#
+	forward_observers = { 
+		
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+		
+		path = {
+			leads_to_tech = forward_operational_bases
+			research_cost_coeff = 1
+		}
+
+		doctrine = yes
+		research_cost = 4.5
+
+		categories = {
+			land_doctrine
+		}
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -3 y = 20 }
+		}
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		ai_research_weights = {
+			#
+		}
+	}
+
+	forward_operational_bases = { 
+		
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+
+		doctrine = yes
+		research_cost = 4.5
+
+		categories = {
+			land_doctrine
+		}
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -3 y = 22 }
+		}
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		ai_research_weights = {
+			#
+		}
+	}
+
+	infiltration_in_depth = { 
+		
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+		
+		path = {
+			leads_to_tech = regimental_teams
+			research_cost_coeff = 1
+		}
+
+		doctrine = yes
+		research_cost = 4.5
+
+		categories = {
+			land_doctrine
+		}
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -1 y = 20 }
+		}
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		ai_research_weights = {
+			#
+		}
+	}
+
+	regimental_teams = { 
+		
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+
+		doctrine = yes
+		research_cost = 4.5
+
+		categories = {
+			land_doctrine
+		}
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -1 y = 22 }
+		}
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		ai_research_weights = {
+			#
+		}
+	}
+	#
+	################ BIG RIGHT/TOP BRANCH #####################
+	#
 	mass_motorization = { 
 		
 		xp_research_type = army
@@ -615,7 +743,7 @@ technologies = {
 
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -2 y = 14 }
+			position = { x = 2 y = 18 }
 		}
 
 		ai_will_do = {
@@ -626,7 +754,122 @@ technologies = {
 			#
 		}
 	}
-	
-	
+
+	continuous_offensive = { 
 		
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+		
+		path = {
+			leads_to_tech = operational_concentration
+			research_cost_coeff = 1
+		}
+
+		doctrine = yes
+		research_cost = 4.5
+
+		categories = {
+			land_doctrine
+		}
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 1 y = 20 }
+		}
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		ai_research_weights = {
+			#
+		}
+	}
+
+	operational_concentration = { 
+		
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+
+		doctrine = yes
+		research_cost = 4.5
+
+		categories = {
+			land_doctrine
+		}
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 1 y = 22 }
+		}
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		ai_research_weights = {
+			#
+		}
+	}
+
+	mobile_infantry = { 
+		
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+
+		path = {
+			leads_to_tech = armored_operations
+			research_cost_coeff = 1
+		}
+
+		doctrine = yes
+		research_cost = 4.5
+
+		categories = {
+			land_doctrine
+		}
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 3 y = 20 }
+		}
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		ai_research_weights = {
+			#
+		}
+	}
+
+	armored_operations = { 
+		
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+
+		doctrine = yes
+		research_cost = 4.5
+
+		categories = {
+			land_doctrine
+		}
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 3 y = 22 }
+		}
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		ai_research_weights = {
+			#
+		}
+	}	
 }
