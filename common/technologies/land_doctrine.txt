@@ -517,12 +517,7 @@ technologies = {
 		xp_research_bonus = 1.00
 		
 		path = {
-			leads_to_tech = concentrated_fireplans
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = mass_motorization
+			leads_to_tech = concentrated_fireplan
 			research_cost_coeff = 1
 		}
 
@@ -536,7 +531,7 @@ technologies = {
 
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 0 y = 16 }
+			position = { x = -2 y = 14 }
 		}
 
 		ai_will_do = {
@@ -557,6 +552,16 @@ technologies = {
 		xor = {
 			mass_motorization
 		}
+		
+		path = {
+			leads_to_tech = forward_observers
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = infiltration_in_depth
+			research_cost_coeff = 1
+		}
 
 		doctrine = yes
 		research_cost = 4.5
@@ -568,7 +573,7 @@ technologies = {
 
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -2 y = 18 }
+			position = { x = -2 y = 14 }
 		}
 
 		ai_will_do = {
@@ -610,7 +615,7 @@ technologies = {
 
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 2 y = 18 }
+			position = { x = -2 y = 14 }
 		}
 
 		ai_will_do = {
@@ -621,4 +626,7 @@ technologies = {
 			#
 		}
 	}
+	
+	
+		
 }
