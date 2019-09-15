@@ -83,8 +83,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_doctrine_western_front_bg"
-		textureFile = "gfx//interface//doctrine_western_front_bg.dds"
+		name = "GFX_land_doctrine_soldier_bg"
+		textureFile = "gfx//interface//land_doctrine_soldier_bg.dds"
 		allwaystransparent = yes		
 	}
 

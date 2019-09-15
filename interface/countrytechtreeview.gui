@@ -2256,7 +2256,7 @@ guiTypes = {
 
 			iconType = {
 				name = "early_entrencment_bg"
-				spriteType = "GFX_doctrine_western_front_bg"
+				spriteType = "GFX_land_doctrine_soldier_bg"
 				position = { x=160 y=130 }
 			}
 
