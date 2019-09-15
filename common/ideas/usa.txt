@@ -1,7 +1,7 @@
 ideas = {
 	
 	country = {
-			theodore_roosevelt = {
+		vice_lack = {
 
 			available = {
 				original_tag = USA
@@ -13,9 +13,11 @@ ideas = {
 			allowed_civil_war = {
 				original_tag = USA
 			}
-			picture = name
+			picture = vice_lack
 			removal_cost = -1
-			traits = { minister }
+			modifier = {
+				political_power_factor = -0.05
+			}
 		}
 
 	    great_depression = {

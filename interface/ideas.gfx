@@ -3828,5 +3828,8 @@ spriteTypes = {
         name = "GFX_idea_Yamagata_Aritomo"
         texturefile = "gfx/interface/ideas/Yamagata_Aritomo.tga"
     }
-    
+    spriteType = {
+        name = "GFX_idea_vice_lack"
+        texturefile = "gfx/interface/ideas/vice_lack.dds"
+    }
 }		
