@@ -1,0 +1,15 @@
+state={
+	id=838
+	name="STATE_838"
+	provinces={
+		317 3231 11366 
+	}
+
+	history = {
+		owner = GER
+		add_core_of = GER
+	}
+	state_category=pastoral
+	manpower=0
+	buildings_max_level_factor=1.000
+}
