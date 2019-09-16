@@ -6,7 +6,9 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
-
+add_ideas = {
+	non-power
+}
 set_popularities = {
 	democratic = 100
 	fascism = 0

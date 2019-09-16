@@ -8,7 +8,9 @@ set_war_support = 0.50
 #####################
 ##### POLITICS ######
 #####################
-
+add_ideas = {
+	non-power
+}
 set_politics = {
 	ruling_party = authoritarian
 	election_frequency = 48

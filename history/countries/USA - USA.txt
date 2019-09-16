@@ -29,6 +29,7 @@ set_popularities = {
 }
 
 add_ideas = {
+	greatpower
 	vice_lack
 }
 

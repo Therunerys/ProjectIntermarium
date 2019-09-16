@@ -9,7 +9,9 @@ set_technology = {
 set_war_support = 0.1
 set_stability = 0.8
 set_convoys = 5
-
+add_ideas = {
+	non-power
+}
 set_politics = {
 
 	parties = {

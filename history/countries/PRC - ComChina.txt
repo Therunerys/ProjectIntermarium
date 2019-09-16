@@ -9,7 +9,9 @@ set_technology = {
 }
 set_stability = 0.6
 set_war_support = 0.7
-
+add_ideas = {
+	non-power
+}
 
 save_global_event_target_as = WTT_communist_china
 

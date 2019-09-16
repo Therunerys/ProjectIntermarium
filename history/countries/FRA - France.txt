@@ -48,6 +48,7 @@ set_popularities = {
 
 
 add_ideas = {
+	greatpower
 	civilian_economy
 	volunteer_only 
 	limited_exports

@@ -1,7 +1,9 @@
 ﻿capital = 547
 
 oob = "KEN_1936"
-
+add_ideas = {
+	non-power
+}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

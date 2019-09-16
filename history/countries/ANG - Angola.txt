@@ -8,6 +8,9 @@ set_technology = {
 	tech_mountaineers = 1
 }
 
+add_ideas = {
+	non-power
+}
 set_convoys = 5
 
 set_politics = {

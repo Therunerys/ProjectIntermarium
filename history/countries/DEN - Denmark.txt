@@ -28,6 +28,7 @@ set_popularities = {
 }
 
 add_ideas = {
+	minorpower
 	civilian_economy
 	volunteer_only 
 	limited_exports

@@ -29,6 +29,7 @@ set_popularities = {
 }
 
 add_ideas = {
+	minorpower
 	Jose_Luciano_de_Castro
 }
 

@@ -43,6 +43,7 @@ set_popularities = {
 
 add_ideas = {
 	wilfrid_laurier
+	minorpower
 }
 
 #####################

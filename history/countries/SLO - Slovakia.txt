@@ -5,7 +5,9 @@ oob = "SLO_1939"
 set_technology = {
 
 }
-
+add_ideas = {
+	minorpower
+}
 
 set_politics = {
 

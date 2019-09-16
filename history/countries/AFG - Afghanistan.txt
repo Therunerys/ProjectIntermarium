@@ -19,6 +19,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+	non-power
+}
+
 set_popularities = {
 	democratic = 0
 	fascism = 0

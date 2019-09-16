@@ -9,7 +9,9 @@ set_technology = {
 set_country_flag = monroe_doctrine
 
 set_convoys = 5
-
+add_ideas = {
+	minorpower
+}
 
 set_politics = {
 

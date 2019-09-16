@@ -9,7 +9,9 @@ set_research_slots = 3
 set_technology = {
 
 }
-
+add_ideas = {
+	non-power
+}
 set_politics = {
 
 	parties = {

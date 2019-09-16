@@ -6,6 +6,9 @@ oob = "PHI_1936"
 set_technology = {
 	
 }
+add_ideas = {
+	minorpower
+}
 
 set_convoys = 5
 

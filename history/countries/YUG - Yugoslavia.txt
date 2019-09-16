@@ -1,7 +1,9 @@
 ﻿capital = 107
 
 oob = "YUG_1936"
-
+add_ideas = {
+	minorpower
+}
 # Starting tech
 set_technology = {
 	tech_support = 1		

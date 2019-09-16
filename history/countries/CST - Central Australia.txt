@@ -1,6 +1,8 @@
 ﻿capital = 519
 
-
+add_ideas = {
+	non-power
+}
 # Starting tech
 set_technology = {
 

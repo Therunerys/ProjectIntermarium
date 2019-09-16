@@ -28,6 +28,7 @@ set_popularities = {
 }
 
 add_ideas = {
+	greatpower
 	Heinrich_Ritter
 	Kalman_Szell
 	eternal_empire

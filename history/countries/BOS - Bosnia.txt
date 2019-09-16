@@ -1,7 +1,9 @@
 ﻿capital = 104
 
 set_research_slots = 3
-
+add_ideas = {
+	non-power
+}
 # Starting tech
 # clone of Yugoslavia
 set_technology = {

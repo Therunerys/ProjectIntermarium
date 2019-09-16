@@ -139,6 +139,7 @@ add_ideas = {
 	volunteer_only
 	civilian_economy
 	Robert_Gascoyne_Cecil
+	superpower
 }
 
 give_guarantee = BEL

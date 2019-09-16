@@ -4,7 +4,9 @@
 set_technology = {
 	
 }
-
+add_ideas = {
+	minorpower
+}
 set_research_slots = 3
 set_convoys = 200
 set_stability = 0.71

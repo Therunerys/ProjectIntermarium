@@ -1,7 +1,9 @@
 ﻿capital = 12
 
 oob = "LAT_1936"
-
+add_ideas = {
+	minorpower
+}
 add_ideas = {
 	limited_conscription
 }

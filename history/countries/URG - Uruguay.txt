@@ -6,6 +6,9 @@ oob = "URG_1936"
 set_technology = {
 
 }
+add_ideas = {
+	non-power
+}
 set_country_flag = monroe_doctrine
 
 set_convoys = 5

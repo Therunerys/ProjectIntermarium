@@ -34,13 +34,17 @@ add_to_faction = GEA
 add_to_faction = ITA
 
 add_ideas = {
-	free_trade
+	greatpower
+	#free_trade
 	limited_conscription
 	partial_economic_mobilisation
-	chlodwig
-	imperial_pride
-	reichsbank
-	imperial_army_of_germany
+	chlodwig#made minsiter later
+	#imperial_pride
+	#reichsbank
+	#imperial_army_of_germany
+	german_general_staff
+	industrial_economy_GER
+	GER_victory
 }
 
 if = {

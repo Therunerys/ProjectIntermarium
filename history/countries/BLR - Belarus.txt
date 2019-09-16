@@ -1,7 +1,9 @@
 ﻿capital = 206 #Minsk
 
 oob = "BLR_1936"
-
+add_ideas = {
+    minorpower
+}
 # Starting tech
 set_technology = {
 

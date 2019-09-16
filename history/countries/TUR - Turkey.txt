@@ -28,6 +28,7 @@ set_popularities = {
 }
 
 add_ideas = {
+	majorpower
 	Halil_Rifat_Pasha
 	brink_of_collapse
 	high_famine

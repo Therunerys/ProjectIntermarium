@@ -8,7 +8,9 @@ set_war_support = 0.4
 set_technology = {
 	infantry_weapons = 1
 }
-
+add_ideas = {
+	non-power
+}
 if = {
 	limit = {
 		has_dlc = "Waking the Tiger"

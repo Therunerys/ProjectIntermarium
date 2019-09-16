@@ -4,6 +4,9 @@
 set_technology = {
 
 }
+add_ideas = {
+	non-power
+}
 
 declare_war_on = {
 		target = CHI

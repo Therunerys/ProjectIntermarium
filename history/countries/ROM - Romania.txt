@@ -29,6 +29,7 @@ set_popularities = {
 }
 
 add_ideas = {
+	minorpower
 	Gheorghe_Grigore
 	balkan_league
 	hungarian_oppression

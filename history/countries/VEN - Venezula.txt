@@ -1,7 +1,9 @@
 ﻿capital = 307
 
 oob = "VEN_1936"
-
+add_ideas = {
+	minorpower
+}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

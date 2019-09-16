@@ -6,7 +6,9 @@ oob = "PAK_1936"
 set_technology = {
 	
 }
-
+add_ideas = {
+	minorpower
+}
 if = {
 	limit = { has_dlc = "Together for Victory" }
 

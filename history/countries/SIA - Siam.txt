@@ -28,7 +28,7 @@ set_popularities = {
 }
 
 add_ideas = {
-	
+	minorpower
 }
 
 #####################

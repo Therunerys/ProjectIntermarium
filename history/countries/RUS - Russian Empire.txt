@@ -27,6 +27,7 @@ set_popularities = {
 }
 
 add_ideas = {
+	greatpower
 	free_trade
 	volunteer_only
 	partial_economic_mobilisation

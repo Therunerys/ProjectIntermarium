@@ -9,7 +9,9 @@ set_research_slots = 3
 set_convoys = 150
 set_stability = 0.60
 set_war_support = 0.40
-
+add_ideas = {
+	majorpower
+}
 #####################
 ##### POLITICS ######
 #####################

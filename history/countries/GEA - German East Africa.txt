@@ -3,7 +3,9 @@
 # Starting tech
 set_technology = {	
 }
-
+add_ideas = {
+	minorpower
+}
 add_political_power = 250
 set_research_slots = 2
 set_convoys = 50

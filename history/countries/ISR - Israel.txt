@@ -8,7 +8,9 @@ set_technology = {
 
 set_convoys = 5
 
-
+add_ideas = {
+	non-power
+}
 set_politics = {
 
 	parties = {

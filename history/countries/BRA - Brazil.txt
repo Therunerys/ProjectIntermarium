@@ -2,7 +2,9 @@
 
 
 oob = "BRA_1936"
-
+add_ideas = {
+	majorpower
+}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

@@ -10,7 +10,9 @@ set_technology = {
 set_country_flag = monroe_doctrine
 set_war_support = 0.1
 set_convoys = 5
-
+add_ideas = {
+	non-power
+}
 
 set_politics = {
 

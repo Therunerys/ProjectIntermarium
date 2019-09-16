@@ -42,8 +42,9 @@ set_politics = {
 }
 
 add_ideas = {
-	founded_nation
-	german_investments
+	minorpower
+	#founded_nation
+	#german_investments
 }
 
 #####################

@@ -1,7 +1,9 @@
 ﻿capital = 301
 
 oob = "PAR_1936"
-
+add_ideas = {
+	non-power
+}
 # Starting tech
 set_technology = {
 	

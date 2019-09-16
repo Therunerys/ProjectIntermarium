@@ -1,6 +1,69 @@
 ideas = {
 
 	country = {
+		#RisingSun's Stuff
+		german_general_staff = {
+
+			#picture = imperial_pride
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			army_org_factor = 0.05
+			max_planning = 0.15
+			planning_speed = 0.10
+			}
+		}
+		industrial_economy_GER = {
+
+			#picture = imperial_pride
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			industrial_capacity_factory = 0.15
+			industrial_capacity_dockyard = 0.5
+			production_speed_buildings_factor = 0.1
+			production_factory_efficiency_gain_factor = 0.05
+			}
+		}
+		GER_victory = {
+
+			#picture = imperial_pride
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			war_support_factor = 0.2
+			stability_factor = 0.05
+			conscription = 0.01
+			army_morale_factor = 0.05
+			}
+		}
 		william_ii = {
 			available = {
 				original_tag = GER

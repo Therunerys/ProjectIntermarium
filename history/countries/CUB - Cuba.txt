@@ -1,5 +1,7 @@
 ﻿capital = 315
-
+add_ideas = {
+	non-power
+}
 oob = "CUB_1936"
 
 # Starting tech

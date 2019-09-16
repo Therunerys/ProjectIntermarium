@@ -1,7 +1,9 @@
 ﻿capital = 671 #Hanoi
 
 oob = "VIN_1936"
-
+add_ideas = {
+	non-power
+}
 set_research_slots = 3
 
 # Starting tech
