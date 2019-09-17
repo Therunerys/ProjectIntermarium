@@ -3832,4 +3832,25 @@ spriteTypes = {
         name = "GFX_idea_vice_lack"
         texturefile = "gfx/interface/ideas/vice_lack.dds"
     }
+    ###RisingSun##########################################
+    spriteType = {
+        name = "GFX_idea_superpower"
+        texturefile = "gfx/interface/ideas/superpower.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_majorpower"
+        texturefile = "gfx/interface/ideas/majorpower.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_minorpower"
+        texturefile = "gfx/interface/ideas/minorpower.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_greatpower"
+        texturefile = "gfx/interface/ideas/greatpower.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_nonpower"
+        texturefile = "gfx/interface/ideas/nonpower.dds"
+    }
 }		

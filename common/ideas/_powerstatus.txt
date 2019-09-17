@@ -2,7 +2,7 @@ ideas = {
 	country = {
 		superpower = {
 
-			#picture = superpower
+			picture = superpower
 			
 			removal_cost = -1
 
@@ -26,7 +26,7 @@ ideas = {
 
 		greatpower = {
 
-			#picture = superpower
+			picture = greatpower
 			
 			removal_cost = -1
 
@@ -49,7 +49,7 @@ ideas = {
 		}
 		majorpower = {
 
-			#picture = superpower
+			picture = majorpower
 			
 			removal_cost = -1
 
@@ -70,7 +70,7 @@ ideas = {
 		}
 		minorpower = {
 
-			#picture = superpower
+			picture = minorpower
 			
 			removal_cost = -1
 
@@ -91,7 +91,7 @@ ideas = {
 		}
 		non-power = {
 
-			#picture = superpower
+			#picture = nonpower
 			
 			removal_cost = -1
 
