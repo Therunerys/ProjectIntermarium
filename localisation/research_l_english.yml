@@ -105,16 +105,16 @@
  handgrenade3_desc:0 "Improving on our previous design, we added more power to our grenades with a better mixture of explosive material and added shrapnel. It can kill in a wide radius and it will terrorize the enemy."
  gasmask:0 "Gasmasks"
  gasmask_desc:0 "After encountering chemical warfare on the battlefield, we decided to hand out gasmask to defend our soldiers agains the horrors of chemicals used by the enemy."
- flamethrower:0 "Flamethrower"
- flamethrower_desc:0 "Experimenting with fire provided us with a new kind of weapon, the flamethrower. It can shoot fire that inflicts massive casualties and wreak havoc in the enemy trenches."
+ flamethrowers_0:0 "Flamethrower"
+ flamethrowers_0_desc:0 "Experimenting with fire provided us with a new kind of weapon, the flamethrower. It can shoot fire that inflicts massive casualties and wreak havoc in the enemy trenches."
  flamerange1:0 "Improved Flame Range"
  flamerange1_desc:0 "While effective, the flamethrower could only launch fire at the range of 10 meters at best. We need to improve the range to at least 20 meters."
  flamerbackpack:0 "Bigger Fuel Backpacks"
  flamerbackpack_desc:0 "Giving our flametroopers a bigger backpack with more fuel is going to change their effectiveness. Until now, they only had fuel for a few minutes of constant use. Now they can continuously launch fire for longer periods of time."
  flamerange2:0 "Advanced Flame Range"
  flamerange2_desc:0 "There is still room for improvement of our flamethrowers, we believe that we can extend their range to 50 meters."
- cavalry_equipment:0 "Cavalry Equipment"
- cavalry_equipment_desc:0 "Basic cavalry equipment is now used to make horses usable directly on the battlefield rather than as support animals."
+ cavalry_equipment_0:0 "Cavalry Equipment"
+ cavalry_equipment_0_desc:0 "Basic cavalry equipment is now used to make horses usable directly on the battlefield rather than as support animals."
  horseshoes:0 "Horseshoes"
  horseshoes_desc:0 "Horseshoes are made to make cavalry more effective on the battlefield."
  cav_sword:0 "Cavalry Sabres"
@@ -123,6 +123,9 @@
  cav_pistol_desc:0 "Normal pistols are modified for horse riders so they can use them with higher accuracy even when riding in a saddle."
  cav_gasmask:0 "Horse Gasmasks"
  cav_gasmask_desc:0 "Our soldiers are already protected from chemical warfare, but our horses are vulnerable. We need to develop a gas mask for our horses so they are safe too."
+ motorized_equipment_0:0 "Motorized Equipment"
+ motorized_equipment_0_short:0 "Motorized Eq."
+ motorized_equipment_0_desc:0 "Trucks used to transport infantry faster."
  marines:0 "Marines I"
  marines_desc:0 "Troops specializing in amphibious warfare are growing ever more indispensable. Improvised methods and equipment become things of the past as our naval infantry is supported by specialized landing craft and training."
  marines2:0 "Marines II"
@@ -213,8 +216,6 @@
  tech_maintenance_company3_desc:0 "Making sure that our troops always have the basic materials in the field to perform common repairs will prevent the continued use of equipment known to be damaged."
  tech_maintenance_company4:0 "Maintenance Company IV"
  tech_maintenance_company4_desc:0 "Experiences with designing for active redundancy in the Great War can be renewed to work with more modern equipment to make maintenance easier."
- motorised_infantry:0 "Motorized Infantry"
- motorised_infantry_desc:0 "By extending the use of motor vehicles in infantry transports in the field, the mobility of otherwise slow-moving infantry units can be greatly improved, enabling faster responses and new strategies."
 #
 # 
 #
@@ -224,8 +225,6 @@
 #
 #
 #
- tank_prototype:0 "Prototype Model"
- tank_prototype_desc:0 "Our engineers are proposing building a new kind of armored vehicle. We must build a prototype first to test the abilities of such vehicles."
  plating_upgrade:0 "Plating Upgrade"
  plating_upgrade_desc:0 "Our vehicles have problems with their armor, encountering situations when even simple firearms can penetrate the armor."
  shell_upgrade:0 "Improved Shells"
@@ -286,8 +285,8 @@ advanced_artillery_upgrade_desc:0 "Field Gun designs with lower silhouettes will
 #
 #
 #
-antitank1:0 "Early Anti-Tank"
-antitank1_desc:0 "An early effort to counter enemy tanks. This anti-tank rifle can be carried by only one soldier and does not require more people to fire. While smaller than standard artillery, it still packs a punch."
+antitank_0:0 "Early Anti-Tank"
+antitank_0_desc:0 "An early effort to counter enemy tanks. This anti-tank rifle can be carried by only one soldier and does not require more people to fire. While smaller than standard artillery, it still packs a punch."
 antitank_grenades:0 "Anti-Tank Grenades"
 antitank_grenades_desc:0 "While the rifle is effective at long range, when tanks manage to get closer, soldiers need a way to destroy them easily. This grenade type can destroy an enemy tank easily."
 #
@@ -299,60 +298,69 @@ antitank_grenades_desc:0 "While the rifle is effective at long range, when tanks
 #
 #
 #
-antiair1:0 "Early Anti-Air"
-antiair1_desc:0 "An early effort to counter enemy planes. By mounting machineguns on platforms we get the stability and accuracy we need to bring down enemy planes."
+antiair_0:0 "Early Anti-Air"
+antiair1_0_desc:0 "An early effort to counter enemy planes. By mounting machineguns on platforms we get the stability and accuracy we need to bring down enemy planes."
 improved_antiair:0 "Added Machinegun"
 improved_antiair_desc:0 "By mounting more machineguns on platforms, we increase the firepower of our anti-air measures. At least thats the math behind this."
 #
 #
 #
 #
- #         DOCTRINE - IMPROVE THE OLD
+ #         DOCTRINE
 #
 #
 #
 #
 early_entrencment:0 "Early Entrencment"
-early_entrencment_desc:0 "Early Entrencment."
+early_entrencment_desc:0 "By digging trenches, our units can have a superior tactical advantage if attacked."
 integrated_artillery:0 "Integrated Artillery"
-integrated_artillery_desc:0 "Integrated Artillery."
+integrated_artillery_desc:0 "By integrating the artillery more closely to infantry units, we can achieve more effective shelling of the enemy."
 specialized_defense:0 "Specialized Defense"
-specialized_defense_desc:0 "Specialized Defense."
+specialized_defense_desc:0 "Specialized defense systems like machineguns and mines are used along certain parts of the frontline."
 superior_firepower:0 "Superior Firepower"
-superior_firepower_desc:0 "Superior Firepower."
+superior_firepower_desc:0 "Our artillery is now capable of devastating the enemy positions before our infantry battalions attack"
 defense_in_depth:0 "Defense In Depth"
-defense_in_depth_desc:0 "Defense In Depth."
+defense_in_depth_desc:0 "Having more than one trench line guarantees that even if the enemy takes the first trench, we are able to counterattack swiftly."
+mass_charge:0 "Mass Charge"
+mass_charge_desc:0 "The only was to overwhelm the enemy is to conduct a full frontal assault."
 unorthodox_warfare:0 "Unorthodox Warfare"
-unorthodox_warfare_desc:0 "Unorthodox Warfare."
+unorthodox_warfare_desc:0 "Using old methods will not get us anywhere. We must study the use of new weapons and their effectivnes."
 conventional_warfare:0 "Conventional Warfare"
-conventional_warfare_desc:0 "Conventional Warfare."
+conventional_warfare_desc:0 "Improving upon the previous tactics and mastering the battlefield will make us unstoppable."
 mechanized_tactics:0 "Mechanized Tactics"
-mechanized_tactics_desc:0 "Mechanized Tactics."
+mechanized_tactics_desc:0 "First real incorporation of motorized units with infantry battalions."
 early_tank_stategies:0 "Early Tank Stategies"
-early_tank_stategies_desc:0 "Early Tank Stategies"
+early_tank_stategies_desc:0 "Tanks are now applied in a much bigger scope, incorporating them closer with infantry."
 combined_offensives:0 "Combined Offensives"
-combined_offensives_desc:0 "Combined Offensives"
+combined_offensives_desc:0 "The combined offensives of motorized infantry, tanks and infantry battalion is an ustoppable force."
 improved_infantry_training:0 "Improved Infantry Training"
-improved_infantry_training_desc:0 "Improved Infantry Training"
+improved_infantry_training_desc:0 "Improving the training of our infantry is essential to achive great results on the battlefield."
 infantry_tactics:0 "Infantry Tactics"
-infantry_tactics_desc:0 "Infantry Tactics"
+infantry_tactics_desc:0 "New infantry tactics are devised to make our infantry battalions fight better."
 fire_brigades:0 "Fire Brigades"
-fire_brigades_desc:0 "Fire Brigades"
-#
-#
-#
-#
- #         DOCTRINE - STUDY A NEW
-#
-#
-#
-#
-
-
-
-
-
-
+fire_brigades_desc:0 "Revisiting the line battles of the Napoleonic Wars, we can improve upon it."
+centralized_fire_control:0 "Centralized Fire Control"
+centralized_fire_control_desc:0 "Artillery is now able to communicate with infantry even faster and they are able to shell enemy positions much quicker."
+centralized_fire_plans:0 "Centralized Fire Plans"
+centralized_fire_plans_desc:0 "Picking specific positions which to shell can have drastic effect on the enemy."
+forward_observers:0 "Forward Observers"
+forward_observers_desc:0 "Special units are assigned to constantly monitor the frontline and the enemy positions, often using guerilla tactics."
+forward_operational_bases:0 "Forward Operational Bases"
+forward_operational_bases_desc:0 "Putting operational bases closer to the frontline may be dangerous, but it allows us to instantly communicate with our infantry and artillery."
+infiltration_in_depth:0 "Infiltration in Depth"
+infiltration_in_depth_desc:0 "If we can penetrate the enemy trench, we must no weaver and keep on pushing further."
+regimental_teams:0 "Regimental Teams"
+regimental_teams_desc:0 "Various regiments are connected into one and they carry our special tasks during an offensive."
+mass_motorization:0 "Mass Motorization"
+mass_motorization_desc:0 "We must ensure that every soldier and artillery piece must be movable by a truck."
+continuous_offensive:0 "Continuous Offensive"
+continuous_offensive_desc:0 "Rather than attacking in one massive charge, we should send waves of troops at the enemy."
+operational_concentration:0 "Operational Concentration"
+operational_concentration_desc:0 "We must pick where to attack to have the best chance of overwhelming the enemy."
+mobile_infantry:0 "Mobile Infantry"
+mobile_infantry_desc:0 "If we hope to achive total mobility, every solider needs to know the basics of a vehicle and how to properly maintain it."
+armored_operations:0 "Armored Operations"
+armored_opeartions_desc:0 "Armor is give specific targets in an offensive to help the infantry push through."
 #
 #
 #
@@ -362,10 +370,50 @@ fire_brigades_desc:0 "Fire Brigades"
 #
 #
 #
-PLANE_STAGE1:0 "\n§GFirst blueprints for planes are created showing that the idea of such a vehicle is possible.§"
-PLANE_STAGE2:0 "\n§GPrototype planes had problems and we need to improve the frame, engine and cockpit before we can produce a functioning plane.§"
-ZEPPELIN_STAGE1:0 "\n§GFirst blueprints for zeppelins are created showing that the idea of such a vehicle is possible.§"
-
+ PLANE_STAGE1:0 "\n§GFirst blueprints for planes are created showing that the idea of such a vehicle is possible.§"
+ PLANE_STAGE2:0 "\n§GPrototype planes had problems and we need to improve the frame, engine and cockpit before we can produce a functioning plane.§"
+ ZEPPELIN_STAGE1:0 "\n§GFirst blueprints for zeppelins are created showing that the idea of such a vehicle is possible.§"
+ recon_balloons:0 "Recon Balloons"
+ recon_balloons_desc:0 "Recon Balloons were the first air units to help the infantry on the battlefield, often spotting enemy troops a lot sooner than land units."
+ plane_blueprints:0 "Plane Blueprints"
+ plane_blueprints_desc:0 "Contracting various specialist in means of flight will allow us to develop plane blueprints."
+ plane_frame:0 "Plane Frame"
+ plane_frame_desc:0 "We have to test various materials from which to build our plane frames."
+ plane_engine:0 "Plane Engine"
+ plane_engine_desc:0 "Our current engines are not powerful enough to lift the vehicle off the ground. We have to create a new design."
+ plane_cockpit:0 "Plane Cockpit"
+ plane_cockpit_desc:0 "We need to let the pilots know about their speed, altitude, tilt and other necessary information."
+ recon_plane_0:0 "Recon Plane"
+ recon_plane_0_desc:0 "First usable model of the plane prototype. It can perform reconnaissance and inform us about enemy positions."
+ plane_purpose_machineguns:0 "Plane Purpose Machineguns"
+ plane_purpose_machineguns_desc:0 "We need to develop plane specific machinegun models."
+ fighter1:0 "Basic Fighter"
+ fighter1_desc:0 "The first fully armed plane we developed."
+ synchronization_gear:0 "Synchronization Gear"
+ synchronization_gear_desc:0 "Our planes are currently very ineffective as the machinegun fire keeps damaging the rotor. Using a synchronization gear, we can synchronize the rotors spin to machinegun fire so that the bullets will never hit the rotor."
+ fighter2:0 "Improved Fighter"
+ fighter2_desc:0 "An improved version of our figher plane that has the synchronization gear built in."
+ fighter3:0 "Advanced Fighter"
+ fighter3_desc:0 "An advanced version of our figher plane. It has a new engine, 2 new machineguns and an improved cooling system."
+ CAS1:0 "Basic CAS"
+ CAS1_desc:0 "Fighter planes cannot support our troops directly. We have modified them to use for land support."
+ CAS2:0 "Improved CAS"
+ CAS2_desc:0 "The previous plane was successful in performing the tasks assigned, but we can make it better to have ultimate domination on the battlefield."
+ nav_bomber_0:0 "Basic Naval Bomber"
+ nav_bomber_0_desc:0 "Testing planes as naval support fighters has proves successful. We have developed a modified version that carries torpedoes."
+ nav_bomber_1:0 "Improved Naval Bomber"
+ nav_bomber_1_desc:0 "Mounting larger torpedoes on our planes to make them more effective has caused problems with weight. This version has a more powerful engine that can carry more."
+ zeppelin_blueprints:0 "Zeppelin Blueprints"
+ zeppelin_blueprints_desc:0 "Balloons are proven to be functioning, if we make them bigger, they should be able to act as aerial fortresses."
+ zeppelin_0:0 "Early Zeppelin"
+ zeppelin_0:0 "We can now build a full zeppelin, although without any offensive means, it demonstrates that the concept is possible."
+ zeppelin_framework:0 "Zeppelin Framework"
+ zeppelin_framework_desc:0 "Making improvements to the framework will improve the altitude it can rise to."
+ zeppelin_1:0 "Basic Zeppelin"
+ zeppelin_1_desc:0 "Using the improved frame, we can build a new type of zeppelins."
+ zeppelin_stabilizers:0 "Zeppelin Stabilizers"
+ zeppelin_stabilizers_desc:0 "Our current design sometimes tips and tilts in bad weather conditions and wind. Using stabilizers should make them much more stable even in harsh conditions."
+ 
 
  basic_machine_tools:0 "Basic Machine Tools"
  basic_machine_tools_desc:0 "A variety of newly developed milling machines can be used in military production, from the small and versatile types available to any machine shop to the large scale, advanced models that push the technological limits."
