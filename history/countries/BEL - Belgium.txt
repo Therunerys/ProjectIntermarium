@@ -43,7 +43,7 @@ set_popularities = {
 
 
 add_ideas = {
-	minorpower
+	majorpower
 	civilian_economy
 	volunteer_only 
 	limited_exports
