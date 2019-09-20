@@ -3829,8 +3829,8 @@ spriteTypes = {
         texturefile = "gfx/interface/ideas/Yamagata_Aritomo.tga"
     }
     spriteType = {
-        name = "GFX_idea_vice_lack"
-        texturefile = "gfx/interface/ideas/vice_lack.dds"
+        name = "GFX_idea_vice_lack_pic"
+        texturefile = "gfx/interface/ideas/balkan_league.dds"
     }
     ###RisingSun##########################################
     spriteType = {
