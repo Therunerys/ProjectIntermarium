@@ -606,6 +606,11 @@ technologies = {
 		dependencies = {
             first_plane = 1
         }
+
+        path = {
+			leads_to_tech = first_bomber
+			research_cost_coeff = 1
+		}
 	
 		research_cost = 2
 		start_year = 1906
@@ -718,6 +723,10 @@ technologies = {
 		enable_equipments = {
 			bomber_0
 		}
+
+		dependencies = {
+            transport_planes = 1
+        }
 
 		path = {
 			leads_to_tech = second_bomber
