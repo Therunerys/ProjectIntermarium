@@ -3840,6 +3840,10 @@ spriteTypes = {
     #    name = "GFX_idea_tovar_pic"
     #    texturefile = "gfx/interface/ideas/tovar_pic.dds"
     #}
+    #spriteType = {
+    #    name = "GFX_idea_francisco_pic"
+    #    texturefile = "gfx/interface/ideas/francisco_pic.dds"
+    #}
     ###RisingSun##########################################
     spriteType = {
         name = "GFX_idea_superpower"

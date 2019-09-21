@@ -1,77 +1,49 @@
 ﻿capital = 314
 
-oob = "ELS_1936"
-
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
-	early_fighter = 1
-}
-add_ideas = {
-	non-power
-}
-set_country_flag = monroe_doctrine
-set_war_support = 0.1
-set_convoys = 5
 
+}
+
+set_research_slots = 2
+set_convoys = 25
+set_stability = 0.6
+set_war_support = 0.3
+
+#####################
+##### POLITICS ######
+#####################
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 0
-			banned = yes #default is no
-		}
-
-		fascism = {
-			popularity = 100
-		}
-		
-		communism = {
-			popularity = 0
-			banned = yes #default is no
-		}
-	}
-	
-	ruling_party = fascism
-	last_election = "1935.1.15"
-	election_frequency = 48
+	ruling_party = democratic
+	last_election = "1898.4.1"
+	election_frequency = 60
 	elections_allowed = yes
 }
 
+set_popularities = {
+	democratic = 100
+	fascism = 0
+	communism = 0
+	authoritarian = 0
+}
+
+add_ideas = {
+	non-power
+	francisco
+}
+
+#####################
+###### LEADERS ######
+#####################
+
 create_country_leader = {
-	name = "Maximiliano Hernández Martínez"
-	desc = "POLITICS_MAXIMILIANO_HERNANDEZ_MARTINEZ_DESC"
-	picture = "GFX_portrait_el_salvador_maximiliano_hernandez_martinez"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
+	name = "Tomás Regalado"
+	desc = ""
+	picture = "regalado.dds"
+	ideology = liberalism #Military
 	traits = {
-		#
+
 	}
 }
 
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 0
-				banned = yes #default is no
-			}
-
-			fascism = {
-				popularity = 100
-			}
-			
-			communism = {
-				popularity = 0
-				banned = yes #default is no
-			}
-		}
-		
-		ruling_party = fascism
-		last_election = "1939.1.3"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-}
