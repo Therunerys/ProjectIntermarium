@@ -31,6 +31,7 @@ add_ideas = {
 	free_trade
 	volunteer_only
 	partial_economic_mobilisation
+	Ivan_Durnovo
 }
 
 #####################

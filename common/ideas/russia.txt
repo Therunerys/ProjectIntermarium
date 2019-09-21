@@ -1,0 +1,22 @@
+ideas = {
+	country = {
+
+		Ivan_Durnovo = {
+
+			available = {
+				original_tag = RUS
+			}
+			allowed = {
+				original_tag = RUS
+			}
+
+			allowed_civil_war = {
+				original_tag = RUS
+			}
+			picture = Ivan_Durnovo
+			removal_cost = -1
+			traits = { rus_minister }
+
+		}
+	}
+}

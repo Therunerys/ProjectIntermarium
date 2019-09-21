@@ -6,6 +6,7 @@ set_technology = {
 }
 add_ideas = {
 	non-power
+	Bozo_Petrovic_Njegos
 }
 set_research_slots = 2
 set_convoys = 50
