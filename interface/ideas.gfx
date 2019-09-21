@@ -3832,6 +3832,14 @@ spriteTypes = {
         name = "GFX_idea_vice_lack_pic"
         texturefile = "gfx/interface/ideas/balkan_league.dds"
     }
+    #spriteType = {
+    #    name = "GFX_idea_reina_pic"
+    #    texturefile = "gfx/interface/ideas/reina_pic.dds"
+    #}
+    #spriteType = {
+    #    name = "GFX_idea_tovar_pic"
+    #    texturefile = "gfx/interface/ideas/tovar_pic.dds"
+    #}
     ###RisingSun##########################################
     spriteType = {
         name = "GFX_idea_superpower"

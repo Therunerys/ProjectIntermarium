@@ -322,7 +322,7 @@
  COS_communism_party_long:0 "Partido Vanguardia Popular"
  ELS_fascism_party:0 "Pro-Patria"
  ELS_fascism_party_long:0 "Partido Nacional 'Pro-Patria'"
- GUA_democratic_party:0 "Liberal Party"
+ GUA_democratic_party_long:0 "Liberal Party"
  SIA_authoritarian_party:0 "Chakri Dynasty"
  URG_democratic_party:0 "Colorado"
  URG_democratic_party_long:0 "Partido Colorado"
@@ -367,10 +367,10 @@
  ECU_democratic_party_long:0 "República del Ecuador"
  ECU_communism_party:0 "PCE"
  ECU_communism_party_long:0 "Partido Comunista del Ecuador"
- HON_democratic_party:0 "PLH"
- HON_communism_party:0 "PCH"
- HON_communism_party_long:0 "Partido Comunista de Honduras"
 
+ HON_democratic_party:0 "PLH"
+ HON_democratic_party_long:0 "Partido Liberal de Honduras"
+ 
  NEP_authoritarian_party:0 "Shah dynasty"
 
  PAN_democratic_party:0 "PLD"
