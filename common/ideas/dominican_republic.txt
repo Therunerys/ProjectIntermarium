@@ -1,7 +1,7 @@
 ideas = {
 
 	country = {
-		Horacio_Vasque = {
+		horacio_vasque = {
 
 			available = {
 				original_tag = DOM
@@ -13,7 +13,7 @@ ideas = {
 			allowed_civil_war = {
 				original_tag = DOM
 			}
-			picture = Horacio_Vasque_pic
+			picture = horacio_vasque_pic
 			removal_cost = -1
 			traits = { minister }
 		}

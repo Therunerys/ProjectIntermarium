@@ -1,6 +1,6 @@
 ﻿capital = 319
 
-o# Starting tech
+# Starting tech
 set_technology = {
 
 }
@@ -30,7 +30,7 @@ set_popularities = {
 
 add_ideas = {
 	non-power
-	Horacio_Vasque
+	horacio_vasque
 }
 
 #####################
