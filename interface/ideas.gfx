@@ -3856,6 +3856,10 @@ spriteTypes = {
     #    name = "GFX_idea_jose_pic"
     #    texturefile = "gfx/interface/ideas/jose_pic.dds"
     #}
+    #spriteType = {
+    #    name = "GFX_idea_zaldumbide_pic"
+    #    texturefile = "gfx/interface/ideas/zaldumbide_pic.dds"
+    #}
     ###RisingSun##########################################
     spriteType = {
         name = "GFX_idea_superpower"

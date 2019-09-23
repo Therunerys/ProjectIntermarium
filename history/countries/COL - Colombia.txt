@@ -29,8 +29,8 @@ set_popularities = {
 }
 
 add_ideas = {
-	non-power
-	jose_pic
+	minorpower
+	jose
 }
 
 #####################
