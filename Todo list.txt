@@ -6,24 +6,25 @@
 - Remove Panama Canal
 - Cores in Balkans, Finland (and pretty much everywhere)
 - 1000 days war (Columbia)
-
+################## TODO (LG) #################### 
+- Finish general politics 
+- Making new parties 
+- Finish German political/diplomacy bunch 
 ################## TODO #####################
 - fix techtrees in mtgnavalfolder --------------- WIP
 - add pictures that are missing in tech -------------- DONE
 - resize plane pictures to good looking sizes ----------------- DONE
 - localize and add description to all techs --------------- WIP
 - fix missing states/provinces added with MTG ---------------- SHOULD BE DONE
-- add more to the German focus "Help Austria Against the ottoman empire" ----------------  DONE
+- add more to the German focus "Help Austria Against the ottoman empire" ----------------  WIP
 - fix ideologies ---------------- WIP
 - make the german focus "build the high seas fleet" give cruisers and destroyesrs ----------------  WIP
-- what you mean in the image of the second scenario? <-------- ############################################# if you only had one scenario you couldnt go back to the main menu, dunno if it is fixed
-
 ############# POSSIBLE CHANGES ###########
 - If Ottomans have faced internal conflicts and crisis, it should lose the Lebanon and Palestine to England (i'm going for alt-history) which wanted to secure the area of Egypt. Then the lands of the 
   south, near Red Sea, could be claimed by Italy or UK to totally control the Sea. This could be lead to a war and make more interesting the things.
 - Germany historically had part of the Cameroon
 - If austria-hungary collapses, it can reform through decisions 
-- possible flame troopers
+- possible flame troopers ---------------- DONE
 
 
 
