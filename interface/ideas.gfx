@@ -3848,6 +3848,10 @@ spriteTypes = {
     #    name = "GFX_idea_francisco_pic"
     #    texturefile = "gfx/interface/ideas/francisco_pic.dds"
     #}
+    #spriteType = {
+    #    name = "GFX_idea_Horacio_Vasque_pic"
+    #    texturefile = "gfx/interface/ideas/Horacio_Vasque_pic.dds"
+    #}
     ###RisingSun##########################################
     spriteType = {
         name = "GFX_idea_superpower"
