@@ -1,25 +1,5 @@
 ideas = {
 
-		country = {
-
-		 = {
-
-			available = {
-				original_tag = NIC
-			}
-			allowed = {
-				original_tag = NIC
-			}
-
-			allowed_civil_war = {
-				original_tag = NIC
-			}
-			picture = 
-			removal_cost = -1
-			traits = { minister }
-
-		}
-	}
 
 	political_advisor = {
 
