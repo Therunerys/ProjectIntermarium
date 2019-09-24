@@ -1,85 +1,49 @@
 ﻿capital = 319
 
-oob = "DOM_1936"
-
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
-	
+
 }
-set_country_flag = monroe_doctrine
-set_war_support = 0.1
-set_convoys = 5
-add_ideas = {
-	non-power
-}
+
+set_research_slots = 2
+set_convoys = 25
+set_stability = 0.6
+set_war_support = 0.3
+
+#####################
+##### POLITICS ######
+#####################
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 0
-		}
-
-		fascism = {
-			popularity = 100
-		}
-		
-		communism = {
-			popularity = 0
-			#banned = no #default is no
-		}
-	}
-	
-	ruling_party = fascism
-	last_election = "1934.5.16"
+	ruling_party = democratic
+	last_election = "1899.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
+
+set_popularities = {
+	democratic = 100
+	fascism = 0
+	communism = 0
+	authoritarian = 0
+}
+
+add_ideas = {
+	non-power
+	horacio_vasque
+}
+
+#####################
+###### LEADERS ######
+#####################
 
 create_country_leader = {
-	name = "Rafael Trujillo"
-	desc = "POLITICS_RAFAEL_TRUJILLO_DESC"
-	picture = "GFX_portrait_dominca_rafael_trujillo"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
+	name = "Juan Isidro Jimenes Pereyra"
+	desc = ""
+	picture = "jimenes.dds"
+	ideology = liberalism
 	traits = {
-		#
+
 	}
 }
 
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 0
-			}
-
-			fascism = {
-				popularity = 100
-			}
-			
-			communism = {
-				popularity = 0
-				#banned = no #default is no
-			}
-		}
-		
-		ruling_party = fascism
-		last_election = "1934.5.16"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-	create_country_leader = {
-		name = "Jacinto Peynado"
-		desc = "POLITICS_JACINTO_PEYNADO_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
-		expire = "1965.1.1"
-		ideology = fascism_ideology
-		traits = {
-			#
-		}
-	}
-}
