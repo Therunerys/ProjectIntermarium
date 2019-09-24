@@ -7,9 +7,9 @@
 - Cores in Balkans, Finland (and pretty much everywhere)
 - 1000 days war (Columbia)
 ################## TODO (LG) #################### 
-- Finish general politics 
-- Making new parties 
-- Finish German political/diplomacy bunch 
+- Finish general politics -------------- DONE
+- Making new parties --------------- WIP
+- Finish German political/diplomacy bunch --------------- WIP
 ################## TODO #####################
 - fix techtrees in mtgnavalfolder --------------- WIP
 - add pictures that are missing in tech -------------- DONE
