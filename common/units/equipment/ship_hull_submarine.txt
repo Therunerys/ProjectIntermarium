@@ -297,8 +297,9 @@ equipments = {
 			submarine
 		}	
 	}
+
 	submarine_1 = {
-		year = 1922
+		year = 1898
 
 		archetype = ship_hull_submarine
 		priority = 2500
@@ -313,30 +314,28 @@ equipments = {
 
 		lg_armor_piercing = 0
 		lg_attack = 0 # Their main weapon is torpedo_attack.
-		torpedo_attack = 2
+		torpedo_attack = 1
 		
 		anti_air_attack = 0
 		
 		armor_value = 0
 
 		
-		surface_detection = 30
+		surface_detection = 20
 		sub_detection = 0
 		surface_visibility = 1
-		sub_visibility = 30
+		sub_visibility = 35
 		naval_speed = 9
-		reliability = 0.60
+		reliability = 0.7
 		
-		naval_range = 2500
+		naval_range = 2000
 		
 		max_strength = 10
 		
-
 		fuel_consumption = 1
 		
-		build_cost_ic = 250
+		build_cost_ic = 300
 		resources = {
-			#oil = 1
 			steel = 1
 		}
 		
@@ -344,7 +343,7 @@ equipments = {
 	}
 	
 	submarine_2 = {
-		year = 1936
+		year = 1904
 
 		archetype = ship_hull_submarine
 		priority = 2500
@@ -356,6 +355,7 @@ equipments = {
 			fixed_ship_engine_slot = sub_ship_engine_1
 			rear_1_custom_slot = ship_torpedo_sub_1
 		}
+
 		lg_armor_piercing = 0
 		lg_attack = 0
 		torpedo_attack = 0
@@ -365,14 +365,14 @@ equipments = {
 		armor_value = 0
 
 		
-		surface_detection = 40
+		surface_detection = 25
 		sub_detection = 0
 		surface_visibility = 1
-		sub_visibility = 25
+		sub_visibility = 30
 		naval_speed = 14
-		reliability = 0.70
+		reliability = 0.8
 
-		naval_range = 4000
+		naval_range = 3000
 		
 		max_strength = 20
 		
@@ -389,7 +389,7 @@ equipments = {
 	}
 	
 	submarine_3 = {
-		year = 1940
+		year = 1908
 
 		archetype = ship_hull_submarine
 		priority = 2500
@@ -403,21 +403,21 @@ equipments = {
 		}
 		lg_armor_piercing = 0
 		lg_attack = 0
-		torpedo_attack = 12
+		torpedo_attack = 8
 		
 		anti_air_attack = 0
 		
 		armor_value = 0
 
 		
-		surface_detection = 50
+		surface_detection = 30
 		sub_detection = 0
 		surface_visibility = 1
-		sub_visibility = 15
+		sub_visibility = 25
 		naval_speed = 16
-		reliability = 0.75
+		reliability = 0.85
 		
-		naval_range = 5000
+		naval_range = 4000
 		
 		max_strength = 30
 
@@ -434,7 +434,7 @@ equipments = {
 	}
 	
 	submarine_4 = {
-		year = 1944
+		year = 1912
 
 		archetype = ship_hull_submarine
 		priority = 2500
@@ -448,25 +448,23 @@ equipments = {
 		}
 		lg_armor_piercing = 0
 		lg_attack = 0
-		torpedo_attack = 20
+		torpedo_attack = 16
 		
 		anti_air_attack = 0
 		
 		armor_value = 0
 
 		
-		surface_detection = 70
+		surface_detection = 45
 		sub_detection = 0
 		surface_visibility = 1
-		sub_visibility = 10
+		sub_visibility = 20
 		naval_speed = 16
-		reliability = 0.80
+		reliability = 0.9
 
-		naval_range = 6000
+		naval_range = 5000
 		
 		max_strength = 35
-		
-
 		
 		build_cost_ic = 400
 		resources = {
