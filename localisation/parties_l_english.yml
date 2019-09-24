@@ -87,7 +87,9 @@
 
  FRA_communism_party:0 "Independent Radicals"
  FRA_democratic_party:0 "AD"
- FRA_democratic_party_long:0 "Democratic Alliance"
+ FRA_democratic_party_long:0 "Democratic Alliance"Action Française
+ FRA_authoritarian_party:0 "AF"
+ FRA_authoritarian_party_long:0 "Action française"
 
  SOV_communism_party:0 "All-Union Communist Party"
  SOV_democratic_party:0 "Trudoviks"

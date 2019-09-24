@@ -83,6 +83,17 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Charles Maurras"
+	desc = ""
+	picture = "Charles_Maurras.dds"
+	expire = "1965.1.1"
+	ideology = absolute_monarchy
+	traits = {
+		
+	}
+}
+
 #####################
 ####### ARMY ########
 #####################
