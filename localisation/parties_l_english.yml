@@ -187,22 +187,12 @@
 
  MEX_democratic_party:0 "National Reelectionist Party"
 
- ARG_democratic_party:0 "UCR"
- ARG_democratic_party_long:0 "Unión Cívica Radical"
- ARG_fascism_party:0 "UNF"
- ARG_fascism_party_long:0 "Union Nacional Fascista"
- ARG_communism_party:0 "PC"
- ARG_communism_party_long:0 "Partido Comunista de la Argentina"
- ARG_authoritarian_party:0 "Concordancia"
- ARG_authoritarian_party_long:0 "Concordancia"
- BRA_fascism_party:1 "AIB"
- BRA_fascism_party_long:1 "Ação Integralista Brasileira"
- BRA_communism_party:1 "PCB"
- BRA_communism_party_long:1 "Partido Comunista Brasileiro"
- BRA_democratic_party:1 "UDB"
- BRA_democratic_party_long:1 "União Democrática Brasileira"
- BRA_authoritarian_party:0 "Estado Novo"
- BRA_authoritarian_party_long:0 "Estado Novo"
+ ARG_democratic_party:0 "PAN"
+ ARG_democratic_party_long:0 "National Autonomist Party"
+ 
+ BRA_democratic_party:0 "PRP"
+ BRA_democratic_party_long:0 "Partido Republicano Paulista"
+
  TUR_fascism_party:0 "Millet Partisi"
  TUR_fascism_party_long:0 "Millet Partisi"
  TUR_communism_party:0 "TKP"
@@ -309,10 +299,7 @@
  ALB_authoritarian_party_long:0 "House of Zogu"
  BOL_democratic_party:0 "PL"
  BOL_democratic_party_long:0 "Partido Liberal"
- BOL_fascism_party:0 "FSB"
- BOL_fascism_party_long:0 "Falange Socialista Boliviana"
- BOL_authoritarian_party:0 "QG"
- BOL_authoritarian_party_long:0 "Quintanilla government"
+ 
  NIC_democratic_party:0 "PD"
  NIC_democratic_party_long:0 "Partido Democrático"
  COS_democratic_party:0 "Civil Party"
@@ -320,15 +307,15 @@
  ELS_fascism_party_long:0 "Partido Nacional 'Pro-Patria'"
  GUA_democratic_party_long:0 "Liberal Party"
  SIA_authoritarian_party:0 "Chakri Dynasty"
+
  URG_democratic_party:0 "Colorado"
  URG_democratic_party_long:0 "Partido Colorado"
- URG_communism_party:0 "PCU"
- URG_communism_party_long:0 "Partido Comunista del Uruguay"
+
  VEN_authoritarian_party:0 "Military Party"
- PRU_fascism_party:0 "Constituent Assembly"
- PRU_fascism_party_long:0 "Constituent Assembly"
- PRU_communism_party:0 "PCP"
- PRU_communism_party_long:0 "Partido Comunista del Perú"
+
+ PRU_democratic_party:0 "PC"
+ PRU_democratic_party_long:0 "Partido Civil"
+ 
  IRE_democratic_party:0 "Fianna Fáil"
  IRE_democratic_party_long:0 "Fianna Fáil, The Republican Party"
  IRE_fascism_party:0 "PNC"

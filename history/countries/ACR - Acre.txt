@@ -1,39 +1,46 @@
-﻿capital = 500
-
-
-#oob = "BRA_1936"
+﻿capital = 800
 
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
+
+}
+
+set_research_slots = 1
+set_stability = 0.6
+set_war_support = 0.3
+
+#####################
+##### POLITICS ######
+#####################
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1899.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 100
+	fascism = 0
+	communism = 0
+	authoritarian = 0
 }
 
 add_ideas = {
 	non-power
 }
 
-set_politics = {
+#####################
+###### LEADERS ######
+#####################
 
-	parties = {
-		democratic = { 
-			popularity = 0
-		}
+create_country_leader = {
+	name = "Antônio de Sousa Braga"
+	desc = ""
+	picture = "braga.dds"
+	ideology = liberalism
+	traits = {
 
-		fascism = {
-			popularity = 0
-		}
-		
-		communism = {
-			popularity = 0
-		}
-		
-		authoritarian = { 
-			popularity = 100
-		}
 	}
-	
-	ruling_party = authoritarian
-	last_election = "1934.7.17"
-	election_frequency = 48
-	elections_allowed = no
 }
