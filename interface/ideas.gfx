@@ -3860,6 +3860,22 @@ spriteTypes = {
     #    name = "GFX_idea_zaldumbide_pic"
     #    texturefile = "gfx/interface/ideas/zaldumbide_pic.dds"
     #}
+    #spriteType = {
+    #    name = "GFX_idea_cabrera_pic"
+    #    texturefile = "gfx/interface/ideas/cabrera_pic.dds"
+    #}
+    #spriteType = {
+    #    name = "GFX_idea_rosa_pic"
+    #    texturefile = "gfx/interface/ideas/rosa_pic.dds"
+    #}
+    #spriteType = {
+    #    name = "GFX_idea_costa_pic"
+    #    texturefile = "gfx/interface/ideas/costa_pic.dds"
+    #}
+    #spriteType = {
+    #    name = "GFX_idea_carvallo_pic"
+    #    texturefile = "gfx/interface/ideas/carvallo_pic.dds"
+    #}
     ###RisingSun##########################################
     spriteType = {
         name = "GFX_idea_superpower"

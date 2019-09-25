@@ -1,85 +1,47 @@
 ﻿capital = 300
 
-oob = "URG_1936"
-
 # Starting tech
 set_technology = {
 
 }
-add_ideas = {
-	non-power
-}
-set_country_flag = monroe_doctrine
 
-set_convoys = 5
+set_research_slots = 1
+set_convoys = 25
+set_stability = 0.6
+set_war_support = 0.5
 
+#####################
+##### POLITICS ######
+#####################
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 97
-		}
-
-		fascism = {
-			popularity = 0
-		}
-		
-		communism = {
-			popularity = 3
-			#banned = no #default is no
-		}
-	}
-	
 	ruling_party = democratic
-	last_election = "1934.4.19"
+	last_election = "1899.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
-create_country_leader = {
-	name = "Gabriel Terra"
-	desc = "POLITICS_GABRIEL_TERRA_DESC"
-	picture = "GFX_portrait_uruguay_portrait_gabriel_terra"
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-		#
-	}
+set_popularities = {
+	democratic = 100
+	fascism = 0
+	communism = 0
+	authoritarian = 0
 }
 
-1939.1.1 = {
-	set_politics = {
+add_ideas = {
+	non-power
+}
 
-		parties = {
-			democratic = { 
-				popularity = 97
-			}
+#####################
+###### LEADERS ######
+#####################
 
-			fascism = {
-				popularity = 0
-			}
-			
-			communism = {
-				popularity = 2
-				#banned = no #default is no
-			}
-		}
-		
-		ruling_party = democratic
-		last_election = "1938.3.28"
-		election_frequency = 48
-		elections_allowed = yes
-	}
+create_country_leader = {
+	name = "Juan Lindolfo Cuestas"
+	desc = ""
+	picture = "cuestas.dds"
+	ideology = social_liberalism
+	traits = {
 
-	create_country_leader = {
-		name = "Alfredo Baldomir Ferrari"
-		desc = "POLITICS_ALFREDO_BALDOMIR_FERRARI_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
-		expire = "1965.1.1"
-		ideology = liberalism
-		traits = {
-			#
-		}
 	}
 }

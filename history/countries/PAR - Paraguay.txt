@@ -1,101 +1,48 @@
 ﻿capital = 301
 
-oob = "PAR_1936"
-add_ideas = {
-	non-power
-}
 # Starting tech
 set_technology = {
-	
-}
-set_country_flag = monroe_doctrine
 
+}
+
+set_research_slots = 2
+set_convoys = 100
+set_stability = 0.6
+set_war_support = 0.5
+
+#####################
+##### POLITICS ######
+#####################
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 25
-		}
-
-		fascism = {
-			popularity = 0
-		}
-		
-		communism = {
-			popularity = 75
-			#banned = no #default is no
-		}
-	}
-	
-	ruling_party = communism
-	last_election = "1936.1.1"
+	ruling_party = democratic
+	last_election = "1898.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
-#create_country_leader = {
-#	name = "Eusebio Ayala"
-#	desc = "POLITICS_EUSEBIO_AYALA_DESC"
-#	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
-#	expire = "1965.1.1"
-#	ideology = liberalism
-#	traits = {
-#		#
-#	}
-#}
-
-# Rafael Franco technically comes to and loses power slightly after/before the bookmarks, but is the go-to choice for a socialist leader
-create_country_leader = {
-	name = "Rafael Franco"
-	desc = "POLITICS_RAFAEL_FRANCO_DESC"
-	picture = "GFX_Portrait_paraguay_rafael_franco"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
-	}
+set_popularities = {
+	democratic = 100
+	fascism = 0
+	communism = 0
+	authoritarian = 0
 }
 
-1939.1.1 = {
-	set_politics = {
+add_ideas = {
+	non-power
+	carvallo
+}
 
-		parties = {
-			democratic = { 
-				popularity = 20
-			}
+#####################
+###### LEADERS ######
+#####################
 
-			fascism = {
-				popularity = 0
-			}
-			
-			communism = {
-				popularity = 30
-				#banned = no #default is no
-			}
+create_country_leader = {
+	name = "Emilio Aceval"
+	desc = ""
+	picture = "emilio.dds"
+	ideology = social_liberalism
+	traits = {
 
-			authoritarian = {
-				popularity = 50
-			}
-		}
-
-		ruling_party = authoritarian
-		last_election = "1938.1.1"
-		election_frequency = 48
-		elections_allowed = no
 	}
-
-
-	create_country_leader = {
-		name = "Higinio Morinigo"
-		desc = "POLITICS_HIGINIO_MORINIGO_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
-		expire = "1965.1.1"
-		ideology = despotism
-		traits = {
-			#
-		}
-	}
-
-
 }

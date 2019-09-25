@@ -1,102 +1,48 @@
 ﻿capital = 302
 
-oob = "BOL_1936"
-add_ideas = {
-	minorpower
-}
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
-	tech_support = 1		
-	tech_engineers = 1
-	
-	early_fighter = 1
+
 }
-set_country_flag = monroe_doctrine
+
+set_research_slots = 2
+set_convoys = 25
+set_stability = 0.6
+set_war_support = 0.3
+
+#####################
+##### POLITICS ######
+#####################
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 0
-		}
-
-		fascism = {
-			popularity = 0
-		}
-		
-		communism = {
-			popularity = 0
-		}
-		
-		authoritarian = { 
-			popularity = 100
-		}
-	}
-	
-	ruling_party = authoritarian
-	last_election = "1934.11.11"
-	election_frequency = 72
+	ruling_party = democratic
+	last_election = "1898.1.1"
+	election_frequency = 48
 	elections_allowed = yes
 }
 
-create_country_leader = {
-	name = "José Luis Tejada Sorzano"
-	desc = "POLITICS_JOSE_LUIS_TEJADA_SORZANO_DESC"
-	picture = "Portrait_Bolivia_Jose_Luis_Tejada_Sorzano.dds"
-	expire = "1965.1.1"
-	ideology = despotism # liberalism, personally, but puppet for military
-	traits = {
-		#
-	}
+set_popularities = {
+	democratic = 100
+	fascism = 0
+	communism = 0
+	authoritarian = 0
 }
 
-create_country_leader = {
-	name = "Óscar Únzaga de la Vega"
-	desc = "POLITICS_OSCAR_UNZAGA_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
-	expire = "1965.1.1"
-	ideology = falangism
-	traits = {
-		#
-	}
+add_ideas = {
+	minorpower
+	cabrera
 }
 
-1939.1.1 = {
-	set_politics = {
+#####################
+###### LEADERS ######
+#####################
 
-		parties = {
-		democratic = { 
-			popularity = 0
-		}
+create_country_leader = {
+	name = "José Manuel Pando"
+	desc = ""
+	picture = "manuel.dds"
+	ideology = liberalism
+	traits = {
 
-		fascism = {
-			popularity = 0
-		}
-		
-		communism = {
-			popularity = 0
-		}
-		
-		authoritarian = { 
-			popularity = 100
-		}
-	}
-	
-	ruling_party = authoritarian
-		last_election = "1934.11.11"
-		election_frequency = 72
-		elections_allowed = yes
-	}
-
-	create_country_leader = {
-		name = "Carlos Quintanilla"
-		desc = "POLITICS_CARLOS_QUINTANILLA_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
-		expire = "1965.1.1"
-		ideology = oligarchism
-		traits = {
-			#
-		}
 	}
 }
