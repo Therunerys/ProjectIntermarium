@@ -11,22 +11,22 @@ ORG = {
 }
 
 WAS = {
-	color = rgb { 6 10 99 }
+	color = rgb { 16 26 163 }
 	color_ui = rgb { 6 10 99 }
 }
 
 VIC = {
-	color = rgb { 117 24 85 }
+	color = rgb { 159 65 176 }
 	color_ui = rgb { 219 113 0 }
 }
 
 TAS = {
-	color = rgb { 168 127 40 }
+	color = rgb { 255 61 61 }
 	color_ui = rgb { 219 113 0 }
 }
 
 CST = {
-	color = rgb { 237 223 33 }
+	color = rgb { 235 157 14 }
 	color_ui = rgb { 219 113 0 }
 }
 
@@ -36,7 +36,7 @@ NSW = {
 }
 
 QLD = {
-	color = rgb { 64 124 36 }
+	color = rgb { 16 164 201 }
 	color_ui = rgb { 219 113 0 }
 }
 
