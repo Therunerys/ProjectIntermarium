@@ -957,7 +957,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "naval_year1"
-					position = { x = 224 y = 20 }
+					position = { x = 224 y = 140 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
@@ -1008,8 +1008,21 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
+					name = "naval_year5"
+					position = { x = 1904‬ y = 20 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1914"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
 					name = "naval_subtitle_sub"
-					position = { x = 30 y = 55 }
+					position = { x = 450 y = 55 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1094,7 +1107,7 @@ guiTypes = {
 				name = "tiled_window_transparent_transparent"
 				position = { x= 0 y= 0 }
 				size = { 
-					width=1700 height=1300 
+					width=2200 height=1300 
 					min = { width=100%% height=100%% }
 				}
 				clipping = no
@@ -1107,7 +1120,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "early_submarine_tree"
-				position = { x = 150 y = 70 }
+				position = { x = 570 y = 70 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
