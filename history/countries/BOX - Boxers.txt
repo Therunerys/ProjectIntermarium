@@ -29,10 +29,14 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 0
-	fascism = 0
-	communism = 0
-	authoritarian = 100
+	social_democracy = 13
+	fascism = 13
+	communism = 13
+	authoritarian = 13
+	liberalism = 12
+	conservatism = 12
+	nationalism = 12
+	radical_socialism = 12
 }
 
 add_ideas = {
