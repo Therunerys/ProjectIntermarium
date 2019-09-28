@@ -22,10 +22,14 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 27
-	fascism = 3
-	communism = 0
-	authoritarian = 70
+	authoritarian = 35
+	social_democracy = 22
+	liberalism = 22
+	conservatism = 15
+	nationalism = 3
+	communism = 2
+	radical_socialism = 1
+	fascism = 0
 }
 
 create_faction = cp
@@ -70,7 +74,7 @@ create_country_leader = {
 	desc = ""
 	picture = Karl_Liebknecht.dds
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = communism
 	traits = {
 		
 	}
@@ -81,7 +85,7 @@ create_country_leader = {
 	desc = ""
 	picture = August_Bebel.dds
 	expire = "1965.1.1"
-	ideology = Socialism
+	ideology = social_democracy
 	traits = {
 		
 	}
@@ -92,7 +96,7 @@ create_country_leader = {
 	desc = "POLITICS_WILHELM_II_DESC"
 	picture = WilhelmII.dds
 	expire = "1965.1.1"
-	ideology = semi_constitutional
+	ideology = authoritarian
 	traits = {
 		imperial_connections
 	}
