@@ -23,8 +23,8 @@ set_politics = {
 
 set_popularities = {
 	authoritarian = 35
-	social_democracy = 22
-	liberalism = 22
+	social_democracy = 26
+	liberalism = 18
 	conservatism = 15
 	nationalism = 3
 	communism = 2
@@ -70,13 +70,13 @@ if = {
 #####################
 
 create_country_leader = {
-	name = "Karl Liebknecht"
-	desc = ""
-	picture = Karl_Liebknecht.dds
+	name = "Wilhelm II"
+	desc = "POLITICS_WILHELM_II_DESC"
+	picture = WilhelmII.dds
 	expire = "1965.1.1"
-	ideology = communism
+	ideology = authoritarian
 	traits = {
-		
+		imperial_connections
 	}
 }
 
@@ -92,13 +92,24 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Wilhelm II"
-	desc = "POLITICS_WILHELM_II_DESC"
-	picture = WilhelmII.dds
+	name = "Ernst Bassermann"
+	desc = ""
+	picture = Ernst_Bassermann.dds
 	expire = "1965.1.1"
-	ideology = authoritarian
+	ideology = liberalism
 	traits = {
-		imperial_connections
+		
+	}
+}
+
+create_country_leader = {
+	name = "Otto Karl von Manteuffel"
+	desc = ""
+	picture = manteuffel.dds
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		
 	}
 }
 
@@ -108,6 +119,39 @@ create_country_leader = {
 	picture = wolfgang.dds
 	expire = "1965.1.1"
 	ideology = nationalism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Wolfgang Kapp"
+	desc = ""
+	picture = wolfgang.dds
+	expire = "1965.1.1"
+	ideology = fascism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Karl Liebknecht"
+	desc = ""
+	picture = Karl_Liebknecht.dds
+	expire = "1965.1.1"
+	ideology = communism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Karl Liebknecht"
+	desc = ""
+	picture = Karl_Liebknecht.dds
+	expire = "1965.1.1"
+	ideology = radical_socialism
 	traits = {
 		
 	}
