@@ -121,25 +121,29 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservatism
 	last_election = "1895.8.7"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 99
-	fascism = 0
+	conservatism = 51
+	liberalism = 46
+	social_democracy = 2
 	communism = 1
 	authoritarian = 0
+	nationalism = 0
+	fascism = 0
+	radical_socialism = 0
 }
 
 add_ideas = {
 	free_trade
 	volunteer_only
 	civilian_economy
-	Robert_Gascoyne_Cecil
 	superpower
+	Robert_Gascoyne_Cecil	
 }
 
 give_guarantee = BEL
@@ -158,6 +162,7 @@ create_country_leader = {
 		#
 	}
 }
+
 
 #####################
 ####### ARMY ########
