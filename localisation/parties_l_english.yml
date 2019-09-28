@@ -56,6 +56,27 @@
  ENG_fascism_party:0 ""
  ENG_fascism_party_long:0 ""
 
+ FRA_authoritarian_party:0 ""
+ FRA_authoritarian_party_long:0 ""
+ FRA_social_democracy_party:0 ""
+ FRA_social_democracy_party_long:0 ""
+ FRA_liberalism_party:0 ""
+ FRA_conservatism_party:0 "Républicains progressistes"
+ FRA_nationalism_party:0 ""
+ FRA_nationalism_party_long:0 ""
+ FRA_communism_party:0 ""
+ FRA_communism_party_long:0 ""
+ FRA_radical_socialism_party:0 ""
+ FRA_radical_socialism_party_long:0 ""
+ FRA_fascism_party:0 ""
+ FRA_fascism_party_long:0 ""
+
+ FRA_communism_party:0 "Independent Radicals"
+ FRA_democratic_party:0 "AD"
+ FRA_democratic_party_long:0 "Democratic Alliance"
+ FRA_authoritarian_party:0 "AF"
+ FRA_authoritarian_party_long:0 "Action française"
+
  RUS_fascism_party:0 "BRD"
  RUS_fascism_party_long:0 "Beloye Russkoye Dvizheniye"
  RUS_communism_party:0 "Bolsheviks"
@@ -82,12 +103,6 @@
  USA_democratic_party:0 "Democratic Party"
  USA_republican_party:0 "Republican Party"
  USA_fascism_party:0 "Silver Legion of America"
-
- FRA_communism_party:0 "Independent Radicals"
- FRA_democratic_party:0 "AD"
- FRA_democratic_party_long:0 "Democratic Alliance"Action Française
- FRA_authoritarian_party:0 "AF"
- FRA_authoritarian_party_long:0 "Action française"
 
  SOV_communism_party:0 "All-Union Communist Party"
  SOV_democratic_party:0 "Trudoviks"
