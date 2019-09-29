@@ -20,10 +20,14 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 9
-	fascism = 13
-	communism = 35
-	authoritarian = 43
+	liberalism = 29
+	conservatism = 5
+	social_democracy = 16
+	radical_socialism = 4
+	fascism = 10
+	communism = 10
+	authoritarian = 26
+	nationalism = 0
 }
 
 add_ideas = {
@@ -43,7 +47,7 @@ create_country_leader = {
 	desc = "POLITICS_KONSTANTIN_RODZAEVSKY_DESC"
 	picture = "TsarNikolai.dds"
 	expire = "1953.3.1"
-	ideology = absolute_monarchy
+	ideology = authoritarian
 	traits = {
 		#
 	}
