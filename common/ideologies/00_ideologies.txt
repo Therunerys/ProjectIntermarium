@@ -1,119 +1,5 @@
 ideologies = {
 	
-	liberalism = {
-	
-		types = {
-			
-			liberalism = {
-			}
-		}
-		
-		dynamic_faction_names = {
-			"FACTION_NAME_DEMOCRATIC_1"
-			"FACTION_NAME_DEMOCRATIC_2"
-			"FACTION_NAME_DEMOCRATIC_3"
-			"FACTION_NAME_DEMOCRATIC_4"
-			"FACTION_NAME_DEMOCRATIC_5"
-			"FACTION_NAME_DEMOCRATIC_6"
-		}
-		
-		color = { 195 201 18 }
-		
-		rules = {
-			can_force_government = yes
-			can_send_volunteers = yes
-			can_puppet = yes
-			can_guarantee_other_ideologies = yes
-		}
-		can_collaborate = yes
-
-		modifiers = {
-			justify_war_goal_when_in_major_war_time = -0.50
-		}
-		
-		#can_host_government_in_exile = yes
-		
-		war_impact_on_world_tension = 0.5
-		faction_impact_on_world_tension = 1.0
-		ai_neutral = yes
-	}
-
-	conservatism = {
-	
-		types = {
-			
-			conservatism = {
-			}
-		}
-		
-		dynamic_faction_names = {
-			"FACTION_NAME_DEMOCRATIC_1"
-			"FACTION_NAME_DEMOCRATIC_2"
-			"FACTION_NAME_DEMOCRATIC_3"
-			"FACTION_NAME_DEMOCRATIC_4"
-			"FACTION_NAME_DEMOCRATIC_5"
-			"FACTION_NAME_DEMOCRATIC_6"
-		}
-		
-		color = { 28 67 153 }
-		
-		rules = {
-			can_force_government = yes
-			can_send_volunteers = yes
-			can_puppet = yes
-			can_guarantee_other_ideologies = yes
-		}
-		can_collaborate = yes
-
-		modifiers = {
-			justify_war_goal_when_in_major_war_time = -0.50
-		}
-		
-		#can_host_government_in_exile = yes
-		
-		war_impact_on_world_tension = 0.5
-		faction_impact_on_world_tension = 1.0
-		ai_neutral = yes
-	}
-
-	social_democracy = {
-	
-		types = {
-			
-			social_democracy = {
-			}
-		}
-		
-		dynamic_faction_names = {
-			"FACTION_NAME_DEMOCRATIC_1"
-			"FACTION_NAME_DEMOCRATIC_2"
-			"FACTION_NAME_DEMOCRATIC_3"
-			"FACTION_NAME_DEMOCRATIC_4"
-			"FACTION_NAME_DEMOCRATIC_5"
-			"FACTION_NAME_DEMOCRATIC_6"
-		}
-		
-		color = { 245 24 124 }
-		
-		rules = {
-			can_force_government = yes
-			can_send_volunteers = yes
-			can_puppet = yes
-			can_guarantee_other_ideologies = yes
-		}
-		can_collaborate = yes
-
-		modifiers = {
-			justify_war_goal_when_in_major_war_time = -0.50
-		}
-		
-		#can_host_government_in_exile = yes
-		
-		war_impact_on_world_tension = 0.5
-		faction_impact_on_world_tension = 1.0
-		ai_neutral = yes
-	}
-
 	communism = {
 		
 		types = {
@@ -195,11 +81,125 @@ ideologies = {
 
 	}
 
-	fascism = {
+
+	social_democracy = {
 	
 		types = {
+			
+			social_democracy = {
+			}
+		}
 		
-			fascism = {
+		dynamic_faction_names = {
+			"FACTION_NAME_DEMOCRATIC_1"
+			"FACTION_NAME_DEMOCRATIC_2"
+			"FACTION_NAME_DEMOCRATIC_3"
+			"FACTION_NAME_DEMOCRATIC_4"
+			"FACTION_NAME_DEMOCRATIC_5"
+			"FACTION_NAME_DEMOCRATIC_6"
+		}
+		
+		color = { 245 24 124 }
+		
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_guarantee_other_ideologies = yes
+		}
+		can_collaborate = yes
+
+		modifiers = {
+			justify_war_goal_when_in_major_war_time = -0.50
+		}
+		
+		#can_host_government_in_exile = yes
+		
+		war_impact_on_world_tension = 0.5
+		faction_impact_on_world_tension = 1.0
+		ai_neutral = yes
+	}
+
+	liberalism = {
+	
+		types = {
+			
+			liberalism = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_DEMOCRATIC_1"
+			"FACTION_NAME_DEMOCRATIC_2"
+			"FACTION_NAME_DEMOCRATIC_3"
+			"FACTION_NAME_DEMOCRATIC_4"
+			"FACTION_NAME_DEMOCRATIC_5"
+			"FACTION_NAME_DEMOCRATIC_6"
+		}
+		
+		color = { 195 201 18 }
+		
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_guarantee_other_ideologies = yes
+		}
+		can_collaborate = yes
+
+		modifiers = {
+			justify_war_goal_when_in_major_war_time = -0.50
+		}
+		
+		#can_host_government_in_exile = yes
+		
+		war_impact_on_world_tension = 0.5
+		faction_impact_on_world_tension = 1.0
+		ai_neutral = yes
+	}
+
+	conservatism = {
+	
+		types = {
+			
+			conservatism = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_DEMOCRATIC_1"
+			"FACTION_NAME_DEMOCRATIC_2"
+			"FACTION_NAME_DEMOCRATIC_3"
+			"FACTION_NAME_DEMOCRATIC_4"
+			"FACTION_NAME_DEMOCRATIC_5"
+			"FACTION_NAME_DEMOCRATIC_6"
+		}
+		
+		color = { 28 67 153 }
+		
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_guarantee_other_ideologies = yes
+		}
+		can_collaborate = yes
+
+		modifiers = {
+			justify_war_goal_when_in_major_war_time = -0.50
+		}
+		
+		#can_host_government_in_exile = yes
+		
+		war_impact_on_world_tension = 0.5
+		faction_impact_on_world_tension = 1.0
+		ai_neutral = yes
+	}
+	
+	authoritarian = {
+	
+		types = {
+			authoritarian = {
 			}
 		}
 		
@@ -211,9 +211,9 @@ ideologies = {
 			"FACTION_NAME_FASCIST_5"
 		}
 		
-		color = { 163 83 13 }
-		
-		war_impact_on_world_tension = 0.5			#evil!
+		color = { 110 110 110 }
+		can_collaborate = yes
+		war_impact_on_world_tension = 0.5			
 		faction_impact_on_world_tension = 1.0
 		
 		rules = {
@@ -222,7 +222,7 @@ ideologies = {
 			can_puppet = yes
 			can_guarantee_other_ideologies = yes
 		}
-		can_collaborate = yes
+		
 		modifiers = {
 			justify_war_goal_when_in_major_war_time = -0.50
 		}
@@ -265,10 +265,11 @@ ideologies = {
 		ai_neutral = yes # uses the fascist AI behaviour
 	}
 	
-	authoritarian = {
+	fascism = {
 	
 		types = {
-			authoritarian = {
+		
+			fascism = {
 			}
 		}
 		
@@ -280,9 +281,9 @@ ideologies = {
 			"FACTION_NAME_FASCIST_5"
 		}
 		
-		color = { 110 110 110 }
-		can_collaborate = yes
-		war_impact_on_world_tension = 0.5			
+		color = { 163 83 13 }
+		
+		war_impact_on_world_tension = 0.5			#evil!
 		faction_impact_on_world_tension = 1.0
 		
 		rules = {
@@ -291,7 +292,7 @@ ideologies = {
 			can_puppet = yes
 			can_guarantee_other_ideologies = yes
 		}
-		
+		can_collaborate = yes
 		modifiers = {
 			justify_war_goal_when_in_major_war_time = -0.50
 		}
