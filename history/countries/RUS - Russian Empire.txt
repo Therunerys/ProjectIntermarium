@@ -24,10 +24,10 @@ set_popularities = {
 	conservatism = 5
 	social_democracy = 16
 	radical_socialism = 4
-	fascism = 10
+	fascism = 3
 	communism = 10
 	authoritarian = 26
-	nationalism = 0
+	nationalism = 7
 }
 
 add_ideas = {
