@@ -23,6 +23,7 @@
  GER_fascism_ADJ:0 "German"
  GER_communism_ADJ:0 "German"
  GER_radical_socialism_ADJ:0 "German"
+ 
  ENG_authoritarian:0 "United Kingdom"
  ENG_authoritarian_DEF:0 "the United Kingdom"
  ENG_social_democracy:0 "United Kingdom"
@@ -47,6 +48,7 @@
  ENG_fascism_ADJ:0 "British"
  ENG_communism_ADJ:0 "British"
  ENG_radical_socialism_ADJ:0 "British"
+
  AHE_authoritarian:0 "Austria-Hungary"
  AHE_authoritarian_DEF:0 "Austria-Hungary"
  AHE_social_democracy:0 "Austria-Hungary"

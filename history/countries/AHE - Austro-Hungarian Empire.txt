@@ -24,9 +24,9 @@ set_popularities = {
 	conservatism = 51
 	social_democracy = 23
 	liberalism = 14
-	nationalism = 4
-	authoritarian = 3
-	fascism = 2
+	nationalism = 5
+	authoritarian = 4
+	fascism = 0
 	communism = 2
 	radical_socialism = 1
 }
@@ -50,6 +50,50 @@ create_country_leader = {
 	picture = "gfx/leaders/AHE/FranzJoseph.dds"
 	expire = "1916.1.1"
 	ideology = conservatism
+	traits = {
+		imperial_connections
+	}
+}
+
+create_country_leader = {
+	name = "Franz Joseph I"
+	desc = ""
+	picture = "gfx/leaders/AHE/FranzJoseph.dds"
+	expire = "1916.1.1"
+	ideology = social_democracy
+	traits = {
+		imperial_connections
+	}
+}
+
+create_country_leader = {
+	name = "Franz Joseph I"
+	desc = ""
+	picture = "gfx/leaders/AHE/FranzJoseph.dds"
+	expire = "1916.1.1"
+	ideology = liberalism
+	traits = {
+		imperial_connections
+	}
+}
+
+create_country_leader = {
+	name = "Franz Joseph I"
+	desc = ""
+	picture = "gfx/leaders/AHE/FranzJoseph.dds"
+	expire = "1916.1.1"
+	ideology = nationalism
+	traits = {
+		imperial_connections
+	}
+}
+
+create_country_leader = {
+	name = "Franz Joseph I"
+	desc = ""
+	picture = "gfx/leaders/AHE/FranzJoseph.dds"
+	expire = "1916.1.1"
+	ideology = authoritarian
 	traits = {
 		imperial_connections
 	}

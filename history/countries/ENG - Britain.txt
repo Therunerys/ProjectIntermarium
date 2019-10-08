@@ -163,7 +163,38 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Victoria I"
+	desc = ""
+	picture = "victoria.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
 
+create_country_leader = {
+	name = "Keir Hardie"
+	desc = ""
+	picture = "Hardie.dds"
+	expire = "1965.1.1"
+	ideology = social_democracy
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Keir Hardie"
+	desc = ""
+	picture = "Hardie.dds"
+	expire = "1965.1.1"
+	ideology = communism
+	traits = {
+		#
+	}
+}
 #####################
 ####### ARMY ########
 #####################
