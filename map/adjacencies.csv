@@ -3,6 +3,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 2196;13220;sea;5394;-1;-1;-1;-1;;Zanzibar-Tanzania
 6449;13222;sea;2871;-1;-1;-1;-1;;Channel-Mainland
 13221;13222;sea;2871;-1;-1;-1;-1;;Jersey-Guernsey
+13227;8051;sea;2691;-1;-1;-1;-1;;Qatar-Bahrain
 #############################
 12251;10321;sea;8313;-1;-1;-1;-1;;Andaman
 7413;1419;sea;5294;-1;-1;-1;-1;;Moluccas

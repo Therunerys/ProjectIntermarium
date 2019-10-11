@@ -1,0 +1,21 @@
+state={
+	id=843
+	name="STATE_843"
+	history={
+		owner = ENG
+		victory_points = {
+			8051 1
+		}
+		buildings = {
+			infrastructure = 2
+			8051 = {
+				naval_base = 2
+			}
+		}
+	}
+	provinces={
+		13227 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
