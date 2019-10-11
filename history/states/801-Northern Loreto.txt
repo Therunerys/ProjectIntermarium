@@ -2,9 +2,10 @@ state={
 	id=801
 	name="STATE_801"
 	history = {
-		owner = ECU
+		owner = PRU
 		add_core_of = PRU
 		add_core_of = ECU
+		add_core_of = COL
 		buildings = {
 			infrastructure = 0
 

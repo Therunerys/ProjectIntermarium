@@ -1,0 +1,39 @@
+﻿capital = 306
+
+# Starting tech
+set_technology = {
+
+}
+
+set_research_slots = 2
+set_convoys = 25
+set_stability = 0.6
+set_war_support = 0.3
+
+#####################
+##### POLITICS ######
+#####################
+
+set_politics = {
+	ruling_party = liberalism
+	last_election = "1898.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+declare_war_on = {
+		target = COL
+		type = civil_war
+}
+
+set_popularities = {
+}
+
+add_ideas = {
+	minorpower
+}
+
+#####################
+###### LEADERS ######
+#####################
+

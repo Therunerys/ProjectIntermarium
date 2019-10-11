@@ -410,6 +410,7 @@
  CHL_democratic_ADJ:0 "Chilean"
  CHL_authoritarian_ADJ:0 "Chilean"
  CHL_communism_ADJ:0 "Chilean"
+ CLB_liberalism:0 "Liberales"
  COL_fascism:0 "Nueva Gran Colombia"
  COL_fascism_DEF:0 "Nueva Gran Colombia"
  COL_democratic:0 "Colombia"

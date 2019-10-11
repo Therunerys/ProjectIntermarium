@@ -8,6 +8,10 @@ state={
 	
 	history={
 		owner = COL
+		CLB = {
+			set_province_controller = 7993
+
+		}
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
@@ -15,6 +19,7 @@ state={
 			air_base = 2
 		}
 		add_core_of = COL
+		add_core_of = CLB
 		victory_points = {
 			10747 10
 		}

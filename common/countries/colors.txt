@@ -643,3 +643,7 @@ SWE = {
 	color = rgb { 1 81 128 }
 	color_ui = rgb { 84 133 186 }
 }
+CLB = {
+	color = rgb { 194 66 47 }
+	color_ui = rgb { 198 169 248 }
+}

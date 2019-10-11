@@ -1,15 +1,21 @@
+
 state={
 	id=799
 	name="STATE_799"
-	history = {
+
+	history={
 		owner = CHL
 		add_core_of = CHL
+		add_core_of = PRU
 		buildings = {
 			infrastructure = 1
+
 		}
+
 	}
+
 	provinces={
-		5131 
+		5131 8231 8231 
 	}
 	manpower=35000
 	buildings_max_level_factor=1.000
