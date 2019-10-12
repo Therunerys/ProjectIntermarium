@@ -1,4 +1,4 @@
-﻿capital = 47
+﻿capital = 821
 
 # Starting tech
 set_technology = {
@@ -14,17 +14,21 @@ set_war_support = 0.30
 #####################
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1898.0.0"
+	ruling_party = liberalism
+	last_election = "1899.2.7"
 	election_frequency = 36
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 100
-	fascism = 0
+	liberalism = 60
+	conservatism = 40
+	social_democracy = 0
+	radical_socialism = 0
 	communism = 0
 	authoritarian = 0
+	nationalism = 0
+	fascism = 0
 }
 
 add_ideas = {
@@ -42,6 +46,17 @@ create_country_leader = {
 	picture = "George_I.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "George I"
+	desc = ""
+	picture = "George_I.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
 	traits = {
 		#
 	}

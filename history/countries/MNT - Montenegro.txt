@@ -25,10 +25,14 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 0
-	fascism = 0
-	communism = 0
 	authoritarian = 100
+	conservatism = 0
+	liberalism = 0
+	social_democracy = 0
+	radical_socialism = 0
+	communism = 0
+	nationalism = 0
+	fascism = 0
 }
 
 add_ideas = {
@@ -44,7 +48,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/MNT/Nicholas_I.dds"
 	expire = "1953.3.1"
-	ideology = principality
+	ideology = authoritarian
 	traits = {
 		
 	}

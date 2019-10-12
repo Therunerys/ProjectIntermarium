@@ -35,12 +35,15 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 94
-	fascism = 0
-	communism = 6
+	liberalism = 30
+	conservatism = 26
+	social_democracy = 0
+	radical_socialism = 0
+	communism = 0
 	authoritarian = 0
+	nationalism = 0
+	fascism = 0
 }
-
 
 add_ideas = {
 	majorpower

@@ -14,17 +14,21 @@ set_war_support = 0.4
 #####################
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservatism
 	last_election = "1898.4.5"
 	election_frequency = 36
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 70
-	fascism = 0
-	communism = 30
+	conservatism = 45
+	social_democracy = 30
+	liberalism = 25
+	radical_socialism = 0
+	communism = 0
 	authoritarian = 0
+	nationalism = 0
+	fascism = 0
 }
 
 add_ideas = {
@@ -40,11 +44,11 @@ add_ideas = {
 #####################
 
 create_country_leader = {
-	name = "Hugo Egmont"
+	name = "Christian IX"
 	desc = ""
-	picture = "Hugo_Egmont.dds"
-	expire = "1900.4.27"
-	ideology = constitutional_monarchy
+	picture = "Christian_ix.dds"
+	expire = "1905.1.1"
+	ideology = conservatism
 	traits = {
 		#
 	}
@@ -55,18 +59,18 @@ create_country_leader = {
 	desc = ""
 	picture = "Christian_ix.dds"
 	expire = "1905.1.1"
-	ideology = constitutional_monarchy
+	ideology = social_democracy
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Peter Christian Knudsen"
+	name = "Christian IX"
 	desc = ""
-	picture = "Peter_Christian_Knudsen.dds"
-	expire = "1910.1.1"
-	ideology = radical_Socialism
+	picture = "Christian_ix.dds"
+	expire = "1905.1.1"
+	ideology = liberalism
 	traits = {
 		#
 	}

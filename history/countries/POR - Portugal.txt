@@ -15,18 +15,23 @@ set_war_support = 0.34
 #####################
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservatism
 	election_frequency = 36
 	last_election = "1899.4.16"
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 100
-	fascism = 0
+	conservatism = 75
+	liberalism = 25
+	social_democracy = 0
+	radical_socialism = 0
 	communism = 0
 	authoritarian = 0
+	nationalism = 0
+	fascism = 0
 }
+
 
 add_ideas = {
 	majorpower 
@@ -43,6 +48,17 @@ create_country_leader = {
 	picture = "Carlos_I.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Carlos I"
+	desc = ""
+	picture = "Carlos_I.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
 	traits = {
 		#
 	}

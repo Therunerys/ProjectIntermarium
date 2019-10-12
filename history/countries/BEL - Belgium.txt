@@ -28,18 +28,23 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservatism
 	last_election = "1898.6.15"
 	election_frequency = 24
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 70
-	fascism = 0
-	communism = 30
+	conservatism = 45
+	social_democracy = 30
+	liberalism = 25
+	radical_socialism = 0
+	communism = 0
 	authoritarian = 0
+	nationalism = 0
+	fascism = 0
 }
+
 
 
 add_ideas = {
@@ -61,29 +66,33 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/BEL/LeopoldII.dds"
 	expire = "1909.12.17"
-	ideology = absolute_monarchy
+	ideology = liberalism
 	traits = {
 		#
 	}
 }	
 
-#create_country_leader = {
-#	name = "Paul Joseph"
-#	picture = "gfx/leaders/BEL/Paul.dds"
-#	ideology = conservatism
-#	traits = {
-#		
-#	}
-#}
+create_country_leader = {
+	name = "Leopold II"
+	desc = ""
+	picture = "gfx/leaders/BEL/LeopoldII.dds"
+	expire = "1909.12.17"
+	ideology = authoritarian
+	traits = {
+		#
+	}
+}	
 
 create_country_leader = {
-	name = "Edward Anseele"
-	picture = "gfx/leaders/BEL/Edward_Anseele.dds"
-	ideology = radical_Socialism
+	name = "Leopold II"
+	desc = ""
+	picture = "gfx/leaders/BEL/LeopoldII.dds"
+	expire = "1909.12.17"
+	ideology = social_democracy
 	traits = {
-		
+		#
 	}
-}
+}	
 
 create_country_leader = {
 	name = "Leopold II"

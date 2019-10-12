@@ -14,17 +14,21 @@ set_war_support = 0.60
 #####################
 
 set_politics = {
-	ruling_party = authoritarian
-	last_election = "1898.0.0"
-	election_frequency = 36
+	ruling_party = liberalism
+	last_election = "1899.3.25"
+	election_frequency = 24
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 15
+	liberalism = 83
+	conservatism = 12
+	social_democracy = 5
+	radical_socialism = 0
+	communism = 0
+	authoritarian = 0
+	nationalism = 0
 	fascism = 0
-	communism = 4
-	authoritarian = 81
 }
 
 add_ideas = {
@@ -43,7 +47,29 @@ create_country_leader = {
 	desc = ""
 	picture = "Ferdinand_I.dds"
 	expire = "1965.1.1"
-	ideology = principality
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ferdinand I"
+	desc = ""
+	picture = "Ferdinand_I.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ferdinand I"
+	desc = ""
+	picture = "Ferdinand_I.dds"
+	expire = "1965.1.1"
+	ideology = social_democracy
 	traits = {
 		#
 	}
