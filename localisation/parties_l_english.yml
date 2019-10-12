@@ -269,6 +269,97 @@
  GRE_fascism_party:0 ""
  GRE_fascism_party_long:0 ""
 
+ CAN_authoritarian_party:0 ""
+ CAN_authoritarian_party:0 ""
+ CAN_social_democracy_party:0 ""
+ CAN_social_democracy_party_long:0 ""
+ CAN_liberalism_party:0 "Liberal Party of Canada"
+ CAN_conservatism_party:0 "Conservative Party of Canada"
+ CAN_nationalism_party:0 ""
+ CAN_nationalism_party_long:0 ""
+ CAN_communism_party:0 ""
+ CAN_communism_party_long:0 ""
+ CAN_radical_socialism_party:0 ""
+ CAN_radical_socialism_party_long:0 ""
+ CAN_fascism_party:0 ""
+ CAN_fascism_party_long:0 ""
+
+ USA_authoritarian_party:0 ""
+ USA_authoritarian_party:0 ""
+ USA_social_democracy_party:0 ""
+ USA_social_democracy_party_long:0 ""
+ USA_liberalism_party:0 "Democratic Party"
+ USA_conservatism_party:0 "GOP"
+ USA_conservatism_party_long:0 "Republican Party"
+ USA_nationalism_party:0 ""
+ USA_nationalism_party_long:0 ""
+ USA_communism_party:0 ""
+ USA_communism_party_long:0 ""
+ USA_radical_socialism_party:0 ""
+ USA_radical_socialism_party_long:0 ""
+ USA_fascism_party:0 ""
+ USA_fascism_party_long:0 ""
+
+ MEX_authoritarian_party:0 ""
+ MEX_authoritarian_party:0 ""
+ MEX_social_democracy_party:0 ""
+ MEX_social_democracy_party_long:0 ""
+ MEX_liberalism_party:0 "National Reelectionist Party"
+ MEX_conservatism_party:0 ""
+ MEX_conservatism_party_long:0 ""
+ MEX_nationalism_party:0 ""
+ MEX_nationalism_party_long:0 ""
+ MEX_communism_party:0 ""
+ MEX_communism_party_long:0 ""
+ MEX_radical_socialism_party:0 ""
+ MEX_radical_socialism_party_long:0 ""
+ MEX_fascism_party:0 ""
+ MEX_fascism_party_long:0 ""
+
+ GUA_authoritarian_party:0 ""
+ GUA_authoritarian_party:0 ""
+ GUA_social_democracy_party:0 ""
+ GUA_social_democracy_party_long:0 ""
+ GUA_liberalism_party:0 "PL"
+ GUA_liberalism_party_long:0 "Partido Liberal"
+ GUA_conservatism_party:0 ""
+ GUA_conservatism_party_long:0 ""
+ GUA_nationalism_party:0 ""
+ GUA_nationalism_party_long:0 ""
+ GUA_communism_party:0 ""
+ GUA_communism_party_long:0 ""
+ GUA_radical_socialism_party:0 ""
+ GUA_radical_socialism_party_long:0 ""
+ GUA_fascism_party:0 ""
+ GUA_fascism_party_long:0 ""
+
+ HON_authoritarian_party:0 ""
+ HON_authoritarian_party:0 ""
+ HON_social_democracy_party:0 ""
+ HON_social_democracy_party_long:0 ""
+ HON_liberalism_party:0 "Partido Liberal de Honduras"
+ HON_conservatism_party:0 "Conservative Party" #in 1902 National Party of Honduras in formed (PNH, Partido Nacional de Hondurs)
+ HON_conservatism_party_long:0 ""
+ HON_nationalism_party:0 ""
+ HON_nationalism_party_long:0 ""
+ HON_communism_party:0 ""
+ HON_communism_party_long:0 ""
+ HON_radical_socialism_party:0 ""
+ HON_radical_socialism_party_long:0 ""
+ HON_fascism_party:0 ""
+ HON_fascism_party_long:0 ""
+
+
+
+
+
+
+
+
+
+
+
+
  POL_fascism_party:0 "ONR-Falanga"
  POL_fascism_party_long:0 "Oboz Narodowo Radykalny-Falanga"
  POL_communism_party:0 "Polish Socialist Party"
@@ -279,12 +370,6 @@
  #JAP_communism_party:0 "Nihon Kyosan-to"
  JAP_democratic_party:0 "Kenseitō"
  #JAP_fascism_party:0 "Taisei Yokusankai"
-
- USA_communism_party:0 "Communist Party USA"
- USA_democratic_party:0 "Democratic Party"
- USA_republican_party:0 "Republican Party"
- USA_fascism_party:0 "Silver Legion of America"
-
  SOV_communism_party:0 "All-Union Communist Party"
  SOV_democratic_party:0 "Trudoviks"
  SOV_fascism_party:0 "RFP"
@@ -338,14 +423,7 @@
  FIN_communism_party:0 "SKP"
  FIN_communism_party_long:0 "Suomen Kommunistinen Puolue"
 
- CAN_democratic_party:0 "Liberal Party"
- CAN_democratic_party_long:0 "Liberal Party of Canada"
- CAN_fascism_party:0 "National Unity Party"
- CAN_fascism_party_long:0 "National Unity Party"
- CAN_communism_party:0 "CPC"
- CAN_communism_party_long:0 "Communist Party of Canada"
- CAN_authoritarian_party:0 "CCF"
- CAN_authoritarian_party_long:0 "Co-operative Commonwealth Federation"
+
  AST_authoritarian_party:0 "ACP"
  AST_authoritarian_party_long:0 "Australian Country Party"
  AST_democratic_party:0 "Labor"
@@ -355,7 +433,6 @@
  AST_communism_party:0 "CPA"
  AST_communism_party_long:0 "Communist Party of Australia"
 
- MEX_democratic_party:0 "National Reelectionist Party"
 
  ARG_democratic_party:0 "PAN"
  ARG_democratic_party_long:0 "National Autonomist Party"
@@ -453,7 +530,6 @@
  COS_democratic_party:0 "Civil Party"
  ELS_fascism_party:0 "Pro-Patria"
  ELS_fascism_party_long:0 "Partido Nacional 'Pro-Patria'"
- GUA_democratic_party_long:0 "Liberal Party"
  SIA_authoritarian_party:0 "Chakri Dynasty"
 
  URG_democratic_party:0 "Colorado"
@@ -490,9 +566,6 @@
  
  ECU_democratic_party:0 "PLRE"
  ECU_democratic_party_long:0 "Partido Liberal Radical Ecuatoriano"
-
- HON_democratic_party:0 "PLH"
- HON_democratic_party_long:0 "Partido Liberal de Honduras"
  
  NEP_authoritarian_party:0 "Shah dynasty"
 

@@ -15,17 +15,21 @@ set_war_support = 0.3
 #####################
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservatism
 	last_election = "1896.11.6"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 100
-	fascism = 0
+	conservatism = 55
+	liberalism = 45
+	social_democracy = 0
+	radical_socialism = 0
 	communism = 0
 	authoritarian = 0
+	nationalism = 0
+	fascism = 0
 }
 
 add_ideas = {
@@ -56,7 +60,7 @@ create_country_leader = {
 	name = "William McKinley"
 	desc = ""
 	picture = "William_McKinley.dds"
-	ideology = republicanism
+	ideology = conservatism
 	traits = {
 
 	}
