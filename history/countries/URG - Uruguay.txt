@@ -5,7 +5,7 @@ set_technology = {
 
 }
 
-set_research_slots = 1
+set_research_slots = 2
 set_convoys = 25
 set_stability = 0.6
 set_war_support = 0.5
@@ -15,17 +15,21 @@ set_war_support = 0.5
 #####################
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1899.1.1"
-	election_frequency = 48
-	elections_allowed = yes
+	election_frequency = 60
+	elections_allowed = yes #The first free democratic elections for President were held in 1920.
 }
 
 set_popularities = {
-	democratic = 100
-	fascism = 0
+	liberalism = 100
+	conservatism = 0
+	social_democracy = 0
+	radical_socialism = 0
 	communism = 0
 	authoritarian = 0
+	nationalism = 0
+	fascism = 0
 }
 
 add_ideas = {
@@ -40,7 +44,7 @@ create_country_leader = {
 	name = "Juan Lindolfo Cuestas"
 	desc = ""
 	picture = "cuestas.dds"
-	ideology = social_liberalism
+	ideology = liberalism
 	traits = {
 
 	}

@@ -15,17 +15,21 @@ set_war_support = 0.3
 #####################
 
 set_politics = {
-	ruling_party = authoritarian
-	last_election = "1898.1.1"
+	ruling_party = conservatism
+	last_election = "1898.2.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 20
-	fascism = 0
+	conservatism = 100
+	liberalism = 0
+	social_democracy = 0
+	radical_socialism = 0
 	communism = 0
-	authoritarian = 80
+	authoritarian = 0
+	nationalism = 0
+	fascism = 0
 }
 
 add_ideas = {
@@ -41,7 +45,7 @@ create_country_leader = {
 	name = "Manuel Antonio Sanclemente"
 	desc = ""
 	picture = "sanclemente.dds"
-	ideology = authoritarian
+	ideology = conservatism
 	traits = {
 
 	}

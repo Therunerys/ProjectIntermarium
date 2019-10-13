@@ -16,9 +16,9 @@ set_war_support = 0.3
 
 set_politics = {
 	ruling_party = liberalism
-	last_election = "1898.1.1"
+	last_election = "1898.2.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 declare_war_on = {
@@ -27,7 +27,16 @@ declare_war_on = {
 }
 
 set_popularities = {
+	liberalism = 80
+	social_democracy = 15
+	radical_socialism = 5
+	conservatism = 0
+	communism = 0
+	authoritarian = 0
+	nationalism = 0
+	fascism = 0
 }
+
 
 add_ideas = {
 	minorpower
@@ -37,3 +46,32 @@ add_ideas = {
 ###### LEADERS ######
 #####################
 
+create_country_leader = {
+	name = "Benjamín Herrera"
+	desc = ""
+	picture = "Benjamin_Herrera.dds"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Benjamín Herrera"
+	desc = ""
+	picture = "Benjamin_Herrera.dds"
+	ideology = social_democracy
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Benjamín Herrera"
+	desc = ""
+	picture = "Benjamin_Herrera.dds"
+	ideology = radical_socialism
+	traits = {
+		#
+	}
+}

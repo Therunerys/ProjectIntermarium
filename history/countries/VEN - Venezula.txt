@@ -22,15 +22,18 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 20
-	fascism = 0
+	conservatism = 0
+	liberalism = 0
+	social_democracy = 0
+	radical_socialism = 0
 	communism = 0
-	authoritarian = 80
+	authoritarian = 100
+	nationalism = 0
+	fascism = 0
 }
 
 add_ideas = {
 	minorpower
-	luck_vice
 }
 
 #####################
@@ -41,7 +44,7 @@ create_country_leader = {
 	name = "Cipriano Castro"
 	desc = ""
 	picture = "cipriano.dds"
-	ideology = military_dictatorship
+	ideology = authoritarian
 	traits = {
 
 	}
