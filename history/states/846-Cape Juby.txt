@@ -1,0 +1,13 @@
+state={
+	id=846
+	name="STATE_846"
+	history={
+		owner = MOR
+		add_core_of = MOR
+	}
+	provinces={
+		8111 13230 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

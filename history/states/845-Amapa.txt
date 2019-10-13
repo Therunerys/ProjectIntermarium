@@ -1,0 +1,14 @@
+state={
+	id=845
+	name="STATE_845"
+	history={
+		owner = FRA
+		add_core_of = CAY
+		add_core_of = BRA
+	}
+	provinces={
+		13228 13229 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

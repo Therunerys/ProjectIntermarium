@@ -1,3 +1,4 @@
+
 state={
 	id=809
 	name="STATE_809"
@@ -16,13 +17,14 @@ state={
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
+
 		}
 		add_core_of = TUR
 
 	}
 
 	provinces={
-		849 922 3879 3893 6895 11842 
+		849 922 3879 3893 6895 11842 13234 
 	}
 	manpower=400000
 	buildings_max_level_factor=1.000

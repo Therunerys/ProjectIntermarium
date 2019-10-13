@@ -2,25 +2,27 @@
 state={
 	id=212
 	name="STATE_212"
-	manpower = 1751967
-	
-	state_category = city
 
 	history={
 		owner = TUR
 		victory_points = {
-			6923 5
+			6923 5 
 		}
 		buildings = {
 			infrastructure = 4
 			arms_factory = 3
-			industrial_complex =2
+			industrial_complex = 2
 			air_base = 2
+
 		}
 		add_core_of = BUL
+
 	}
 
 	provinces={
-		3937 11813 6923 893 9862 878 9818 6857
+		893 6857 9818 9862 13233 13236 
 	}
+	manpower=1751967
+	buildings_max_level_factor=1.000
+	state_category=city
 }

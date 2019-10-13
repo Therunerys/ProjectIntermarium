@@ -1,0 +1,18 @@
+
+state={
+	id=847
+	name="STATE_847"
+
+	history={
+		owner = AHE
+		add_core_of = SER
+		add_claim_by = TUR
+
+	}
+
+	provinces={
+		3922 9890 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

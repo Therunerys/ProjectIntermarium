@@ -1,0 +1,17 @@
+
+state={
+	id=848
+	name="STATE_848"
+
+	history={
+		owner = MOR
+		add_core_of = MOR
+
+	}
+
+	provinces={
+		1152 1207 1207 4097 4154 4933 7173 7958 11987 12042 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

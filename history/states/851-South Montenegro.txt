@@ -1,0 +1,14 @@
+state={
+	id=851
+	name="STATE_851"
+	provinces={
+		13231 
+	}
+	history={
+		owner = AHE
+		add_core_of = AHE
+		add_core_of = MNT
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

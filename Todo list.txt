@@ -1,14 +1,19 @@
 - Adolf Hitler gets accepted to the art school and makes a masterpiece painting
-################## ACTUAL TODO (RisingSun) ####################
-- Small, Medium and non-default flags
-- Canberra
+################## MAP TODO (RisingSun) ####################
 - Austria, Post WW1 borders
-- Fes, Morocco Capital
+- Fes, Morocco Capital, Morocco Independence, Spanish Morocco -> Morocco
 - Remove Panama Canal
-- Burma
+- Burma Border 
 - Cores in Balkans, Finland (and pretty much everywhere)
-- Dafur
-- Counani
+- ALL OF:
+   - Africa
+   - Asia
+   - Pacific/Oceania
+- Redo Balkans and other European borders (Waiting for Eternom's permission)
+################## GENERAL TODO ###################
+- Ideologies/Parties/Popularites for each nation
+- Flags
+- Names
 ################## TODO (LG) #################### 
 - Finish general politics -------------- DONE
 - Making new parties --------------- WIP
