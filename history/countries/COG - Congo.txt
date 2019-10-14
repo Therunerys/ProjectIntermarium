@@ -21,11 +21,15 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 0
-	fascism = 0
+	conservatism = 0
+	liberalism = 0
+	social_democracy = 0
+	radical_socialism = 0
 	communism = 0
 	authoritarian = 100
-}
+	nationalism = 0
+	fascism = 0
+} 
 
 add_ideas = {
 	minorpower
@@ -48,20 +52,11 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/BEL/LeopoldII.dds"
 	expire = "1909.12.17"
-	ideology = absolute_monarchy
+	ideology = authoritarian
 	traits = {
 		#
 	}
 }	
-
-create_country_leader = {
-	name = "Leopold II"
-	picture = "gfx/leaders/BEL/LeopoldII.dds"
-	ideology = constitutional_monarchy
-	traits = {
-		minister
-	}
-}
 
 #####################
 ####### ARMY ########

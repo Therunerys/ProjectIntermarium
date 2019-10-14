@@ -11,18 +11,24 @@ set_war_support = 0.50
 add_ideas = {
 	non-power
 }
+
 set_politics = {
 	ruling_party = authoritarian
+	last_election = "1899.4.29"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 0
-	fascism = 0
+	conservatism = 0
+	liberalism = 0
+	social_democracy = 0
+	radical_socialism = 0
 	communism = 0
 	authoritarian = 100
-}
+	nationalism = 0
+	fascism = 0
+} 
 
 add_ideas = {
 	
@@ -37,7 +43,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Menelik_II.dds"
 	expire = "1965.1.1"
-	ideology = absolute_monarchy
+	ideology = authoritarian
 	traits = {
 		#
 	}

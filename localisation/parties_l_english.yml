@@ -553,7 +553,32 @@
  DOM_radical_socialism_party:0 ""
  DOM_fascism_party:0 ""
 
+ MOR_authoritarian_party:0 "Alaouite dynasty"
+ MOR_social_democracy_party:0 ""
+ MOR_liberalism_party:0 ""
+ MOR_conservatism_party:0 ""
+ MOR_nationalism_party:0 ""
+ MOR_communism_party:0 ""
+ MOR_radical_socialism_party:0 ""
+ MOR_fascism_party:0 ""
 
+ MOR_authoritarian_party:0 "Alaouite dynasty"
+ MOR_social_democracy_party:0 ""
+ MOR_liberalism_party:0 ""
+ MOR_conservatism_party:0 ""
+ MOR_nationalism_party:0 ""
+ MOR_communism_party:0 ""
+ MOR_radical_socialism_party:0 ""
+ MOR_fascism_party:0 ""
+
+ ETH_authoritarian_party:0 "Shewan dynasty"
+ ETH_social_democracy_party:0 ""
+ ETH_liberalism_party:0 ""
+ ETH_conservatism_party:0 ""
+ ETH_nationalism_party:0 ""
+ ETH_communism_party:0 ""
+ ETH_radical_socialism_party:0 ""
+ ETH_fascism_party:0 ""
 
 
 

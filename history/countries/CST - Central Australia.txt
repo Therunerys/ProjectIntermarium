@@ -1,8 +1,5 @@
 ﻿capital = 519
 
-add_ideas = {
-	non-power
-}
 # Starting tech
 set_technology = {
 
@@ -32,6 +29,7 @@ set_popularities = {
 }
 
 add_ideas = {
+	non-power
 	Frederick_Holder
 }
 
