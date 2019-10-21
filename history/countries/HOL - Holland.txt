@@ -28,16 +28,16 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1897.7.27"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	liberalism = 30
-	conservatism = 26
-	social_democracy = 0
+	liberalism = 51
+	conservatism = 40
+	social_democracy = 9
 	radical_socialism = 0
 	communism = 0
 	authoritarian = 0
@@ -72,7 +72,7 @@ create_country_leader = {
 	desc = ""
 	picture = "wilhelmina.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = liberalism
 	traits = {
 		#
 	}

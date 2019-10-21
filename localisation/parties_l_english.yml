@@ -581,6 +581,19 @@
  ETH_fascism_party:0 ""
 
 
+ HOL_authoritarian_party:0 "Shewan dynasty"
+ HOL_social_democracy_party:0 "SDAP"
+ HOL_social_democracy_party_long:0 "Social Democratic Workers' Party"
+ HOL_liberalism_party:0 "Liberal Union"
+ HOL_liberalism_party_long:0 "Liberal Democratic League"
+ HOL_conservatism_party:0 "General League"
+ HOL_conservatism_party_long:0 "General League of Roman Catholic Riding Associations"
+ HOL_nationalism_party:0 ""
+ HOL_communism_party:0 ""
+ HOL_radical_socialism_party:0 ""
+ HOL_fascism_party:0 ""
+
+
 
 
 
@@ -905,19 +918,7 @@
  MAN_fascism_party:0 "MX"
  MAN_fascism_party_long:0 "Manzhōuguó Xiéhehuì"
  ################
- #HOL_authoritarian_party:0 "ARP"
- #HOL_authoritarian_party_long:0 "Anti-Revolutionaire Partij"
- HOL_communism_party:0 "SDAP"
- HOL_communism_party_long:0 "Social Democratic Workers' Party"
- HOL_democratic_party:0 "Liberal Union"
- HOL_democratic_party_long:0 "Liberal Democratic League"
- HOL_democratic_party_rup:0 "Liberal Union"
- HOL_democratic_party_rup_long:0 "Liberal Democratic League"
- HOL_fascism_party:0 "Ultranationalist"
- HOL_fascism_party_long:0 "Ultranationalist Party"
- HOL_authoritarian_party:0 "Orange-Nassau"
- HOL_authoritarian_party_long:0 "House of Orange-Nassau"
-
+ 
  JSM_authoritarian_party:0 "House of Rashid"
 
  WAS_democratic_party:0 "Ministerialist"
