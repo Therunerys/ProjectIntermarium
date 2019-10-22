@@ -4,9 +4,6 @@
 set_technology = {
 
 }
-add_ideas = {
-	non-power
-}
 
 declare_war_on = {
 		target = CHI
@@ -29,16 +26,31 @@ set_politics = {
 }
 
 set_popularities = {
-	social_democracy = 13
-	fascism = 13
-	communism = 13
-	authoritarian = 13
-	liberalism = 12
-	conservatism = 12
-	nationalism = 12
-	radical_socialism = 12
+	social_democracy = 0
+	fascism = 0
+	communism = 0
+	authoritarian = 100
+	liberalism = 0
+	conservatism = 0
+	nationalism = 0
+	radical_socialism = 0
 }
 
 add_ideas = {
-	
+	non-power
+}
+
+#####################
+###### LEADERS ######
+#####################
+
+create_country_leader = {
+	name = "Cao Futian"
+	desc = ""
+	picture = "Cao_Futian.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian
+	traits = {
+		#
+	}
 }

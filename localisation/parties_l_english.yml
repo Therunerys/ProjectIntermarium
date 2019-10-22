@@ -593,7 +593,18 @@
  HOL_radical_socialism_party:0 ""
  HOL_fascism_party:0 ""
 
-
+ JAP_authoritarian_party:0 "Yamato Dynasty"
+ JAP_social_democracy_party:0 ""
+ JAP_social_democracy_party_long:0 ""
+ JAP_liberalism_party:0 "Kenseitō"
+ JAP_liberalism_party_long:0 "The Constitutional Party"
+ JAP_conservatism_party:0 ""
+ JAP_conservatism_party_long:0 ""
+ JAP_nationalism_party:0 "Kokumin Kyōkai"
+ JAP_nationalism_party_long:0 "National Association"
+ JAP_communism_party:0 ""
+ JAP_radical_socialism_party:0 ""
+ JAP_fascism_party:0 ""
 
 
 
@@ -605,9 +616,6 @@
  POL_democratic_party_long:0 "Polskie Stronnictwo Ludowe"
  POL_authoritarian_party:0 "Regency Council"
 
- #JAP_communism_party:0 "Nihon Kyosan-to"
- JAP_democratic_party:0 "Kenseitō"
- #JAP_fascism_party:0 "Taisei Yokusankai"
  SOV_communism_party:0 "All-Union Communist Party"
  SOV_democratic_party:0 "Trudoviks"
  SOV_fascism_party:0 "RFP"

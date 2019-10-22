@@ -18,9 +18,9 @@ if = {
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.15
 	}
-#	else = {
-#		puppet = GEA
-#	}
+	else = {
+		
+	}
 }
 
 #####################
@@ -28,18 +28,22 @@ if = {
 #####################
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_elections = "1898.8.10"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 100
-	fascism = 0
+	conservatism = 0
+	liberalism = 89
+	social_democracy = 0
+	radical_socialism = 0
 	communism = 0
 	authoritarian = 0
-}
+	nationalism = 11
+	fascism = 0
+} 
 
 add_ideas = {
 	majorpower

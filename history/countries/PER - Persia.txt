@@ -4,9 +4,6 @@
 set_technology = {
 	
 }
-add_ideas = {
-	minorpower
-}
 
 set_research_slots = 2
 set_convoys = 50
@@ -19,15 +16,24 @@ set_war_support = 0.30
 
 set_politics = {
 	ruling_party = authoritarian
+	last_election = "1900.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 0
-	fascism = 0
+	conservatism = 0
+	liberalism = 0
+	social_democracy = 0
+	radical_socialism = 0
 	communism = 0
 	authoritarian = 100
+	nationalism = 0
+	fascism = 0
+}
+
+add_ideas = {
+	minorpower
 }
 
 #####################
@@ -39,7 +45,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Mozaffar_Shah.dds"
 	expire = "1965.1.1"
-	ideology = absolute_monarchy
+	ideology = authoritarian
 	traits = {
 		#
 	}
