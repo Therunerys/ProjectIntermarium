@@ -1,7 +1,6 @@
 - Adolf Hitler gets accepted to the art school and makes a masterpiece painting
 ################## MAP TODO (RisingSun) ####################
 - Austria, Post WW1 borders
-- Fes, Morocco Capital, Morocco Independence, Spanish Morocco -> Morocco
 - Remove Panama Canal
 - Burma Border 
 - Cores in Balkans, Finland (and pretty much everywhere)
@@ -9,7 +8,7 @@
    - Africa
    - Asia
    - Pacific/Oceania
-- Redo Balkans and other European borders (Waiting for Eternom's permission)
+- Calcutta = Capital
 ################## GENERAL TODO ###################
 - Ideologies/Parties/Popularites for each nation
 - Flags

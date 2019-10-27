@@ -1,0 +1,12 @@
+state={
+	id=861
+	name="STATE_861"
+	provinces={
+		1905 5068 8094 
+	}
+	history={
+		owner = BHU
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
