@@ -1,0 +1,58 @@
+﻿division_template = {
+	name = "Montenegrin Division"	# Infantry Division	
+
+	division_names_group = YUG_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	######## LAND UNITS ########
+	division = {
+		name = "Cetinje Division"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 9821
+		division_template = "Montenegrin Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Podgorica Division"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 9821
+		division_template = "Montenegrin Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Niksic Division"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 11858
+		division_template = "Montenegrin Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Kolasin Division"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 9809
+		division_template = "Montenegrin Division"
+		start_experience_factor = 0.3
+	}
+}

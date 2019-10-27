@@ -37,21 +37,6 @@ add_ideas = {
 	vice_lack
 }
 
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-		}
-	}
-	set_autonomy = {
-		target = NIC
-		autonomous_state = autonomy_puppet
-	}
-	else = {
-		puppet = NIC
-	}
-}
-
 #####################
 ###### LEADERS ######
 #####################

@@ -15,17 +15,21 @@ set_war_support = 0.5
 #####################
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1898.1.1"
+	ruling_party = liberalism
+	last_election = "1898.3.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 100
-	fascism = 0
+	liberalism = 100
+	conservatism = 0
+	social_democracy = 0
+	radical_socialism = 0
 	communism = 0
 	authoritarian = 0
+	nationalism = 0
+	fascism = 0
 }
 
 add_ideas = {
@@ -41,7 +45,7 @@ create_country_leader = {
 	name = "Manuel Ferraz de Campos Sales"
 	desc = ""
 	picture = "campos.dds"
-	ideology = republicanism
+	ideology = liberalism
 	traits = {
 
 	}

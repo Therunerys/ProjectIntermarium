@@ -15,17 +15,21 @@ set_war_support = 0.3
 #####################
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservatism
 	last_election = "1899.1.1"
 	election_frequency = 36
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 100
-	fascism = 0
+	conservatism = 54
+	liberalism = 46
+	social_democracy = 0
+	radical_socialism = 0
 	communism = 0
 	authoritarian = 0
+	nationalism = 0
+	fascism = 0
 }
 
 add_ideas = {
@@ -40,7 +44,7 @@ create_country_leader = {
 	name = "Tirésias Simon Sam"
 	desc = ""
 	picture = "simon.dds"
-	ideology = liberalism
+	ideology = conservatism
 	traits = {
 
 	}

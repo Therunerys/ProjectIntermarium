@@ -14,18 +14,22 @@ add_ideas = {
 #####################
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1898.1.1"
-	election_frequency = 60
-	elections_allowed = yes
+	ruling_party = liberalism
+	last_election = "1885.1.1"
+	election_frequency = 48
+	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 100
-	fascism = 0
+	conservatism = 0
+	liberalism = 100
+	social_democracy = 0
+	radical_socialism = 0
 	communism = 0
 	authoritarian = 0
-}
+	nationalism = 0
+	fascism = 0
+} 
 
 add_ideas = {
 	Francis_William_Reitz
@@ -40,7 +44,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Paul_Kruger.dds"
 	expire = "1965.1.1"
-	ideology = republicanism
+	ideology = liberalism
 	traits = {
 		#
 	}
