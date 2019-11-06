@@ -186,9 +186,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Keir Hardie"
+	name = "Albert Inkpin"
 	desc = ""
-	picture = "Hardie.dds"
+	picture = "Albert_Inkpin.dds"
 	expire = "1965.1.1"
 	ideology = communism
 	traits = {

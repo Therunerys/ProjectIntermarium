@@ -63,6 +63,18 @@ create_country_leader = {
 		#
 	}
 }
+
+create_country_leader = {
+	name = "Pablo Iglesias"
+	desc = ""
+	picture = "Pablo_Iglesias.dds"
+	expire = "1965.1.1"
+	ideology = social_democracy
+	traits = {
+		#
+	}
+}
+
 #####################
 ####### ARMY ########
 #####################
