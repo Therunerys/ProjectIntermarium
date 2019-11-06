@@ -2536,6 +2536,11 @@
  MAN_showa_steel_works:0 "Anshan Steel Works"
  CHI_illegal_regime:0 "Illegal Regime"
  ######################################
+ tfoe_ideas:0 "TFOE Idea's"
+ power_status:0 "Power Status"
+ industrialisation:0 "Industrialisation"
+ prime_minister:0 "Prime Minister"
+ ######################################
  imperial_pride:0 "Imperial Pride"
  imperial_pride_desc:0 "Gearmans are a proud people, always looking to the future of the empire and believing that the kaiser will lead them to it."
  reichsbank:0 "Reichsbank"
