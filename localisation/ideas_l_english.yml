@@ -2536,7 +2536,7 @@
  MAN_showa_steel_works:0 "Anshan Steel Works"
  CHI_illegal_regime:0 "Illegal Regime"
  ######################################
- tfoe_ideas:0 "TFOE Idea's"
+ political_advisors_cat:0 "Political Advisors"
  power_status:0 "Power Status"
  industrialisation:0 "Industrialisation"
  prime_minister:0 "Prime Minister"

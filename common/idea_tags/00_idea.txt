@@ -16,11 +16,11 @@ idea_categories = {
 	
 	government = {
 		slot = mobilization_laws
+		slot = power_status
 		slot = trade_laws
 		slot = economy
-		slot = political_advisor
-		slot = political_advisor
-		slot = political_advisor
+		slot = industrialisation  
+		slot = prime_minister
 		
 		cost = 150
 		removal_cost = 0
@@ -51,12 +51,12 @@ idea_categories = {
 		removal_cost = 0
 	}
 
-	tfoe_ideas = {
-		slot = power_status 
-		slot = industrialisation  
-		slot = prime_minister
-		
-		cost = 1
+	political_advisors_cat = {
+		slot = political_advisor
+		slot = political_advisor
+		slot = political_advisor
+
+		cost = 150
 		removal_cost = 0
 	}
 }
