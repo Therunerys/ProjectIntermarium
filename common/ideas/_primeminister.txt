@@ -1,0 +1,24 @@
+ideas = {
+	prime_minister = {
+
+		chlodwig = {
+
+			allowed = { original_tag = GER }
+			available = {
+				any_govtype = {
+				has_government = authoritarian
+				has_government = liberalism
+				has_government = conservatism
+				}
+			}
+			
+			traits = {
+				chancellor 
+			}
+			cancel_if_invalid = yes
+		}
+
+		
+
+	}
+}

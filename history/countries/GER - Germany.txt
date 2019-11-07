@@ -80,6 +80,28 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Wilhelm II"
+	desc = "POLITICS_WILHELM_II_DESC"
+	picture = WilhelmII.dds
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		imperial_connections
+	}
+}
+
+create_country_leader = {
+	name = "Wilhelm II"
+	desc = "POLITICS_WILHELM_II_DESC"
+	picture = WilhelmII.dds
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		imperial_connections
+	}
+}
+
 #create_country_leader = {
 #	name = "Ernst Bassermann"
 #	desc = ""
