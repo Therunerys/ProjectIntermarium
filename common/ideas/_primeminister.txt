@@ -54,24 +54,6 @@ ideas = {
 			cancel_if_invalid = yes
 		}
 
-		otto_karl_manteuffel = { #conservatise (not center) party leader
-
-			cost = 0
-			removal_cost = -1
-			
-			allowed = { original_tag = GER }
-
-			available = {
-				has_government = authoritarian
-				always = no
-			}
-			
-			traits = {
-				#chancellor 
-			}
-			cancel_if_invalid = yes
-		}
-
 		august_bebel = { #social democracy party leader
 
 			cost = 0
