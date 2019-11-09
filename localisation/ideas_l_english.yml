@@ -2540,6 +2540,11 @@
  power_status:0 "Power Status"
  industrialisation:0 "Industrialisation"
  prime_minister:0 "Prime Minister"
+ ernst_bassermann:0 "Ernst Bassermann"
+ otto_karl_manteuffel:0 "Otto Karl von Manteuffel"
+ august_bebel:0 "August Bebel"
+ wolfgang_kapp:0 "Wolfgang Kapp"
+ karl_liebknecht:0 "Karl Liebknecht"
  ######################################
  imperial_pride:0 "Imperial Pride"
  imperial_pride_desc:0 "Gearmans are a proud people, always looking to the future of the empire and believing that the kaiser will lead them to it."

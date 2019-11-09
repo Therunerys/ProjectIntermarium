@@ -3732,10 +3732,37 @@ spriteTypes = {
 		name = "GFX_idea_william_ii"
 		texturefile = "gfx/interface/ideas/william_ii.dds"
 	}
+
 	spriteType = {
 		name = "GFX_idea_chlodwig"
 		texturefile = "gfx/interface/ideas/chlodwig_idea.dds"
 	}
+
+	spriteType = {
+		name = "GFX_idea_ernst_bassermann"
+		texturefile = "gfx/interface/ideas/ernst_bassermann_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_otto_karl_manteuffel"
+		texturefile = "gfx/interface/ideas/otto_karl_manteuffel_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_august_bebel"
+		texturefile = "gfx/interface/ideas/august_bebel_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_wolfgang_kapp"
+		texturefile = "gfx/interface/ideas/wolfgang_kapp_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_karl_liebknecht"
+		texturefile = "gfx/interface/ideas/karl_liebknecht_idea.dds"
+	}
+
 	spriteType = {
 		name = "GFX_idea_christian_ix_idea"
 		texturefile = "gfx/interface/ideas/Christian_ix_idea.dds"

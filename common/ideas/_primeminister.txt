@@ -3,22 +3,127 @@ ideas = {
 
 		chlodwig = {
 
+			cost = 0
+			removal_cost = -1
+
 			allowed = { original_tag = GER }
+
 			available = {
-				any_govtype = {
 				has_government = authoritarian
-				has_government = liberalism
-				has_government = conservatism
-				}
 			}
 			
 			traits = {
-				chancellor 
+				#chancellor 
 			}
 			cancel_if_invalid = yes
 		}
 
-		
+		ernst_bassermann = { #liberal party leader
 
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = GER }
+
+			available = {
+				has_government = authoritarian
+				always = no
+			}
+			
+			traits = {
+				#chancellor 
+			}
+			cancel_if_invalid = yes
+		}
+
+		otto_karl_manteuffel = { #conservatise (not center) party leader
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = GER }
+
+			available = {
+				has_government = authoritarian
+				always = no
+			}
+			
+			traits = {
+				#chancellor 
+			}
+			cancel_if_invalid = yes
+		}
+
+		otto_karl_manteuffel = { #conservatise (not center) party leader
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = GER }
+
+			available = {
+				has_government = authoritarian
+				always = no
+			}
+			
+			traits = {
+				#chancellor 
+			}
+			cancel_if_invalid = yes
+		}
+
+		august_bebel = { #social democracy party leader
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = GER }
+
+			available = {
+				has_government = authoritarian
+				always = no
+			}
+			
+			traits = {
+				#chancellor 
+			}
+			cancel_if_invalid = yes
+		}
+
+		wolfgang_kapp = { #nationalist/fascist party leader
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = GER }
+
+			available = {
+				has_government = authoritarian
+				always = no
+			}
+			
+			traits = {
+				#chancellor 
+			}
+			cancel_if_invalid = yes
+		}
+
+		karl_liebknecht = { #communist/radical-socialist party leader
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = GER }
+
+			available = {
+				has_government = authoritarian
+				always = no
+			}
+			
+			traits = {
+				#chancellor 
+			}
+			cancel_if_invalid = yes
+		}
 	}
 }
