@@ -1,7 +1,7 @@
 equipments = {
 
 	ship_hull_cruiser = {
-		year = 1922
+		year = 1898
 
 		is_archetype = yes
 		is_buildable = no
@@ -122,7 +122,7 @@ equipments = {
 	}
 
 	ship_hull_cruiser_1 = {
-		year = 1922
+		year = 1898
 		visual_level = 0
 		archetype = ship_hull_cruiser
 		priority = 1900
@@ -132,7 +132,7 @@ equipments = {
 	}
 
 	ship_hull_cruiser_2 = {
-		year = 1936
+		year = 1904
 		visual_level = 1
 		archetype = ship_hull_cruiser
 		priority = 1900
@@ -196,7 +196,7 @@ equipments = {
 	}
 
 	ship_hull_cruiser_3 = {
-		year = 1940
+		year = 1908
 		visual_level = 1
 		archetype = ship_hull_cruiser
 		priority = 1900
@@ -271,7 +271,7 @@ equipments = {
 	}
 
 	ship_hull_cruiser_4 = {
-		year = 1944
+		year = 1912
 		visual_level = 1
 		archetype = ship_hull_cruiser
 		priority = 1900
@@ -336,7 +336,7 @@ equipments = {
 	}
 
 	light_cruiser_1 = {
-		year = 1922
+		year = 1898
 		visual_level = 0
 		archetype = ship_hull_cruiser
 		priority = 1900
@@ -385,7 +385,7 @@ equipments = {
 	}
 
 	light_cruiser_2 = {
-		year = 1936
+		year = 1904
 		visual_level = 1
 		archetype = ship_hull_cruiser
 		priority = 1900
@@ -434,7 +434,7 @@ equipments = {
 		manpower = 800
 	}
 	light_cruiser_3 = {
-		year = 1940
+		year = 1908
 		visual_level = 1
 		archetype = ship_hull_cruiser
 		priority = 1900
@@ -486,7 +486,7 @@ equipments = {
 	}
 	
 	light_cruiser_4 = {
-		year = 1944
+		year = 1912
 		visual_level = 1
 		archetype = ship_hull_cruiser
 		priority = 1900
@@ -539,7 +539,7 @@ equipments = {
 	}
 
 	heavy_cruiser_1 = {
-		year = 1922
+		year = 1898
 		visual_level = 0
 		type = capital_ship
 		archetype = ship_hull_cruiser
@@ -649,7 +649,7 @@ equipments = {
 	}
 	
 	heavy_cruiser_2 = {
-		year = 1936
+		year = 1904
 		visual_level = 1
 		archetype = ship_hull_cruiser
 		priority = 1800
@@ -698,7 +698,7 @@ equipments = {
 	}
 	
 	heavy_cruiser_3 = {
-		year = 1940
+		year = 1908
 		visual_level = 1
 		archetype = ship_hull_cruiser
 		priority = 1800
@@ -748,7 +748,7 @@ equipments = {
 	}
 	
 	heavy_cruiser_4 = {
-		year = 1944
+		year = 1912
 		visual_level = 1
 		archetype = ship_hull_cruiser
 		priority = 1800

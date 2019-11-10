@@ -1,7 +1,7 @@
 equipments = {
 
 	ship_hull_heavy = {
-		year = 1922
+		year = 1898
 
 		is_archetype = yes
 		is_buildable = no
@@ -183,7 +183,7 @@ equipments = {
 		manpower = 3200
 	}
 	ship_hull_heavy_1 = {
-		year = 1922
+		year = 1898
 		archetype = ship_hull_heavy
 		priority = 1500
 		parent = ship_hull_pre_dreadnought
@@ -273,7 +273,7 @@ equipments = {
 	}
 
 	ship_hull_heavy_2 = {
-		year = 1936
+		year = 1904
 
 		archetype = ship_hull_heavy
 		priority = 1500
@@ -336,7 +336,7 @@ equipments = {
 	}
 
 	ship_hull_heavy_3 = {
-		year = 1940
+		year = 1908
 
 		archetype = ship_hull_heavy
 		priority = 1500
@@ -400,7 +400,7 @@ equipments = {
 	}
 
 	ship_hull_heavy_4 = {
-		year = 1944
+		year = 1912
 
 		archetype = ship_hull_heavy
 		priority = 1500
@@ -464,7 +464,7 @@ equipments = {
 	}
 
 	ship_hull_super_heavy_1 = {
-		year = 1940
+		year = 1912
 
 		archetype = ship_hull_heavy
 		model = super_heavy_battleship
@@ -557,7 +557,7 @@ equipments = {
 	}
 
 	battleship_1 = { 
-		year = 1922
+		year = 1898
 		archetype = ship_hull_heavy
 		priority = 1500
 		visual_level = 0
@@ -664,7 +664,7 @@ equipments = {
 	}
 	
 	battleship_2 = {
-		year = 1936
+		year = 1904
 		visual_level = 1
 		archetype = ship_hull_heavy
 		priority = 1500
@@ -718,7 +718,7 @@ equipments = {
 	}
 	
 	battleship_3 = {
-		year = 1940
+		year = 1908
 		visual_level = 1
 		archetype = ship_hull_heavy
 		priority = 1500
@@ -773,7 +773,7 @@ equipments = {
 	}
 	
 	battleship_4 = {
-		year = 1944
+		year = 1912
 		visual_level = 1
 		archetype = ship_hull_heavy
 		priority = 1500
@@ -827,127 +827,8 @@ equipments = {
 		
 	}
 
-
-	SH_battleship_1 = {
-		year = 1936
-		visual_level = 0
-		archetype = ship_hull_heavy
-		model = super_heavy_battleship
-		priority = 1400
-		module_slots = {
-			fixed_ship_battery_slot = {
-				required = yes
-				allowed_module_categories = { ship_super_heavy_battery }
-			}
-			fixed_ship_anti_air_slot = {
-				required = no
-				allowed_module_categories = { ship_anti_air }
-			}
-			fixed_ship_fire_control_system_slot = {
-				required = yes
-				allowed_module_categories = { ship_fire_control_system }
-			}
-			fixed_ship_radar_slot = {
-				required = no
-				allowed_module_categories = { ship_radar }
-			}
-			fixed_ship_engine_slot = {
-				required = yes
-				allowed_module_categories = { heavy_ship_engine }
-			}
-			fixed_ship_secondaries_slot = {
-				required = no
-				allowed_module_categories = { ship_secondaries }
-			}
-			fixed_ship_armor_slot = {
-				required = yes
-				allowed_module_categories = { ship_super_heavy_armor }	
-			}
-			front_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_anti_air
-					ship_super_heavy_battery
-				}
-			}
-			front_2_custom_slot = front_1_custom_slot
-			mid_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_anti_air
-					ship_secondaries
-				}
-			}
-			mid_2_custom_slot = mid_1_custom_slot
-			mid_3_custom_slot = mid_1_custom_slot
-			rear_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_anti_air
-					ship_secondaries
-					ship_super_heavy_battery
-					ship_airplane_launcher
-				}
-			}
-			rear_2_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_anti_air
-					ship_secondaries
-					ship_super_heavy_battery
-					ship_airplane_launcher
-				}
-			}
-		}
-		default_modules = {
-			fixed_ship_battery_slot = ship_super_heavy_battery_1
-			fixed_ship_anti_air_slot = ship_anti_air_4
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = heavy_ship_engine_4
-			fixed_ship_secondaries_slot = ship_secondaries_2
-			fixed_ship_armor_slot = ship_armor_shbb
-			front_1_custom_slot = ship_anti_air_4
-			mid_1_custom_slot = ship_anti_air_4
-			mid_2_custom_slot = ship_secondaries_2
-			rear_1_custom_slot = ship_super_heavy_battery_1
-		}
-		hg_armor_piercing = 0
-		hg_attack = 0
-
-		lg_armor_piercing = 0
-		lg_attack = 0
-		torpedo_attack = 0
-		
-		anti_air_attack = 0
-		
-		armor_value = 47
-
-		
-		surface_detection = 15
-		sub_detection = 5
-		surface_visibility = 30
-		naval_speed = 20
-		reliability = 0.85
-		
-		naval_range = 4000
-		
-		max_strength = 600
-		
-
-		fuel_consumption = 93
-		
-		build_cost_ic = 8500
-		resources = {
-			#oil = 2
-			steel = 4
-			chromium = 1
-		}
-		manpower = 9000
-	}
-	
 	SH_battleship_2 = {
-		year = 1944
+		year = 1912
 		visual_level = 0
 		archetype = ship_hull_heavy
 		model = super_heavy_battleship
@@ -1067,7 +948,7 @@ equipments = {
 		
 	}
 	battle_cruiser_1 = {
-		year = 1922
+		year = 1908
 		visual_level = 0
 		archetype = ship_hull_heavy
 		priority = 1600
@@ -1122,7 +1003,7 @@ equipments = {
 	}
 	
 	battle_cruiser_2 = {
-		year = 1940
+		year = 1912
 		visual_level = 1
 		archetype = ship_hull_heavy
 		priority = 1600

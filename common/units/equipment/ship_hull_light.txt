@@ -1,7 +1,7 @@
 equipments = {
 
 	ship_hull_light = {
-		year = 1922
+		year = 1898
 
 		is_archetype = yes
 		is_buildable = no
@@ -113,7 +113,7 @@ equipments = {
 	}
 
 	ship_hull_light_1 = {
-		year = 1922
+		year = 1898
 
 		archetype = ship_hull_light
 		priority = 2000
@@ -123,7 +123,7 @@ equipments = {
 	}
 
 	ship_hull_light_2 = {
-		year = 1936
+		year = 1904
 
 		archetype = ship_hull_light
 		priority = 2000
@@ -170,7 +170,7 @@ equipments = {
 	}
 
 	ship_hull_light_3 = {
-		year = 1940
+		year = 1908
 
 		archetype = ship_hull_light
 		priority = 2000
@@ -238,7 +238,7 @@ equipments = {
 	}
 
 	ship_hull_light_4 = {
-		year = 1944
+		year = 1912
 
 		archetype = ship_hull_light
 		priority = 2000
