@@ -3910,22 +3910,22 @@ spriteTypes = {
     ###RisingSun##########################################
     spriteType = {
         name = "GFX_idea_superpower"
-        texturefile = "gfx/interface/ideas/superpower.dds"
+        texturefile = "gfx/interface/ideas/idea_super_power.dds"
     }
     spriteType = {
         name = "GFX_idea_majorpower"
-        texturefile = "gfx/interface/ideas/majorpower.dds"
+        texturefile = "gfx/interface/ideas/idea_major_power.dds"
     }
     spriteType = {
         name = "GFX_idea_minorpower"
-        texturefile = "gfx/interface/ideas/minorpower.dds"
+        texturefile = "gfx/interface/ideas/idea_minor_power.dds"
     }
     spriteType = {
         name = "GFX_idea_greatpower"
-        texturefile = "gfx/interface/ideas/greatpower.dds"
+        texturefile = "gfx/interface/ideas/idea_great_power.dds"
     }
     spriteType = {
         name = "GFX_idea_nonpower"
-        texturefile = "gfx/interface/ideas/nonpower.dds"
+        texturefile = "gfx/interface/ideas/idea_non_power.dds"
     }
 }		
