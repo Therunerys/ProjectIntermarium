@@ -12,7 +12,6 @@ focus_tree = {
 	
 	default = no
 
-	continuous_focus_position = { x = 50 y = 1100 }
 
 	focus = {
         id = industry_for_the_empire
