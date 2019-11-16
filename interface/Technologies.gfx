@@ -697,13 +697,13 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_magnetic_detonator_medium"
-		texturefile = "gfx/interface/technologies/magnetic_detonator.dds"
+		name = "GFX_improved_torpedo_medium"
+		texturefile = "gfx/interface/technologies/improved_torpedo.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_homing_torpedo_medium"
-		texturefile = "gfx/interface/technologies/homing_torpedo.dds"
+		name = "GFX_advanced_torpedo_medium"
+		texturefile = "gfx/interface/technologies/advanced_torpedo.dds"
 	}
 
 	SpriteType = {
@@ -712,8 +712,8 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_electric_torpedo_medium"
-		texturefile = "gfx/interface/technologies/electric_torpedo.dds"
+		name = "GFX_improved_torpedo_warhead_medium"
+		texturefile = "gfx/interface/technologies/improved_torpedo_warhead.dds"
 	}
 
 	SpriteType = {
@@ -1049,12 +1049,12 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_sonar_medium"
+		name = "GFX_early_sub_detection_medium"
 		texturefile = "gfx/interface/technologies/sonar.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_improved_sonar_medium"
+		name = "GFX_basic_sub_detection_medium"
 		texturefile = "gfx/interface/technologies/improved_sonar.dds"
 	}
 
@@ -1318,6 +1318,11 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_advanced_ship_hull_heavy_medium"
 		texturefile = "gfx/interface/technologies/advanced_battleship.dds"
+	}
+
+	spriteType = {
+		name = "GFX_subtech_heavy_battleship"
+		textureFile = "gfx//interface//subtech_heavy_battleship.dds"
 	}
 
 	SpriteType = {
