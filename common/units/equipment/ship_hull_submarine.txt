@@ -85,7 +85,7 @@ equipments = {
 	}
 
 	ship_hull_submarine_1 = {
-		year = 1898
+		year = 1904
 
 		archetype = ship_hull_submarine
 		priority = 2500
@@ -94,7 +94,7 @@ equipments = {
 	}
 
 	ship_hull_submarine_2 = {
-		year = 1904
+		year = 1908
 
 		archetype = ship_hull_submarine
 		priority = 2500
@@ -137,7 +137,7 @@ equipments = {
 	}
 
 	ship_hull_submarine_3 = {
-		year = 1908
+		year = 1912
 
 		archetype = ship_hull_submarine
 		priority = 2500
@@ -186,8 +186,9 @@ equipments = {
 			submarine
 		}	
 	}
+
 	ship_hull_submarine_4 = {
-		year = 1912
+		year = 1914
 
 		archetype = ship_hull_submarine
 		priority = 2500
@@ -238,68 +239,8 @@ equipments = {
 		}	
 	}
 
-	ship_hull_cruiser_submarine = {
-		year = 1898
-
-		archetype = ship_hull_submarine
-		priority = 2600
-		module_slots = {
-			fixed_ship_torpedo_slot = inherit 
-			fixed_ship_engine_slot = inherit
-			front_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_torpedo_sub
-					ship_airplane_launcher
-					ship_mine_layer_sub
-					ship_extra_fuel_tank
-				}
-			}
-			mid_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_radar
-					ship_sub_snorkel
-				}
-			}
-			rear_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_torpedo_sub
-					ship_mine_layer_sub
-					ship_airplane_launcher
-					ship_extra_fuel_tank
-				}
-			}
-		}
-
-		default_modules = {
-			front_1_custom_slot = empty
-			mid_1_custom_slot = empty
-			rear_1_custom_slot = empty
-		}
-		
-		sub_visibility = 20
-		naval_speed = 11
-		reliability = 0.75
-		
-		naval_range = 5000
-		
-		max_strength = 30
-
-
-		
-		build_cost_ic = 370
-		resources = {
-			steel = 2
-		}
-		type = { 
-			submarine
-		}	
-	}
-
 	submarine_1 = {
-		year = 1898
+		year = 1904
 
 		archetype = ship_hull_submarine
 		priority = 2500
@@ -343,7 +284,7 @@ equipments = {
 	}
 	
 	submarine_2 = {
-		year = 1904
+		year = 1908
 
 		archetype = ship_hull_submarine
 		priority = 2500
@@ -389,7 +330,7 @@ equipments = {
 	}
 	
 	submarine_3 = {
-		year = 1908
+		year = 1912
 
 		archetype = ship_hull_submarine
 		priority = 2500
@@ -434,7 +375,7 @@ equipments = {
 	}
 	
 	submarine_4 = {
-		year = 1912
+		year = 1914
 
 		archetype = ship_hull_submarine
 		priority = 2500
