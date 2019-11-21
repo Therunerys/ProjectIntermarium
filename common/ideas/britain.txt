@@ -1,22 +1,6 @@
 ideas = {
 
 	country = {
-		Robert_Gascoyne_Cecil = {
-
-			available = {
-				original_tag = ENG
-			}
-			allowed = {
-				original_tag = ENG
-			}
-
-			allowed_civil_war = {
-				original_tag = ENG
-			}
-			picture = Robert_Gascoyne_Cecil_idea
-			removal_cost = -1
-			traits = { minister }
-		}
 
 		george_v = {
 			

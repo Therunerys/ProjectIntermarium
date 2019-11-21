@@ -3783,10 +3783,27 @@ spriteTypes = {
 		name = "GFX_idea_pierre_waldeck_rousseau_idea"
 		texturefile = "gfx/interface/ideas/Pierre_Waldeck_Rousseau_idea.dds"
 	}
+	#ENG PM's
 	spriteType = {
 		name = "GFX_idea_Robert_Gascoyne_Cecil"
 		texturefile = "gfx/interface/ideas/Robert_Gascoyne_Cecil_idea.dds"
 	}
+
+	spriteType = {
+		name = "GFX_idea_henry_campbell_bannerman"
+		texturefile = "gfx/interface/ideas/henry_campbell_bannerman_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_keir_hardie"
+		texturefile = "gfx/interface/ideas/keir_hardie_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_henry_hyndman"
+		texturefile = "gfx/interface/ideas/henry_hyndman_idea.dds"
+	}
+	#
 	spriteType = {
 		name = "GFX_idea_Walter_Hauser"
 		texturefile = "gfx/interface/ideas/Walter_Hauser_idea.dds"
