@@ -289,5 +289,57 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
+
+		#Portugal
+		jose_luciano = { #Liberal party leader
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = POR }
+
+			available = {
+				has_government = liberalism
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+
+		ernesto_hintze = { #conservative party leader
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = POR }
+
+			available = {
+				has_government = conservatism
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+
+		azedo_gneco = { #socialist party leader
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = POR }
+
+			available = {
+				has_government = social_democracy
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
 	}
 }

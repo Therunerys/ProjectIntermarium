@@ -35,7 +35,7 @@ set_popularities = {
 
 add_ideas = {
 	majorpower 
-	Jose_Luciano_de_Castro
+	jose_luciano
 }
 
 #####################
@@ -64,11 +64,33 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Carlos I"
+	desc = ""
+	picture = "Carlos_I.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Carlos I"
+	desc = ""
+	picture = "Carlos_I.dds"
+	expire = "1965.1.1"
+	ideology = social_democracy
+	traits = {
+		#
+	}
+}
+
 #####################
 ####### ARMY ########
 #####################
 
-create_corps_commander = {
+create_corps_commander = {`
 	name = "José Vicente de Freitas"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	traits = {  }
