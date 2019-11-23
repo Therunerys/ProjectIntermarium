@@ -22,9 +22,9 @@ set_politics = {
 }
 
 set_popularities = {
-	liberalism = 68
-	conservatism = 20
-	social_democracy = 4
+	liberalism = 60.5
+	conservatism = 24.5
+	social_democracy = 7
 	radical_socialism = 6
 	communism = 2
 	authoritarian = 0
@@ -78,9 +78,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Filippo Turati"
+	name = "Umberto I"
 	desc = ""
-	picture = "Filippo_Turati.dds"
+	picture = "umberto_I.dds"
 	expire = "1965.1.1"
 	ideology = social_democracy
 	traits = {

@@ -3803,7 +3803,15 @@ spriteTypes = {
 		name = "GFX_idea_henry_hyndman"
 		texturefile = "gfx/interface/ideas/henry_hyndman_idea.dds"
 	}
-	#
+
+	spriteType = {
+		name = "GFX_idea_giovanni_giolitti"
+		texturefile = "gfx/interface/ideas/giovanni_giolitti_idea.dds"
+	}
+
+
+
+	###############
 	spriteType = {
 		name = "GFX_idea_Walter_Hauser"
 		texturefile = "gfx/interface/ideas/Walter_Hauser_idea.dds"
@@ -3811,6 +3819,19 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_Luigi_Pelloux"
 		texturefile = "gfx/interface/ideas/Luigi_Pelloux_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_antonio"
+		texturefile = "gfx/interface/ideas/antonio_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_filippo_turati"
+		texturefile = "gfx/interface/ideas/filippo_turati_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ettore_sacchi"
+		texturefile = "gfx/interface/ideas/ettore_sacchi_idea.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_Heinrich_Ritter"

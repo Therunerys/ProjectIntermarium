@@ -1,22 +1,6 @@
 ideas = {
 
 	country = {
-		Luigi_Pelloux = {
-
-			available = {
-				original_tag = ITA
-			}
-			allowed = {
-				original_tag = ITA
-			}
-
-			allowed_civil_war = {
-				original_tag = ITA
-			}
-			picture = Luigi_Pelloux
-			removal_cost = -1
-			traits = { minister }
-		}
 
 		fascism_threat = {
 
