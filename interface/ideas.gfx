@@ -3874,8 +3874,12 @@ spriteTypes = {
         texturefile = "gfx/interface/ideas/Johannes_Steen.tga"
 	}
     spriteType = {
-        name = "GFX_idea_Francisco_Silvela"
-        texturefile = "gfx/interface/ideas/Francisco_Silvela.tga"
+        name = "GFX_idea_francisco_silvela"
+        texturefile = "gfx/interface/ideas/francisco_silvela_idea.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_mateo_sagasta"
+        texturefile = "gfx/interface/ideas/mateo_sagasta_idea.dds"
     }
     spriteType = {
         name = "GFX_idea_Jose_Luciano_de_Castro"

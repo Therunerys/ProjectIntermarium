@@ -24,8 +24,8 @@ set_politics = {
 }
 
 set_popularities = {
-	conservatism = 65
-	liberalism = 35
+	conservatism = 56.94
+	liberalism = 43.06
 	social_democracy = 0
 	radical_socialism = 0
 	communism = 0
@@ -35,7 +35,7 @@ set_popularities = {
 }
 
 add_ideas = {
-	Francisco_Silvela
+	francisco_silvela
 }
 
 #####################
@@ -69,7 +69,18 @@ create_country_leader = {
 	desc = ""
 	picture = "Pablo_Iglesias.dds"
 	expire = "1965.1.1"
-	ideology = social_democracy
+	ideology = communism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Pablo Iglesias"
+	desc = ""
+	picture = "Pablo_Iglesias.dds"
+	expire = "1965.1.1"
+	ideology = radical_socialism
 	traits = {
 		#
 	}

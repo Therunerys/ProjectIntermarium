@@ -257,5 +257,37 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
+		#SPR
+		francisco_silvela = { #conservative party leader
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = SPR }
+
+			available = {
+				has_government = conservatism
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+
+		mateo_sagasta = { #Liberal party leader
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = SPR }
+
+			available = {
+				has_government = liberalism
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
 	}
 }
