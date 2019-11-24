@@ -1291,28 +1291,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/early_submarine.dds"
 	}
 	#
-	################################# CARRIERS #################################
-	#
-	SpriteType = {
-		name = "GFX_advanced_ship_hull_carrier_medium"
-		texturefile = "gfx/interface/technologies/advanced_carrier.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_improved_ship_hull_carrier_medium"
-		texturefile = "gfx/interface/technologies/improved_carrier.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_basic_ship_hull_carrier_medium"
-		texturefile = "gfx/interface/technologies/basic_carrier.dds"
-	}
-
-	SpriteType = {	
-		name = "GFX_early_ship_hull_carrier_medium"
-		texturefile = "gfx/interface/technologies/early_carrier.dds"
-	}
-	#
 	################################# HEAVY SHIPS #################################
 	#
 	SpriteType = {
@@ -1638,6 +1616,36 @@ spriteTypes = {
 	#
 	################################# AIR UNITS #################################
 	#
+	SpriteType = {
+		name = "GFX_recon_balloons_medium"
+		texturefile = "gfx/interface/technologies/air_balloon.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_plane_blueprints_medium"
+		texturefile = "gfx/interface/technologies/air_planeblueprint.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_plane_frame_medium"
+		texturefile = "gfx/interface/technologies/fleet_in_being.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_plane_engine_medium"
+		texturefile = "gfx/interface/technologies/air_planeengine.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_plane_cockpit_medium"
+		texturefile = "gfx/interface/technologies/air_planecockpit.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_first_plane_medium"
+		texturefile = "gfx/interface/technologies/fleet_in_being.dds"
+	}
+
 	SpriteType = {
 		name = "GFX_early_fighter_medium"
 		texturefile = "gfx/interface/technologies/fighter1.dds"
