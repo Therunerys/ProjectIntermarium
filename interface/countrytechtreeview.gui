@@ -1985,7 +1985,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1921"
+					text = "1898"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -1998,7 +1998,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1922"
+					text = "1902"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -2011,7 +2011,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1923"
+					text = "1904"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -2024,7 +2024,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1924"
+					text = "1906"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -2037,7 +2037,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1925"
+					text = "1908"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -2050,7 +2050,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1926"
+					text = "1910"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -2063,7 +2063,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1927"
+					text = "1912"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -2076,7 +2076,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1928"
+					text = "1914"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -2096,7 +2096,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1921"
+					text = "1898"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -2109,7 +2109,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1922"
+					text = "1902"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -2122,7 +2122,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1923"
+					text = "1904"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -2135,7 +2135,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1924"
+					text = "1906"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -2148,7 +2148,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1925"
+					text = "1908"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -2161,7 +2161,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1926"
+					text = "1910"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -2174,7 +2174,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1927"
+					text = "1912"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -2187,17 +2187,68 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1928"
+					text = "1914"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
 					Orientation = "UPPER_LEFT"
 				}			
-			
-			}				
+			}		
+
+				instantTextBoxType = {
+					name = "industry_subtitle"
+					position = { x = 770 y = 150 }
+					textureFile = ""
+					font = "hoi_22tech"
+					borderSize = {x = 0 y = 4}
+					text = "INDUSTRY_TITLE"
+					maxWidth = 200
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "industry_subtitle_production"
+					position = { x = 350 y = 60  }
+					textureFile = ""
+					font = "hoi_22tech"
+					borderSize = {x = 0 y = 4}
+					text = "INDUSTRY_TITLE_PRODUCTION"
+					maxWidth = 200
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+				}				
+
+				instantTextBoxType = {
+					name = "industry_subtitle_synthetic_oil"
+					position = { x = 1450 y = 200  }
+					textureFile = ""
+					font = "hoi_22tech"
+					borderSize = {x = 0 y = 4}
+					text = "INDUSTRY_TITLE_OIL"
+					maxWidth = 150
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "industry_subtitle_construction"
+					position = { x = 1000 y = 345  }
+					textureFile = ""
+					font = "hoi_22tech"
+					borderSize = {x = 0 y = 4}
+					text = "INDUSTRY_TITLE_CONSTRUCTION"
+					maxWidth = 250
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+				}	
 	
 			gridboxtype = {
-				name = "machine_tools_tree"
+				name = "early_tools_tree"
 				position = { x = 50 y = 100 }
 				size = { width = 520 height = 1500 }
 				slotsize = { width = 70 height = 70 }
@@ -2205,7 +2256,7 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "construction1_tree"
+				name = "basic_excavation_tree"
 				position = { x = 800 y = 240 }
 				size = { width = 520 height = 1500 }
 				slotsize = { width = 70 height = 70 }

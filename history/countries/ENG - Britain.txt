@@ -128,10 +128,10 @@ set_politics = {
 }
 
 set_popularities = {
-	conservatism = 51
-	liberalism = 46
-	social_democracy = 2
-	communism = 1
+	conservatism = 50.8
+	liberalism = 47.3
+	social_democracy = 1.4
+	communism = 0.5
 	authoritarian = 0
 	nationalism = 0
 	fascism = 0
@@ -175,9 +175,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Keir Hardie"
+	name = "Victoria I"
 	desc = ""
-	picture = "Hardie.dds"
+	picture = "victoria.dds"
 	expire = "1965.1.1"
 	ideology = social_democracy
 	traits = {
@@ -186,9 +186,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Albert Inkpin"
+	name = "Henry Hyndman"
 	desc = ""
-	picture = "Albert_Inkpin.dds"
+	picture = "Henry_Hyndman.dds"
 	expire = "1965.1.1"
 	ideology = communism
 	traits = {

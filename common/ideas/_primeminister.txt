@@ -107,5 +107,239 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
+		#UK
+		Robert_Gascoyne_Cecil = { #conservative party leader
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = ENG }
+
+			available = {
+				has_government = conservatism
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+
+		henry_campbell_bannerman = { #liberal party leader 
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = ENG }
+
+			available = {
+				has_government = liberalism
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+
+		keir_hardie = { #socialist party leader
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = ENG }
+
+			available = {
+				has_government = social_democracy
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+
+		henry_hyndman = { #communist party leader
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = ENG }
+
+			available = {
+				has_government = communism
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+		#Italy
+		Luigi_Pelloux = { #Military PM (staying with him untill 1900 june elections)
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = ITA }
+
+			available = {
+				has_government = liberalism
+				date < 1901.01.01
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+
+		giovanni_giolitti = { #Liberal party leader
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = ITA }
+
+			available = {
+				has_government = liberalism
+				date > 1900.12.01
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+
+		antonio = { #conservative party leader
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = ITA }
+
+			available = {
+				has_government = conservatism
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+
+		ettore_sacchi = { #socialist party leader
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = ITA }
+
+			available = {
+				has_government = social_democracy
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+
+		filippo_turati = { #radical socialism party leader
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = ITA }
+
+			available = {
+				OR = {
+					has_government = communism
+					has_government = radical_socialism
+				}
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+		#SPR
+		francisco_silvela = { #conservative party leader
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = SPR }
+
+			available = {
+				has_government = conservatism
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+
+		mateo_sagasta = { #Liberal party leader
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = SPR }
+
+			available = {
+				has_government = liberalism
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+
+		#Portugal
+		jose_luciano = { #Liberal party leader
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = POR }
+
+			available = {
+				has_government = liberalism
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+
+		ernesto_hintze = { #conservative party leader
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = POR }
+
+			available = {
+				has_government = conservatism
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+
+		azedo_gneco = { #socialist party leader
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = POR }
+
+			available = {
+				has_government = social_democracy
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
 	}
 }
