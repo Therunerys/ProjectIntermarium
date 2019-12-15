@@ -4,12 +4,20 @@ bookmarks = {
 		desc = "NEW_DAWN_DESC"
 		date = 1900.1.1.12
 		picture = "GFX_select_date_1900"
-		default_country = "ENG"
 		default = yes
-		
-		"ENG"={
-			history = "ENG_NEW_DAWN_DESC"
+
+
+		"USA"={
+			history = "USA_NEW_DAWN_DESC"
 			ideology = conservatism
+			focuses = {
+				
+			}
+		}
+		
+		"RUS"={
+			history = "RUS_NEW_DAWN_DESC"
+			ideology = neutrality
 			ideas = {
 				
 			}
@@ -29,9 +37,9 @@ bookmarks = {
 			}
 		}
 
-		"RUS"={
-			history = "RUS_NEW_DAWN_DESC"
-			ideology = neutrality
+		"ENG"={
+			history = "ENG_NEW_DAWN_DESC"
+			ideology = conservatism
 			ideas = {
 				
 			}
@@ -40,19 +48,25 @@ bookmarks = {
 			}
 		}
 
-		"USA"={
-			history = "USA_NEW_DAWN_DESC"
-			ideology = conservatism
-			focuses = {
+		"GER"={
+			history = "GER_NEW_DAWN_DESC"
+			ideology = authoritarian
+			ideas = {
 				
 			}
+			focuses = {
+				
+			}	
 		}
 
-		"JAP"={
-			history = "JAP_NEW_DAWN_DESC"
-			ideology = authoritarian
+		"AHE"={
+			history = "AHE_NEW_DAWN_DESC"
+			ideology = conservatism
+			ideas = {
+				
+			}
 			focuses = {
-
+				
 			}	
 		}
 
@@ -67,25 +81,11 @@ bookmarks = {
 			}			
 		}
 
-		"AHE"={
-			history = "AHE_NEW_DAWN_DESC"
-			ideology = conservatism
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}	
-		}
-
-		"GER"={
-			history = "GER_NEW_DAWN_DESC"
+		"JAP"={
+			history = "JAP_NEW_DAWN_DESC"
 			ideology = authoritarian
-			ideas = {
-				
-			}
 			focuses = {
-				
+
 			}	
 		}
 
