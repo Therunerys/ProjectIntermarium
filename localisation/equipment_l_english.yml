@@ -479,6 +479,15 @@
  SER_infantry_equipment_2_short:0 "Steyr M1908"
  SER_infantry_equipment_3:0 "Standschütze Hellriegel M1910"
  SER_infantry_equipment_3_short:0 "SH M1910"
+
+ GRE_infantry_equipment_0:0 "Mannlicher M1895"
+ GRE_infantry_equipment_0_short:0 "Mann M1895"
+ GRE_infantry_equipment_1:0 "Mannlicher-Schönauer M1902"
+ GRE_infantry_equipment_1_short:0 "M-S M1902"
+ GRE_infantry_equipment_2:0 "Steyr M1908"
+ GRE_infantry_equipment_2_short:0 "Steyr M1908"
+ GRE_infantry_equipment_3:0 "Standschütze Hellriegel M1910"
+ GRE_infantry_equipment_3_short:0 "SH M1910"
  #         FRENCH SPHERE
  FRA_infantry_equipment_0:0 "Lebel Modèle 1886"
  FRA_infantry_equipment_0_short:0 "Lebel M1886"
@@ -552,6 +561,15 @@
  NZL_infantry_equipment_2_short:0 "Enfield P1908"
  NZL_infantry_equipment_3:0 "Lewis Gun"
  NZL_infantry_equipment_3_short:0 "Lewis Gun"
+
+ POR_infantry_equipment_0:0 "Magazine Lee-Enfield"
+ POR_infantry_equipment_0_short:0 "Enfield MLE"
+ POR_infantry_equipment_1:0 "Short Magazine Lee-Enfield"
+ POR_infantry_equipment_1_short:0 "Enfield SMLE"
+ POR_infantry_equipment_2:0 "Pattern 1908 Enfield"
+ POR_infantry_equipment_2_short:0 "Enfield P1908"
+ POR_infantry_equipment_3:0 "Lewis Gun"
+ POR_infantry_equipment_3_short:0 "Lewis Gun"
  #         AMERICAN SPHERE
  USA_infantry_equipment_0:0 "Springfield Model 1895"
  USA_infantry_equipment_0_short:0 "Springfield M1895"
@@ -643,15 +661,6 @@
  #MEX_infantry_equipment_3:0 "Mendoza RM2"
  #MEX_infantry_equipment_3_short:0 "Mendoza RM2"
 
- #GRE_infantry_equipment_0:0 "Mannlicher M03"
- #GRE_infantry_equipment_0_short:0 "Mannlicher M03"
- #GRE_infantry_equipment_1:0 "Mannlicher M95/24"
- #GRE_infantry_equipment_1_short:0 "Mannlicher M95/24"
- #GRE_infantry_equipment_2:0 "EYP Hotchkiss M26"
- #GRE_infantry_equipment_2_short:0 "EYP Hotchkiss M26"
- #GRE_infantry_equipment_3:0 "EPK-Pyrkal SMG"
- #GRE_infantry_equipment_3_short:0 "EPK-Pyrkal SMG"
-
  #PER_infantry_equipment_0:0 "Mauser 98"
  #PER_infantry_equipment_0_short:0 "Mauser 98"
  #PER_infantry_equipment_1:0 "Zbrojovka Brno vz.24"
@@ -660,15 +669,6 @@
  #PER_infantry_equipment_2_short:0 "ZB vz.30"
  #PER_infantry_equipment_3:0 "PPSh-41"
  #PER_infantry_equipment_3_short:0 "PPSh-41"
-
- #POR_infantry_equipment_0:0 "Espingarda m/04"
- #POR_infantry_equipment_0_short:0 "Espingarda m/04"
- #POR_infantry_equipment_1:0 "Espingarda m/04/39"
- #POR_infantry_equipment_1_short:0 "Espingarda m/04/39"
- #POR_infantry_equipment_2:0 "Bergmann MP28"
- #POR_infantry_equipment_2_short:0 "Bergmann MP28"
- #POR_infantry_equipment_3:0 "FBP m/948"
- #POR_infantry_equipment_3_short:0 "FBP m/948"
 
  #ARG_infantry_equipment_0:0 "Mauser M91"
  #ARG_infantry_equipment_0_short:0 "Mauser M91"
