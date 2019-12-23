@@ -1,8 +1,8 @@
 technologies = {
-	coil = {
+	
+	radio_waves = {
 
-		# small boost to research speed
-		research_time_factor = -0.02
+		research_speed_factor = 0.04
 		
 		path = {
 			leads_to_tech = telegraph 
@@ -10,17 +10,12 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = steam_powered_calculator
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = early_batteries
+			leads_to_tech = diode
 			research_cost_coeff = 1
 		}
 		
 		research_cost = 1
-		start_year = 1936
+		start_year = 1898
 
 		folder = {
 			name = electronics_folder
@@ -29,7 +24,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 30
-			
 			
 			modifier = {
 				factor = 3
@@ -41,21 +35,24 @@ technologies = {
 			electronics
 		}
 	}
+	#
+	################################## COMMUNICATION #################################
+	#
+	telegraph = {
 
-	early_batteries = {
-
-		research_time_factor = -0.02
+		land_reinforce_rate = 0.01
 		
 		path = {
-			leads_to_tech = computing_machine
+			leads_to_tech = headphones
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.5
+		research_cost = 1.5
+		start_year = 1900
 		
 		folder = {
 			name = electronics_folder
-			position = { x = 0 y = 6 }
+			position = { x = -2 y = 2 }
 		}
 		
 		ai_will_do = {
@@ -67,24 +64,22 @@ technologies = {
 			computing_tech
 		}
 	}
-	#
-	################################## RADIO AND RADAR #################################
-	#
-	telegraph = {
+	
+	headphones = {
 
-		# units with radios can more efficiently join combats when there is room
 		land_reinforce_rate = 0.02
 		
 		path = {
-			leads_to_tech = early_detection 
+			leads_to_tech = early_radio 
 			research_cost_coeff = 1
 		}
 		
 		research_cost = 1.5
+		start_year = 1904
 		
 		folder = {
 			name = electronics_folder
-			position = { x = -2 y = 2 }
+			position = { x = -2 y = 6 }
 		}
 		
 		ai_will_do = {
@@ -105,81 +100,17 @@ technologies = {
 		}
 	}
 	
-	early_detection = {
+	early_radio = {
 
-		enable_building = {
-			building = radar_station
-			level = 1
-		}
+		land_reinforce_rate = 0.02
 		
 		path = {
-			leads_to_tech = short_wave_radio 
+			leads_to_tech = basic_radio
 			research_cost_coeff = 1
 		}
 		
 		research_cost = 1.5
-		
-		folder = {
-			name = electronics_folder
-			position = { x = -2 y = 4 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			electronics
-			radar_tech
-		}
-	}
-	
-	short_wave_radio = {
-
-		enable_building = {
-			building = radar_station
-			level = 2
-		}
-
-		land_reinforce_rate = 0.03
-
-		path = {
-			leads_to_tech = radio_repeater 
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.5
-		start_year = 1938
-		
-		folder = {
-			name = electronics_folder
-			position = { x = -2 y = 6 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			electronics
-			radar_tech
-		}
-	}
-	
-	radio_repeater = {
-
-		enable_building = {
-			building = radar_station
-			level = 3
-		}
-		
-		path = {
-			leads_to_tech = sensitive_sensors
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1939
+		start_year = 1906
 		
 		folder = {
 			name = electronics_folder
@@ -192,26 +123,23 @@ technologies = {
 		
 		categories = {
 			electronics
-			radar_tech
 		}
 	}
 	
-	sensitive_sensors = {
+	basic_radio = {
 
 		enable_building = {
 			building = radar_station
-			level = 4
+			level = 1
 		}
 
-		static_anti_air_hit_chance_factor = 0.2
-		
 		path = {
-			leads_to_tech = advanced_detection
+			leads_to_tech = improved_radio
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2.5
-		start_year = 1940
+		research_cost = 1.5
+		start_year = 1908
 		
 		folder = {
 			name = electronics_folder
@@ -228,27 +156,15 @@ technologies = {
 		}
 	}
 	
-	advanced_detection = {
+	improved_radio = {
 
 		enable_building = {
 			building = radar_station
-			level = 5
+			level = 2
 		}
 
-		enable_building = {
-			building = radar_station
-			level = 6
-		}
-
-		static_anti_air_hit_chance_factor = 0.2
-		
-		path = {
-			leads_to_tech = suitcase_calculator
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 2.5
-		start_year = 1941
+		research_cost = 1.5
+		start_year = 1910
 		
 		folder = {
 			name = electronics_folder
@@ -265,14 +181,14 @@ technologies = {
 		}
 	}
 	#
-	###################### ELECTRONIC #####################################
+	###################### ELECTRONICS #####################################
 	#
-	steam_powered_calculator = {
+	diode = {
 
-		research_time_factor = -0.03
+		research_speed_factor = 0.06
 		
 		path = {
-			leads_to_tech = computing_machine
+			leads_to_tech = triode
 			research_cost_coeff = 1
 		}
 
@@ -282,6 +198,7 @@ technologies = {
 		}
 		
 		research_cost = 2.5
+		start_year = 1902
 		
 		folder = {
 			name = electronics_folder
@@ -298,17 +215,17 @@ technologies = {
 		}
 	}
 	
-	computing_machine = {
+	triode = {
 
-		research_time_factor = -0.03
+		research_speed_factor = 0.08
 		
 		path = {
-			leads_to_tech = improved_computing_machine 
+			leads_to_tech = computing_machine 
 			research_cost_coeff = 1
 		}
 		
 		research_cost = 2.5
-		start_year = 1938
+		start_year = 1906
 		
 		folder = {
 			name = electronics_folder
@@ -335,17 +252,12 @@ technologies = {
 		}
 	}
 	
-	improved_computing_machine = {
+	computing_machine = {
 
-		research_time_factor = -0.05
-
-		path = {
-			leads_to_tech = suitcase_calculator
-			research_cost_coeff = 1
-		}
+		research_speed_factor = 0.1
 
 		research_cost = 2.5
-		start_year = 1940
+		start_year = 1910
 		
 		folder = {
 			name = electronics_folder
@@ -391,7 +303,7 @@ technologies = {
 		}
 		
 		research_cost = 1
-		start_year = 1938
+		start_year = 1904
 		
 		folder = {
 			name = electronics_folder
@@ -419,7 +331,7 @@ technologies = {
 		}
 		
 		research_cost = 1
-		start_year = 1938
+		start_year = 1906
 		
 		folder = {
 			name = electronics_folder
@@ -447,7 +359,7 @@ technologies = {
 		}
 		
 		research_cost = 1
-		start_year = 1940
+		start_year = 1908
 		
 		folder = {
 			name = electronics_folder
@@ -470,7 +382,7 @@ technologies = {
 		encryption = 1
 		
 		research_cost = 1
-		start_year = 1942
+		start_year = 1910
 		
 		folder = {
 			name = electronics_folder
@@ -498,7 +410,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1938
+		start_year = 1906
 		
 		folder = {
 			name = electronics_folder
@@ -526,7 +438,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1940
+		start_year = 1908
 		
 		folder = {
 			name = electronics_folder
@@ -549,7 +461,7 @@ technologies = {
 		decryption = 1
 		
 		research_cost = 1.5
-		start_year = 1942
+		start_year = 1910
 		
 		folder = {
 			name = electronics_folder
@@ -566,29 +478,102 @@ technologies = {
 		}
 	}
 	#
-	########## THE ROCKET TREE CANNOT BE REMOVED AS IT WILL CRASH THE GAME ############
+	#################### GAS #############################
 	#
-	#
-	#################################### SUITCASE CALCULATOR #########################
-	#
-	suitcase_calculator = {
+	chlorine_gas = {
 
-		static_anti_air_hit_chance_factor = 0.2
+		category_all_infantry = {
+			soft_attack = 0.02
+			breakthrough = 0.05
+		}
 		
-		research_cost = 2.5
-		start_year = 1942
+		path = {
+			leads_to_tech = mustard_gas
+			research_cost_coeff = 1
+		}
 		
+		research_cost = 1.5
+		start_year = 1904
+
 		folder = {
 			name = electronics_folder
-			position = { x = 0 y = 14 }
+			position = { x = 0 y = 0 }
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 30
+			
+			modifier = {
+				factor = 3
+				date > "1937.1.1"
+			}
 		}
 		
 		categories = {
-			electronics
+			nuclear
+		}
+	}
+
+	mustard_gas = {
+
+		category_all_infantry = {
+			soft_attack = 0.05
+			breakthrough = 0.08
+		}
+		
+		path = {
+			leads_to_tech = phosgene_gas
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1908
+
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			
+			modifier = {
+				factor = 3
+				date > "1937.1.1"
+			}
+		}
+		
+		categories = {
+			nuclear
+		}
+	}
+
+	phosgene_gas = {
+
+		category_all_infantry = {
+			soft_attack = 0.08
+			breakthrough = 0.12
+		}
+		
+		research_cost = 2.5
+		start_year = 1912
+
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			
+			modifier = {
+				factor = 3
+				date > "1937.1.1"
+			}
+		}
+		
+		categories = {
+			nuclear
 		}
 	}
 }

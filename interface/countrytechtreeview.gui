@@ -51,7 +51,7 @@ guiTypes = {
 				name = "techtree_stripes"
 				position = { x= 0 y= 0 }
 				size = { 
-					width = 1400 height = 1275
+					width = 1950 height = 1500
 					min = { width = 100%% height = 100%% }
 				}
 				clipping = no
@@ -210,30 +210,7 @@ guiTypes = {
 					maxHeight = 32
 					format = left
 					Orientation = "UPPER_LEFT"
-				}						
-				instantTextBoxType = {
-					name = "infantry_year12"
-					position = { x = 1950 y = 50 }
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "1913"
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-				instantTextBoxType = {
-					name = "infantry_year13"
-					position = { x = 2150 y = 50 }
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "1914"
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}			
-
+				}									
 			}
 
 			iconType = {
@@ -2700,23 +2677,77 @@ guiTypes = {
 				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 
-			iconType = {
-					name ="coil_techtree_bg"
+			containerWindowType = {
+				name = "size_filler"
+				position = { x=0 y=0 }
+				size = {
+					width = 710 height = 1100
+					min = { width= 100%% height = 100%% }
+				}
+				
+				iconType = {
+					name ="engineering_techtree_bg"
 					spriteType = "GFX_engineering_techtree_bg"
 					position = { x=0 y=0 }
-			}		
+				}		
 
-			gridboxtype = {
-				name = "coil_tree"
-				position = { x=50 y=100 }
-				size = { width = 700 height = 1000 }
-				slotsize = { width=60 height= 60 }
-				format = "UP"
+				iconType = {
+					name ="wonderweapons_bg"
+					spriteType = "GFX_wonderweapons_bg"
+					position = { x=810 y=0 }
+					allwaystransparent = yes
+				}	
+			}
+
+			containerWindowType = {
+				name = "wonderweapon_year"
+				position = { x=850 y=170 }
+				size = { width = 130 height = 100% }
+				orientation = upper_left
+			
+				instantTextBoxType = {
+					name = "wonderweapon_year1"
+					position = { x = 0 y = 140 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1904"
+					maxWidth = 130
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "wonderweapon_year2"
+					position = { x = 0 y = 380 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1908"
+					maxWidth = 130
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "wonderweapon_year3"
+					position = { x = 0 y = 620 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1912"
+					maxWidth = 130
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
 			}
 
 			containerWindowType = {
 					name = "electronics_year_left"
-					position = { x=-1750 y=140 }
+					position = { x=-1750 y=210 }
 					size = { width = 80 height = 100%% }
 					orientation = upper_right
 				
@@ -2726,7 +2757,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1921"
+						text = "1898"
 						maxWidth = 80
 						maxHeight = 32
 						format = left
@@ -2739,7 +2770,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1922"
+						text = "1900"
 						maxWidth = 80
 						maxHeight = 32
 						format = left
@@ -2752,7 +2783,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1923"
+						text = "1902"
 						maxWidth = 80
 						maxHeight = 32
 						format = left
@@ -2765,7 +2796,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1924"
+						text = "1904"
 						maxWidth = 80
 						maxHeight = 32
 						format = left
@@ -2778,7 +2809,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1925"
+						text = "1906"
 						maxWidth = 80
 						maxHeight = 32
 						format = left
@@ -2791,7 +2822,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1926"
+						text = "1908"
 						maxWidth = 80
 						maxHeight = 32
 						format = left
@@ -2804,27 +2835,54 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1927"
+						text = "1910"
 						maxWidth = 80
 						maxHeight = 32
 						format = left
 						Orientation = "UPPER_LEFT"
-					}
+					}			
+				}
 
-					instantTextBoxType = {
-						name = "electronics_year8_left"
-						position = { x = 0 y = 820 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1928"
-						maxWidth = 80
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}				
-				}			
+				instantTextBoxType = {
+					name = "electronic_eng_subtitle"
+					position = { x = 295 y = 130 }
+					font = "hoi_22tech"
+					borderSize = {x = 0 y = 4}
+					text = "TITLE_ELECTRONIC_SUBTITLE"
+					maxWidth = 200
+					maxHeight = 122
+					format = center
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "chemical_warfare_subtitle"
+					position = { x = 900 y = 250 }
+					font = "hoi_22tech"
+					borderSize = {x = 0 y = 4}
+					text = "TITLE_GAS_SUBTITLE"
+					maxWidth = 200
+					maxHeight = 122
+					format = center
+					Orientation = "UPPER_LEFT"
+				}
+	
+			gridboxtype = {
+				name = "radio_waves_tree"
+				position = { x=50 y=172 }
+				size = { width = 680 height = 800 }
+				slotsize = { width=60 height= 60 }
+				format = "UP"
+			}			
+			
+			gridboxtype = {
+				name = "chlorine_gas_tree"
+				position = { x=655 y=292 }
+				size = { width = 680 height = 500 }
+				slotsize = { width=60 height= 60 }
+				format = "UP"
 			}
+		}			
 
 		containerWindowType = {
 			name = "folder_tabs"
