@@ -1007,6 +1007,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/ENG_lighttank1.dds"
 	}
 	#
+	######################################## AMERICAN TANKS AND ARMOR ####################################################
+	#
+	SpriteType = {
+		name = "GFX_USA_armored_car4_medium"
+		texturefile = "gfx/interface/technologies/USA_armoredcar4.dds"
+	}
+	#
+	######################################## SPANISH TANKS AND ARMOR ####################################################
+	#
+	SpriteType = {
+		name = "GFX_SPR_armored_car3_medium"
+		texturefile = "gfx/interface/technologies/SPR_armoredcar3.dds"
+	}
+	#
 	######################################## RUSSIAN TANKS AND ARMOR ####################################################
 	#
 	SpriteType = {
@@ -1102,7 +1116,6 @@ spriteTypes = {
 		name = "GFX_ITA_light_tank1_medium"
 		texturefile = "gfx/interface/technologies/ITA_lighttank1.dds"
 	}
-
 	#
 	#####################################################################################################ARTILLERY
 	#
