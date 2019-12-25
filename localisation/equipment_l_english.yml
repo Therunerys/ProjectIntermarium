@@ -682,6 +682,90 @@
 #
 #
 #
+ #         ARMORED CARS AND TANKS
+#
+#
+#
+#
+ armored_car_0:0 "Early Armored Car"
+ armored_car_0_short:0 "Early Armored Car"
+ armored_car_0_desc:0 "An early design of armored cars."
+ armored_car_1:0 "Basic Armored Car"
+ armored_car_1_short:0 "Basic Armored Car"
+ armored_car_1_desc:0 "A basic design that can be mass produced more easily."
+ armored_car_2:0 "Improved Armored Car"
+ armored_car_2_short:0 "Improved Armored Car"
+ armored_car_2_desc:0 "An improved design that has better armor and defensive capabilites."
+ armored_car_3:0 "Advanced Armored Car"
+ armored_car_3_short:0 "Advanced Armored Car"
+ armored_car_3_desc:0 "Our most advanced design yet, highly mobile and strong armor, it can break even the strongest of front lines."
+ landship_0:0 "Prototype Landship"
+ landship_0_short:0 "Prototype Landship"
+ landship_0_desc:0 "An early version for the purpose of testing."
+ landship_1:0 "Landship"
+ landship_1_short:0 "Landship"
+ landship_1_desc:0 "The latest design from our engineers is highly advanced and easy to produce. Stronger armour and better offensive capabilities will allow us to punch through enemy frontlines easily, while inflicting minimal casualties on our side."
+ #         GERMAN SPHERE
+ GER_armored_car_0:0 "Opel-Darracq Kriegswagen für höhere Truppenführer"
+ GER_armored_car_0_short:0 "Opel-Darracq Kriegswagen"
+ GER_armored_car_0_desc:0 "The Opel-Darracq Kriegswagen für höhere Truppenführer was first presented to the public in early 1897 at the automobile show in Berlin. Built by an Opel workshop in Berlin, it was one of the first armored cars made in Germany."
+ GER_armored_car_1:0 "Ehrhardt Ballon Abwehr Kanone"
+ GER_armored_car_1_short:0 "EBAK"
+ GER_armored_car_1_desc:0 "The Ehrhardt BAK was based upon a conventional chain driven light lorry, with rear wheel drive, the engine in the front, and driver compartment in the middle. The vehicle was protected by 3 mm thick armor all around and louvers were made on the front and sides of the engine for sufficient cooling."
+ GER_armored_car_2:0 "Büssing A5P"
+ GER_armored_car_2_short:0 "Büssing A5P"
+ GER_armored_car_2_desc:0 "Its symmetrical design and great dimensions make it stand out from other designs of the time. With the order given to the company Büssing to design an armored car at the end of 1908, work progressed the following year and production started. The vehicle carried three MG 08 water cooled 7.9 mm machine guns, of which one was a spare."
+ GER_armored_car_3:0 "Ehrhardt E-V/4 Straßenpanzerwagen"
+ GER_armored_car_3_short:0 "Ehrhardt E-V/4"
+ GER_armored_car_3_desc:0 "the vehicle looked clumsy and bulky, with an engine at the front and a massive symmetric hull littered with single and double-piece port hatches, with vision slits used to bear machine guns. The hull was made of riveted and bolted plates, 9 mm thick at the front and sides, and there was a central fixed turret with four ports. There was a crew of nine in the cramped internal space, and three up to four machine guns could be fired simultaneously from the sixteen ports."
+ GER_landship_0:0 "Prototype A7V"
+ GER_landship_0_short:0 "Prototype A7V"
+ GER_landship_0_desc:0 "An early version of the A7V for the purpose of testing. Highly unreliable and prone to breakdowns, it is not intended for battlefield use."
+ GER_landship_1:0 "Sturmpanzerwagen A7V"
+ GER_landship_1_short:0 "A7V"
+ GER_landship_1_desc:0 "The A7V was 7.34 metres long and 3 metres wide, and the maximum height was 3.3 metres. The tank had 20 mm of steel plate at the sides, 30 mm at the front and 10 mm for the roof, however, the steel was not hardened armour plate, which reduced its effectiveness. It was thick enough to stop machine-gun and rifle fire, but not larger-calibre rounds."
+ #         FRENCH SPHERE
+ FRA_armored_car_0:0 "Charron, Girardot et Voigt 1898"
+ FRA_armored_car_0_short:0 "Charron, Girardot et Voigt 1898"
+ FRA_armored_car_0_desc:0 "The Charron, Girardot et Voigt 1898 was a French armoured car developed in 1898 by the company Charron, Girardot et Voigt. It was equipped with a Hotchkiss machine gun, and with 7 mm armour for the gunner."
+ FRA_armored_car_1:0 "Charron, Girardot et Voigt 1904"
+ FRA_armored_car_1_short:0 "Charron, Girardot et Voigt 1904"
+ FRA_armored_car_1_desc:0 "The Charron, Girardot et Voigt 1904 was an improved version of the earlier 1898 model. It featured a stronger 10mm thick hinged front armored panel and four large windows with steel panels which slid up to cover them."
+ FRA_armored_car_2:0 "Peugeot 1908 AC"
+ FRA_armored_car_2_short:0 "Peugeot 1908 AC"
+ FRA_armored_car_2_desc:0 "The Peugeot model 1908 AC was fitted with a standard Schneider 37 mm, short-barrel model 1897 field gun mounted on a central pivot. The armor was designed by Capt. Reynaud. Access was through a rear door and on the sides of the driver compartment. To compensate for the extra weight, the rear tire was doubled. The driver compartment received only two small vision slits, but the fighting compartment sides were sometimes given small hatches."
+ FRA_armored_car_3:0 "White AC modele 1912"
+ FRA_armored_car_3_short:0 "White 1912 AC"
+ FRA_armored_car_3_desc:0 "There were armored shutters for the driver and commander, and small side sights with armored flaps opening upwards on the sides, as well as at the rear. The engine hood was armored with two access doors, and the radiator had a series of armored shutters for cooling. The turret was remarkable, as it was large enough to accommodate two men, serving two weapons, one at each end, generally a combination of the short barrel Puteaux 37 mm gun and a Hotchkiss 7.5 mm light machine-gun, or two LMGs."
+ FRA_landship_0:0 "Char Frot-Turmel-Laffly"
+ FRA_landship_0_short:0 "Char Frot-Turmel-Laffly"
+ FRA_landship_0_desc:0 "An early French experimental armoured fighting vehicle."
+ FRA_landship_1:0 "Renault FT Char"
+ FRA_landship_1_short:0 "FT Char"
+ FRA_landship_1_desc:0 "The Renault FT included a rotating turret, a rear engine configuration, a front driver, with the turret operator right behind. Compared to the short and narrow hull, the modified Holt chassis was big enough to allow sufficient grip on any ground. To manage large trench crossings a rear tail was mounted, which facilitates balance and hanging."
+ #         BRITISH SPHERE
+ ENG_armored_car_0:0 "Simms War Car"
+ ENG_armored_car_0_short:0 "Simms War Car"
+ ENG_armored_car_0_desc:0 "The ‘War Car’ is Simms’ true greatest legacy and was based on a truck built by Simms’ own motor company. Simms had some interesting ideas about how this machine was going to be used too. His description of the vehicle including the requirement that it “be made sufficiently strong to enable it to be used as a battering ram against buildings, crowds and the like” which is why he made both ends “cigar shaped” in his words."
+ ENG_armored_car_1:0 "Lanchester 4×2 Armored Car"
+ ENG_armored_car_1_short:0 "Lanchester 4×2 Armored Car"
+ ENG_armored_car_1_desc:0 "The Lanchester was based on the regular 38 hp chassis with front and rear single axles, but doubled Rudge Whitworth tires at the rear, suspended on cantilever rear springs of semi-elliptic type assembly."
+ ENG_armored_car_2:0 "Rolls-Royce Armoured Car"
+ ENG_armored_car_2_short:0 "Rolls-Royce Armoured Car"
+ ENG_armored_car_2_desc:0 "The chassis was a 2×4, with a single front and a double rear axles, and metal wire wheels, with two to four in spare. The armor was made of 12 mm rolled steel plates, riveted around the chassis to a light frame. The armored bodywork’s most important feature was its rear revolving turret fitted with folding panels on each side and a small hatch for the commander in the middle. It housed a regular water cooled standard naval 7.62 mm Vickers machine gun."
+ ENG_armored_car_3:0 "Pierce-Arrow Armoured Lorry"
+ ENG_armored_car_3_short:0 "Pierce-Arrow Armoured Lorry"
+ ENG_armored_car_3_desc:0 "The vehicle had a 4.26 m wheelbase and was propelled by a 30 hp four-cylinder engine connected, through a shaft transmission, to the rear axle. For close defense, the vehicle relied on a Maxim machine gun which could be mounted on pintles on either side, the rear doors, the front or through the co-driver armored shutter. The body was conventional, with a front engine protected by folded panels, a driving compartment with two separate armored shutters and the open rear compartment with room for the ammunition, extra storage on each side of the chassis, and access doors."
+ ENG_landship_0:0 "Little Willie"
+ ENG_landship_0_short:0 "Little Willie"
+ ENG_landship_0_desc:0 "An early British experimental vehicle."
+ ENG_landship_1:0 "Tank Mark I"
+ ENG_landship_1_short:0 "Tank Mark I"
+ ENG_landship_1_desc:0 "The Mark I was elaborated to encompass all the lessons learnt from the Little Willie trials in 1911. No turret, armament mounted in sponsons, bolted hull made of boiler panels, newly designed tracks inherited from the Little Willie and a large, easily recognizable rhomboid hull, with the tracks surrounding the hull, making up the entire length of the machine."
+#
+#
+#
+#
  #         ARTILLERY
 #
 #
@@ -1042,35 +1126,6 @@
 
 
 
-
-
-#
-#
-#
-#
- #         ARMORED CARS AND TANKS
-#
-#
-#
-#
- armored_car_0:0 "Early Armored Car"
- armored_car_0_short:0 "Early Armored Car"
- armored_car_0_desc:0 "An early design of armored cars."
- armored_car_1:0 "Basic Armored Car"
- armored_car_1_short:0 "Basic Armored Car"
- armored_car_1_desc:0 "A basic design that can be mass produced more easily."
- armored_car_2:0 "Improved Armored Car"
- armored_car_2_short:0 "Improved Armored Car"
- armored_car_2_desc:0 "An improved design that has better armor and defensive capabilites."
- armored_car_3:0 "Advanced Armored Car"
- armored_car_3_short:0 "Advanced Armored Car"
- armored_car_3_desc:0 "Our most advanced design yet, highly mobile and strong armor, it can break even the strongest of front lines."
- landship_0:0 "Prototype Landship"
- landship_0_short:0 "Prototype Landship"
- landship_0_desc:0 "An early version for the purpose of testing."
- landship_1:0 "Landship"
- landship_1_short:0 "Landship"
- landship_1_desc:0 "The latest design from our engineers is highly advanced and easy to produce. Stronger armour and better offensive capabilities will allow us to punch through enemy frontlines easily, while inflicting minimal casualties on our side."
 
 
  GER_motorized_equipment_1:0 "Opel Blitz"
