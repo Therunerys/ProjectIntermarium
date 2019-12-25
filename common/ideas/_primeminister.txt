@@ -341,5 +341,124 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
+		#french
+		pierre_rousseau = { #conservative party leader
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = FRA }
+
+			available = {
+				has_government = conservatism
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+
+		charles_maurras = { #authoritarian party leader
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = FRA }
+
+			available = {
+				has_government = authoritarian
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+
+		jules_meline = { #liberal party leader
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = FRA }
+
+			available = {
+				has_government = liberalism
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+
+		edouard_drumon = { #nationalist party leader
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = FRA }
+
+			available = {
+				has_government = nationalism
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+
+		henri_brisson = { #socialist party leader
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = FRA }
+
+			available = {
+				has_government = social_democracy
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+
+		jules_guesde = { #communist party leader
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = FRA }
+
+			available = {
+				has_government = communism
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+
+		jean_jaures = { #radical socialist party leader
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = FRA }
+
+			available = {
+				has_government = radical_socialism
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
 	}
 }

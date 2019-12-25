@@ -103,18 +103,15 @@
  AHE_radical_socialism_party_long:0 ""
  AHE_fascism_party:0 ""
 
- FRA_authoritarian_party:0 ""
- FRA_authoritarian_party_long:0 ""
- FRA_social_democracy_party:0 ""
- FRA_social_democracy_party_long:0 ""
- FRA_liberalism_party:0 ""
- FRA_conservatism_party:0 "Républicains progressistes"
- FRA_nationalism_party:0 ""
- FRA_nationalism_party_long:0 ""
- FRA_communism_party:0 ""
- FRA_communism_party_long:0 ""
- FRA_radical_socialism_party:0 ""
- FRA_radical_socialism_party_long:0 ""
+ FRA_authoritarian_party:0 "AF"
+ FRA_authoritarian_party_long:0 "Action française" #7.5% Charles Maurras
+ FRA_social_democracy_party:0 "Radicaux Indépendants" #15% Brisson 
+ FRA_liberalism_party:0 "Opportunistes" 
+ FRA_liberalism_party_long:0 "Républicains opportunistes" #42% Méline 
+ FRA_conservatism_party:0 "Ralliés" #Jacques Piou 7.5%
+ FRA_nationalism_party:0 "Nationalistes" #5% Édouard Drumon 
+ FRA_communism_party:0 "Socialistes" #10% Jules Guesde
+ FRA_radical_socialism_party:0 "Socialistes indépendants" #13% Jean Jaurès
  FRA_fascism_party:0 ""
  FRA_fascism_party_long:0 ""
 

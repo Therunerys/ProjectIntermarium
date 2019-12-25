@@ -33,26 +33,29 @@ set_war_support = 0.60
 #####################
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservatism
 	last_election = "1897.1.1"
 	election_frequency = 36
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 58
-	fascism = 2
-	communism = 40
-	authoritarian = 0
+	liberalism = 42
+	social_democracy = 15
+	radical_socialism = 13
+	communism = 10
+	conservatism = 7.5
+	authoritarian = 7.5
+	nationalism = 5
+	fascism = 0
 }
-
 
 add_ideas = {
 	greatpower
 	civilian_economy
 	volunteer_only 
 	limited_exports
-	pierre_waldeck_rousseau
+	pierre_rousseau
 }
 
 give_guarantee = BEL
@@ -62,7 +65,51 @@ give_guarantee = BEL
 #####################
 
 create_country_leader = {
-	name = "Émile Loubet"
+	name = "Charles Maurras"
+	desc = ""
+	picture = "Charles_Maurras.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Édouard Drumon"
+	desc = ""
+	picture = "Edouard_Drumon.dds"
+	expire = "1965.1.1"
+	ideology = nationalism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Emile Loubet"
+	desc = ""
+	picture = "Emile_Loubet.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		
+	}
+} 
+
+create_country_leader = {
+	name = "Henri Brisson"
+	desc = ""
+	picture = "Brisson.dds"
+	expire = "1965.1.1"
+	ideology = social_democracy
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Emile Loubet"
 	desc = ""
 	picture = "Emile_Loubet.dds"
 	expire = "1965.1.1"
@@ -73,22 +120,33 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Henri Brisson"
+	name = "Jules Guesde"
 	desc = ""
-	picture = "Henri_Brisson.dds"
+	picture = "Jules_Guesde.dds"
 	expire = "1965.1.1"
-	ideology = radical_Socialism
+	ideology = communism
 	traits = {
 		
 	}
 }
 
 create_country_leader = {
-	name = "Charles Maurras"
+	name = "Jean Jaurès"
 	desc = ""
-	picture = "Charles_Maurras.dds"
+	picture = "Jean_Jaures.dds"
 	expire = "1965.1.1"
-	ideology = absolute_monarchy
+	ideology = radical_socialism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = ""
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = fascism
 	traits = {
 		
 	}

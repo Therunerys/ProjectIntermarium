@@ -3877,10 +3877,38 @@ spriteTypes = {
         name = "GFX_idea_francisco_silvela"
         texturefile = "gfx/interface/ideas/head_gov/francisco_silvela_idea.dds"
     }
-    #spriteType = {
-     #   name = "GFX_idea_azedo_gneco"
-     #   texturefile = "gfx/interface/ideas/head_gov/azedo_gneco_idea.dds"
-    #}
+    spriteType = {
+   	    name = "GFX_idea_azedo_gneco"
+    	texturefile = "gfx/interface/ideas/head_gov/azedo_gneco_idea.dds"
+    }
+    spriteType = {
+   	    name = "GFX_idea_pierre_rousseau"
+    	texturefile = "gfx/interface/ideas/head_gov/pierre_idea.dds"
+    }
+    spriteType = {
+   	    name = "GFX_idea_jules_meline"
+    	texturefile = "gfx/interface/ideas/head_gov/jules_meline_idea.dds"
+    }
+    spriteType = {
+   	    name = "GFX_idea_charles_maurras"
+    	texturefile = "gfx/interface/ideas/head_gov/charles_maurras_idea.dds"
+    }
+    spriteType = {
+   	    name = "GFX_idea_edouard_drumon"
+    	texturefile = "gfx/interface/ideas/head_gov/edouard_drumon_idea.dds"
+    }
+    spriteType = {
+   	    name = "GFX_idea_henri_brisson"
+    	texturefile = "gfx/interface/ideas/head_gov/henri_brisson_idea.dds"
+    }
+    spriteType = {
+   	    name = "GFX_idea_jules_guesde"
+    	texturefile = "gfx/interface/ideas/head_gov/jules_guesde_idea.dds"
+    }
+    spriteType = {
+   	    name = "GFX_idea_jean_jaures"
+    	texturefile = "gfx/interface/ideas/head_gov/jean_jaures_idea.dds"
+    }
     spriteType = {
         name = "GFX_idea_mateo_sagasta"
         texturefile = "gfx/interface/ideas/head_gov/mateo_sagasta_idea.dds"
