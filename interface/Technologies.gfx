@@ -1,5 +1,27 @@
 spriteTypes = {
 
+	######################### GENERIC INFANTRY WEAPONS #########################
+
+	SpriteType = {
+		name = "GFX_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/infantry_weapons1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/infantry_weapons2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/infantry_weapons3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/infantry_weapons4.dds"
+	}
+
 	######################### GERMAN INFANTRY WEAPONS #########################
 
 	SpriteType = {
@@ -20,6 +42,336 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_GER_infantry_weapons3_medium"
 		texturefile = "gfx/interface/technologies/GER_infantry_weapons4.dds"
+	}
+
+	######################### OTTOMAN INFANTRY WEAPONS #########################
+
+	SpriteType = {
+		name = "GFX_TUR_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GER_infantry_weapons1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TUR_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GER_infantry_weapons2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TUR_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/GER_infantry_weapons3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TUR_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/GER_infantry_weapons4.dds"
+	}
+
+	######################### SPANISH INFANTRY WEAPONS #########################
+
+	SpriteType = {
+		name = "GFX_SPR_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GER_infantry_weapons1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SPR_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GER_infantry_weapons2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SPR_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/GER_infantry_weapons3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SPR_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/GER_infantry_weapons4.dds"
+	}
+
+	######################### DUTCH INFANTRY WEAPONS #########################
+
+	SpriteType = {
+		name = "GFX_HOL_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GER_infantry_weapons1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_HOL_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GER_infantry_weapons2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_HOL_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/GER_infantry_weapons3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_HOL_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/GER_infantry_weapons4.dds"
+	}
+
+	######################### POLISH INFANTRY WEAPONS #########################
+
+	SpriteType = {
+		name = "GFX_POL_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GER_infantry_weapons1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_POL_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GER_infantry_weapons2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_POL_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/GER_infantry_weapons3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_POL_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/GER_infantry_weapons4.dds"
+	}
+
+	######################### SCANDINAVIAN INFANTRY WEAPONS #########################
+
+	SpriteType = {
+		name = "GFX_KSN_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GER_infantry_weapons1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KSN_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GER_infantry_weapons2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KSN_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/GER_infantry_weapons3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KSN_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/GER_infantry_weapons4.dds"
+	}
+
+	######################### AUSTRO-HUNGARIAN INFANTRY WEAPONS #########################
+
+	SpriteType = {
+		name = "GFX_AHE_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/AHE_infantry_weapons1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AHE_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/AHE_infantry_weapons2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AHE_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/AHE_infantry_weapons3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AHE_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/AHE_infantry_weapons4.dds"
+	}
+
+	######################### CZECH INFANTRY WEAPONS #########################
+
+	SpriteType = {
+		name = "GFX_CZE_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/AHE_infantry_weapons1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_CZE_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/AHE_infantry_weapons2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_CZE_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/AHE_infantry_weapons3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_CZE_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/AHE_infantry_weapons4.dds"
+	}
+
+	######################### SLOVAK INFANTRY WEAPONS #########################
+
+	SpriteType = {
+		name = "GFX_SLO_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/AHE_infantry_weapons1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SLO_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/AHE_infantry_weapons2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SLO_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/AHE_infantry_weapons3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SLO_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/AHE_infantry_weapons4.dds"
+	}
+
+	######################### ROMANIAN INFANTRY WEAPONS #########################
+
+	SpriteType = {
+		name = "GFX_ROM_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/AHE_infantry_weapons1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ROM_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/AHE_infantry_weapons2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ROM_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/AHE_infantry_weapons3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ROM_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/AHE_infantry_weapons4.dds"
+	}
+
+	######################### HUNGARIAN INFANTRY WEAPONS #########################
+
+	SpriteType = {
+		name = "GFX_HUN_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/AHE_infantry_weapons1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_HUN_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/AHE_infantry_weapons2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_HUN_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/AHE_infantry_weapons3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_HUN_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/AHE_infantry_weapons4.dds"
+	}
+
+	######################### BULGARIAN INFANTRY WEAPONS #########################
+
+	SpriteType = {
+		name = "GFX_BUL_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/AHE_infantry_weapons1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BUL_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/AHE_infantry_weapons2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BUL_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/AHE_infantry_weapons3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BUL_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/AHE_infantry_weapons4.dds"
+	}
+
+	######################### SWISS INFANTRY WEAPONS #########################
+
+	SpriteType = {
+		name = "GFX_SWI_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/AHE_infantry_weapons1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SWI_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/AHE_infantry_weapons2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SWI_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/AHE_infantry_weapons3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SWI_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/AHE_infantry_weapons4.dds"
+	}
+
+	######################### MONTENEGRIAN INFANTRY WEAPONS #########################
+
+	SpriteType = {
+		name = "GFX_MNT_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/AHE_infantry_weapons1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_MNT_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/AHE_infantry_weapons2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_MNT_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/AHE_infantry_weapons3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_MNT_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/AHE_infantry_weapons4.dds"
+	}
+
+	######################### SERBIAN INFANTRY WEAPONS #########################
+
+	SpriteType = {
+		name = "GFX_SER_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/AHE_infantry_weapons1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SER_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/AHE_infantry_weapons2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SER_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/AHE_infantry_weapons3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SER_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/AHE_infantry_weapons4.dds"
+	}
+
+	######################### GREEK INFANTRY WEAPONS #########################
+
+	SpriteType = {
+		name = "GFX_GRE_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/AHE_infantry_weapons1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GRE_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/AHE_infantry_weapons2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GRE_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/AHE_infantry_weapons3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GRE_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/AHE_infantry_weapons4.dds"
 	}
 
 	######################### FRENCH INFANTRY WEAPONS #########################
@@ -44,7 +396,73 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/FRA_infantry_weapons4.dds"
 	}
 
-	######################### BRITISH INFANTRY WEAPONS #########################
+	######################### BELGIAN INFANTRY WEAPONS #########################
+
+	SpriteType = {
+		name = "GFX_BEL_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/FRA_infantry_weapons1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BEL_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/FRA_infantry_weapons2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BEL_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/FRA_infantry_weapons3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BEL_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/FRA_infantry_weapons4.dds"
+	}
+
+	######################### RUSSIAN INFANTRY WEAPONS #########################
+
+	SpriteType = {
+		name = "GFX_RUS_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/RUS_infantry_weapons1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_RUS_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/RUS_infantry_weapons2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_RUS_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/RUS_infantry_weapons3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_RUS_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/RUS_infantry_weapons4.dds"
+	}
+
+	######################### ITALIAN INFANTRY WEAPONS #########################
+
+	SpriteType = {
+		name = "GFX_ITA_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/ITA_infantry_weapons1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ITA_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/ITA_infantry_weapons2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ITA_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/ITA_infantry_weapons3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ITA_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/ITA_infantry_weapons4.dds"
+	}
+
+	######################## BRITISH INFANTRY WEAPONS #########################
 
 	SpriteType = {
 		name = "GFX_ENG_infantry_weapons_medium"
@@ -64,6 +482,28 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_ENG_infantry_weapons3_medium"
 		texturefile = "gfx/interface/technologies/ENG_infantry_weapons4.dds"
+	}
+
+	######################### AMERICAN INFANTRY WEAPONS #########################
+
+	SpriteType = {
+		name = "GFX_USA_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/USA_infantry_weapons1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_USA_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/USA_infantry_weapons2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_USA_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/USA_infantry_weapons3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_USA_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/USA_infantry_weapons4.dds"
 	}
 
 	####################### INFANTRY TREE ##########################
@@ -170,7 +610,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_motorised_infantry_medium"
-		texturefile = "gfx/interface/technologies/truck.dds"
+		texturefile = "gfx/interface/technologies/motorized_equipment_1.dds"
 	}
 
 	SpriteType = {
@@ -2041,8 +2481,8 @@ spriteTypes = {
 	################################# ENGINEERING #################################
 	#
 	SpriteType = {
-		name = "GFX_coil_medium"
-		texturefile = "gfx/interface/technologies/coil.dds"
+		name = "GFX_radio_waves_medium"
+		texturefile = "gfx/interface/technologies/radiowaves.dds"
 	}
 
 	SpriteType = {
@@ -2051,53 +2491,38 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_early_detection_medium"
-		texturefile = "gfx/interface/technologies/radio_detection.dds"
+		name = "GFX_headphones_medium"
+		texturefile = "gfx/interface/technologies/headphones.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_short_wave_radio_medium"
-		texturefile = "gfx/interface/technologies/radio.dds"
+		name = "GFX_early_radio_medium"
+		texturefile = "gfx/interface/technologies/radio1.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_radio_repeater_medium"
-		texturefile = "gfx/interface/technologies/radio_repeater.dds"
+		name = "GFX_basic_radio_medium"
+		texturefile = "gfx/interface/technologies/radio2.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_sensitive_sensors_medium"
-		texturefile = "gfx/interface/technologies/decimetric_radar.dds"
+		name = "GFX_improved_radio_medium"
+		texturefile = "gfx/interface/technologies/radio3.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_advanced_detection_medium"
-		texturefile = "gfx/interface/technologies/improved_decimetric_radar.dds"
+		name = "GFX_diode_medium"
+		texturefile = "gfx/interface/technologies/diode.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_early_batteries_medium"
-		texturefile = "gfx/interface/technologies/battery.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_steam_powered_calculator_medium"
-		texturefile = "gfx/interface/technologies/calculator.dds"
+		name = "GFX_triode_medium"
+		texturefile = "gfx/interface/technologies/triode.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_computing_machine_medium"
 		texturefile = "gfx/interface/technologies/mechanical_computing.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_improved_computing_machine_medium"
-		texturefile = "gfx/interface/technologies/advanced_computing_machine.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_suitcase_calculator_medium"
-		texturefile = "gfx/interface/technologies/suitcase_calculator.dds"
 	}
 
 	SpriteType = {
@@ -2107,32 +2532,47 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_basic_encryption_medium"
-		texturefile = "gfx/interface/technologies/basic_encryption.dds"
+		texturefile = "gfx/interface/technologies/encryption1.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_improved_encryption_medium"
-		texturefile = "gfx/interface/technologies/improved_encryption.dds"
+		texturefile = "gfx/interface/technologies/encryption2.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_advanced_encryption_medium"
-		texturefile = "gfx/interface/technologies/advanced_encryption.dds"
+		texturefile = "gfx/interface/technologies/encryption3.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_basic_decryption_medium"
-		texturefile = "gfx/interface/technologies/basic_decryption.dds"
+		texturefile = "gfx/interface/technologies/decryption1.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_improved_decryption_medium"
-		texturefile = "gfx/interface/technologies/improved_decryption.dds"
+		texturefile = "gfx/interface/technologies/decryption2.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_advanced_decryption_medium"
-		texturefile = "gfx/interface/technologies/advanced_decryption.dds"
+		texturefile = "gfx/interface/technologies/decryption3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_chlorine_gas_medium"
+		texturefile = "gfx/interface/technologies/gaschlorine.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mustard_gas_medium"
+		texturefile = "gfx/interface/technologies/gasmustard.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_phosgene_gas_medium"
+		texturefile = "gfx/interface/technologies/gasphosgene.dds"
 	}
 	#
 	################################# INDUSTRY #################################
