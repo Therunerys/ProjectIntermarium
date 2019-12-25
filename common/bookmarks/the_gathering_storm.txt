@@ -4,6 +4,7 @@ bookmarks = {
 		desc = "NEW_DAWN_DESC"
 		date = 1900.1.1.12
 		picture = "GFX_select_date_1900"
+		default_country = "GER"
 		default = yes
 
 
