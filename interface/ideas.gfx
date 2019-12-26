@@ -3927,8 +3927,8 @@ spriteTypes = {
 	#}
 
 	spriteType = {
-		name = "GFX_idea_luxpaul_eyschen"
-		texturefile = "gfx/interface/ideas/head_gov/luxpaul_eyschen_idea.dds"
+		name = "GFX_idea_paul_eyschen"
+		texturefile = "gfx/interface/ideas/head_gov/paul_eyschen_idea.dds"
 	}
     spriteType = {
         name = "GFX_idea_mateo_sagasta"

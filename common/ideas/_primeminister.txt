@@ -497,19 +497,19 @@ ideas = {
 
 		# = { #communist party leader 	cant find someone to be a PM, if the party won it will become a republic
 
-			cost = 0
-			removal_cost = -1
+		#	cost = 0
+		#	removal_cost = -1
+		#	
+		#	allowed = { original_tag = HOL }
+#
+		#	available = {
+		#		has_government = communism
+		#	}
 			
-			allowed = { original_tag = HOL }
-
-			available = {
-				has_government = communism
-			}
-			
-			traits = {
-				#minister 
-			}
-			cancel_if_invalid = yes
+		#	traits = {
+		#		#minister 
+		#	}
+		#	cancel_if_invalid = yes
 		#}
 		#Belgium
 		albert_mechelynck = { #liberal party leader
@@ -562,8 +562,8 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
-		#
-		luxpaul_eyschen = { #pm
+		#lux
+		paul_eyschen = { #pm
 
 			cost = 0
 			removal_cost = -1
