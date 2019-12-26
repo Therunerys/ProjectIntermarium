@@ -460,5 +460,124 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
+		#HOL
+		nicolaas_pierson = { #liberal party leader
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = HOL }
+
+			available = {
+				has_government = liberalism
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+
+		abraham_kuyper = { #conservative party leader
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = HOL }
+
+			available = {
+				has_government = conservatism
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+
+		# = { #communist party leader 	cant find someone to be a PM, if the party won it will become a republic
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = HOL }
+
+			available = {
+				has_government = communism
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		#}
+		#Belgium
+		albert_mechelynck = { #liberal party leader
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = BEL }
+
+			available = {
+				has_government = liberalism
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+
+		paul_joseph = { #conservative party leader
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = BEL }
+
+			available = {
+				has_government = conservatism
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+
+		august_winne = { #socialist party leader
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = BEL }
+
+			available = {
+				has_government = social_democracy
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+		#
+		luxpaul_eyschen = { #pm
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = LUX }
+
+			available = {
+				has_government = authoritarian
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
 	}
 }

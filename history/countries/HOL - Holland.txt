@@ -56,16 +56,6 @@ add_ideas = {
 #####################
 ###### LEADERS ######
 #####################
-#create_country_leader = {
-#	name = "Nicolaas Pierson"
-#	desc = ""
-#	picture = "nicolaas_pierson.dds"
-#	expire = "1965.1.1"
-#	ideology = conservatism
-#	traits = {
-#		#
-#	}
-#}
 
 create_country_leader = {
 	name = "Wilhelmina"
@@ -79,9 +69,31 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Pieter Jelles Troelstra"
+	name = "Wilhelmina"
 	desc = ""
 	picture = "wilhelmina.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Wilhelmina"
+	desc = ""
+	picture = "wilhelmina.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Pieter Jelles Troelstra"
+	desc = ""
+	picture = "Pieter.dds"
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {

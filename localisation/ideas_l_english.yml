@@ -2573,6 +2573,15 @@
  henri_brisson:0 "Henri Brisson"
  jules_guesde:0 "Jules Guesde"
  jean_jaures:0 "Jean Jaures"
+ #Netherlands
+ nicolaas_pierson:0 "Nicolaas Pierson"
+ abraham_kuyper:0 "Abraham Kuyper"
+ #Belgium
+ paul_joseph:0 "Paul Joseph"
+ albert_mechelynck:0 "Albert Mechelynck"
+ august_winne:0 "August De Winne"
+ #LUX
+ luxpaul_eyschen:0 "Luxpaul Eyschen"
  ######################################
  imperial_pride:0 "Imperial Pride"
  imperial_pride_desc:0 "Gearmans are a proud people, always looking to the future of the empire and believing that the kaiser will lead them to it."
@@ -2580,8 +2589,6 @@
  reichsbank_desc:0 "The national bank of Germany is the foundation of the economy and extends the German economic dominance in Europe."
  leopold_ii:0 "Leopold II"
  leopold_ii_desc:0 "The King of Belgium"
- paul_joseph:0 "Paul Joseph"
- paul_joseph_desc:0 "The Prime Minister of Belgium"
  paul_eyschen:0 "Paul Eyschen"
  paul_eyschen_desc:0 "The Prime Minister of Luxembourg"
  william_ii:0 "William II"
@@ -2635,7 +2642,6 @@
  disunited_army_desc:0 "Ever since the foundation of Belgium the country's military has been pretty disunited. \nArmy officers only give orders in French which often leads to confusion to the flemish counterpart."
  backed_great_powers:0 "Backed by Great Powers"
  backed_great_powers_desc:0 "Have Great Britain & French Republic honour the treaty of london 1839 having both countries gurantee Belgium's independence."
- nicolaas_pierson:0 "Nicolaas Pierson"
  german_assistance:0 "German Assistance"
  Johannes_Steen:0 "Johannes Steen"
  Erik_Gustaf_Bostrom:0 "Erik Gustaf Bostrom"
