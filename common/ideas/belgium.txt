@@ -16,23 +16,6 @@ ideas = {
 			removal_cost = -1
 			traits = { popular_figurehead }
 		}
-	
-		paul_joseph = {
-
-			available = {
-				original_tag = BEL
-			}
-			allowed = {
-				original_tag = BEL
-			}
-
-			allowed_civil_war = {
-				original_tag = BEL
-			}
-			picture = paul_joseph
-			removal_cost = -1
-			traits = { minister }
-		}
 
 		disunited_army = {
 			available = {
