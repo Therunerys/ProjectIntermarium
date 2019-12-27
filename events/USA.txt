@@ -1,0 +1,32 @@
+﻿add_namespace = usa 
+
+# McKinley Assasination
+country_event = {
+	id = usa.1
+	title = usa.1.t
+	desc = usa.1.d
+	picture = GFX_report_event_mckinley_ass
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = USA
+		date > 1901.06.13
+	}
+
+	option = {
+		name = usa.1.a 
+		kill_country_leader = yes
+		add_stablility = -0.05
+		create_country_leader = {
+			name = "Theodore Roosevelt Jr."
+			#desc = "no clue?"
+			picture = "Teddy_Roosevelt.dds"
+			expire = "1965.1.1"
+			ideology = conservatism
+			traits = {
+			#
+			}
+		}
+	}
+}
