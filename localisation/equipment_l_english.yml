@@ -851,35 +851,69 @@
 #
 #
 #
- #         ARTILLERY
+ #         FIELD GUNS
 #
 #
 #
 #
- artillery_equipment:0 "Basic Field Gun"
- artillery_equipment_short:0 "Basic Field Gun"
- artillery_equipment_desc:0 "Artillery will allow us to rain down fire on our enemies from the above and unxepectedly."
- 
- FRA_artillery_equipment:0 "Matériel de 75mm Mle 1897"
- FRA_artillery_equipment_short:0 "French 75"
- FRA_artillery_equipment_1:0 "Need to find"
- FRA_artillery_equipment_1_short:0 "Need to find"
- FRA_artillery_equipment_2:0 "Canon de 75 modèle 1905 Schneider"
- FRA_artillery_equipment_3:0 "Canon de 75 modèle 1912 Schneider"
+ #         GERMAN SPHERE
+ GER_artillery_equipment_0:0 "7.7 cm Feldkanone 96"
+ GER_artillery_equipment_0_short:0 "7.7 cm FK 96"
+ GER_artillery_equipment_0_desc:0 "A thoroughly conventional gun, being a modernized version of Krupp's FK 73 gun, but failed to incorporate any recoil system other than a partially effective spade brake, and fired a 12-pound projectile."
+ GER_artillery_equipment_1:0 "7.7 cm Feldkanone 96 neuer Art"
+ GER_artillery_equipment_1_short:0 "7.7 cm FK 96 n.A."
+ GER_artillery_equipment_1_desc:0 "The gun combined the barrel of the earlier 7.7 cm FK 96 with a recoil system, a new breech and a new carriage. Existing FK 96s were upgraded over time."
+ GER_artillery_equipment_2:0 "15 cm schwere Feldhaubitze 08"
+ GER_artillery_equipment_2_short:0 "15 cm sFH 08"
+ GER_artillery_equipment_2_desc:0 "The gun was a development of the previous standard howitzer, the 15 cm sFH 02. Improvements included a longer barrel resulting in better range and a gun shield to protect the crew."
+ GER_artillery_equipment_3:0 "10.5 cm leichte Feldhaubitze 11"
+ GER_artillery_equipment_3_short:0 "10.5 cm leFH 11"
+ GER_artillery_equipment_3_desc:0 "The 10.5 cm leichte Feldhaubitze 11 was introduced in 1911 as a successor to 10.5 cm Feldhaubitze 98/09, featuring a longer barrel and hence longer range. It had the same carriage as the 7.7 cm FK 16."
+
+ TUR_artillery_equipment_0:0 "7.7 cm Feldkanone 96"
+ TUR_artillery_equipment_0_short:0 "7.7 cm FK 96"
+ TUR_artillery_equipment_0_desc:0 "A thoroughly conventional gun, being a modernized version of Krupp's FK 73 gun, but failed to incorporate any recoil system other than a partially effective spade brake, and fired a 12-pound projectile."
+ TUR_artillery_equipment_1:0 "7.7 cm Feldkanone 96 neuer Art"
+ TUR_artillery_equipment_1_short:0 "7.7 cm FK 96 n.A."
+ TUR_artillery_equipment_1_desc:0 "The gun combined the barrel of the earlier 7.7 cm FK 96 with a recoil system, a new breech and a new carriage. Existing FK 96s were upgraded over time."
+ TUR_artillery_equipment_2:0 "15 cm schwere Feldhaubitze 08"
+ TUR_artillery_equipment_2_short:0 "15 cm sFH 08"
+ TUR_artillery_equipment_2_desc:0 "The gun was a development of the previous standard howitzer, the 15 cm sFH 02. Improvements included a longer barrel resulting in better range and a gun shield to protect the crew."
+ TUR_artillery_equipment_3:0 "10.5 cm leichte Feldhaubitze 11"
+ TUR_artillery_equipment_3_short:0 "10.5 cm leFH 11"
+ TUR_artillery_equipment_3_desc:0 "The 10.5 cm leichte Feldhaubitze 11 was introduced in 1911 as a successor to 10.5 cm Feldhaubitze 98/09, featuring a longer barrel and hence longer range. It had the same carriage as the 7.7 cm FK 16."
+ #         AUSTRO-HUNGARIAN SPHERE
+ AHE_artillery_equipment_0:0 "9 cm Feldkanone M 75/96"
+ AHE_artillery_equipment_0_short:0 "9 cm FK M 75/96"
+ AHE_artillery_equipment_0_desc:0 "A modernized version of the M 75 field gun. For cost reasons the new gun retained the bronze barrel of the original, although it was actually redesigned to withstand the more powerful propellants coming into use."
+ AHE_artillery_equipment_1:0 "7.7 cm Feldkanone 96 neuer Art"
+ AHE_artillery_equipment_1_short:0 "7.7 cm FK 96 n.A."
+ AHE_artillery_equipment_1_desc:0 "The gun combined the barrel of the earlier 7.7 cm FK 96 with a recoil system, a new breech and a new carriage. Existing FK 96s were upgraded over time."
+ AHE_artillery_equipment_2:0 "15 cm schwere Feldhaubitze 08"
+ AHE_artillery_equipment_2_short:0 "15 cm sFH 08"
+ AHE_artillery_equipment_2_desc:0 "The gun was a development of the previous standard howitzer, the 15 cm sFH 02. Improvements included a longer barrel resulting in better range and a gun shield to protect the crew."
+ AHE_artillery_equipment_3:0 "10.5 cm leichte Feldhaubitze 11"
+ AHE_artillery_equipment_3_short:0 "10.5 cm leFH 11"
+ AHE_artillery_equipment_3_desc:0 "The 10.5 cm leichte Feldhaubitze 11 was introduced in 1911 as a successor to 10.5 cm Feldhaubitze 98/09, featuring a longer barrel and hence longer range. It had the same carriage as the 7.7 cm FK 16."
+ #         FRENCH SPHERE
+ FRA_artillery_equipment_0:0 "Canon de 75mm Modele 1897"
+ FRA_artillery_equipment_0_short:0 "Canon de 75mm Modele 1897"
+ FRA_artillery_equipment_0_desc:0 "Designed as an anti-personnel weapon system for delivering large volumes of time-fused shrapnel shells on enemy troops advancing in the open."
+ FRA_artillery_equipment_1:0 "Canon de 75mm Modele 1903"
+ FRA_artillery_equipment_1_short:0 "Canon de 75mm Modele 1903"
+ FRA_artillery_equipment_1_desc:0 "An improved version of the previous Modele 1897."
+ FRA_artillery_equipment_2:0 "Canon de 75mm Modele 1907"
+ FRA_artillery_equipment_2_short:0 "Canon de 75mm Modele 1907"
+ FRA_artillery_equipment_2_desc:0 "Similar to the later Canon de 75mm Modele 1903, it featured a longer barrel and an extended firing range."
+ FRA_artillery_equipment_3:0 "Obusier de 120 mm mle 11TR"
+ FRA_artillery_equipment_3_short:0 "Obusier de 120 mm mle 11TR"
+ FRA_artillery_equipment_3_desc:0 "The mle 1911 is a conventional design with a box trail carriage, two wooden spoked wheels, gun shield, hydro-pneumatic recoil system and an interrupted screw breech."
+
  
  CZE_artillery_equipment_1:0 "8 cm kanon vz. 30"
  CZE_artillery_equipment_1_short:0 "8 cm kanon vz. 30"
  CZE_artillery_equipment_2:0 "10.5 cm hruby kanon vz. 35"
  CZE_artillery_equipment_3:0 "15 cm hrubá houfnice vzor 37"
- 
- GER_artillery_equipment:0 "7.7 cm Feldkanone 96"
- GER_artillery_equipment_short:0 "7.7 cm FK 96"
- GER_artillery_equipment_1:0 "7.7 cm Feldkanone 96 neuer Art"
- GER_artillery_equipment_1_short:0 "7.7 cm FK 96 n.A."
- GER_artillery_equipment_2:0 "Need to find"
- GER_artillery_equipment_2_short:0 "Need to find"
- GER_artillery_equipment_3:0 "10 cm Kanone 14"
- GER_artillery_equipment_3_short:0 "10 cm K 14"
 
  ENG_artillery_equipment_1:0 "QF 18-pounder"
  ENG_artillery_equipment_1_short:0 "QF 18-pounder"
@@ -895,12 +929,6 @@
  CAN_artillery_equipment_1_short:0 "QF 18-pounder"
  CAN_artillery_equipment_2:0 "QF 25-pounder"
  CAN_artillery_equipment_3:0 "BL 5.5-inch Medium Gun"
- 
- AHE_artillery_equipment:0 "9 cm Feldkanone M 75/96"
- AHE_artillery_equipment_1:0 "8 cm Feldkanone M. 99"
- AHE_artillery_equipment_2:0 "8 cm FK M. 5"
- AHE_artillery_equipment_3:0 "Need to find"
- AHE_artillery_equipment_3_short:0 "Need to find"
  
  NZL_artillery_equipment_1:0 "QF 18-pounder"
  NZL_artillery_equipment_1_short:0 "QF 18-pounder"

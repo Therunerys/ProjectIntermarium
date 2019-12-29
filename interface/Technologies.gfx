@@ -1117,21 +1117,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/ITA_lighttank1.dds"
 	}
 	#
-	#####################################################################################################ARTILLERY
+	############################################# FIELD GUN UPGRADES ########################################################
 	#
-	SpriteType = {
-		name = "GFX_explosive_artillery_medium"
-		texturefile = "gfx/interface/technologies/artillery.dds"
-	}
-
 	SpriteType = {
 		name = "GFX_interwar_artillery_medium"
 		texturefile = "gfx/interface/technologies/interwar_artillery.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_explosive_artillery1_medium"
-		texturefile = "gfx/interface/technologies/artillery1.dds"
 	}
 
 	SpriteType = {
@@ -1160,11 +1150,6 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_explosive_artillery2_medium"
-		texturefile = "gfx/interface/technologies/artillery2.dds"
-	}
-
-	SpriteType = {
 		name = "GFX_improved_artillery_upgrade1_medium"
 		texturefile = "gfx/interface/technologies/artillery1imp.dds"
 	}
@@ -1185,13 +1170,96 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_explosive_artillery3_medium"
-		texturefile = "gfx/interface/technologies/artillery3.dds"
+		name = "GFX_advanced_artillery_upgrade_medium"
+		texturefile = "gfx/interface/technologies/artillery5.dds"
+	}
+	#
+	############################################# GERMAN FIELD GUNS ########################################################
+	#
+	SpriteType = {
+		name = "GFX_GER_explosive_artillery_medium"
+		texturefile = "gfx/interface/technologies/GER_fieldgun1.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_advanced_artillery_upgrade_medium"
-		texturefile = "gfx/interface/technologies/artillery5.dds"
+		name = "GFX_GER_explosive_artillery1_medium"
+		texturefile = "gfx/interface/technologies/GER_fieldgun2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_explosive_artillery2_medium"
+		texturefile = "gfx/interface/technologies/GER_fieldgun3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_explosive_artillery3_medium"
+		texturefile = "gfx/interface/technologies/GER_fieldgun4.dds"
+	}
+	#
+	############################################# AUSTRO-HUNGARIAN FIELD GUNS ########################################################
+	#
+	SpriteType = {
+		name = "GFX_AHE_explosive_artillery_medium"
+		texturefile = "gfx/interface/technologies/AHE_fieldgun1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AHE_explosive_artillery1_medium"
+		texturefile = "gfx/interface/technologies/GER_fieldgun2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AHE_explosive_artillery2_medium"
+		texturefile = "gfx/interface/technologies/GER_fieldgun3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AHE_explosive_artillery3_medium"
+		texturefile = "gfx/interface/technologies/GER_fieldgun4.dds"
+	}
+	#
+	############################################# OTTOMAN FIELD GUNS ########################################################
+	#
+	SpriteType = {
+		name = "GFX_TUR_explosive_artillery_medium"
+		texturefile = "gfx/interface/technologies/GER_fieldgun1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TUR_explosive_artillery1_medium"
+		texturefile = "gfx/interface/technologies/GER_fieldgun2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TUR_explosive_artillery2_medium"
+		texturefile = "gfx/interface/technologies/GER_fieldgun3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TUR_explosive_artillery3_medium"
+		texturefile = "gfx/interface/technologies/GER_fieldgun4.dds"
+	}
+		#
+	############################################# FRENCH FIELD GUNS ########################################################
+	#
+	SpriteType = {
+		name = "GFX_FRA_explosive_artillery_medium"
+		texturefile = "gfx/interface/technologies/FRA_fieldgun1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_FRA_explosive_artillery1_medium"
+		texturefile = "gfx/interface/technologies/FRA_fieldgun2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_FRA_explosive_artillery2_medium"
+		texturefile = "gfx/interface/technologies/FRA_fieldgun3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_FRA_explosive_artillery3_medium"
+		texturefile = "gfx/interface/technologies/FRA_fieldgun4.dds"
 	}
 	#
 	#######################################################################################################ANTIAIR
