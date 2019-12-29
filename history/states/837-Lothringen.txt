@@ -1,15 +1,19 @@
+
 state={
 	id=837
 	name="STATE_837"
-	provinces={
-		3629 9559 11502 
-	}
-	history = {
+
+	history={
 		owner = GER
 		add_core_of = GER
 		add_core_of = FRA
+
 	}
-	state_category=pastoral
+
+	provinces={
+		3629 9559 11502 13251 
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }
