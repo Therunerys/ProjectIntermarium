@@ -6,10 +6,19 @@ bookmarks = {
 		picture = "GFX_select_date_1900"
 		default_country = "GER"
 		default = yes
+
+
+		"USA"={
+			history = "USA_NEW_DAWN_DESC"
+			ideology = conservatism
+			focuses = {
+				
+			}
+		}
 		
-		"ENG"={
-			history = "ENG_NEW_DAWN_DESC"
-			ideology = democratic
+		"RUS"={
+			history = "RUS_NEW_DAWN_DESC"
+			ideology = neutrality
 			ideas = {
 				
 			}
@@ -20,7 +29,7 @@ bookmarks = {
 
 		"FRA"={
 			history = "FRA_NEW_DAWN_DESC"
-			ideology = democratic
+			ideology = liberalism
 			ideas = {
 				
 			}
@@ -29,9 +38,9 @@ bookmarks = {
 			}
 		}
 
-		"KSN"={
-			history = "KSN_NEW_DAWN_DESC"
-			ideology = neutrality
+		"ENG"={
+			history = "ENG_NEW_DAWN_DESC"
+			ideology = conservatism
 			ideas = {
 				
 			}
@@ -42,33 +51,29 @@ bookmarks = {
 
 		"GER"={
 			history = "GER_NEW_DAWN_DESC"
-			ideology = neutrality
+			ideology = authoritarian
 			ideas = {
-				imperial_pride
-				reichsbank
-				imperial_army_of_germany
+				
 			}
 			focuses = {
 				
-			}
+			}	
 		}
 
 		"AHE"={
-			history = "AUS_NEW_DAWN_DESC"
-			ideology = neutrality
+			history = "AHE_NEW_DAWN_DESC"
+			ideology = conservatism
 			ideas = {
-				eternal_empire
-				ineffective_army
-				angry_ethnicities
-			}	
+				
+			}
 			focuses = {
-
+				
 			}	
 		}
 
-		"RUS"={
-			history = "RUS_NEW_DAWN_DESC"
-			ideology = neutrality
+		"TUR"={
+			history = "TUR_NEW_DAWN_DESC"
+			ideology = authoritarian
 			ideas = {
 				
 			}	
@@ -77,19 +82,12 @@ bookmarks = {
 			}			
 		}
 
-		"TUR"={
-			history = "TUR_NEW_DAWN_DESC"
-			ideology = neutrality
-			ideas = {
-				
-			}
+		"JAP"={
+			history = "JAP_NEW_DAWN_DESC"
+			ideology = authoritarian
 			focuses = {
-				
-			}	
-		}
 
-		"---"={
-			history = "OTHER_NEW_DAWN_DESC"
+			}	
 		}
 
 		effect = {

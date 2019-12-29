@@ -5,7 +5,7 @@ country_event = { #FLAG CHOOSE
 	id = russia.1
 	title = russia.1.t
 	desc = russia.1.d
-#	picture = GFX_report_event_usa_election_generic
+	picture = GFX_report_event_russia_soldiers_1
 
 	fire_only_once = yes
 

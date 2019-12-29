@@ -42,7 +42,7 @@ add_ideas = {
 	#free_trade
 	limited_conscription
 	partial_economic_mobilisation
-	chlodwig#made minsiter later
+	chlodwig
 	#imperial_pride
 	#reichsbank
 	#imperial_army_of_germany
