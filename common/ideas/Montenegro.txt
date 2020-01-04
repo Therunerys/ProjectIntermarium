@@ -1,23 +1,4 @@
 ideas = {
-	country = {
-		Bozo_Petrovic_Njegos = {
-
-			available = {
-				original_tag = MNT
-			}
-			allowed = {
-				original_tag = MNT
-			}
-
-			allowed_civil_war = {
-				original_tag = MNT
-			}
-			picture = Bozo_Petrovic_Njegos
-			removal_cost = -1
-			traits = { minister }
-
-		}
-	}
 
 	political_advisor = {
 

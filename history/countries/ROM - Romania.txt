@@ -34,7 +34,7 @@ set_popularities = {
 
 add_ideas = {
 	minorpower
-	Gheorghe_Grigore
+	georghe_cantacuzino
 	balkan_league
 	hungarian_oppression
 	oil_fields
@@ -61,6 +61,17 @@ create_country_leader = {
 	picture = "Carol_I.dds"
 	expire = "1960.1.1"
 	ideology = liberalism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Carol I"
+	desc = ""
+	picture = "Carol_I.dds"
+	expire = "1960.1.1"
+	ideology = authoritarian
 	traits = {
 		
 	}

@@ -33,7 +33,7 @@ set_popularities = {
 
 add_ideas = {
 	greatpower
-	Heinrich_Ritter
+	heinrich_wittek
 	Kalman_Szell
 	eternal_empire
 	ineffective_army

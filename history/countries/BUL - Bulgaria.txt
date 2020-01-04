@@ -33,7 +33,7 @@ set_popularities = {
 
 add_ideas = {
 	minorpower
-	Todor_Ivanchov
+	todor_ivanchov
 	balkan_league
 	bulgarian_tsardom
 }

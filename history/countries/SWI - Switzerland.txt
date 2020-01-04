@@ -7,9 +7,7 @@ set_war_support = 0.20
 set_technology = {
 	
 }
-add_ideas = {
-	minorpower
-}
+
 #####################
 ##### POLITICS ######
 #####################
@@ -33,9 +31,9 @@ set_popularities = {
 }
 
 add_ideas = {
-	Walter_Hauser
 	neutrality_idea
 	limited_conscription
+	walter_hauser
 }
 
 #####################

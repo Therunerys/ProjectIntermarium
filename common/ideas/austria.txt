@@ -2,23 +2,6 @@ ideas = {
 	
 	country = {
 
-		Heinrich_Ritter = {
-
-			available = {
-				original_tag = AHE
-			}
-			allowed = {
-				original_tag = AHE
-			}
-
-			allowed_civil_war = {
-				original_tag = AHE
-			}
-			picture = Heinrich_Ritter
-			removal_cost = -1
-			traits = { minister }
-		}
-
 		Kalman_Szell = {
 
 			available = {

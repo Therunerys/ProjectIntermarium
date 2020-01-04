@@ -33,7 +33,7 @@ set_popularities = {
 
 add_ideas = {
 	minorpower
-	Georgios_Theotokis
+	georgios_theotokis
 }
 
 #####################

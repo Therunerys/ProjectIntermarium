@@ -1,23 +1,4 @@
 ideas = {
-	country = {
-	
-		Walter_Hauser = {
-
-			available = {
-				original_tag = SWI
-			}
-			allowed = {
-				original_tag = SWI
-			}
-
-			allowed_civil_war = {
-				original_tag = SWI
-			}
-			picture = Walter_Hauser_idea
-			removal_cost = -1
-			traits = { president }
-		}
-	}
 
 	political_advisor = {
 

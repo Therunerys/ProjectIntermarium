@@ -579,5 +579,211 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
+		#SWI
+		walter_hauser = { #liberal party leader
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = SWI }
+
+			available = {
+				has_government = liberalism
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+		
+		otto_lang = { #socialist party leader
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = SWI }
+
+			available = {
+				has_government = social_democracy
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+		#AHE
+		heinrich_wittek = { #conservative  party leader
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = AHE }
+
+			available = {
+				OR = {
+					has_government = authoritarian
+					has_government = conservatism
+				}
+			}
+
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+		#Bul
+		todor_ivanchov = { #liberal party leader
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = BUL }
+
+			available = {
+				has_government = liberalism
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+
+		ivan_geshov = { #conservative party leader
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = BUL }
+
+			available = {
+				has_government = conservatism
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+
+		dimitar_blagoev = { #socialist party leader
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = BUL }
+
+			available = {
+				has_government = social_democracy
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+		#serbia
+		vladan_dordevic = { #liberal party leader
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = SER }
+
+			available = {
+				has_government = liberalism
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+		#Romania
+		georghe_cantacuzino = { #conservative party leader
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = ROM }
+
+			available = {
+				has_government = conservatism
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+		dimitrie_sturdza = { #liberal party leader
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = ROM }
+
+			available = {
+				has_government = liberalism
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+		#Montenegro
+		bozo = { #authoritarian party leader
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = MNT }
+
+			available = {
+				has_government = authoritarian
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+		#Greece
+		georgios_theotokis = { #liberal party leader
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = GRE }
+
+			available = {
+				has_government = liberalism
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+		theodoros_diligiannis = { #conservative party leader
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = GRE }
+
+			available = {
+				has_government = conservatism
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
 	}
 }
+ 

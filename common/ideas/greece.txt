@@ -1,24 +1,6 @@
 ideas = {
 
 	country = {
-	
-		Georgios_Theotokis = {
-
-			available = {
-				original_tag = GRE
-			}
-			allowed = {
-				original_tag = GRE
-			}
-
-			allowed_civil_war = {
-				original_tag = GRE
-			}
-			picture = Georgios_Theotokis
-			removal_cost = -1
-			traits = { minister }
-		}
-
 		balkan_league = {
 
 			picture = balkan_league

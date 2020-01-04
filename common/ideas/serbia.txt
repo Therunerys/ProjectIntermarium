@@ -15,23 +15,6 @@ ideas = {
      			consumer_goods_factor = 0.05
 			}
 		}
-		Vladan_Dordevic = {
-
-			available = {
-				original_tag = SER
-			}
-			allowed = {
-				original_tag = SER
-			}
-
-			allowed_civil_war = {
-				original_tag = SER
-			}
-			picture = Vladan_Dordevic
-			removal_cost = -1
-			traits = { minister }
-
-		}
 	}
 
 	political_advisor = {

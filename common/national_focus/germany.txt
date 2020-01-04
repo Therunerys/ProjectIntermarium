@@ -1,13 +1,13 @@
 ######################################################
 # German Focus Tree
-# By LG & R3B
+# By LG
 ######################################################
 
 focus_tree = {
 	id = german_focus
     
     country = {
-        factor = 1
+        factor = 0
         
         modifier = {
             add = 10

@@ -1,24 +1,6 @@
 ideas = {
 
 	country = {
-	
-		Gheorghe_Grigore = {
-
-			available = {
-				original_tag = ROM
-			}
-			allowed = {
-				original_tag = ROM
-			}
-
-			allowed_civil_war = {
-				original_tag = ROM
-			}
-			picture = Gheorghe_Grigore
-			removal_cost = -1
-			traits = { minister }
-		}
-
 		balkan_league = {
 
 			picture = balkan_league
