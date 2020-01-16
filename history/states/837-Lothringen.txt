@@ -7,7 +7,10 @@ state={
 		owner = GER
 		add_core_of = GER
 		add_core_of = FRA
-
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+		}
 	}
 
 	provinces={
@@ -15,5 +18,5 @@ state={
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=large_town
 }

@@ -13,9 +13,8 @@ state={
 		owner = GER
 		buildings = {
 			infrastructure = 6
-			arms_factory = 2
-			dockyard = 6
-			air_base = 5
+			industrial_complex = 1
+			dockyard = 3
 			6389 = {
 				naval_base = 8
 
@@ -23,17 +22,6 @@ state={
 
 		}
 		add_core_of = GER
-		1939.1.1 = {
-			buildings = {
-				synthetic_refinery = 3
-				anti_air_building = 5
-				dockyard = 7
-				arms_factory = 4
-
-			}
-
-		}
-
 	}
 
 	provinces={
@@ -41,5 +29,5 @@ state={
 	}
 	manpower=3248150
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=large_town
 }

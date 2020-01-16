@@ -7,7 +7,7 @@ state={
 		aluminium=18 # was: 30
 	}
 	
-	state_category = city
+	state_category = large_town
 
 	history={
 		owner = GER
@@ -18,18 +18,11 @@ state={
 			708 3 #10
 		}
 		buildings = {
-			infrastructure = 7
-			arms_factory = 2
-			industrial_complex = 1
-			air_base = 6
+			infrastructure = 6
+			industrial_complex = 2
 		}
 		add_core_of = GER
 
-		1939.1.1 = {
-			buildings = {
-				air_base = 10
-			}
-		}
 	}
 
 	provinces={
