@@ -4,6 +4,9 @@ state={
 	provinces={
 		13249 13250 
 	}
+	history={
+		owner = GER
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
 }
