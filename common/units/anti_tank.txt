@@ -24,7 +24,7 @@ sub_units = {
 		combat_width = 0
 
 		need = {
-			antitank1 = 24
+			antitank_0 = 24
 		}
 		manpower = 300
 		max_organisation = 0

@@ -23,7 +23,7 @@ sub_units = {
 		combat_width = 1
 
 		need = {
-			antitank1 = 36
+			antitank_0 = 36
 		}
 		manpower = 500
 		max_organisation = 0
@@ -94,7 +94,7 @@ sub_units = {
 		combat_width = 1
 		transport = motorized_equipment
 		need = {
-			antitank1 = 36
+			antitank_0 = 36
 			motorized_equipment = 50
 		}
 		manpower = 500
