@@ -2701,7 +2701,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "wonderweapon_year"
-				position = { x=850 y=170 }
+				position = { x=950 y=170 }
 				size = { width = 130 height = 100% }
 				orientation = upper_left
 			
@@ -2720,6 +2720,19 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "wonderweapon_year2"
+					position = { x = 0 y = 260 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1906"
+					maxWidth = 130
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "wonderweapon_year3"
 					position = { x = 0 y = 380 }
 					textureFile = ""
 					font = "hoi_36header"
@@ -2732,7 +2745,20 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "wonderweapon_year3"
+					name = "wonderweapon_year4"
+					position = { x = 0 y = 500 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1910"
+					maxWidth = 130
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "wonderweapon_year5"
 					position = { x = 0 y = 620 }
 					textureFile = ""
 					font = "hoi_36header"
@@ -2857,7 +2883,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "chemical_warfare_subtitle"
-					position = { x = 900 y = 250 }
+					position = { x = 990 y = 250 }
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
 					text = "TITLE_GAS_SUBTITLE"
@@ -2877,7 +2903,7 @@ guiTypes = {
 			
 			gridboxtype = {
 				name = "chlorine_gas_tree"
-				position = { x=655 y=292 }
+				position = { x=750 y=292 }
 				size = { width = 680 height = 500 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"

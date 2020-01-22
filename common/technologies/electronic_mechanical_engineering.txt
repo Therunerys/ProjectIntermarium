@@ -484,11 +484,11 @@ technologies = {
 
 		category_all_infantry = {
 			soft_attack = 0.02
-			breakthrough = 0.05
+			breakthrough = 0.03
 		}
 		
 		path = {
-			leads_to_tech = mustard_gas
+			leads_to_tech = gasmask
 			research_cost_coeff = 1
 		}
 		
@@ -514,7 +514,75 @@ technologies = {
 		}
 	}
 
+	gasmask = {
+
+		category_all_infantry = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		
+		path = {
+			leads_to_tech = mustard_gas
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1906
+
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			
+			modifier = {
+				factor = 3
+				date > "1937.1.1"
+			}
+		}
+		
+		categories = {
+			nuclear
+		}
+	}
+
 	mustard_gas = {
+
+		category_all_infantry = {
+			soft_attack = 0.05
+			breakthrough = 0.05
+		}
+		
+		path = {
+			leads_to_tech = gas_grenades
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1908
+
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			
+			modifier = {
+				factor = 3
+				date > "1937.1.1"
+			}
+		}
+		
+		categories = {
+			nuclear
+		}
+	}
+
+	gas_grenades = {
 
 		category_all_infantry = {
 			soft_attack = 0.05
@@ -527,11 +595,11 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1908
+		start_year = 1910
 
 		folder = {
 			name = electronics_folder
-			position = { x = 0 y = 4 }
+			position = { x = 0 y = 6 }
 		}
 		
 		ai_will_do = {

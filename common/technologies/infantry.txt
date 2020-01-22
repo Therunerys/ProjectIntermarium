@@ -142,7 +142,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_support
+			infantry_weapons
 		}
 		
 		ai_will_do = {
@@ -170,7 +170,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_support
+			infantry_weapons
 		}
 		
 		ai_will_do = {
@@ -198,7 +198,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_support
+			infantry_weapons
 		}
 		
 		ai_will_do = {
@@ -221,7 +221,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_support
+			infantry_weapons
 		}
 		
 		ai_will_do = {
@@ -317,11 +317,6 @@ technologies = {
 			hard_attack = 0.02
 		}
 
-		path = {
-			leads_to_tech = gasmask
-			research_cost_coeff = 1
-		}
-
 		research_cost = 2
 		start_year = 1904
 		folder = {
@@ -384,29 +379,6 @@ technologies = {
 		}
 	}
 
-	gasmask = {
-
-		category_all_infantry = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-
-		research_cost = 2
-		start_year = 1906
-		folder = {
-			name = infantry_folder
-			position = { x = 2 y = 12 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 3		
-		}
-	}
-
 	flamethrower = {
 
 		enable_equipments = {
@@ -430,7 +402,7 @@ technologies = {
 		}
 		
 		categories = {
-			flamethrower
+			infantry_weapons
 		}
 		
 		ai_will_do = {

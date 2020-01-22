@@ -559,11 +559,6 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_gasmask_medium"
-		texturefile = "gfx/interface/technologies/soldiergasmask.dds"
-	}
-
-	SpriteType = {
 		name = "GFX_flamethrower_medium"
 		texturefile = "gfx/interface/technologies/flamethrower.dds"
 	}
@@ -2807,8 +2802,18 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_gasmask_medium"
+		texturefile = "gfx/interface/technologies/gasmask.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_mustard_gas_medium"
 		texturefile = "gfx/interface/technologies/gasmustard.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_gas_grenades_medium"
+		texturefile = "gfx/interface/technologies/gasgrenade.dds"
 	}
 
 	SpriteType = {
