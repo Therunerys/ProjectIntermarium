@@ -4052,4 +4052,20 @@ spriteTypes = {
         name = "GFX_idea_nonpower"
         texturefile = "gfx/interface/ideas/idea_non_power.dds"
     }
+
+    #GERMANY
+
+	SpriteType = {
+		name = "GFX_idea_ger_victory"
+		texturefile = "gfx/interface/ideas/ger_victory.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_ger_industry"
+		texturefile = "gfx/interface/ideas/ger_industry.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_ger_general_staff"
+		texturefile = "gfx/interface/ideas/ger_general_staff.dds"	
+	}
+
 }		
