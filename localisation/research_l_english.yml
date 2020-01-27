@@ -575,9 +575,31 @@ armored_opeartions_desc:0 "Armor is give specific targets in an offensive to hel
  fire_control_methods_2_desc:0 "Instead of firing over the target and losing track of the impacts behind the enemy ship, shots are deliberately dropped short of the target and the distance between impact and target measured to determine the range."
  fire_control_methods_3:0 "Shell Dyes"
  fire_control_methods_3_desc:0 "Adding small color packages to the shells when they are fired colors the impacts around the target and allows multiple ships to engage the same target without being confused by each other's impacts."
-
-
-
+#
+#
+#
+#
+ #         ENGINEERING TREE
+#
+#
+#
+#
+radio_waves:0 "Radio Waves"
+radio_waves_desc:0 "The detection of radio waves brings us a whole new way of communication and detection."
+telegraph:0 "Telegraph"
+telegraph_desc:0 "We have achieved means of communication at long ranges. This will surely bring a revolution in means of communication."
+headphones:0 "Headphones"
+headphones_desc:0 "Improvements to listening devices allows us to communicate with less error than before. There will be no more errors due to weak reception or noisy environment."
+early_radio:0 "Early Radio"
+early_radio_desc:0 "A truly revolutionary device. The ability to broadcast voice communication over long distances will improve connections and response time of our units."
+basic_radio:0 "Basic Radio"
+basic_radio_desc:0 "We can now build Radio Stations that will allow us to listen and intercept various messages."
+improved_radio:0 "Improved Radio"
+improved_radio_desc:0 "Studying our early radio stations, we can improve upon them and build more powerful stations. They will be able to transmit and intercept messages from further away."
+diode:0 "Diode"
+diode_desc:0 "A diode is a two-terminal electronic component that conducts current primarily in one direction. Tt has low resistance in one direction, and high resistance in the other."
+triode:0 "Triode"
+triode_desc:0 "A triode is an electronic amplifying vacuum tube consisting of three electrodes inside an evacuated glass envelope."
 
 
 
@@ -658,6 +680,9 @@ armored_opeartions_desc:0 "Armor is give specific targets in an offensive to hel
  excavation5:0 "Excavation V"
  excavation5_desc:0 "Advancements in fields such as surface mining gives us a greater yield of resources from our current extraction sites."
  excavation_tech:0 "Excavation Technologies"
+
+
+ 
  electronic_mechanical_engineering:0 "Electronic Mechanical Engineering"
  electronic_mechanical_engineering_desc:0 "We live in an age when electrical machines can no longer only warm and light us, but help us think and communicate. Electronics will be key to military intelligence in the coming century."
  radio:0 "Radio"
