@@ -4,9 +4,12 @@
  majorpower:0 "Major Power"
  minorpower:0 "Minor Power"
  non-power:0 "Non-Power"
- industrial_economy_GER:0 "Leading Industry"
+ industrial_economy_GER:0 "German Industry"
+ industrial_economy_GER_desc:0 "Although Germany had it's industrial revolution some time after Britain, due to it not being a unified entity at the time, German industry has come to dominate all those in Europe, recently overtaking Britain as the industrial powerhouse of Europe. After unification Germany rapidly industrialised due to it's abundant natural resources, well planned railroads and early economic bonds between the German principalities established by Prussia. Now Germany has come to surpass it's neigbours' industries and dominate the European economy, with the largest steel, coal and chemical industries. Germany's industry remains the largest and fastest growing in Europe, a shining example for other ambitious states."
  german_general_staff:0 "German General Staff"
- GER_victory:0 "P L A C E H O L D E R"
+ german_general_staff_desc:0 "The German General Staff was the head of the German Army, responsible for the planning of German military campaigns, and the study of warfare. The staff comprised of fifty or so of Germany's most elite officers. The distinguishing element of the German General Staff when compared to other European military institutions, is it selected its officers based purely on skill and intelligence, as opposed to lineage or wealth. This meant German planning and tactics were mostly ahead of other European powers, perhaps contributing to their previous victories."
+ GER_victory:0 "Deutschland Ungeschlagen!"
+ GER_victory_desc:0 "Deutschland Ungeschlagen, meaning 'Germany Undefeated!', exemplifies the sentiment of the German people around the dawn of the 20th centry. The German people had triumphed thrice against three great powers, undefeated. These victories lead to the creation of the German Empire, and remain as a massive source of pride and nationalism in Germany. If Germany has already earned three victories, who is to say they will not earn many more to come!
  ###############################################
  fascist_influence:0 "Fascist Influence"
  fascist_influence_desc:0 "Fascist pressure has made fascism very popular, and the country is susceptible to align with other fascists."
