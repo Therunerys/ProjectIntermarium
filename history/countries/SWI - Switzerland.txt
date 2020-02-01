@@ -41,11 +41,33 @@ add_ideas = {
 #####################
 
 create_country_leader = {
-	name = "Walter Hauser"
+	name = "Federal Council"
 	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
-	picture = "walter_hauser.dds"
+	picture = "Portrait_Switzerland_Federal_council.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Federal Council"
+	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
+	picture = "Portrait_Switzerland_Federal_council.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Federal Council"
+	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
+	picture = "Portrait_Switzerland_Federal_council.dds"
+	expire = "1965.1.1"
+	ideology = social_democracy
 	traits = {
 		#
 	}
