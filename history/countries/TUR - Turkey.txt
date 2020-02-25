@@ -7,8 +7,8 @@ set_technology = {
 
 set_research_slots = 3
 set_convoys = 200
-set_stability = 0.40
-set_war_support = 0.30
+set_stability = 0.6
+set_war_support = 0.5
 
 #####################
 ##### POLITICS ######
@@ -16,6 +16,7 @@ set_war_support = 0.30
 
 set_politics = {
 	ruling_party = authoritarian
+	last_election = "1900.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -34,8 +35,6 @@ set_popularities = {
 add_ideas = {
 	majorpower
 	Halil_Rifat_Pasha
-	brink_of_collapse
-	high_famine
 	ineffective_army
 	slow_industrialization
 	lost_in_balkan_war_for_independence
@@ -101,18 +100,4 @@ create_navy_leader = {
 	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
 	traits = {  }
 	skill = 2
-}
-
-
-### Ship Variants ###
-
-create_equipment_variant = {
-	name = "Dumlupinar Class"
-	type = submarine_1
-	upgrades = {
-		ship_reliability_upgrade = 2
-		sub_engine_upgrade = 2
-		sub_stealth_upgrade = 2
-		sub_torpedo_upgrade = 2
-	}
 }

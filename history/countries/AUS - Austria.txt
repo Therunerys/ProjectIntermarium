@@ -34,9 +34,7 @@ set_popularities = {
 }
 
 add_ideas = {
-	eternal_empire
-	ineffective_army
-	angry_ethnicities
+
 }
 
 #####################

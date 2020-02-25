@@ -9,9 +9,7 @@ set_research_slots = 3
 set_convoys = 50
 set_stability = 0.70
 set_war_support = 0.50
-add_ideas = {
-	majorpower
-}
+
 #####################
 ##### POLITICS ######
 #####################
@@ -24,18 +22,19 @@ set_politics = {
 }
 
 set_popularities = {
-	conservatism = 56.94
-	liberalism = 43.06
-	social_democracy = 0
-	radical_socialism = 0
-	communism = 0
+	conservatism = 51
+	liberalism = 42
+	social_democracy = 3
+	radical_socialism = 1
+	communism = 1
 	authoritarian = 0
-	nationalism = 0
-	fascism = 0
+	nationalism = 1
+	fascism = 1
 }
 
 add_ideas = {
 	francisco_silvela
+	major_power
 }
 
 #####################
@@ -99,29 +98,4 @@ create_field_marshal = {
     defense_skill = 3
     planning_skill = 2
     logistics_skill = 1
-}
-
-
-### Ship Variants ###
-
-create_equipment_variant = {
-	name = "C Class"
-	type = submarine_1
-	upgrades = {
-		ship_reliability_upgrade = 1
-		sub_engine_upgrade = 1
-		sub_stealth_upgrade = 1
-		sub_torpedo_upgrade = 1
-	}
-}
-
-create_equipment_variant = {
-	name = "Príncipe Alfonso Class"
-	type = light_cruiser_1
-	upgrades = {
-		ship_reliability_upgrade = 1
-		ship_engine_upgrade = 1
-		ship_gun_upgrade = 1
-		ship_anti_air_upgrade = 1
-	}
 }

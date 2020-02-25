@@ -11,16 +11,6 @@ set_technology = {
 add_ideas = {
 	non-power
 }
-if = {
-	limit = {
-		has_dlc = "Waking the Tiger"
-	}
-	add_ideas = {
-		PRC_government_corruption
-		CHI_ineffective_bureaucracy_warlord
-	}
-}
-
 
 set_politics = {
 

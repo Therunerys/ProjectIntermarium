@@ -34,8 +34,6 @@ set_popularities = {
 add_ideas = {
 	minorpower
 	todor_ivanchov
-	balkan_league
-	bulgarian_tsardom
 }
 
 #####################

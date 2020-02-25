@@ -35,9 +35,6 @@ set_popularities = {
 add_ideas = {
 	minorpower
 	georghe_cantacuzino
-	balkan_league
-	hungarian_oppression
-	oil_fields
 }
 
 #####################

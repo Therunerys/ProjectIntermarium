@@ -48,6 +48,3 @@ create_country_leader = {
 		spirit_of_genghis
 	}
 }
-
-1939.1.1 = {
-}

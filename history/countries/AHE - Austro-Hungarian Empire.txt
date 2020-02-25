@@ -35,9 +35,6 @@ add_ideas = {
 	greatpower
 	heinrich_wittek
 	Kalman_Szell
-	eternal_empire
-	ineffective_army
-	angry_ethnicities
 }
 
 #####################

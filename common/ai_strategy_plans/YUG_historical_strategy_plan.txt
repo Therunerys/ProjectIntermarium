@@ -1,0 +1,57 @@
+YUG_historical = {
+	name = "Yugoslavian historical plan"
+	desc = ""
+
+	enable = {
+		original_tag = YUG
+		has_dlc = "Death or Dishonor"
+		OR = {
+			AND = {
+				is_historical_focus_on = yes
+				has_game_rule = {
+					rule = YUG_ai_behavior
+					option = DEFAULT
+				}
+			}
+			has_country_flag = YUG_AI_RANDOM_HISTORICAL
+			has_game_rule = {
+				rule = YUG_ai_behavior
+				option = HISTORICAL
+			}
+		}
+	}
+	abort = {
+		
+	}
+
+	ai_national_focuses = {
+		
+	}
+
+	research = {
+	
+	}
+
+	ideas = {
+		
+	}
+
+	traits = {
+		
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+	focus_factors = {
+		
+	}
+
+}
+

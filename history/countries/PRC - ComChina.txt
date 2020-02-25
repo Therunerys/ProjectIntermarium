@@ -13,9 +13,6 @@ add_ideas = {
 	non-power
 }
 
-save_global_event_target_as = WTT_communist_china
-
-
 
 set_politics = {
 
@@ -40,50 +37,11 @@ set_politics = {
 	elections_allowed = no
 }
 
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 0
-			}
-
-			fascism = {
-				popularity = 0
-			}
-			
-			communism = {
-				popularity = 100
-				#banned = no #default is no
-			}
-		}
-		
-		ruling_party = communism
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-}
-
 add_ideas = {
 	closed_economy
 	service_by_requirement
 	partial_economic_mobilisation
 }
-
-if = {
-	limit = {
-		has_dlc = "Waking the Tiger"
-	}
-	add_ideas = {
-		PRC_the_long_march_1
-		PRC_low_popular_support_3
-		PRC_power_struggles
-		PRC_red_army_weakened
-	}
-}
-
-add_opinion_modifier = { target = CHI modifier = hostile_status }
 
 create_country_leader = {
 	name = "Mao Zedong"

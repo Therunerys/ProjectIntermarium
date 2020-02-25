@@ -39,34 +39,6 @@ set_politics = {
 	elections_allowed = yes
 }
 
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 84
-			}
-
-			fascism = {
-				popularity = 2
-			}
-			
-			communism = {
-				popularity = 2
-			}
-
-			authoritarian = {
-				popularity = 12
-			}
-		}
-		
-		ruling_party = democratic
-		last_election = "1936.10.19"
-		election_frequency = 36
-		elections_allowed = yes
-	}
-}
-
 create_country_leader = {
 	name = "Sveinn Björnsson"
 	desc = ""

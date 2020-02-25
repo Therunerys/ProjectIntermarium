@@ -1,25 +1,2 @@
 ideas = {
-
-	country = {
-		founded_nation = {
-
-			picture = new_nation
-			
-			allowed = {
-				always = no
-			}
-			
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			removal_cost = -1
-			
-			modifier = {
-				political_power_gain = 0.1
-				stability_factor = 0.10
-				war_support_factor = 0.05
-			}
-		}
-	}
 }

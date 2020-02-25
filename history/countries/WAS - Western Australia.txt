@@ -4,9 +4,7 @@
 set_technology = {
 
 }
-add_ideas = {
-	non-power
-}
+
 set_research_slots = 3
 set_convoys = 100
 set_stability = 0.63
@@ -32,19 +30,9 @@ set_popularities = {
 
 add_ideas = {
 	John_Forrest
+	non-power
 }
 
 #####################
 ###### LEADERS ######
 #####################
-
-create_country_leader = {
-	name = "Gerard Smith"
-	desc = ""
-	picture = "Gerard_Smith.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}

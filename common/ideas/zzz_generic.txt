@@ -177,7 +177,6 @@ ideas = {
 		
 		communist_influence = {
 			
-			
 			allowed = {
 				always = no
 			}
@@ -195,8 +194,8 @@ ideas = {
 				communism_acceptance = 85
 			}
 		}
+
 		democratic_influence = {
-			
 			
 			allowed = {
 				always = no
@@ -215,7 +214,9 @@ ideas = {
 				democratic_acceptance = 85
 			}
 		}
+
 		neutrality_influence = {
+		
 			allowed = {
 				always = no
 			}

@@ -1,0 +1,149 @@
+AST_alternate_democratic = {
+	name = "Australia does it alone!"
+	desc = ""
+
+	enable = {
+		original_tag = AST
+		has_dlc = "Together for Victory"
+		OR = {
+			has_country_flag = AST_AI_RANDOM_DEMOCRATIC_ALTERNATE 
+			has_game_rule = {
+				rule = AST_ai_behavior
+				option = DEMOCRATIC_ALTERNATE
+			}
+		}
+	}
+	abort = {
+		
+	}
+
+	ai_national_focuses = {
+		
+	}
+
+	research = {
+	
+	}
+
+	ideas = {
+		
+	}
+
+	traits = {
+		
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+	focus_factors = {
+		
+	}
+
+}
+
+AST_alternate_fascist = {
+	name = "Australia goes fascist"
+	desc = ""
+
+	enable = {
+		original_tag = AST
+		has_dlc = "Together for Victory"
+		OR = {
+			has_country_flag = AST_AI_RANDOM_FASCIST 
+			has_game_rule = {
+				rule = AST_ai_behavior
+				option = FASCIST
+			}
+		}
+	}
+	abort = {
+		
+	}
+
+	ai_national_focuses = {
+		
+	}
+
+	research = {
+	
+	}
+
+	ideas = {
+		
+	}
+
+	traits = {
+		
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+	focus_factors = {
+		
+	}
+
+}
+
+AST_alternate_communist = {
+	name = "Australia goes communist"
+	desc = ""
+
+	enable = {
+		original_tag = AST
+		has_dlc = "Together for Victory"
+		OR = {
+			has_country_flag = AST_AI_RANDOM_COMMUNIST 
+			has_game_rule = {
+				rule = AST_ai_behavior
+				option = COMMUNIST
+			}
+		}
+	}
+	abort = {
+		
+	}
+
+	ai_national_focuses = {
+		
+	}
+
+	research = {
+		
+	}
+
+	ideas = {
+		
+	}
+
+	traits = {
+		
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+	focus_factors = {
+		
+	}
+
+}

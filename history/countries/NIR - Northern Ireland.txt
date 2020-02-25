@@ -33,27 +33,3 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
-
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 98
-			}
-
-			fascism = {
-				popularity = 1
-			}
-			
-			communism = {
-				popularity = 1
-			}
-		}
-		
-		ruling_party = democratic
-		last_election = "1938.6.17"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-}

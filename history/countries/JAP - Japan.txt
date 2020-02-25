@@ -9,19 +9,6 @@ set_convoys = 300
 set_stability = 0.80
 set_war_support = 0.60
 
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = KOR
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.15
-	}
-	else = {
-		
-	}
-}
 
 #####################
 ##### POLITICS ######
@@ -469,19 +456,6 @@ create_navy_leader = {
 
 ### VARIANTS ###
 	# 1936 Start #
-		### Carrier Variants
-		create_equipment_variant = {
-			name = "Akagi Class"
-			type = carrier_1
-			parent_version = 0
-			upgrades = {
-				ship_deckspace_upgrade = 5
-				carrier_armor_upgrade = 2
-				ship_engine_upgrade = 2
-				ship_reliability_upgrade = 3
-			}
-			obsolete = yes
-		}
 		### Battleship Variants	
 		create_equipment_variant = {
 			name = "Ise Class"
@@ -570,44 +544,5 @@ create_navy_leader = {
 			}
 			obsolete = yes
 		}	
-
-	# 1939 Start #			
-	1939.1.1 = {
-		### Carrier Variants
-		create_equipment_variant = {
-			name = "Hiryu Class"
-			type = carrier_2
-			parent_version = 0
-			upgrades = {
-				ship_deckspace_upgrade = 1
-				carrier_armor_upgrade = 0
-				ship_engine_upgrade = 0
-				ship_reliability_upgrade = 1
-			}
-		}
-		### Destroyer Variants
-		#create_equipment_variant = {
-		#	name = "Fubuki Class"
-		#	type = destroyer_1
-		#	parent_version = 0
-		#	upgrades = {
-		#		ship_torpedo_upgrade = 2
-		#		destroyer_engine_upgrade = 4
-		#		ship_ASW_upgrade = 2
-		#		ship_anti_air_upgrade = 2
-		#	}
-		#	obsolete = yes
-		#}	
-		create_equipment_variant = {
-			name = "Kagero Class"
-			type = destroyer_2
-			parent_version = 0
-			upgrades = {
-				ship_torpedo_upgrade = 2
-				destroyer_engine_upgrade = 3
-				ship_ASW_upgrade = 2
-				ship_anti_air_upgrade = 2
-			}
-		}	
 	}
-	
+}

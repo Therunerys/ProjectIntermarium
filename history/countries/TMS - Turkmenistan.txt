@@ -1,84 +1,42 @@
 ﻿capital = 584
 
-#oob = ""
 
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
+	
 }
+
+set_research_slots = 2
+set_convoys = 20
+set_stability = 0.4
+set_war_support = 0.4
+
+#####################
+##### POLITICS ######
+#####################
+
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1900.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	conservatism = 55
+	liberalism = 3
+	social_democracy = 5
+	radical_socialism = 3
+	communism = 2
+	authoritarian = 17
+	nationalism = 16
+	fascism = 4
+}
+
 add_ideas = {
 	non-power
 }
-set_convoys = 5
 
-
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 51
-		}
-
-		fascism = {
-			popularity = 1
-		}
-		
-		communism = {
-			popularity = 40
-			#banned = no #default is no
-		}
-		
-		authoritarian = { 
-			popularity = 9
-		}
-	}
-	
-	ruling_party = democratic
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
-
-#create_country_leader = {
-#	
-#	name = "Jonas Lote"
-#	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
-#	expire = "1965.1.1"
-#	ideology = centrism
-#	traits = {
-#		#
-#	}
-#}
-
-
-}
-
-
-1939.1.1 = {
-	set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 51
-		}
-
-		fascism = {
-			popularity = 1
-		}
-		
-		communism = {
-			popularity = 40
-			#banned = no #default is no
-		}
-		
-		authoritarian = { 
-			popularity = 9
-		}
-	}
-	
-	ruling_party = democratic
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
-
+#####################
+###### LEADERS ######
+#####################

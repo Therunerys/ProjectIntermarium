@@ -30,7 +30,6 @@ add_ideas = {
 	limited_conscription
 	partial_economic_mobilisation
 	imperial_pride
-	reichsbank
 	imperial_army_of_germany
 }
 

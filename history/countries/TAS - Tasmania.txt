@@ -1,12 +1,15 @@
 ﻿capital = 518
 
+# Starting tech
+set_technology = {
+
+}
+
 set_research_slots = 3
 set_convoys = 100
 set_stability = 0.63
 set_war_support = 0.38
-add_ideas = {
-	non-power
-}
+
 #####################
 ##### POLITICS ######
 #####################
@@ -19,14 +22,19 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 100
-	fascism = 0
+	conservatism = 100
+	liberalism = 0
+	social_democracy = 0
+	radical_socialism = 0
 	communism = 0
 	authoritarian = 0
+	nationalism = 0
+	fascism = 0
 }
 
 add_ideas = {
 	Elliott_Lewis
+	non-power
 }
 
 #####################
