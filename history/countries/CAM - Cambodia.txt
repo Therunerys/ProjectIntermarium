@@ -1,75 +1,40 @@
 ﻿capital = 286 #Phnom Penh NOT on the map as VP!
 
-oob = "CAM_1936"
+# Starting tech
+set_technology = {
+}
 
 set_research_slots = 3
+set_convoys = 50
+set_stability = 0.6
+set_war_support = 0.5
 
-# Starting tech
-# clone of France
-set_technology = {
+#####################
+##### POLITICS ######
+#####################
 
-}
-add_ideas = {
-	non-power
-}
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 40
-		}
-
-#		fascism = {
-#		
-#		}
-		
-		communism = {
-			popularity = 25
-		}
-		authoritarian = {
-			popularity = 35
-		}
-	}
-
-	ruling_party = democratic
-	last_election = "1933.2.16"
-	election_frequency = 36
+	ruling_party = conservatism
+	last_election = "1900.1.1"
+	election_frequency = 48
 	elections_allowed = yes
 }
 
-create_country_leader = {
-	name = "Pol Pot" 
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_warlord1.dds"
-	expire = "1953.3.1"
-	ideology = anarchist_communism #insanity
-	traits = {
-		
-	}
+set_popularities = {
+	conservatism = 40
+	liberalism = 0
+	social_democracy = 0
+	radical_socialism = 5
+	communism = 20
+	authoritarian = 35
+	nationalism = 0
+	fascism = 0
 }
 
-#non standard english alphabet character
-create_country_leader = {
-	name = "Sisowath Youtévong"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
-	expire = "1953.3.1"
-	ideology = liberalism
-	traits = {
-		
-	}
+add_ideas = {
+	non-power
 }
 
-create_country_leader = {
-	name = "Norodom Sihanouk" 
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
-	expire = "1953.3.1"
-	ideology = conservatism
-	traits = {
-		
-	}
-}
-
-#couldnt find anything historical on fascism
-
+#####################
+###### LEADERS ######
+#####################

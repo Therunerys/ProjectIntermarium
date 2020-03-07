@@ -2,7 +2,6 @@
 
 # Starting tech
 set_technology = {
-
 }
 
 set_research_slots = 3
@@ -15,17 +14,21 @@ set_war_support = 0.38
 #####################
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1899.4.29"
+	ruling_party = conservatism
+	last_election = "1900.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 75
-	fascism = 0
-	communism = 25
-	authoritarian = 0
+	conservatism = 67
+	liberalism = 3
+	social_democracy = 2
+	radical_socialism = 3
+	communism = 10
+	authoritarian = 5
+	nationalism = 5
+	fascism = 5
 }
 
 add_ideas = {

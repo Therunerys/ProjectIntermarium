@@ -1,28 +1,40 @@
 ﻿capital = 104
 
-set_research_slots = 3
+# Starting tech
+set_technology = {
+}
+
+set_research_slots = 2
+set_convoys = 0
+set_stability = 0.40
+set_war_support = 0.30
+
+#####################
+##### POLITICS ######
+#####################
+
+set_politics = {
+	ruling_party = authoritarian
+	last_election = "1900.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	conservatism = 30
+	liberalism = 5
+	social_democracy = 15
+	radical_socialism = 5
+	communism = 10
+	authoritarian = 20
+	nationalism = 10
+	fascism = 5
+}
+
 add_ideas = {
 	non-power
 }
-# Starting tech
-# clone of Yugoslavia
-set_technology = {
-	infantry_weapons = 1
-}
 
-set_politics = {
-
-	parties = {
-		fascism = { 
-			popularity = 33
-		}
-		authoritarian = { 
-			popularity = 33
-		}		
-		communism = {
-			popularity = 34
-		}
-	}
-}
-
-
+#####################
+###### LEADERS ######
+#####################

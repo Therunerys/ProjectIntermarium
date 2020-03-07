@@ -1,35 +1,40 @@
 ﻿capital = 119
 
-set_research_slots = 3
-
+# Starting tech
 set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
 }
 
-set_convoys = 10
+set_research_slots = 2
+set_convoys = 0
+set_stability = 0.64
+set_war_support = 0.40
+
+#####################
+##### POLITICS ######
+#####################
+
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1900.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	conservatism = 100
+	liberalism = 0
+	social_democracy = 0
+	radical_socialism = 0
+	communism = 0
+	authoritarian = 0
+	nationalism = 0
+	fascism = 0
+}
+
 add_ideas = {
 	minorpower
 }
 
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 98
-		}
-
-		fascism = {
-			popularity = 1
-		}
-		
-		communism = {
-			popularity = 1
-		}
-	}
-	
-	ruling_party = democratic
-	last_election = "1933.1.24"
-	election_frequency = 48
-	elections_allowed = yes
-}
+#####################
+###### LEADERS ######
+#####################

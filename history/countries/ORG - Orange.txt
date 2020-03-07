@@ -1,14 +1,14 @@
 ﻿capital = 803
 
-set_stability = 0.6
-set_war_support = 0.1
 # Starting tech
 set_technology = {
-	
 }
-add_ideas = {
-	non-power
-}
+
+set_research_slots = 2
+set_convoys = 0
+set_stability = 0.40
+set_war_support = 0.30
+
 #####################
 ##### POLITICS ######
 #####################
@@ -32,7 +32,7 @@ set_popularities = {
 } 
 
 add_ideas = {
-	
+	non-power
 }
 
 #####################

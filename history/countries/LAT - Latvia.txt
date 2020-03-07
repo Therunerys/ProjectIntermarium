@@ -1,97 +1,40 @@
 ﻿capital = 12
 
-oob = "LAT_1936"
-add_ideas = {
-	minorpower
-}
-add_ideas = {
-	limited_conscription
-}
-
+# Starting tech
 set_technology = {
-
 }
 
-set_research_slots = 3
+set_research_slots = 2
+set_convoys = 0
+set_stability = 0.40
+set_war_support = 0.30
 
-set_convoys = 10
-
+#####################
+##### POLITICS ######
+#####################
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 30
-		}
-
-		fascism = {
-			popularity = 15
-		}
-		
-		communism = {
-			popularity = 15
-		}
-		
-		authoritarian = { 
-			popularity = 50
-		}
-	}
-	
 	ruling_party = authoritarian
-	last_election = "1931.10.3"
-	election_frequency = 108
+	last_election = "1900.1.1"
+	election_frequency = 48
 	elections_allowed = no
 }
 
-create_country_leader = {
-	name = "Karlis Ulmanis"
-	desc = "POLITICS_KARLIS_ULMANIS_DESC"
-	picture = "GFX_Portrait_latvia_karlis_ulmanis"
-	expire = "1965.1.1"
-	ideology = oligarchism
-	traits = {
-		#
-	}
+set_popularities = {
+	conservatism = 30
+	liberalism = 0
+	social_democracy = 0
+	radical_socialism = 0
+	communism = 15
+	authoritarian = 50
+	nationalism = 0
+	fascism = 15
 }
 
-create_country_leader = {
-	name = "Gustavs Celmiņš"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Fricis Menders"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Vilis Lacis"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
-	}
+add_ideas = {
+	minorpower
 }
 
-create_corps_commander = {
-	name = "Berkis Krisjanis"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	traits = { ranger }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 1
-}
+#####################
+###### LEADERS ######
+#####################

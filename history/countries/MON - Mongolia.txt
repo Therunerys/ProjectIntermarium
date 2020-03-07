@@ -1,50 +1,38 @@
 ﻿capital = 330
 
-oob = "MON_1936"
-
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
 }
-add_ideas = {
-	non-power
-}
+
 set_research_slots = 2
 set_convoys = 0
-set_stability = 0.35
-set_war_support = 0.10
+set_stability = 0.40
+set_war_support = 0.30
 
 #####################
 ##### POLITICS ######
 #####################
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 70
-		}
-
-		fascism = {
-			popularity = 4
-		}
-		
-		communism = {
-			popularity = 24
-		}
-
-		authoritarian = {
-			popularity = 2
-		}
-	}
-	
-	ruling_party = democratic
+	ruling_party = conservatism
+	last_election = "1900.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
-add_ideas = {
+set_popularities = {
+	conservatism = 70
+	liberalism = 0
+	social_democracy = 0
+	radical_socialism = 4
+	communism = 20
+	authoritarian = 2
+	nationalism = 0
+	fascism = 4
+}
 
+add_ideas = {
+	non-power
 }
 
 #####################

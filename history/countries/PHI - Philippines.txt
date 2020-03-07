@@ -1,59 +1,40 @@
 ﻿capital = 327
 
-oob = "PHI_1936"
-
 # Starting tech
 set_technology = {
-	
-}
-add_ideas = {
-	minorpower
 }
 
-set_convoys = 5
+set_research_slots = 2
+set_convoys = 0
+set_stability = 0.40
+set_war_support = 0.30
 
+#####################
+##### POLITICS ######
+#####################
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 82
-		}
-
-		fascism = {
-			popularity = 9
-		}
-		
-		communism = {
-			popularity = 9
-			#banned = no #default is no
-		}
-	}
-	
-	ruling_party = democratic
-	last_election = "1935.9.15"
-	election_frequency = 72
+	ruling_party = conservatism
+	last_election = "1900.1.1"
+	election_frequency = 48
 	elections_allowed = yes
 }
 
-create_country_leader = {
-	name = "Manuel Luis Quezón"
-	desc = "POLITICS_MANUEL_LUIS_QUEZON_DESC"
-	picture = "gfx/leaders/PHI/Portrait_Philippines_Manuel_Luis_Quezon.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
+set_popularities = {
+	conservatism = 82
+	liberalism = 0
+	social_democracy = 8
+	radical_socialism = 0
+	communism = 0
+	authoritarian = 5
+	nationalism = 0
+	fascism = 5
 }
 
-create_country_leader = {
-	name = "Pedro P. Baguisa"
-	desc = "POLITICS_PEDRO_BAGUISA_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
-	}
+add_ideas = {
+	non-power
 }
+
+#####################
+###### LEADERS ######
+#####################

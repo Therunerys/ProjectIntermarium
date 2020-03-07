@@ -32,7 +32,6 @@ set_popularities = {
 	fascism = 0
 }
 
-
 add_ideas = {
 	non-power
 	

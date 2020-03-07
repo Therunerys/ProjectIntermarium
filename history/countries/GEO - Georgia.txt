@@ -1,69 +1,40 @@
 ﻿capital = 231 #Tbilisi
 
-oob = "GEO_1936"
-
 # Starting tech
 set_technology = {
-	
 }
-add_ideas = {
-	non-power
-}
+
+set_research_slots = 2
+set_convoys = 0
+set_stability = 0.40
+set_war_support = 0.30
+
 #####################
 ##### POLITICS ######
 #####################
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 5
-		}
-
-		fascism = {
-			popularity = 3
-		}
-		
-		communism = {
-			popularity = 92
-		}
-	}
-
-	ruling_party = communism
+	ruling_party = conservatism
+	last_election = "1900.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
+set_popularities = {
+	conservatism = 100
+	liberalism = 0
+	social_democracy = 0
+	radical_socialism = 0
+	communism = 0
+	authoritarian = 0
+	nationalism = 0
+	fascism = 0
+}
+
 add_ideas = {
+	non-power
 }
 
 #####################
 ###### LEADERS ######
 #####################
-
-create_country_leader = {
-	name = "Noe Zhordania"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1953.3.1"
-	ideology = liberalism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Kandid Charkviani"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	expire = "1953.3.1"
-	ideology = stalinism
-	traits = {
-		
-	}
-}
-
-#couldnt find anything else, the commies simply forced everyone else into exile
-
-
-

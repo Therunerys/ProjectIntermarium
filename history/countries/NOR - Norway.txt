@@ -1,104 +1,40 @@
 ﻿capital = 110
 
-oob = "NOR_1936"
+# Starting tech
+set_technology = {
+}
 
 set_research_slots = 3
+set_convoys = 80
+set_stability = 0.75
+set_war_support = 0.38
 
-add_ideas = {
-	limited_conscription
-	minorpower
-}
-
-set_stability = 0.9
-set_war_support = 0.1
-set_technology = {
-
-}
-
-
-set_convoys = 80		# biggest merchant marine in the world
-set_stability = 0.7
+#####################
+##### POLITICS ######
+#####################
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 96
-		}
-
-		fascism = {
-			popularity = 2
-		}
-		
-		communism = {
-			popularity = 2
-		}
-	}
-	
-	ruling_party = democratic
-	last_election = "1933.10.16"
-	election_frequency = 36
+	ruling_party = conservatism
+	last_election = "1900.1.1"
+	election_frequency = 48
 	elections_allowed = yes
 }
 
-create_country_leader = {
-	name = "Johan Nygaardsvold"
-	desc = "POLITICS_JOHAN_NYGAARDSVOLD_DESC"
-	picture = "Portrait_Norway_Johan_Nygaardsvold.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-		#
-	}
+set_popularities = {
+	conservatism = 96
+	liberalism = 0
+	social_democracy = 0
+	radical_socialism = 0
+	communism = 2
+	authoritarian = 0
+	nationalism = 0
+	fascism = 2
 }
 
-create_country_leader = {
-	name = "Vidkun Quisling"
-	desc = "POLITICS_VIDKUN_QUISLING_DESC"
-	picture = "Portrait_Norway_Vidkun_Quisling.dds"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		#
-	}
+add_ideas = {
+	minorpower
 }
 
-create_country_leader = {
-	name = "Johan Ludwig Mowinckel"
-	desc = "POLITICS_JOHAN_LUDWIG_MOWINCKEL_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-	expire = "1965.1.1"
-	ideology = centrism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Adam Egede-Nissen"
-	desc = "POLITICS_ADAM_EGEDE_NISSEN_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
-	}
-}
-
-create_corps_commander = {
-	name = "Carl Gustav Fleischer"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	traits = {  trickster winter_specialist }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 4
-	planning_skill = 2
-	logistics_skill = 4
-}
-
-create_navy_leader = {
-	name = "Elias Corneliussen"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
-	traits = { spotter }
-	skill = 3
-}
+#####################
+###### LEADERS ######
+#####################

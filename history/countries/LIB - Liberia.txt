@@ -1,13 +1,23 @@
 ﻿capital = 298
 
+# Starting tech
+set_technology = {
+}
+
+set_research_slots = 2
+set_convoys = 0
+set_stability = 0.40
+set_war_support = 0.30
+
+#####################
+##### POLITICS ######
+#####################
+
 set_politics = {
 	ruling_party = conservatism
-	last_election = "1936.1.1"
-	election_frequency = 24
-	elections_allowed = yes
-}
-add_ideas = {
-	non-power
+	last_election = "1900.1.1"
+	election_frequency = 48
+	elections_allowed = no
 }
 
 set_popularities = {
@@ -19,9 +29,10 @@ set_popularities = {
 	authoritarian = 0
 	nationalism = 0
 	fascism = 0
-} 
+}
 
 add_ideas = {
+	non-power
 	Joseph_Ross
 }
 

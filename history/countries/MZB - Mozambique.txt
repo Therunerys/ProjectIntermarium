@@ -1,56 +1,40 @@
 ﻿capital = 544
 
-oob = "MZB_1936"
-
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
-
 }
-add_ideas = {
-	non-power
-}
-set_convoys = 5
 
+set_research_slots = 2
+set_convoys = 0
+set_stability = 0.40
+set_war_support = 0.30
+
+#####################
+##### POLITICS ######
+#####################
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 0
-		}
-
-		fascism = {
-			popularity = 0
-		}
-		
-		communism = {
-			popularity = 0
-			#banned = no #default is no
-		}
-		
-		authoritarian = { 
-			popularity = 100
-		}
-	}
-	
 	ruling_party = authoritarian
-	last_election = "1936.1.1"
+	last_election = "1900.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-create_country_leader = {
-	
-	
-	name = "Eduardo Tsonga"
-	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_land_2.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
+set_popularities = {
+	conservatism = 0
+	liberalism = 0
+	social_democracy = 0
+	radical_socialism = 0
+	communism = 0
+	authoritarian = 100
+	nationalism = 0
+	fascism = 0
 }
 
-
+add_ideas = {
+	non-power
 }
+
+#####################
+###### LEADERS ######
+#####################

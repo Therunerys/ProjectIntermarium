@@ -1,76 +1,40 @@
 ﻿capital = 11
 
-oob = "LIT_1936"
-
-set_research_slots = 3
-
-add_ideas = {
-	limited_conscription
-	minorpower
-}
-
+# Starting tech
 set_technology = {
-
 }
 
-set_convoys = 10
+set_research_slots = 2
+set_convoys = 0
+set_stability = 0.7
+set_war_support = 0.5
 
+#####################
+##### POLITICS ######
+#####################
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 30
-		}
-
-		fascism = {
-			popularity = 15
-		}
-		
-		communism = {
-			popularity = 15
-		}
-		
-		authoritarian = { 
-			popularity = 50
-		}
-	}
-	
 	ruling_party = authoritarian
-	last_election = "1926.5.8"
-	election_frequency = 120
+	last_election = "1900.1.1"
+	election_frequency = 48
 	elections_allowed = no
 }
 
-create_country_leader = {
-	name = "Antanas Smetona"
-	desc = "POLITICS_ANTANAS_SMETONA_DESC"
-	picture = "GFX_Portrait_lithuania_antanas_smetona"
-	expire = "1965.1.1"
-	ideology = oligarchism
-	traits = {
-		#
-	}
+set_popularities = {
+	conservatism = 30
+	liberalism = 0
+	social_democracy = 0
+	radical_socialism = 0
+	communism = 15
+	authoritarian = 50
+	nationalism = 0
+	fascism = 15
 }
 
-create_country_leader = {
-	name = "Antanas Snieckus"
-	desc = "POLITICS_ANTANAS_SNIECKUS_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		#
-	}
+add_ideas = {
+	minorpower
 }
 
-create_country_leader = {
-	name = "Augustinas Voldemaras"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
+#####################
+###### LEADERS ######
+#####################

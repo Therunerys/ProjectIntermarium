@@ -2,64 +2,41 @@
 
 oob = "AZR_1936"
 
-set_research_slots = 3
-
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
-
 }
+
+set_research_slots = 3
+set_convoys = 20
+set_stability = 0.45
+set_war_support = 0.20
+
+#####################
+##### POLITICS ######
+#####################
+
+set_politics = {
+	ruling_party = authoritarian
+	last_election = "1900.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	conservatism = 27
+	social_democracy = 3
+	liberalism = 0
+	nationalism = 20
+	authoritarian = 50
+	fascism = 0
+	communism = 0
+	radical_socialism = 0
+}
+
 add_ideas = {
 	non-power
 }
-set_politics = {
 
-	parties = {
-		fascism = { 
-			popularity = 34
-		}	
-	
-		democratic = { 
-			popularity = 30
-		}
-		
-		communism = {
-			popularity = 36
-		}	
-	}
-}
-
-create_country_leader = {
-	name = "Drastamat Kanayan"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-	expire = "1953.3.1"
-	ideology = fascism_ideology
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Hovhannes Kajaznuni"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1953.3.1"
-	ideology = conservatism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Grigor Harutyunyan"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-	expire = "1953.3.1"
-	ideology = stalinism
-	traits = {
-		
-	}
-}
-
-
+#####################
+###### LEADERS ######
+#####################

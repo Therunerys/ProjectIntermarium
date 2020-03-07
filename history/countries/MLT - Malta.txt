@@ -1,40 +1,40 @@
 ﻿capital = 116
 
-#oob = ""
-
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
 }
-add_ideas = {
-	non-power
-}
-set_convoys = 5
 
+set_research_slots = 2
+set_convoys = 0
+set_stability = 0.7
+set_war_support = 0.4
+
+#####################
+##### POLITICS ######
+#####################
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 60
-		}
-
-		fascism = {
-			popularity = 8
-		}
-		
-		communism = {
-			popularity = 15
-			#banned = no #default is no
-		}
-		
-		authoritarian = { 
-			popularity = 27
-		}
-	}
-	
-	ruling_party = democratic
-	last_election = "1936.1.1"
+	ruling_party = conservatism
+	last_election = "1900.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
+
+set_popularities = {
+	conservatism = 60
+	liberalism = 0
+	social_democracy = 0
+	radical_socialism = 0
+	communism = 15
+	authoritarian = 27
+	nationalism = 0
+	fascism = 8
+}
+
+add_ideas = {
+	non-power
+}
+
+#####################
+###### LEADERS ######
+#####################

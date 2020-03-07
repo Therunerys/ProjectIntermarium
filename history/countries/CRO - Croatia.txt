@@ -1,48 +1,40 @@
 ﻿capital = 109
 
-set_research_slots = 2
-add_ideas = {
-	minorpower
-}
-oob = "CRO_1936"
-
+# Starting tech
 set_technology = {
-	infantry_weapons = 1
 }
 
-set_convoys = 5
+set_research_slots = 2
+set_convoys = 10
+set_stability = 0.6
+set_war_support = 0.4
 
-
+#####################
+##### POLITICS ######
+#####################
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 15
-		}
-
-		fascism = {
-			popularity = 75
-		}
-		
-		communism = {
-			popularity = 10
-		}
-	}
-	
-	ruling_party = fascism
-	last_election = "1935.6.9"
-	election_frequency = 12
-	elections_allowed = no # none after offset 1
+	ruling_party = nationalism
+	last_election = "1900.1.1"
+	election_frequency = 48
+	elections_allowed = no
 }
 
-create_country_leader = {
-	name = "Ante Pavelic"
-	desc = "ANTE_PAVELIC_DESC"
-	picture = "Portrait_Croatia_Ante_Pavelic.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
+set_popularities = {
+	conservatism = 0
+	liberalism = 0
+	social_democracy = 0
+	radical_socialism = 0
+	communism = 0
+	authoritarian = 0
+	nationalism = 100
+	fascism = 0
 }
+
+add_ideas = {
+	non-power
+}
+
+#####################
+###### LEADERS ######
+#####################

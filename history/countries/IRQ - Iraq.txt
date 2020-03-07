@@ -1,75 +1,40 @@
 ﻿capital = 291
 
-oob = "IRQ_1936"
-
 # Starting tech
 set_technology = {
-
-}
-add_ideas = {
-	minorpower
 }
 
-set_convoys = 5
+set_research_slots = 2
+set_convoys = 20
+set_stability = 0.5
+set_war_support = 0.4
 
-
+#####################
+##### POLITICS ######
+#####################
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 0
-		}
-
-		fascism = {
-			popularity = 20
-		}
-		
-		communism = {
-			popularity = 0
-			#banned = no #default is no
-		}
-		
-		authoritarian = { 
-			popularity = 80
-		}
-	}
-	
 	ruling_party = authoritarian
-	last_election = "1936.1.1"
+	last_election = "1900.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-create_country_leader = {
-	name = "Ghazi I"
-	desc = "POLITICS_GHAZI_I_DESC"
-	picture = "GFX_portrait_iraq_ghazi"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
+set_popularities = {
+	conservatism = 0
+	liberalism = 0
+	social_democracy = 0
+	radical_socialism = 0
+	communism = 0
+	authoritarian = 80
+	nationalism = 10
+	fascism = 10
 }
 
-create_country_leader = {
-	name = "Rashid Ali al-Gaylani"
-	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_fascism1.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
+add_ideas = {
+	minorpower
 }
 
-create_country_leader = {
-	name = "Yusuf Salman Yusuf"
-	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_navy_3.dds"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {
-		#
-	}
-}
+#####################
+###### LEADERS ######
+#####################

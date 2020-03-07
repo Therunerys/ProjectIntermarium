@@ -1,62 +1,40 @@
 ﻿capital = 13
 
-oob = "EST_1936"
-
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
 }
 
 set_research_slots = 3
 set_convoys = 250
 set_stability = 0.70
 set_war_support = 0.35
-add_ideas = {
-	minor_power
-}
+
 #####################
 ##### POLITICS ######
 #####################
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 6
-		}
-
-		fascism = {
-			popularity = 5
-		}
-		
-		communism = {
-			popularity = 9
-		}
-		
-		authoritarian = { 
-			popularity = 80
-		}
-	}
-	
 	ruling_party = authoritarian
+	last_election = "1900.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
+set_popularities = {
+	conservatism = 0
+	liberalism = 0
+	social_democracy = 0
+	radical_socialism = 0
+	communism = 0
+	authoritarian = 100
+	nationalism = 0
+	fascism = 0
+}
+
 add_ideas = {
+	minor_power
 }
 
 #####################
 ###### LEADERS ######
 #####################
-
-create_country_leader = {
-	name = "The Crown Council"
-	desc = "POLITICS_KONSTANTIN_PATS_DESC"
-	picture = "gfx/leaders/EST/the_crown_council.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
-}

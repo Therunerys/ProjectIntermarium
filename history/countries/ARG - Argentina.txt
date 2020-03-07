@@ -2,7 +2,6 @@
 
 # Starting tech
 set_technology = {
-
 }
 
 set_research_slots = 3
@@ -22,8 +21,8 @@ set_politics = {
 }
 
 set_popularities = {
-	conservatism = 85.2
-	liberalism = 14.8
+	conservatism = 85
+	liberalism = 15
 	social_democracy = 0
 	radical_socialism = 0
 	communism = 0
@@ -31,7 +30,6 @@ set_popularities = {
 	nationalism = 0
 	fascism = 0
 }
-
 
 add_ideas = {
 	minorpower

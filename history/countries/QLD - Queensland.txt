@@ -2,35 +2,37 @@
 
 # Starting tech
 set_technology = {
-
 }
 
 set_research_slots = 3
 set_convoys = 100
 set_stability = 0.63
 set_war_support = 0.38
-add_ideas = {
-	non-power
-}
+
 #####################
 ##### POLITICS ######
 #####################
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1899.3.1"
+	ruling_party = conservatism
+	last_election = "1900.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 65
-	fascism = 0
-	communism = 35
+	conservatism = 65
+	liberalism = 0
+	social_democracy = 0
+	radical_socialism = 5
+	communism = 30
 	authoritarian = 0
+	nationalism = 0
+	fascism = 0
 }
 
 add_ideas = {
+	non-power
 	Robert_Philp
 }
 

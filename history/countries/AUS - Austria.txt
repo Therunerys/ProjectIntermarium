@@ -4,10 +4,6 @@ oob = "AUS_1936"
 
 # Starting tech
 set_technology = {
-
-}
-add_ideas = {
-	minorpower
 }
 
 set_research_slots = 4
@@ -20,21 +16,25 @@ set_war_support = 0.30
 #####################
 
 set_politics = {
-	ruling_party = authoritarian
-	last_election = "1848.12.2"
+	ruling_party = conservatism
+	last_election = "1900.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 17
-	fascism = 7
-	communism = 15
-	authoritarian = 61
+	conservatism = 79
+	social_democracy = 4
+	liberalism = 2
+	nationalism = 4
+	authoritarian = 10
+	fascism = 0
+	communism = 0
+	radical_socialism = 1
 }
 
 add_ideas = {
-
+	minorpower
 }
 
 #####################

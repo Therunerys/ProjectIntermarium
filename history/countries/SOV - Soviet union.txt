@@ -1,16 +1,13 @@
 ﻿capital = 195
 
-oob = "SOV_1936"
-
 # Starting tech
 set_technology = {
-
 }
 
 set_research_slots = 3
 set_convoys = 200
-set_stability = 0.50
-set_war_support = 0.75
+set_stability = 0.7
+set_war_support = 0.6
 
 #####################
 ##### POLITICS ######
@@ -22,10 +19,16 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
-	democratic = 0
-	fascism = 0
+	conservatism = 0
+	liberalism = 0
+	social_democracy = 0
+	radical_socialism = 0
 	communism = 100
+	authoritarian = 0
+	nationalism = 0
+	fascism = 0
 }
 
 add_ideas = {

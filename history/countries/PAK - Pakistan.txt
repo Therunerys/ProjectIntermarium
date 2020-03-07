@@ -1,109 +1,40 @@
 ﻿capital = 440
 
-oob = "PAK_1936"
-
 # Starting tech
 set_technology = {
-	
-}
-add_ideas = {
-	minorpower
 }
 
-set_convoys = 20
+set_research_slots = 2
+set_convoys = 0
+set_stability = 0.40
+set_war_support = 0.30
 
+#####################
+##### POLITICS ######
+#####################
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 17
-		}
-
-		fascism = {
-			popularity = 2
-		}
-		
-		communism = {
-			popularity = 1
-		}
-
-		authoritarian = {
-			popularity = 80
-		}
-	}
-	
 	ruling_party = authoritarian
-	last_election = "1935.11.14"
+	last_election = "1900.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-
-create_country_leader = {
-	name = "Qazi Muhammad Essa"
-	
-	picture = "gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-	expire = "1960.1.1"
-	ideology = centrism
-	traits = {
-		
-	}
+set_popularities = {
+	conservatism = 0
+	liberalism = 0
+	social_democracy = 0
+	radical_socialism = 0
+	communism = 0
+	authoritarian = 100
+	nationalism = 0
+	fascism = 0
 }
 
-create_country_leader = {
-	name = "Muhammad Ali Jinnah"
-	
-	picture = "gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-	expire = "1960.1.1"
-	ideology = liberalism
-	traits = {
-		
-	}
+add_ideas = {
+	minorpower
 }
 
-create_country_leader = {
-	name = "Haji Mohammad Danesh"
-	
-	picture = "gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-	expire = "1960.1.1"
-	ideology = marxism
-	traits = {
-		
-	}
-}
-
-create_corps_commander = {
-	name = "Muhammad Zia-ul-Haq"
-	portrait_path = "gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
-	traits = {  }
-	skill = 2
-	
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Iftikhar Khan Janjua"
-	portrait_path = "gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
-	traits = {  }
-	skill = 3
-	
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 3
-}
-create_corps_commander = {
-	name = "Akbar Khan"
-	portrait_path = "gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
-	traits = { trickster }
-	skill = 3
-	
-	attack_skill = 1
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
-}
+#####################
+###### LEADERS ######
+#####################
