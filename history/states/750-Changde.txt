@@ -10,27 +10,17 @@ state={
 	history={
 		owner = CHI
 		add_core_of = CHI
-add_core_of = BOX
-		GER
+		add_core_of = BOX
+
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
 			arms_factory = 1
 			air_base = 2
 		}
+
 		victory_points = {
 			7101 10 
 		}
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 2
-				infrastructure = 6
-				air_base = 3
-				arms_factory = 1
-
-			}
-
-		}
-
 	}
 }

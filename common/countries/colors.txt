@@ -192,6 +192,11 @@ HUN = {
 	color_ui = rgb { 152 85 92 }
 }
 
+YUG = {
+	color = rgb { 72 73 126 }
+	color_ui = rgb { 94 95 164 }
+}
+
 AFG = {
 	color = rgb { 64 160 167 }
 	color_ui = rgb { 83 208 217 }
@@ -342,6 +347,10 @@ YUN = {
 USA = {
 	color = rgb { 9 86 230 }
 	color_ui = rgb { 9 86 230 }
+}
+CSA = {
+	color = rgb { 145 163 176  }
+	color_ui = rgb { 186 205 219 }
 }
 MON = {
 	color = rgb { 217 213 0 }

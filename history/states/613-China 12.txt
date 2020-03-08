@@ -9,8 +9,8 @@ state={
 	history={
 		owner = CHI
 		add_core_of = CHI
-add_core_of = BOX
-		GER
+		add_core_of = BOX
+
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
@@ -22,6 +22,7 @@ add_core_of = BOX
 				bunker = 1
 			}
 		}
+
 		victory_points = {
 			11913 20 
 		}
@@ -30,10 +31,6 @@ add_core_of = BOX
 		}
 		victory_points = {
 			10076 3
-		}
-
-		1938.10.25 = {
-			controller = JAP
 		}
 	}
 

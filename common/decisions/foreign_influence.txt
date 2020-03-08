@@ -15,7 +15,7 @@ foreign_influence = {
 				is_puppet_of = ROOT
 			}
 			FROM = {
-				democratic < 0.9
+				conservatism < 0.9
 			}
 			OR = {
 				political_power_daily > 0.5
@@ -27,7 +27,7 @@ foreign_influence = {
 			has_government = democratic
 			FROM = {
 				is_puppet_of = ROOT
-				democratic < 0.99
+				conservatism < 0.99
 			}
 		}
 
@@ -192,7 +192,7 @@ foreign_influence = {
 		available = {
 			FROM = {
 				is_puppet_of = ROOT
-				neutrality < 0.9
+				authoritarian < 0.9
 			}
 			OR = {
 				political_power_daily > 0.5
@@ -204,7 +204,7 @@ foreign_influence = {
 			has_government = neutrality
 			FROM = {
 				is_puppet_of = ROOT
-				neutrality < 0.99
+				authoritarian < 0.99
 			}
 		}
 
@@ -242,18 +242,18 @@ foreign_influence = {
 				is_puppet_of = ROOT
 			}
 			FROM = {
-				democratic > 0.6
+				conservatism > 0.6
 			}
 			FROM = {
-				NOT = { has_government = democratic }
+				NOT = { has_government = conservatism }
 			}
 		}
 
 		visible = {
-			has_government = democratic
+			has_government = conservatism
 			FROM = {
 				is_puppet_of = ROOT
-				NOT = { has_government = democratic }
+				NOT = { has_government = conservatism }
 			}
 		}
 
@@ -275,7 +275,7 @@ foreign_influence = {
 			}
 			FROM = {
 				set_politics = {
-					ruling_party = democratic
+					ruling_party = conservatism
 					elections_allowed = yes
 				}
 			}
@@ -437,18 +437,18 @@ foreign_influence = {
 				is_puppet_of = ROOT
 			}
 			FROM = {
-				neutrality > 0.6
+				authoritarian > 0.6
 			}
 			FROM = {
-				NOT = { has_government = neutrality }
+				NOT = { has_government = authoritarian }
 			}
 		}
 
 		visible = {
-			has_government = neutrality
+			has_government = authoritarian
 			FROM = {
 				is_puppet_of = ROOT
-				NOT = { has_government = neutrality }
+				NOT = { has_government = authoritarian }
 			}
 		}
 
@@ -470,7 +470,7 @@ foreign_influence = {
 			}
 			FROM = {
 				set_politics = {
-					ruling_party = neutrality
+					ruling_party = authoritarian
 					elections_allowed = no
 				}
 			}

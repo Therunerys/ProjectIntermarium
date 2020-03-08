@@ -272,11 +272,11 @@ fascism_on_the_rise = {
 		complete_effect = {
 			if = {
 				limit = {
-					has_government = democratic
+					has_government = conservatism
 				}
 				set_variable = {
 					var = civil_war_size_var
-					value = party_popularity@democratic
+					value = party_popularity@conservatism
 				}
 			}
 			if = {
@@ -290,11 +290,11 @@ fascism_on_the_rise = {
 			}
 			if = {
 				limit = {
-					has_government = neutrality
+					has_government = authoritarian
 				}
 				set_variable = {
 					var = civil_war_size_var
-					value = party_popularity@neutrality
+					value = party_popularity@authoritarian
 				}
 			}
 			subtract_from_variable = {
@@ -368,9 +368,9 @@ fascism_on_the_rise = {
 
 		available = {
 			fascism < 0.9
-			democratic < 0.9
+			conservatism < 0.9
 			communism < 0.9
-			neutrality < 0.9
+			authoritarian < 0.9
 		}
 
 		visible = {
@@ -403,9 +403,9 @@ fascism_on_the_rise = {
 
 		available = {
 			fascism < 0.8
-			democratic < 0.8
+			conservatism < 0.8
 			communism < 0.8
-			neutrality < 0.8
+			authoritarian < 0.8
 			has_idea_with_trait = fascist_demagogue
 		}
 
@@ -427,10 +427,10 @@ fascism_on_the_rise = {
 			add_stability = -0.010
 			if = {
 				limit = {
-					has_government = democratic
+					has_government = conservatism
 				}
 				add_popularity = {
-					ideology = democratic
+					ideology = conservatism
 					popularity = -0.1
 				}
 			}
@@ -445,10 +445,10 @@ fascism_on_the_rise = {
 			}
 			if = {
 				limit = {
-					has_government = neutrality
+					has_government = authoritarian
 				}
 				add_popularity = {
-					ideology = neutrality
+					ideology = authoritarian
 					popularity = -0.1
 				}
 			}
@@ -504,13 +504,13 @@ democratic_on_the_rise = {
 		icon = generic_prepare_civil_war
 
 		available = {
-			democratic > 0.1
+			conservatism > 0.1
 		}
 
 		visible = {
 			NOT = { has_country_flag = preparation_for_democratic_civil_war }
 			has_idea_with_trait = democratic_reformer
-			NOT = { has_government = democratic }
+			NOT = { has_government = conservatism }
 			check_has_focus_tree_to_switch_to_democratic = yes
 		}
 		
@@ -537,7 +537,7 @@ democratic_on_the_rise = {
 				has_country_flag = open_up_political_discourse_democratic
 			}
 			has_idea_with_trait = democratic_reformer
-			NOT = { has_government = democratic }
+			NOT = { has_government = conservatism }
 			check_has_focus_tree_to_switch_to_democratic = yes
 		}
 
@@ -554,7 +554,7 @@ democratic_on_the_rise = {
 		days_remove = 30
 
 		modifier = {
-			democratic_drift = 0.02
+			conservatism_drift = 0.02
 			stability_weekly = -0.03
  			political_power_gain = -0.2
 		}
@@ -571,7 +571,7 @@ democratic_on_the_rise = {
 		visible = {
 			has_country_flag = preparation_for_democratic_civil_war
 			has_idea_with_trait = democratic_reformer
-			NOT = { has_government = democratic }
+			NOT = { has_government = conservatism }
 			check_has_focus_tree_to_switch_to_democratic = yes
 		}
 
@@ -627,7 +627,7 @@ democratic_on_the_rise = {
 		visible = {
 			has_country_flag = preparation_for_democratic_civil_war
 			has_idea_with_trait = democratic_reformer
-			NOT = { has_government = democratic }
+			NOT = { has_government = conservatism }
 			any_army_leader = {
 				is_field_marshal = no
 				NOT = { has_trait = hidden_sympathies }
@@ -660,7 +660,7 @@ democratic_on_the_rise = {
 		visible = {
 			has_country_flag = preparation_for_democratic_civil_war
 			has_idea_with_trait = democratic_reformer
-			NOT = { has_government = democratic }
+			NOT = { has_government = conservatism }
 			any_army_leader = {
 				NOT = { has_trait = hidden_sympathies }
 			}
@@ -698,7 +698,7 @@ democratic_on_the_rise = {
 			has_country_flag = preparation_for_democratic_civil_war
 			has_country_flag = military_support_for_democratic_civil_war
 			has_idea_with_trait = democratic_reformer
-			NOT = { has_government = democratic }
+			NOT = { has_government = conservatism }
 			check_has_focus_tree_to_switch_to_democratic = yes
 		}
 	
@@ -732,7 +732,7 @@ democratic_on_the_rise = {
 		visible = {
 			has_country_flag = preparation_for_democratic_civil_war
 			has_idea_with_trait = democratic_reformer
-			NOT = { has_government = democratic }
+			NOT = { has_government = conservatism }
 			check_has_focus_tree_to_switch_to_democratic = yes
 		}
 	
@@ -762,7 +762,7 @@ democratic_on_the_rise = {
 		visible = {
 			has_country_flag = preparation_for_democratic_civil_war
 			has_idea_with_trait = democratic_reformer
-			NOT = { has_government = democratic }
+			NOT = { has_government = conservatism }
 			check_has_focus_tree_to_switch_to_democratic = yes
 		}
 	
@@ -791,11 +791,11 @@ democratic_on_the_rise = {
 			}
 			if = {
 				limit = {
-					has_government = neutrality
+					has_government = authoritarian
 				}
 				set_variable = {
 					var = civil_war_size_var
-					value = party_popularity@neutrality
+					value = party_popularity@authoritarian
 				}
 			}
 			subtract_from_variable = {
@@ -816,7 +816,7 @@ democratic_on_the_rise = {
 				}
 			}
 			start_civil_war = {
-				ruling_party = democratic
+				ruling_party = conservatism
 				ideology = ROOT
 				size = civil_war_size_var
 				keep_unit_leaders_trigger = {
@@ -838,7 +838,7 @@ democratic_on_the_rise = {
 		icon = generic_construction
 
 		visible = {
-			has_government = democratic
+			has_government = conservatism
 			has_country_flag = won_ideology_civil_war
 		}
 
@@ -868,19 +868,19 @@ democratic_on_the_rise = {
 
 		available = {
 			fascism < 0.9
-			democratic < 0.9
+			conservatism < 0.9
 			communism < 0.9
-			neutrality < 0.9
+			authoritarian < 0.9
 		}
 
 		visible = {
 			has_idea_with_trait = democratic_reformer
-			NOT = { has_government = democratic }
+			NOT = { has_government = conservatism }
 			check_has_focus_tree_to_switch_to_democratic = yes
 		}
 		
 		remove_trigger = {
-			has_government = democratic
+			has_government = conservatism
 		}
 		
 		fire_only_once = yes
@@ -902,20 +902,20 @@ democratic_on_the_rise = {
 
 		available = {
 			fascism < 0.8
-			democratic < 0.8
+			conservatism < 0.8
 			communism < 0.8
-			neutrality < 0.8
+			authoritarian < 0.8
 			has_idea_with_trait = democratic_reformer
 		}
 
 		visible = {
 			has_country_flag = open_up_political_discourse_democratic
-			NOT = { has_government = democratic }
+			NOT = { has_government = conservatism }
 			check_has_focus_tree_to_switch_to_democratic = yes
 		}
 		
 		remove_trigger = {
-			has_government = democratic
+			has_government = conservatism
 		}
 		
 		fire_only_once = yes
@@ -944,10 +944,10 @@ democratic_on_the_rise = {
 			}
 			if = {
 				limit = {
-					has_government = neutrality
+					has_government = authoritarian
 				}
 				add_popularity = {
-					ideology = neutrality
+					ideology = authoritarian
 					popularity = -0.1
 				}
 			}
@@ -963,20 +963,20 @@ democratic_on_the_rise = {
 		icon = generic_political_discourse
 
 		available = {
-			democratic > 0.5
+			conservatism > 0.5
 		}
 
 		visible = {
-			NOT = { has_government = democratic }
+			NOT = { has_government = conservatism }
 			OR = {
-				democratic > 0.6
+				conservatism > 0.6
 				has_country_flag = open_up_political_discourse_democratic
 			}
 			check_has_focus_tree_to_switch_to_democratic = yes
 		}
 		
 		remove_trigger = {
-			has_government = democratic
+			has_government = conservatism
 		}
 		
 		fire_only_once = yes
@@ -990,7 +990,7 @@ democratic_on_the_rise = {
 		ai_will_do = {
 			factor = 210
 			modifier = {
-				democratic > 0.6
+				conservatism > 0.6
 				factor = 10
 			}
 		}
@@ -1281,20 +1281,20 @@ communism_on_the_rise = {
 			}
 			if = {
 				limit = {
-					has_government = democratic
+					has_government = conservatism
 				}
 				set_variable = {
 					var = civil_war_size_var
-					value = party_popularity@democratic
+					value = party_popularity@conservatism
 				}
 			}
 			if = {
 				limit = {
-					has_government = neutrality
+					has_government = authoritarian
 				}
 				set_variable = {
 					var = civil_war_size_var
-					value = party_popularity@neutrality
+					value = party_popularity@authoritarian
 				}
 			}
 			subtract_from_variable = {
@@ -1367,9 +1367,9 @@ communism_on_the_rise = {
 
 		available = {
 			fascism < 0.9
-			democratic < 0.9
+			conservatism < 0.9
 			communism < 0.9
-			neutrality < 0.9
+			authoritarian < 0.9
 		}
 
 		visible = {
@@ -1401,9 +1401,9 @@ communism_on_the_rise = {
 
 		available = {
 			fascism < 0.8
-			democratic < 0.8
+			conservatism < 0.8
 			communism < 0.8
-			neutrality < 0.8
+			authoritarian < 0.8
 			has_idea_with_trait = communist_revolutionary
 		}
 
@@ -1434,19 +1434,19 @@ communism_on_the_rise = {
 			}
 			if = {
 				limit = {
-					has_government = democratic
+					has_government = conservatism
 				}
 				add_popularity = {
-					ideology = democratic
+					ideology = conservatism
 					popularity = -0.1
 				}
 			}
 			if = {
 				limit = {
-					has_government = neutrality
+					has_government = authoritarian
 				}
 				add_popularity = {
-					ideology = neutrality
+					ideology = authoritarian
 					popularity = -0.1
 				}
 			}
@@ -1652,15 +1652,15 @@ political_actions = {
     	icon = generic_civil_support
 
     	visible = {
-			NOT = { has_government = democratic }
+			NOT = { has_government = conservatism }
 		}
 
 		available = {
-            democratic > 0.1
+            conservatism > 0.1
         }
 	
 		modifier = {
-			democratic_drift = -0.05
+			conservatism_drift = -0.05
 			stability_weekly = 0.007
 		}
 	
@@ -1766,22 +1766,22 @@ political_actions = {
 		icon = generic_civil_support
 
 		available = {
-			democratic < 0.2
+			conservatism < 0.2
 		}
 
 		visible = {
-			NOT = { has_government = democratic }
-			democratic > 0
+			NOT = { has_government = conservatism }
+			conservatism > 0
 		}
 
 		remove_trigger = {
 			hidden_trigger = {
-				has_government = democratic
+				has_government = conservatism
 			}
 		}
 	
 		modifier = {
-			democratic_drift = -0.02
+			conservatism_drift = -0.02
 		}
 	
 		days_remove = -1
@@ -1791,14 +1791,14 @@ political_actions = {
 			hidden_effect = {
 				set_temp_variable = {
 					var = ban_ideology_var
-					value = party_popularity@democratic
+					value = party_popularity@conservatism
 				}
 				multiply_temp_variable = {
 					var = ban_ideology_var
 					value = -1
 				}
 				add_popularity = {
-					ideology = democratic
+					ideology = conservatism
 					popularity = ban_ideology_var
 				}
 				multiply_temp_variable = {
@@ -1876,8 +1876,8 @@ political_actions = {
 		modifier = {
 			communism_drift = -0.01
 			fascism_drift = 0.03
-			democratic_drift = -0.01
-			neutrality_drift = -0.01
+			conservatism_drift = -0.01
+			authoritarian_drift = -0.01
 		}
 	
 		days_remove = 360
@@ -1893,14 +1893,14 @@ political_actions = {
 		icon = generic_political_discourse
 
 		visible = {
-			has_government = democratic
+			has_government = conservatism
 		}
 		
 		modifier = {
 			communism_drift = -0.01
 			fascism_drift = -0.01
-			democratic_drift = 0.03
-			neutrality_drift = -0.01
+			conservatism_drift = 0.03
+			authoritarian_drift = -0.01
 		}
 	
 		days_remove = 360
@@ -1922,8 +1922,8 @@ political_actions = {
 		modifier = {
 			communism_drift = 0.03
 			fascism_drift = -0.01
-			democratic_drift = -0.01
-			neutrality_drift = -0.01
+			conservatism_drift = -0.01
+			authoritarian_drift = -0.01
 		}
 	
 		days_remove = 360
@@ -1939,14 +1939,14 @@ political_actions = {
 		icon = generic_political_discourse
 
 		visible = {
-			has_government = neutrality
+			has_government = authoritarian
 		}
 	
 		modifier = {
 			communism_drift = -0.01
 			fascism_drift = -0.01
-			democratic_drift = -0.01
-			neutrality_drift = 0.03
+			conservatism_drift = -0.01
+			authoritarian_drift = 0.03
 		}
 	
 		days_remove = 360

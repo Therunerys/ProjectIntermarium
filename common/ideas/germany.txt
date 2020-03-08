@@ -22,6 +22,7 @@ ideas = {
 			planning_speed = 0.10
 			}
 		}
+
 		industrial_economy_GER = {
 
 			picture = ger_industry
@@ -43,6 +44,7 @@ ideas = {
 			production_factory_efficiency_gain_factor = 0.05
 			}
 		}
+
 		GER_victory = {
 
 			picture = ger_victory
@@ -58,11 +60,13 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-			war_support_factor = 0.15
-			stability_factor = 0.05
-			conscription = 0.01
-			army_morale_factor = 0.05
+				war_support_factor = 0.15
+				stability_factor = 0.05
+				conscription = 0.01
+				army_morale_factor = 0.05
+			}
 		}
+
 		triple_alliance = {
 
 			picture = triple_alliance
@@ -77,5 +81,6 @@ ideas = {
 
 			removal_cost = -1
 			#used for events!!!
+		}
 	}
-}	
+}

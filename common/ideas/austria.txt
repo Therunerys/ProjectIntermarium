@@ -20,7 +20,8 @@ ideas = {
 		}
 
 		german_assistance = {
-			picture = 
+		
+#			picture = 
 
 			allowed = {
 				always = no

@@ -1944,10 +1944,6 @@ technologies = {
 			lg_attack = 0.05
 			lg_armor_piercing = 0.05
 		}
-		carrier = {
-			lg_attack = 0.05
-			lg_armor_piercing = 0.05
-		}
 
 		folder = {
 			name = mtgnavalfolder
@@ -1993,10 +1989,6 @@ technologies = {
 			lg_armor_piercing = 0.05
 		}
 		battle_cruiser = {
-			lg_attack = 0.05
-			lg_armor_piercing = 0.05
-		}
-		carrier = {
 			lg_attack = 0.05
 			lg_armor_piercing = 0.05
 		}
