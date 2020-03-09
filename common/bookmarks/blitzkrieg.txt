@@ -16,7 +16,7 @@ bookmarks = {
 		
 		"RUS"={
 			history = "RUS_NEW_DAWN_DESC"
-			ideology = neutrality
+			ideology = authoritarian
 			ideas = {
 				
 			}

@@ -17,5 +17,5 @@ replace_path="common/decisions"
 replace_path="common/decisions/categories"
 replace_path="events"
 replace_path="tests"
-supported_version="1.9.*"
+supported_version="1.8.*"
 path="mod/AHOE" #change it to your mod folder name
