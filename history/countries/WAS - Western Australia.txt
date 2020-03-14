@@ -15,17 +15,21 @@ set_war_support = 0.38
 #####################
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1897.4.27"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 96
-	fascism = 0
-	communism = 4
 	authoritarian = 0
+	social_democracy = 0
+	liberalism = 100
+	conservatism = 0
+	nationalism = 0
+	fascism = 0
+	communism = 0
+	radical_socialism = 0
 }
 
 add_ideas = {

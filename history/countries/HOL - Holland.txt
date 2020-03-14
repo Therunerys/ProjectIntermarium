@@ -82,7 +82,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Pieter.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = communism
 	traits = {
 		#
 	}

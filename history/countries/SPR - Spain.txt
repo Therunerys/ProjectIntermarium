@@ -34,7 +34,7 @@ set_popularities = {
 
 add_ideas = {
 	francisco_silvela
-	major_power
+	majorpower
 }
 
 #####################

@@ -34,7 +34,6 @@ set_popularities = {
 
 add_ideas = {
 	greatpower
-	free_focus
 	limited_conscription
 	partial_economic_mobilisation
 	Luigi_Pelloux
