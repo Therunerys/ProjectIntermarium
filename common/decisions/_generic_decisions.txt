@@ -1400,24 +1400,45 @@ war_measures = {
             has_idea = tot_economic_mobilisation
             OR = {
                 AND = {
-                    has_government = democratic
+                    has_government = liberalism
+                    has_war_support > 0.79
+                }
+                AND = {
+                    has_government = conservatism
                     has_war_support > 0.79
                 }
                 AND = {
                     has_government = communism
                     has_war_support > 0.79
                 }
+	  			AND = {
+                    has_government = radical_socialism
+                    has_war_support > 0.79
+                }
+	  			AND = {
+                    has_government = social_democracy
+                    has_war_support > 0.79
+                } 
                 AND = {
-                    has_government = fascism
+                    has_government = authoritarian
                     OR = {
-                        has_war_support > 0.89
+                        has_war_support > 0.69
                         surrender_progress > 0
                     }
                 }
                 AND = {
-                    has_government = neutrality
-                    has_war_support > 0.84
-                    has_stability > 0.7
+                    has_government = nationalism
+                    OR = {
+                        has_war_support > 0.69
+                        surrender_progress > 0
+                    }
+                }
+                AND = {
+                    has_government = fascism
+                    OR = {
+                        has_war_support > 0.69
+                        surrender_progress > 0
+                    }
                 }
             }
         }
@@ -1444,14 +1465,6 @@ war_measures = {
 				has_manpower < 100000
 			}
 		}
-		complete_effect = {
-			if = {
-				limit = {
-					tag = CAN
-				}
-				country_event = { id = canada_vanilla.1 hours = 6 } # Ronnie the Bren Gun Girl
-			}
-        }
    }
 
     war_bonds = {
@@ -1466,24 +1479,45 @@ war_measures = {
             has_war = yes
             OR = {
                 AND = {
-                    has_government = democratic
+                    has_government = liberalism
+                    has_war_support > 0.79
+                }
+                AND = {
+                    has_government = conservatism
                     has_war_support > 0.79
                 }
                 AND = {
                     has_government = communism
                     has_war_support > 0.79
                 }
+	  			AND = {
+                    has_government = radical_socialism
+                    has_war_support > 0.79
+                }
+	  			AND = {
+                    has_government = social_democracy
+                    has_war_support > 0.79
+                } 
                 AND = {
-                    has_government = fascism
+                    has_government = authoritarian
                     OR = {
-                        has_war_support > 0.89
+                        has_war_support > 0.69
                         surrender_progress > 0
                     }
                 }
                 AND = {
-                    has_government = neutrality
-                    has_war_support > 0.84
-                    has_stability > 0.7
+                    has_government = nationalism
+                    OR = {
+                        has_war_support > 0.69
+                        surrender_progress > 0
+                    }
+                }
+                AND = {
+                    has_government = fascism
+                    OR = {
+                        has_war_support > 0.69
+                        surrender_progress > 0
+                    }
                 }
             }
         }
