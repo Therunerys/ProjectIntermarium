@@ -926,7 +926,7 @@
 			}
 		}
 	}
-
+	
 	shadow_of_calles = {
 		random = no
 		sprite = 13

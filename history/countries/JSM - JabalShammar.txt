@@ -44,7 +44,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Ibn_Rashid.dds"
 	expire = "1965.1.1"
-	ideology = absolute_monarchy
+	ideology = authoritarian
 	traits = {
 		#
 	}

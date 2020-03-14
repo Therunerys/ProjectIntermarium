@@ -74,7 +74,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = authoritarian
 	traits = {
-		imperial_connections
+		
 	}
 }
 
@@ -85,7 +85,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
-		imperial_connections
+		
 	}
 }
 
@@ -96,7 +96,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
-		imperial_connections
+		
 	}
 }
 

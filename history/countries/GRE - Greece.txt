@@ -65,27 +65,3 @@ create_country_leader = {
 #####################
 ####### ARMY ########
 #####################
-
-create_corps_commander = {
-	name = "Markos Drakos"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-	traits = { hill_fighter }
-	skill = 3
-	attack_skill = 1
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-### Ship Variants ###
-
-create_equipment_variant = {
-	name = "Hydra Class"
-	type = destroyer_1
-	upgrades = {
-		ship_torpedo_upgrade = 2
-		destroyer_engine_upgrade = 2
-		ship_ASW_upgrade = 2
-		ship_anti_air_upgrade = 2
-	}
-}
