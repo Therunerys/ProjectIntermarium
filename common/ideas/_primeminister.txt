@@ -562,23 +562,6 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
-		#lux
-		paul_eyschen = { #pm
-
-			cost = 0
-			removal_cost = -1
-			
-			allowed = { original_tag = LUX }
-
-			available = {
-				has_government = authoritarian
-			}
-			
-			traits = {
-				#minister 
-			}
-			cancel_if_invalid = yes
-		}
 		#SWI
 		walter_hauser = { #liberal party leader
 
@@ -819,7 +802,7 @@ ideas = {
 			cancel_if_invalid = yes
 		}
 		#lux
-		paul_eyschen = { #authoritarian 
+		paul_eyschen_pm = { #authoritarian 
 
 			cost = 0
 			removal_cost = -1
@@ -835,6 +818,7 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
+
 		#Den
 		hugo_egmont = { #liberal 
 

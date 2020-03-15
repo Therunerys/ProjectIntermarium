@@ -3807,7 +3807,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_idea_paul_eyschen"
+		name = "GFX_idea_paul_eyschen_pm"
 		texturefile = "gfx/interface/ideas/head_gov/paul_eyschen.dds"
 	}
 	

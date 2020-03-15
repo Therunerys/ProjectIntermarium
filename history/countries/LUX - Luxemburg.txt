@@ -4,9 +4,7 @@
 set_technology = {
 
 }
-add_ideas = {
-	non-power
-}
+
 set_research_slots = 3
 set_convoys = 0
 set_stability = 0.75
@@ -36,10 +34,11 @@ set_popularities = {
 
 
 add_ideas = {
+	non-power
 	civilian_economy
 	volunteer_only 
 	limited_exports
-	paul_eyschen
+	paul_eyschen_pm
 }
 
 #####################
