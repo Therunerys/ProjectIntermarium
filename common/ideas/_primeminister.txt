@@ -784,6 +784,23 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
+
+		halil_rifat = { #authoritarian grand viziers
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = TUR }
+
+			available = {
+				has_government = authoritarian
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
 	}
 }
  

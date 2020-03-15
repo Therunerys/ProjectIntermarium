@@ -34,7 +34,7 @@ set_popularities = {
 
 add_ideas = {
 	majorpower
-	Halil_Rifat_Pasha
+	halil_rifat
 	ineffective_army
 	slow_industrialization
 	lost_in_balkan_war_for_independence
@@ -55,49 +55,61 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Ibrahim Temo"
+	desc = ""
+	picture = "Ibrahim_Temo.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Damat Ferid Pasha"
+	desc = ""
+	picture = "Damat.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Avnullah Kâzımî"
+	desc = ""
+	picture = "Avnullah.dds"
+	expire = "1965.1.1"
+	ideology = social_democracy
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Dr. Hasan Rızâ Bey"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = communism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Dr. Hasan Rızâ Bey"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = radical_socialism
+	traits = {
+		#
+	}
+}
+
 #####################
 ####### ARMY ########
 #####################
-
-create_corps_commander = {
-	name = "Cemil Cahit Toydemir"
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
-	traits = { desert_fox }
-	skill = 3
-
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Nazmi Solok"
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
-	traits = { trickster }
-	skill = 2
-
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Salih Omurtak"
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
-	traits = {  hill_fighter }
-	skill = 2
-
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_navy_leader = {
-	name = "Rauf Orbay"
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
-	traits = {  }
-	skill = 2
-}

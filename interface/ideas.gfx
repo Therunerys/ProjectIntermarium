@@ -3854,8 +3854,8 @@ spriteTypes = {
         texturefile = "gfx/interface/ideas/Erik_Gustaf_Bostrom.tga"	
 	}
     spriteType = {
-        name = "GFX_idea_Halil_Rifat_Pasha"
-        texturefile = "gfx/interface/ideas/Halil_Rifat_Pasha.tga"
+        name = "GFX_idea_halil_rifat"
+        texturefile = "gfx/interface/ideas/head_gov/halil_rifat.dds"
 	}
     spriteType = {
         name = "GFX_idea_Johannes_Steen"
