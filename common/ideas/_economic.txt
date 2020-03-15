@@ -30,7 +30,6 @@ ideas = {
 				OR = {
 					has_war_support > 0.5
 					has_war = yes
-					has_completed_focus = USA_limited_intervention
 				}
 			}
 			
@@ -63,8 +62,7 @@ ideas = {
 			allowed_to_remove = {
 				OR = {
 					has_war_support > 0.75
-					has_war = yes
-					has_completed_focus = USA_limited_intervention					
+					has_war = yes				
 				}
 			}
 			
@@ -96,31 +94,6 @@ ideas = {
 			
 			available = {
 				has_war_support > 0.15
-				if = {
-					limit = {
-						original_tag = HUN
-						has_dlc = "Death or Dishonor"
-					}
-					NOT = { has_idea = HUN_treaty_of_triannon }
-				}
-				if = {
-					limit = {
-						has_completed_focus = USA_limited_intervention
-						has_defensive_war = no
-					}
-					has_war_support > 0.3
-					congress_high_support_trigger = yes
-				}	
-			}
-			on_add = {
-				if = {
-					limit = {
-						tag = USA
-						has_completed_focus = USA_limited_intervention
-						has_defensive_war = no
-					}
-					USA_congress_large_opposition = yes
-				}
 			}
 			
 			cost = 150
@@ -147,12 +120,6 @@ ideas = {
 					has_war_support > 0.25
 					factor = 0 #don't even look at it if you could be taking partial mob
 				}
-				modifier = {
-					tag = ENG
-					has_war = no
-					date < 1937.6.1
-					factor = 0
-				}
    			}
 		}
 		
@@ -162,22 +129,7 @@ ideas = {
 				has_war_support > 0.25
 
 				if = {
-					limit = {
-						original_tag = HUN
-						has_dlc = "Death or Dishonor"
-					}
-					OR = {
-						has_completed_focus = HUN_secret_rearmament
-						NOT = { has_idea = HUN_treaty_of_triannon }
-					}
-				}
-				if = {
-					limit = {
-						has_completed_focus = USA_limited_intervention
-						has_defensive_war = no
-					}
 					has_war_support > 0.5
-					congress_high_support_trigger = yes
 				}
 			}
 
@@ -193,16 +145,6 @@ ideas = {
 			}
 			
 			cancel_if_invalid = no
-			on_add = {
-				if = {
-					limit = {
-						tag = USA
-						has_completed_focus = USA_limited_intervention
-						has_defensive_war = no
-					}
-					USA_congress_large_opposition = yes
-				}
-			}
 			ai_will_do = {
    				factor = 2
 
@@ -219,10 +161,12 @@ ideas = {
 			
 			available = {
 				has_war_support > 0.5
-				OR = {					
-					has_government = absolute_monarchy
+				OR = {
+					has_government = authoritarian 					
+					has_government = nationalism
 					has_government = fascism
 					has_government = communism
+					has_government = radical_socialism
 					custom_trigger_tooltip = { tooltip = or_clarification_tooltip always = no }
 					AND = {
 						has_war = yes
@@ -234,22 +178,6 @@ ideas = {
 						}
 					}
 				}
-
-				if = {
-					limit = {
-						original_tag = HUN
-						has_dlc = "Death or Dishonor"
-					}
-					NOT = { has_idea = HUN_treaty_of_triannon }
-				}
-				if = {
-					limit = {
-						has_completed_focus = USA_limited_intervention
-						has_defensive_war = no
-					}
-					has_war_support > 0.75
-					congress_high_support_trigger = yes
-				}		
 			}
 		
 			cost = 150
@@ -263,16 +191,6 @@ ideas = {
 			}
 			
 			cancel_if_invalid = no
-			on_add = {
-				if = {
-					limit = {
-						tag = USA
-						has_completed_focus = USA_limited_intervention
-						has_defensive_war = no
-					}
-					USA_congress_large_opposition = yes
-				}
-			}
 			ai_will_do = {
    				factor = 5
 
@@ -295,32 +213,6 @@ ideas = {
 						tag = ROOT 
 						ratio > 0.5
 					}
-				}
-
-				if = {
-					limit = {
-						original_tag = HUN
-						has_dlc = "Death or Dishonor"
-					}
-					NOT = { has_idea = HUN_treaty_of_triannon }
-				}
-				if = {
-					limit = {
-						has_completed_focus = USA_limited_intervention
-						has_defensive_war = no
-					}
-					has_war_support > 0.9
-					congress_high_support_trigger = yes
-				}
-			}
-			on_add = {
-				if = {
-					limit = {
-						tag = USA
-						has_completed_focus = USA_limited_intervention
-						has_defensive_war = no
-					}
-					USA_congress_large_opposition = yes
 				}
 			}
 			ai_will_do = {
@@ -562,25 +454,15 @@ ideas = {
 			available = {
 				has_war = yes
 				OR = { 
-					has_government = absolute_monarchy
+					has_government = authoritarian 					
+					has_government = nationalism
 					has_government = fascism
 					has_government = communism
+					has_government = radical_socialism
 				}
 				OR = {
 					has_idea = war_economy
 					has_idea = tot_economic_mobilisation
-				}
-				OR = {
-					NOT = {	tag = SOV }
-					NOT = { has_opinion_modifier = MR_pact }
-				}
-
-				if = {
-					limit = {
-						original_tag = CHI
-						has_dlc = "Waking the Tiger"
-					}
-					NOT = { has_idea = CHI_nine_power_treaty }
 				}
 			}
 			

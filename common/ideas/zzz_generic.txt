@@ -1119,15 +1119,6 @@ ideas = {
 				}
 				NOT = {
 					AND = {
-						OR = {
-							is_literally_china = yes
-							tag = MAN
-						}
-						has_dlc = "Waking the Tiger"
-					}
-				}
-				NOT = {
-					AND = {
 						OR = { tag = MEX }
 						has_dlc = "Man the Guns"
 					}
@@ -1389,15 +1380,6 @@ ideas = {
 				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA } }
 				NOT = {
 					has_available_idea_with_traits = { idea = electronics_concern limit = 1 }
-				}
-				NOT = {
-					AND = {
-						has_DLC = "Waking the Tiger"
-						OR = {
-							original_tag = MAN
-							is_literally_china = yes
-						}
-					}
 				}
 				NOT = {
 					AND = {
