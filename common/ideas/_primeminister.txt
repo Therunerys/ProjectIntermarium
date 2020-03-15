@@ -784,8 +784,8 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
-
-		halil_rifat = { #authoritarian grand viziers
+		#Ottoman empire
+		halil_rifat = { #authoritarian grand viziers 
 
 			cost = 0
 			removal_cost = -1
@@ -801,6 +801,57 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
+		#Persia
+		ali_asghar = { #authoritarian grand viziers 
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = PER }
+
+			available = {
+				has_government = authoritarian
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+		#lux
+		paul_eyschen = { #authoritarian 
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = LUX }
+
+			available = {
+				has_government = authoritarian
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+		#Den
+		hugo_egmont = { #liberal 
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = DEN }
+
+			available = {
+				has_government = liberalism
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
 	}
-}
+} 
  

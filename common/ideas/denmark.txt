@@ -16,22 +16,5 @@ ideas = {
 			removal_cost = -1
 			traits = { popular_figurehead }
 		}
-	
-		hugo_Egmont = {
-
-			available = {
-				original_tag = DEN
-			}
-			allowed = {
-				original_tag = DEN
-			}
-
-			allowed_civil_war = {
-				original_tag = DEN
-			}
-			picture = Hugo_Egmont_idea
-			removal_cost = -1
-			traits = { minister }
-		}
 	}
 }

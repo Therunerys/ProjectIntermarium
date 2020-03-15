@@ -1,22 +1,2 @@
 ideas = {
-
-	country = {
-
-		adolphe = {
-			available = {
-				original_tag = LUX
-			}
-			allowed = {
-				original_tag = LUX
-			}
-
-			allowed_civil_war = {
-				original_tag = LUX
-			}
-			picture = adolphe_idea
-			removal_cost = -1
-			traits = { popular_figurehead }
-
-		}
-	}
 }
