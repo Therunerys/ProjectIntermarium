@@ -3825,10 +3825,20 @@ spriteTypes = {
 		name = "GFX_idea_steen_erik"
 		texturefile = "gfx/interface/ideas/head_gov/steen_erik.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_idea_george_hamilton"
 		texturefile = "gfx/interface/ideas/head_gov/george_hamilton.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_bir_shamsher"
+		texturefile = "gfx/interface/ideas/head_gov/bir_shamsher.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_rama_v"
+		texturefile = "gfx/interface/ideas/head_gov/rama_v.dds"
 	}
 	###############
 	spriteType = {

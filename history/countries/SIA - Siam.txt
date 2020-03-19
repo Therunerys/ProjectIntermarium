@@ -33,6 +33,7 @@ set_popularities = {
 
 add_ideas = {
 	minorpower
+	rama_v
 }
 
 #####################

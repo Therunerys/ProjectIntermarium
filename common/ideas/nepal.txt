@@ -1,20 +1,2 @@
 ideas = {
-	country = {
-		Bir_Shumsher = {
-
-			available = {
-				original_tag = NEP
-			}
-			allowed = {
-				original_tag = NEP
-			}
-
-			allowed_civil_war = {
-				original_tag = NEP
-			}
-			picture = Bir_Shumsher
-			removal_cost = -1
-			traits = { minister }
-		}
-	}
 }

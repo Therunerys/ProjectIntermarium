@@ -889,6 +889,43 @@ ideas = {
 				#minister 
 			}
 			cancel_if_invalid = yes
+		}	
+
+		#Nepal
+		bir_shamsher = { 
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = NEP }
+
+			available = {
+				has_government = authoritarian
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+
+		#siam
+		rama_v = { 
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = SIA }
+
+			available = {
+				has_government = authoritarian
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
 	}
 }
  

@@ -33,7 +33,7 @@ set_popularities = {
 
 add_ideas = {
 	non-power
-	Bir_Shumsher
+	bir_shamsher
 }
 
 #####################
