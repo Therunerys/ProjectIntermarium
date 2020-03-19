@@ -35,7 +35,11 @@ country_event = {
 			} 
 		}
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
-		has_government = democratic
+		OR = {
+			has_government = social_democracy
+			has_government = liberalism
+			has_government = conservatism
+		}
 		NOT = {
 			OR = {
 				has_war = yes
@@ -90,7 +94,11 @@ country_event = {
 			} 
 		}
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
-		has_government = democratic
+		OR = {
+			has_government = social_democracy
+			has_government = liberalism
+			has_government = conservatism
+		}
 		has_war = no
 		OR = {
 			any_neighbor_country = {
@@ -165,7 +173,11 @@ country_event = {
 			} 
 		}
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
-		has_government = democratic
+		OR = {
+			has_government = social_democracy
+			has_government = liberalism
+			has_government = conservatism
+		}
 		NOT = { has_idea = fascism_defeated }
 		fascism > 0.15
 	}
@@ -201,7 +213,15 @@ country_event = {
 		}
 		add_stability = -0.05
 		add_popularity = {
-			ideology = democratic
+			ideology = social_democracy
+			popularity = 0.03
+		}
+		add_popularity = {
+			ideology = liberalism
+			popularity = 0.03
+		}
+		add_popularity = {
+			ideology = conservatism
 			popularity = 0.03
 		}
 		set_country_flag = government_declined_fascists
@@ -225,7 +245,11 @@ country_event = {
 			} 
 		}
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
-		has_government = democratic
+		OR = {
+			has_government = social_democracy
+			has_government = liberalism
+			has_government = conservatism
+		}
 		NOT = { has_idea = communism_defeated }
 		communism > 0.15
 	}
@@ -283,7 +307,15 @@ country_event = {
 		}
 		add_stability = -0.05
 		add_popularity = {
-			ideology = democratic
+			ideology = social_democracy
+			popularity = 0.03
+		}
+		add_popularity = {
+			ideology = liberalism
+			popularity = 0.03
+		}
+		add_popularity = {
+			ideology = conservatism
 			popularity = 0.03
 		}
 		set_country_flag = government_declined_communists
@@ -307,7 +339,11 @@ country_event = {
 			} 
 		}
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
-		has_government = democratic
+		OR = {
+			has_government = social_democracy
+			has_government = liberalism
+			has_government = conservatism
+		}
 		democratic < 0.5
 		fascism < 0.5
 		communism < 0.5
@@ -355,7 +391,15 @@ country_event = {
 			}
 		}
 		add_popularity = {
-			ideology = democratic
+			ideology = social_democracy
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = liberalism
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = conservatism
 			popularity = 0.05
 		}
 		add_political_power = -80
@@ -381,7 +425,11 @@ country_event = {
 			} 
 		}
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
-		has_government = democratic
+		OR = {
+			has_government = social_democracy
+			has_government = liberalism
+			has_government = conservatism
+		}
 		has_country_flag = coalition_with_fascists
 		any_other_country = {
 			has_government = fascism
@@ -429,7 +477,15 @@ country_event = {
 		}
 		add_stability = -0.05
 		add_popularity = {
-			ideology = democratic
+			ideology = social_democracy
+			popularity = 0.03
+		}
+		add_popularity = {
+			ideology = liberalism
+			popularity = 0.03
+		}
+		add_popularity = {
+			ideology = conservatism
 			popularity = 0.03
 		}
 	}
@@ -454,7 +510,11 @@ country_event = {
 			} 
 		}
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
-		has_government = democratic
+		OR = {
+			has_government = social_democracy
+			has_government = liberalism
+			has_government = conservatism
+		}
 		has_country_flag = coalition_with_communists
 		any_other_country = {
 			has_government = communism
@@ -503,7 +563,15 @@ country_event = {
 		}
 		add_stability = -0.05
 		add_popularity = {
-			ideology = democratic
+			ideology = social_democracy
+			popularity = 0.03
+		}
+		add_popularity = {
+			ideology = liberalism
+			popularity = 0.03
+		}
+		add_popularity = {
+			ideology = conservatism
 			popularity = 0.03
 		}
 	}
@@ -519,7 +587,11 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_government = democratic
+		OR = {
+			has_government = social_democracy
+			has_government = liberalism
+			has_government = conservatism
+		}
 		fascism > 0.5
 		is_puppet = no
 	}
@@ -558,7 +630,11 @@ country_event = {
 
 	trigger = {
 
-		has_government = democratic
+		OR = {
+			has_government = social_democracy
+			has_government = liberalism
+			has_government = conservatism
+		}
 		communism > 0.5
 		is_puppet = no
 	}
@@ -602,7 +678,11 @@ country_event = {
 				date < 1949.1.1
 			}
 		}
-		has_government = democratic
+		OR = {
+			has_government = social_democracy
+			has_government = liberalism
+			has_government = conservatism
+		}
 		has_idea_with_trait = motorized_equipment_manufacturer
 	}
 	
@@ -631,7 +711,15 @@ country_event = {
 			}
 		}
 		add_popularity = {
-			ideology = democratic
+			ideology = social_democracy
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = liberalism
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = conservatism
 			popularity = 0.05
 		}
 		remove_ideas_with_trait = motorized_equipment_manufacturer
@@ -655,7 +743,11 @@ country_event = {
 			} 
 		}
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
-		has_government = democratic
+		OR = {
+			has_government = social_democracy
+			has_government = liberalism
+			has_government = conservatism
+		}
 		has_war = yes
 	}
 	
@@ -714,7 +806,11 @@ country_event = {
 			} 
 		}
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
-		has_government = democratic
+		OR = {
+			has_government = social_democracy
+			has_government = liberalism
+			has_government = conservatism
+		}
 		has_war = yes
 		any_war_score < 20
 	}
