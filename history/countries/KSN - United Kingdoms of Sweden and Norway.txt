@@ -39,8 +39,7 @@ add_ideas = {
 	civilian_economy
 	volunteer_only 
 	limited_exports
-	Johannes_Steen
-	Erik_Gustaf_Bostrom
+	steen_erik
 }
 
 #####################

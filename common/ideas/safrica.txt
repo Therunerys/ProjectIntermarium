@@ -1,22 +1,2 @@
 ideas = {
-	country = {
-
-		Francis_William_Reitz = {
-
-			available = {
-				original_tag = SFR
-			}
-			allowed = {
-				original_tag = SFR
-			}
-
-			allowed_civil_war = {
-				original_tag = SFR
-			}
-			picture = Francis_William_Reitz
-			removal_cost = -1
-			traits = { minister }
-
-		}
-	}
 }

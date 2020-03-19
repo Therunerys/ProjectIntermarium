@@ -836,6 +836,59 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
+
+		#SFR
+		francis_william = { #liberal 
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = SFR }
+
+			available = {
+				has_government = liberalism
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+
+		#Sweden-Norway
+		steen_erik = { #2 pm's, steen - norway pm, erik - sweden pm.
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = KSN }
+
+			available = {
+				has_government = liberalism
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+
+		#Raj
+		george_hamilton = { 
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = RAJ }
+
+			available = {
+				has_government = authoritarian
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
 	}
-} 
+}
  

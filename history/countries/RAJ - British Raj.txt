@@ -34,7 +34,7 @@ set_popularities = {
 
 add_ideas = {
 	majorpower
-	Lord_George_Hamilton
+	george_hamilton
 }
 
 #####################

@@ -32,7 +32,8 @@ set_popularities = {
 } 
 
 add_ideas = {
-	Francis_William_Reitz
+	minorpower
+	francis_william
 }
 
 #####################
