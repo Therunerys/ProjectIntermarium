@@ -926,6 +926,41 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
+
+		#canada
+		wilfrid_laurier = { 
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = CAN }
+
+			available = {
+				has_government = liberal
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+
+		charles_tupper = { 
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = CAN }
+
+			available = {
+				has_government = conservatism
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
 	}
 }
  
