@@ -3700,10 +3700,7 @@ spriteTypes = {
 		name = "GFX_idea_leopold_ii"
 		texturefile = "gfx/interface/ideas/LeopoldIIIdea.dds"
 	}
-	spriteType = {
-		name = "GFX_idea_theophile_wahis"
-		texturefile = "gfx/interface/ideas/theophile_wahis.dds"
-	}
+
 	spriteType = {
 		name = "GFX_idea_scares_of_the_genocide"
 		texturefile = "gfx/interface/ideas/the_war_to_end_all_wars.dds"
@@ -3849,6 +3846,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_charles_tupper"
 		texturefile = "gfx/interface/ideas/head_gov/charles_tupper.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_theophile_wahis"
+		texturefile = "gfx/interface/ideas/head_gov/theophile_wahis.dds"
 	}
 	###############
 	spriteType = {
@@ -4015,6 +4016,11 @@ spriteTypes = {
         texturefile = "gfx/interface/ideas/head_gov/vladan_dordevic_idea.dds"
     }
     spriteType = {
+        name = "GFX_idea_vice_lack"
+        texturefile = "gfx/interface/ideas/head_gov/vice_lack.dds"
+    }
+    
+    spriteType = {
         name = "GFX_idea_Lord_George_Hamilton"
         texturefile = "gfx/interface/ideas/Lord_George_Hamilton.tga"
     }
@@ -4029,10 +4035,6 @@ spriteTypes = {
     spriteType = {
         name = "GFX_idea_Yamagata_Aritomo"
         texturefile = "gfx/interface/ideas/Yamagata_Aritomo.tga"
-    }
-    spriteType = {
-        name = "GFX_idea_vice_lack_pic"
-        texturefile = "gfx/interface/ideas/balkan_league.dds"
     }
     #spriteType = {
     #    name = "GFX_idea_reina_pic"

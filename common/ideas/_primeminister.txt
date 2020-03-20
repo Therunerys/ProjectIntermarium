@@ -961,6 +961,44 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
+
+		#congo
+		theophile_wahis = { 
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = COG }
+
+			available = {
+				has_government = authoritarian
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
+
+		vice_lack = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { 
+				always = yes
+			}
+
+			available = {
+				always = no
+			}
+			
+			cancel_if_invalid = yes
+
+			modifier = {
+				political_power_factor = -0.05
+			}
+		}
 	}
 }
  
