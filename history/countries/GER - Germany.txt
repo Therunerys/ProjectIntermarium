@@ -1,5 +1,7 @@
 ﻿capital = 64
 
+oob = "GER_1900"
+
 # Starting tech
 set_technology = {
 
