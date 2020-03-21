@@ -48,7 +48,7 @@ add_to_faction = ITA
 add_ideas = {
 	greatpower
 	#free_trade
-	limited_conscription
+	volunteer_only
 	partial_economic_mobilisation
 	chlodwig
 	GER_victory
