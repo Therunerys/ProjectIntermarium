@@ -4,13 +4,13 @@ oob = "GER_1900"
 
 # Starting tech
 set_technology = {
-	infantry_weapons
-	infantry_support 
-	cavalry
-	explosive_artillery
-	tech_support
-	tech_engineers
-	tech_logistics_company
+	infantry_weapons = 1
+	infantry_support = 1
+	cavalry = 1
+	explosive_artillery = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_logistics_company = 1
 }
 
 set_research_slots = 4
