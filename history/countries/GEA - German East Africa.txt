@@ -1,7 +1,5 @@
 ﻿capital = 546
 
-oob = "GEA_1900"
-
 # Starting tech
 set_technology = {
 }

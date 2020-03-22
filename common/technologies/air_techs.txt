@@ -41,6 +41,11 @@ technologies = {
 		on_research_complete = {
     		custom_effect_tooltip = PLANE_STAGE1
 		}
+	
+		path = {
+			leads_to_tech = plane_frame
+			research_cost_coeff = 1
+		}
 
 		path = {
 			leads_to_tech = plane_engine
@@ -70,7 +75,38 @@ technologies = {
 			factor = 4
 		}
 	}
+	
+	
+	plane_frame = {
 
+		on_research_complete = {
+    		custom_effect_tooltip = PLANE_STAGE2
+		}
+	
+		path = {
+			leads_to_tech = first_plane
+			research_cost_coeff = 1
+		}
+				
+		research_cost = 1.5
+		start_year = 1902
+		folder = {
+			name = air_techs_folder
+			position = { x = -2 y = 8 }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 4
+		}
+	}
+	
+	
 	plane_engine = {
 
 		on_research_complete = {
@@ -87,7 +123,7 @@ technologies = {
 
 		folder = {
 			name = air_techs_folder
-			position = { x = -1 y = 8 }
+			position = { x = 0 y = 8 }
 		}
 		
 		categories = {
@@ -117,7 +153,7 @@ technologies = {
 
 		folder = {
 			name = air_techs_folder
-			position = { x = 1 y = 8 }
+			position = { x = 2 y = 8 }
 		}
 		
 		categories = {
@@ -142,7 +178,13 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		path = {
+			leads_to_tech = transport_planes
+			research_cost_coeff = 1
+		}
+
 		dependencies = {
+            plane_frame = 1
             plane_engine = 1
             plane_cockpit = 1
         }
@@ -530,6 +572,11 @@ technologies = {
 			leads_to_tech = zeppelin_stabilizers
 			research_cost_coeff = 1
 		}
+
+		path = {
+			leads_to_tech = transport_planes
+			research_cost_coeff = 1
+		}
 	
 		research_cost = 2
 		start_year = 1905
@@ -543,6 +590,39 @@ technologies = {
 			heavy_air
 			air_equipment
 			cat_strategic_bomber
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	transport_planes = {
+
+		enable_equipments = {
+			transport_plane
+		}
+
+		dependencies = {
+            first_plane = 1
+        }
+
+        path = {
+			leads_to_tech = first_bomber
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 2
+		start_year = 1906
+		
+		folder = {
+			name = air_techs_folder
+			position = { x = 6 y = 16 }
+		}
+
+		categories = {
+			heavy_air
+			air_equipment
 		}
 		
 		ai_will_do = {
@@ -588,6 +668,11 @@ technologies = {
 			leads_to_tech = fourth_zeppelin
 			research_cost_coeff = 1
 		}
+
+		path = {
+			leads_to_tech = first_bomber
+			research_cost_coeff = 1
+		}
 	
 		research_cost = 2
 		start_year = 1909
@@ -626,6 +711,65 @@ technologies = {
 			heavy_air
 			air_equipment
 			cat_strategic_bomber
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	first_bomber = {
+
+		enable_equipments = {
+			bomber_0
+		}
+
+		dependencies = {
+            transport_planes = 1
+        }
+
+		path = {
+			leads_to_tech = second_bomber
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 2
+		start_year = 1910
+		
+		folder = {
+			name = air_techs_folder
+			position = { x = 6 y = 24 }
+		}
+
+		categories = {
+			medium_air
+			tactical_bomber
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	second_bomber = {
+
+		enable_equipments = {
+			bomber_1
+		}
+	
+		research_cost = 2
+		start_year = 1912
+		
+		folder = {
+			name = air_techs_folder
+			position = { x = 6 y = 28 }
+		}
+
+		categories = {
+			medium_air
+			tactical_bomber
+			air_equipment
 		}
 		
 		ai_will_do = {

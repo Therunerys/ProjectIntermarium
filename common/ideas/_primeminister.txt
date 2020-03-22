@@ -961,6 +961,7 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
+<<<<<<< Updated upstream
 
 		#congo
 		theophile_wahis = { 
@@ -1033,6 +1034,8 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
+=======
+>>>>>>> Stashed changes
 	}
 }
  

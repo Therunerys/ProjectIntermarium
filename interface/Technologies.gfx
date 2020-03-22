@@ -2303,6 +2303,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_plane_frame_medium"
+		texturefile = "gfx/interface/technologies/fleet_in_being.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_plane_engine_medium"
 		texturefile = "gfx/interface/technologies/air_planeengine.dds"
 	}
@@ -2438,30 +2443,34 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_zeppelin_blueprints_medium"
-		texturefile = "gfx/interface/technologies/air_zeppellinblueprint.dds"
+		name = "GFX_heavy_fighter1_medium"
+		texturefile = "gfx/interface/technologies/heavyfighter1.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_first_zeppelin_medium"
+		name = "GFX_heavy_fighter2_medium"
+		texturefile = "gfx/interface/technologies/heavyfighter2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_fighter3_medium"
+		texturefile = "gfx/interface/technologies/heavyfighter3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_strategic_bomber1_medium"
 		texturefile = "gfx/interface/technologies/blimp1.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_second_zeppelin_medium"
+		name = "GFX_strategic_bomber2_medium"
 		texturefile = "gfx/interface/technologies/blimp2.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_third_zeppelin_medium"
+		name = "GFX_strategic_bomber3_medium"
 		texturefile = "gfx/interface/technologies/blimp3.dds"
 	}
-
-	SpriteType = {
-		name = "GFX_fourth_zeppelin_medium"
-		texturefile = "gfx/interface/technologies/blimp3.dds"
-	}
-
 	#
 	################################# AIR DOCTRINES #################################
 	#
