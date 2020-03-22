@@ -1,8 +1,16 @@
 ﻿capital = 64
 
+oob = "GER_1900"
+
 # Starting tech
 set_technology = {
-
+	infantry_weapons = 1
+	infantry_support = 1
+	cavalry = 1
+	explosive_artillery = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_logistics_company = 1
 }
 
 set_research_slots = 4
@@ -40,7 +48,7 @@ add_to_faction = ITA
 add_ideas = {
 	greatpower
 	#free_trade
-	limited_conscription
+	volunteer_only
 	partial_economic_mobilisation
 	chlodwig
 	GER_victory
