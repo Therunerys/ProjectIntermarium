@@ -1,22 +1,3 @@
 ideas = {
-	country = {
 
-		Joseph_Ross = {
-
-			available = {
-				original_tag = LIB
-			}
-			allowed = {
-				original_tag = LIB
-			}
-
-			allowed_civil_war = {
-				original_tag = LIB
-			}
-			picture = Joseph_Ross
-			removal_cost = -1
-			traits = { minister }
-
-		}
-	}
 }

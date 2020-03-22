@@ -999,6 +999,23 @@ ideas = {
 				political_power_factor = -0.05
 			}
 		}
+		#Liberia
+		william_david = {  
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = LIB }
+
+			available = {
+				has_government = conservatism
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
 	}
 }
  

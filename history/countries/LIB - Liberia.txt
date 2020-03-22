@@ -33,7 +33,7 @@ set_popularities = {
 
 add_ideas = {
 	non-power
-	Joseph_Ross
+	william_david
 }
 
 #####################

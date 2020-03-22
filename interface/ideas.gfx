@@ -4018,8 +4018,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_idea_vice_lack"
         texturefile = "gfx/interface/ideas/head_gov/vice_lack.dds"
+    } 
+    spriteType = {
+        name = "GFX_idea_william_david"
+        texturefile = "gfx/interface/ideas/head_gov/william_david.dds"
     }
-    
     spriteType = {
         name = "GFX_idea_Lord_George_Hamilton"
         texturefile = "gfx/interface/ideas/Lord_George_Hamilton.tga"
