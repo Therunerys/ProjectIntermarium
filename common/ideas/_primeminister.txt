@@ -1016,6 +1016,23 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
+		#Brazil
+		campos_sales = {  
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = BRA }
+
+			available = {
+				has_government = liberalism
+			}
+			
+			traits = {
+				#minister 
+			}
+			cancel_if_invalid = yes
+		}
 	}
 }
  
