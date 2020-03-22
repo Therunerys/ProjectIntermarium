@@ -4023,6 +4023,14 @@ spriteTypes = {
         name = "GFX_idea_william_david"
         texturefile = "gfx/interface/ideas/head_gov/william_david.dds"
     }
+<<<<<<< Updated upstream
+=======
+    spriteType = {
+        name = "GFX_idea_campos_sales"
+        texturefile = "gfx/interface/ideas/head_gov/campos_sales_idea.dds"
+	}
+    
+>>>>>>> Stashed changes
     spriteType = {
         name = "GFX_idea_Lord_George_Hamilton"
         texturefile = "gfx/interface/ideas/Lord_George_Hamilton.tga"

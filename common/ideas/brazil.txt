@@ -1,21 +1,18 @@
 ideas = {
+campos_sales = { 
 
-	country = {
-		rosa = {
+			cost = 0
+			removal_cost = -1
+			
+			allowed = { original_tag = BRA }
 
 			available = {
-				original_tag = BRA
+				has_government = liberal
 			}
-			allowed = {
-				original_tag = BRA
+			
+			traits = {
+				#minister 
 			}
-
-			allowed_civil_war = {
-				original_tag = BRA
-			}
-			picture = rosa_pic
-			removal_cost = -1
-			traits = { minister }
+			cancel_if_invalid = yes
 		}
 	}
-}
