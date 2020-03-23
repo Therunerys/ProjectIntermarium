@@ -2091,4 +2091,154 @@ focus_tree = {
 
         }
     }
+
+    #colonial bunch: Togoland
+
+    focus = {
+        id = GER_deutsches_kolonialreich
+        icon = GFX
+        x = 50
+        y = 0
+        cost = 2
+        ai_will_do = {
+            factor = 15
+        }
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        completion_reward = {
+            add_political_power = 50
+        }
+    }
+
+    focus = {
+        id = GER_deutsches_togoland
+        icon = GFX
+        x = -2
+        y = 1
+        cost = 2
+        prerequisite = { focus = GER_deutsches_kolonialreich }
+        relative_position_id = GER_deutsches_kolonialreich
+        ai_will_do = {
+            factor = 15
+        }
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        completion_reward = {
+            add_political_power = 25
+        }
+    }
+
+    focus = {
+        id = GER_landungsbrucke
+        icon = GFX
+        x = -2
+        y = 1
+        cost = 5
+        prerequisite = { focus = GER_deutsches_togoland }
+        relative_position_id = GER_deutsches_togoland
+        ai_will_do = {
+            factor = 15
+        }
+        available = {
+            777 = {
+                any_country = {
+                    OR = {
+                        tag = GER
+                        is_in_faction_with = GER
+                    }
+                has_full_control_of_state = 777
+               }
+            }
+        }
+        search_filters = { FOCUS_FILTER_INDUSTRY }
+        completion_reward = {
+            custom_effect_tooltip = landungsbrucke_tooltip_0
+            hidden_effect = {
+                777 = {
+                    #naval bases
+                    add_building_construction = {
+                        type = naval_base
+                        level = 1
+                        instant_build = yes
+                        province = 1951
+                    }
+                }
+            }
+        }
+    }
+
+    focus = {
+        id = GER_konstruktion
+        icon = GFX
+        x = 0
+        y = 1
+        cost = 5
+        prerequisite = { focus = GER_landungsbrucke }
+        relative_position_id = GER_landungsbrucke
+        ai_will_do = {
+            factor = 15
+        }
+        search_filters = { FOCUS_FILTER_INDUSTRY }
+        completion_reward = {
+            custom_effect_tooltip = konstruktion_tooltip_0
+            hidden_effect = {
+            if = {
+                    limit = {
+                        any_country = {
+                            OR = {
+                                tag = GER
+                                is_in_faction_with = GER
+                            }
+                            has_full_control_of_state = 777
+                        }
+                    }
+                    777 = {
+                        #naval bases
+                        add_building_construction = {
+                            type = naval_base
+                            level = 1
+                            instant_build = yes
+                            province = 1951
+                        }
+                    }
+                }
+            }
+        }
+    }
+    focus = {
+        id = GER_naturkatastrophe
+        icon = GFX
+        x = -2
+        y = 1
+        cost = 5
+        prerequisite = { focus = GER_landungsbrucke }
+        relative_position_id = GER_landungsbrucke
+        ai_will_do = {
+            factor = 15
+        }
+        search_filters = { FOCUS_FILTER_INDUSTRY }
+        completion_reward = {
+            custom_effect_tooltip = naturkatastrophe_tooltip_0
+            hidden_effect = {
+            if = {
+                    limit = {
+                        any_country = {
+                            OR = {
+                                tag = GER
+                                is_in_faction_with = GER
+                            }
+                            has_full_control_of_state = 777
+                        }
+                    }
+                    777 = {
+                        #naval bases
+                        add_building_construction = {
+                            type = naval_base
+                            level = 1
+                            instant_build = yes
+                            province = 1951
+                        }
+                    }
+                }
+            }
+        }
+    }
 }        
