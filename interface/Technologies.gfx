@@ -2411,7 +2411,6 @@ spriteTypes = {
 		name = "GFX_bombing_runs_medium"
 		texturefile = "gfx/interface/technologies/blimpbombadded.dds"
 	}
-
 	#
 	################################# GERMAN AIR UNITS #################################
 	#
@@ -2489,7 +2488,160 @@ spriteTypes = {
 		name = "GFX_GER_fourth_zeppelin_medium"
 		texturefile = "gfx/interface/technologies/GER_blimp4.dds"
 	}
+	#
+	################################# ASTRO-HUNGARIAN AIR UNITS #################################
+	#
+	SpriteType = {
+		name = "GFX_AHE_plane_purpose_machineguns_medium"
+		texturefile = "gfx/interface/technologies/GER_airmachinegun1.dds"
+	}
 
+	SpriteType = {
+		name = "GFX_AHE_synchronization_gear_medium"
+		texturefile = "gfx/interface/technologies/GER_airmachinegun2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AHE_improved_machineguns_medium"
+		texturefile = "gfx/interface/technologies/GER_airmachinegun3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AHE_first_fighter_medium"
+		texturefile = "gfx/interface/technologies/GER_fighter1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AHE_second_fighter_medium"
+		texturefile = "gfx/interface/technologies/GER_fighter2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AHE_third_fighter_medium"
+		texturefile = "gfx/interface/technologies/AHE_fighter3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AHE_fourth_fighter_medium"
+		texturefile = "gfx/interface/technologies/GER_fighter4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AHE_first_CAS_medium"
+		texturefile = "gfx/interface/technologies/GER_cas1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AHE_second_CAS_medium"
+		texturefile = "gfx/interface/technologies/GER_cas2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AHE_first_navbomber_medium"
+		texturefile = "gfx/interface/technologies/GER_nav_bomber1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AHE_second_navbomber_medium"
+		texturefile = "gfx/interface/technologies/GER_nav_bomber2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AHE_first_zeppelin_medium"
+		texturefile = "gfx/interface/technologies/GER_blimp1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AHE_second_zeppelin_medium"
+		texturefile = "gfx/interface/technologies/GER_blimp2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AHE_third_zeppelin_medium"
+		texturefile = "gfx/interface/technologies/GER_blimp3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AHE_fourth_zeppelin_medium"
+		texturefile = "gfx/interface/technologies/GER_blimp4.dds"
+	}
+	#
+	################################# OTTOMAN AIR UNITS #################################
+	#
+	SpriteType = {
+		name = "GFX_TUR_plane_purpose_machineguns_medium"
+		texturefile = "gfx/interface/technologies/GER_airmachinegun1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TUR_synchronization_gear_medium"
+		texturefile = "gfx/interface/technologies/GER_airmachinegun2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TUR_improved_machineguns_medium"
+		texturefile = "gfx/interface/technologies/GER_airmachinegun3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TUR_first_fighter_medium"
+		texturefile = "gfx/interface/technologies/GER_fighter1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TUR_second_fighter_medium"
+		texturefile = "gfx/interface/technologies/GER_fighter2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TUR_third_fighter_medium"
+		texturefile = "gfx/interface/technologies/GER_fighter3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TUR_fourth_fighter_medium"
+		texturefile = "gfx/interface/technologies/GER_fighter4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TUR_first_CAS_medium"
+		texturefile = "gfx/interface/technologies/GER_cas1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TUR_second_CAS_medium"
+		texturefile = "gfx/interface/technologies/GER_cas2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TUR_first_navbomber_medium"
+		texturefile = "gfx/interface/technologies/GER_nav_bomber1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TUR_second_navbomber_medium"
+		texturefile = "gfx/interface/technologies/GER_nav_bomber2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TUR_first_zeppelin_medium"
+		texturefile = "gfx/interface/technologies/GER_blimp1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TUR_second_zeppelin_medium"
+		texturefile = "gfx/interface/technologies/GER_blimp2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TUR_third_zeppelin_medium"
+		texturefile = "gfx/interface/technologies/GER_blimp3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TUR_fourth_zeppelin_medium"
+		texturefile = "gfx/interface/technologies/GER_blimp4.dds"
+	}
 	#
 	################################# AIR DOCTRINES #################################
 	#

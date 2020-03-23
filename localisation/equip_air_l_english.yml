@@ -100,8 +100,98 @@
  GER_zeppelin_3:0 "Zeppelin LZ 62"
  GER_zeppelin_3_short:0 "LZ 62"
  GER_zeppelin_3_desc:0 "Zeppelin LZ 62 was the first R-class "Super Zeppelin" of the German Empire. It was constructed at Luftschiffbau Zeppelin in Friedrichshafen, the first with gondolas on the sides. Unlike the P and Q Class of Zeppelins which had been in use at the outbreak of war, the R Class was an entirely new design, developed in April 1913 by Dr. Arnstein. Drawing on experiences from the early months of The Great War and requests from the German Imperial Navy, Arnstein developed a new form of Zeppelin construction."
-
+ #         GERMAN SPHERE
+ AHE_fighter1:0 "Fokker E.III"
+ AHE_fighter1_short:0 "Fokker Eindecker"
+ AHE_fighter1_desc:0 "The Fokker E.III was the main variant of the Eindecker (literally meaning "one deck") fighter aircraft of The Great War. It entered service in December 1906 and was also supplied to Austria-Hungary and Turkey."
+ AHE_fighter2:0 "Albatros D.II"
+ AHE_fighter2_short:0 "Albatros D.II"
+ AHE_fighter2_desc:0 "The Albatros D.II was a German fighter aircraft used during The Great War. Albatros designers Thelen, Schubert and Gnädig produced the D.II in response to pilot complaints about poor upward vision in the Albatros D.I. The solution was to reposition the upper wing 36 cm closer to the fuselage and stagger it forward slightly."
+ AHE_fighter3:0 "Phönix D.I"
+ AHE_fighter3_short:0 "Phönix D.I"
+ AHE_fighter3_desc:0 "The Phönix D.I, with the D.II and D.III variants, was an Austro-Hungarian Great War biplane fighter built by the Phönix Flugzeug-Werke and based on the Hansa-Brandenburg D.I."
+ AHE_fighter4:0 "Fokker D.VIII"
+ AHE_fighter4_short:0 "Fokker D.VIII"
+ AHE_fighter4_desc:0 "The Fokker E.V was a German parasol-monoplane fighter aircraft designed by Reinhold Platz and built by Fokker-Flugzeugwerke. The E.V was the last Fokker design to become operational with the Luftstreitkräfte, entering service in the last months of the Great War. After several fatal accidents due to wing failures, the aircraft was modified and redesignated Fokker D.VIII. Dubbed the Flying Razor by Allied pilots, the D.VIII had the distinction of scoring the last aerial victory of the war."
  
+ AHE_nav_bomber_0:0 "Albatros W.4"
+ AHE_nav_bomber_0_short:0 "Albatros W.4"
+ AHE_nav_bomber_0_desc:0 "The Albatros W.4 was a German floatplane derivative of the Albatros D.I fighter with new wing and tail surfaces of greater span than the D.I. The D.I was a single-seat biplane fighter with improvements over the original Hansa-Brandenburg design which included more efficient wings, a more powerful engine and structural improvements."
+ AHE_nav_bomber_1:0 "Gotha WD.14"
+ AHE_nav_bomber_1_short:0 "Gotha WD.14"
+ AHE_nav_bomber_1_desc:0 "The Gotha WD.14 was an enlarged version of the WD.11. It featured twin engines mounted tractor-fashion on the lower wing. The wider fuselage allowed the pilot and observer to sit side-by-side in the open cockpit, and a second 7.92 mm machine gun was added in an open dorsal position."
+
+ AHE_CAS1:0 "AEG J.I"
+ AHE_CAS1_short:0 "AEG J.I"
+ AHE_CAS1_desc:0 "The AEG J.I was a German biplane ground attack aircraft of 1909, an armored and more powerful version of the AEG C.IV reconnaissance aircraft. The AEG J.I was a two-seat single-engined tractor biplane with a conventional landing gear with a tail skid. The aircraft was constructed using fabric covered steel tubes. The open tandem cockpit for the pilot and gunner had armour protection."
+ AHE_CAS2:0 "Junkers J.I"
+ AHE_CAS2_short:0 "Ju J.I"
+ AHE_CAS2_desc:0 "The Junkers J.I was a German "J-class" armored sesquiplane of the Great War, developed for low-level ground attack, observation and army cooperation. It is especially noteworthy as being the first all-metal aircraft to enter mass production. The aircraft's metal construction and heavy armour was an effective shield against small arms fire over the battlefield."
+ 
+ AHE_zeppelin_0:0 " Zeppelin LZ 1"
+ AHE_zeppelin_0_short:0 "LZ 1"
+ AHE_zeppelin_0_desc:0 "The Zeppelin LZ 1 was the first truly successful experimental rigid airship."
+ AHE_zeppelin_1:0 "Zeppelin LZ 10 Schwaben"
+ AHE_zeppelin_1_short:0 "LZ 10 Schwaben"
+ AHE_zeppelin_1_desc:0 "LZ 10 Schwaben was a German rigid airship built by Luftschiffbau Zeppelin in 1905 and operated by DELAG (Deutsche Luftschiffahrts-Aktiengesellschaft) for passenger service. It is regarded as the first commercially successful passenger-carrying aircraft."
+ AHE_zeppelin_2:0 "Zeppelin LZ 47"
+ AHE_zeppelin_2_short:0 "LZ 47"
+ AHE_zeppelin_2_desc:0 "One of the first P class Zeppelins. The P class was an enlarged version of the preceding M class. It had a more streamlined hull shape than previous Zeppelins, with only 60 m of the 163.5 m overall length being parallel sided. Power was initially provided by four 160 kW Maybach CX six cylinder engines. Later examples were fitted with four 180 kW Maybach HSLu engines."
+ AHE_zeppelin_3:0 "Zeppelin LZ 62"
+ AHE_zeppelin_3_short:0 "LZ 62"
+ AHE_zeppelin_3_desc:0 "Zeppelin LZ 62 was the first R-class "Super Zeppelin" of the German Empire. It was constructed at Luftschiffbau Zeppelin in Friedrichshafen, the first with gondolas on the sides. Unlike the P and Q Class of Zeppelins which had been in use at the outbreak of war, the R Class was an entirely new design, developed in April 1913 by Dr. Arnstein. Drawing on experiences from the early months of The Great War and requests from the German Imperial Navy, Arnstein developed a new form of Zeppelin construction."
+
+ TUR_fighter1:0 "Fokker E.III"
+ TUR_fighter1_short:0 "Fokker Eindecker"
+ TUR_fighter1_desc:0 "The Fokker E.III was the main variant of the Eindecker (literally meaning "one deck") fighter aircraft of The Great War. It entered service in December 1906 and was also supplied to Austria-Hungary and Turkey."
+ TUR_fighter2:0 "Albatros D.II"
+ TUR_fighter2_short:0 "Albatros D.II"
+ TUR_fighter2_desc:0 "The Albatros D.II was a German fighter aircraft used during The Great War. Albatros designers Thelen, Schubert and Gnädig produced the D.II in response to pilot complaints about poor upward vision in the Albatros D.I. The solution was to reposition the upper wing 36 cm closer to the fuselage and stagger it forward slightly."
+ TUR_fighter3:0 "Fokker Dr.I"
+ TUR_fighter3_short:0 "Fokker Dreidecker"
+ TUR_fighter3_desc:0 "The Fokker Dr.I, often known simply as the Fokker Triplane, was a Great War fighter aircraft built by Fokker-Flugzeugwerke. The Dr.I saw widespread service in the spring of 1910. It became famous as the aircraft in which Manfred von Richthofen gained his last 19 victories."
+ TUR_fighter4:0 "Fokker D.VIII"
+ TUR_fighter4_short:0 "Fokker D.VIII"
+ TUR_fighter4_desc:0 "The Fokker E.V was a German parasol-monoplane fighter aircraft designed by Reinhold Platz and built by Fokker-Flugzeugwerke. The E.V was the last Fokker design to become operational with the Luftstreitkräfte, entering service in the last months of the Great War. After several fatal accidents due to wing failures, the aircraft was modified and redesignated Fokker D.VIII. Dubbed the Flying Razor by Allied pilots, the D.VIII had the distinction of scoring the last aerial victory of the war."
+ 
+ TUR_nav_bomber_0:0 "Albatros W.4"
+ TUR_nav_bomber_0_short:0 "Albatros W.4"
+ TUR_nav_bomber_0_desc:0 "The Albatros W.4 was a German floatplane derivative of the Albatros D.I fighter with new wing and tail surfaces of greater span than the D.I."
+ TUR_nav_bomber_1:0 "Gotha WD.14"
+ TUR_nav_bomber_1_short:0 "Gotha WD.14"
+ TUR_nav_bomber_1_desc:0 "The Gotha WD.14 was an enlarged version of the WD.11. It featured twin engines mounted tractor-fashion on the lower wing. The wider fuselage allowed the pilot and observer to sit side-by-side in the open cockpit, and a second 7.92 mm machine gun was added in an open dorsal position."
+
+ TUR_CAS1:0 "AEG J.I"
+ TUR_CAS1_short:0 "AEG J.I"
+ TUR_CAS1_desc:0 "The AEG J.I was a German biplane ground attack aircraft of 1909, an armored and more powerful version of the AEG C.IV reconnaissance aircraft. The AEG J.I was a two-seat single-engined tractor biplane with a conventional landing gear with a tail skid. The aircraft was constructed using fabric covered steel tubes. The open tandem cockpit for the pilot and gunner had armour protection."
+ TUR_CAS2:0 "Junkers J.I"
+ TUR_CAS2_short:0 "Ju J.I"
+ TUR_CAS2_desc:0 "The Junkers J.I was a German "J-class" armored sesquiplane of the Great War, developed for low-level ground attack, observation and army cooperation. It is especially noteworthy as being the first all-metal aircraft to enter mass production. The aircraft's metal construction and heavy armour was an effective shield against small arms fire over the battlefield."
+ 
+ TUR_zeppelin_0:0 " Zeppelin LZ 1"
+ TUR_zeppelin_0_short:0 "LZ 1"
+ TUR_zeppelin_0_desc:0 "The Zeppelin LZ 1 was the first truly successful experimental rigid airship."
+ TUR_zeppelin_1:0 "Zeppelin LZ 10 Schwaben"
+ TUR_zeppelin_1_short:0 "LZ 10 Schwaben"
+ TUR_zeppelin_1_desc:0 "LZ 10 Schwaben was a German rigid airship built by Luftschiffbau Zeppelin in 1905 and operated by DELAG (Deutsche Luftschiffahrts-Aktiengesellschaft) for passenger service. It is regarded as the first commercially successful passenger-carrying aircraft."
+ TUR_zeppelin_2:0 "Zeppelin LZ 47"
+ TUR_zeppelin_2_short:0 "LZ 47"
+ TUR_zeppelin_2_desc:0 "One of the first P class Zeppelins. The P class was an enlarged version of the preceding M class. It had a more streamlined hull shape than previous Zeppelins, with only 60 m of the 163.5 m overall length being parallel sided. Power was initially provided by four 160 kW Maybach CX six cylinder engines. Later examples were fitted with four 180 kW Maybach HSLu engines."
+ TUR_zeppelin_3:0 "Zeppelin LZ 62"
+ TUR_zeppelin_3_short:0 "LZ 62"
+ TUR_zeppelin_3_desc:0 "Zeppelin LZ 62 was the first R-class "Super Zeppelin" of the German Empire. It was constructed at Luftschiffbau Zeppelin in Friedrichshafen, the first with gondolas on the sides. Unlike the P and Q Class of Zeppelins which had been in use at the outbreak of war, the R Class was an entirely new design, developed in April 1913 by Dr. Arnstein. Drawing on experiences from the early months of The Great War and requests from the German Imperial Navy, Arnstein developed a new form of Zeppelin construction."
+
+
+
+
+
+
+
+
+
+
+
+
  ENG_fighter_equipment_0:0 "Gloster Gladiator"
  ENG_fighter_equipment_0_short:0 "Gladiator"
  ENG_fighter_equipment_1:0 "Hawker Hurricane"
