@@ -2362,6 +2362,56 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/planebomb2.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_basic_torpedoes_medium"
+		texturefile = "gfx/interface/technologies/planetorpedo1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_added_torpedoes_medium"
+		texturefile = "gfx/interface/technologies/planetorpedoadded.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_torpedoes_medium"
+		texturefile = "gfx/interface/technologies/planetorpedo2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_zeppelin_blueprints_medium"
+		texturefile = "gfx/interface/technologies/zeppelinblueprint.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_basic_zeppelin_cabin_medium"
+		texturefile = "gfx/interface/technologies/blimpcockpit1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_basic_zeppelin_bombs_medium"
+		texturefile = "gfx/interface/technologies/blimpbomb1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_zeppelin_cabin_medium"
+		texturefile = "gfx/interface/technologies/blimpcockpit2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_advanced_zeppelin_cabin_medium"
+		texturefile = "gfx/interface/technologies/blimpcockpit3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_zeppelin_bombs_medium"
+		texturefile = "gfx/interface/technologies/blimpbomb2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_bombing_runs_medium"
+		texturefile = "gfx/interface/technologies/blimpbombadded.dds"
+	}
+
 	#
 	################################# GERMAN AIR UNITS #################################
 	#
@@ -2418,6 +2468,26 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_GER_second_navbomber_medium"
 		texturefile = "gfx/interface/technologies/GER_nav_bomber2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_first_zeppelin_medium"
+		texturefile = "gfx/interface/technologies/GER_blimp1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_second_zeppelin_medium"
+		texturefile = "gfx/interface/technologies/GER_blimp2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_third_zeppelin_medium"
+		texturefile = "gfx/interface/technologies/GER_blimp3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_fourth_zeppelin_medium"
+		texturefile = "gfx/interface/technologies/GER_blimp4.dds"
 	}
 
 	#

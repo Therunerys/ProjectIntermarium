@@ -540,6 +540,7 @@ technologies = {
 
 		air_close_air_support_attack_factor = 0.05
 		air_close_air_support_defence_factor = 0.05
+		air_close_air_support_agility_factor = 0.05
 
 		path = {
 			leads_to_tech = second_CAS
@@ -626,7 +627,7 @@ technologies = {
 		}
 	
 		path = {
-			leads_to_tech = second_navbomber
+			leads_to_tech = basic_torpedoes
 			research_cost_coeff = 1
 		}
 		
@@ -647,11 +648,76 @@ technologies = {
 			factor = 1
 		}
 	}
+
+	basic_torpedoes = {
+
+		naval_strike_attack_factor = 0.05
+		naval_strike_targetting_factor = 0.05
+
+		path = {
+			leads_to_tech = added_torpedoes
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1910
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 3 y = 24 }
+		}
+		
+		categories = {
+			naval_air
+			air_equipment
+			naval_bomber
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	added_torpedoes = {
+
+		naval_strike_attack_factor = 0.05
+		naval_strike_targetting_factor = 0.05
+		naval_strike_agility_factor = 0.05
+
+		path = {
+			leads_to_tech = second_navbomber
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1911
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 3 y = 26 }
+		}
+		
+		categories = {
+			naval_air
+			air_equipment
+			naval_bomber
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	
 	second_navbomber = {
 
 		enable_equipments = {
 			nav_bomber_1
+		}
+
+		path = {
+			leads_to_tech = improved_torpedoes
+			research_cost_coeff = 1
 		}
 		
 		research_cost = 2
@@ -671,11 +737,35 @@ technologies = {
 			factor = 1
 		}
 	}
+
+	improved_torpedoes = {
+
+		naval_strike_attack_factor = 0.1
+		naval_strike_targetting_factor = 0.1
+
+		research_cost = 2
+		start_year = 1913
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 3 y = 30 }
+		}
+		
+		categories = {
+			naval_air
+			air_equipment
+			naval_bomber
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 	zeppelin_blueprints = {
 
 		on_research_complete = {
-    		custom_effect_tooltip = ZEPPELIN_STAGE1
+    		custom_effect_tooltip = ZEPPELIN_BLUEPRINT
 		}
 
 		path = {
@@ -709,7 +799,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = zeppelin_framework
+			leads_to_tech = basic_zeppelin_cabin
 			research_cost_coeff = 1
 		}
 	
@@ -732,9 +822,11 @@ technologies = {
 		}
 	}
 
-	zeppelin_framework = {
+	basic_zeppelin_cabin = {
 
-		air_strategic_bomber_bombing_factor = 0.05
+		air_strategic_bomber_attack_factor = 0.05
+		air_strategic_bomber_defence_factor = 0.05
+		air_strategic_bomber_agility_factor = 0.05
 
 		path = {
 			leads_to_tech = second_zeppelin
@@ -742,11 +834,11 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1903
+		start_year = 1904
 		
 		folder = {
 			name = air_techs_folder
-			position = { x = 9 y = 10 }
+			position = { x = 9 y = 12 }
 		}
 
 		categories = {
@@ -767,7 +859,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = zeppelin_stabilizers
+			leads_to_tech = basic_zeppelin_bombs
 			research_cost_coeff = 1
 		}
 	
@@ -790,12 +882,12 @@ technologies = {
 		}
 	}
 
-	zeppelin_stabilizers = {
+	basic_zeppelin_bombs = {
 
-		air_strategic_bomber_bombing_factor = 0.05
+		air_strategic_bomber_bombing_factor = 0.1
 
 		path = {
-			leads_to_tech = third_zeppelin
+			leads_to_tech = improved_zeppelin_cabin
 			research_cost_coeff = 1
 		}
 
@@ -818,6 +910,36 @@ technologies = {
 		}
 	}
 
+	improved_zeppelin_cabin = {
+
+		air_strategic_bomber_attack_factor = 0.05
+		air_strategic_bomber_defence_factor = 0.05
+		air_strategic_bomber_agility_factor = 0.05
+
+		path = {
+			leads_to_tech = third_zeppelin
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1908
+		
+		folder = {
+			name = air_techs_folder
+			position = { x = 9 y = 20 }
+		}
+
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	third_zeppelin = {
 
 		enable_equipments = {
@@ -825,7 +947,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = fourth_zeppelin
+			leads_to_tech = advanced_zeppelin_cabin
 			research_cost_coeff = 1
 		}
 	
@@ -835,6 +957,92 @@ technologies = {
 		folder = {
 			name = air_techs_folder
 			position = { x = 9 y = 22 }
+		}
+
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	advanced_zeppelin_cabin = {
+
+		air_strategic_bomber_attack_factor = 0.05
+		air_strategic_bomber_defence_factor = 0.05
+		air_strategic_bomber_agility_factor = 0.05
+
+		path = {
+			leads_to_tech = improved_zeppelin_bombs
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1910
+		
+		folder = {
+			name = air_techs_folder
+			position = { x = 9 y = 24 }
+		}
+
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	improved_zeppelin_bombs = {
+
+		air_strategic_bomber_bombing_factor = 0.1
+
+		path = {
+			leads_to_tech = bombing_runs
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1911
+		
+		folder = {
+			name = air_techs_folder
+			position = { x = 9 y = 26 }
+		}
+
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	bombing_runs = {
+
+		air_strategic_bomber_bombing_factor = 0.2
+
+		path = {
+			leads_to_tech = fourth_zeppelin
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1912
+		
+		folder = {
+			name = air_techs_folder
+			position = { x = 9 y = 28 }
 		}
 
 		categories = {
