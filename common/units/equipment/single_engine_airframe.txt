@@ -1,8 +1,8 @@
 equipments = {
 
-	# Recon Plane
-	recon_plane = {
-		year = 1904
+	# Plane Prototype
+	plane_prototype = {
+		year = 1903
 
 		is_archetype = yes
 		is_convertable = yes
@@ -28,18 +28,18 @@ equipments = {
 		air_attack = 0
 		air_defence = 0
 		air_agility = 30
-		air_range = 300
+		air_range = 100
 		air_superiority = 1
-		maximum_speed = 150
+		maximum_speed = 48
 		reliability = 0.75
 
 		######### NAVAL SPECS #########
-		naval_strike_attack = 1
-		naval_strike_targetting = 10
+		naval_strike_attack = 0
+		naval_strike_targetting = 0
 
 		lend_lease_cost = 8
 		
-		build_cost_ic = 22
+		build_cost_ic = 20
 
 		resources = {
 			oil = 1
@@ -47,13 +47,13 @@ equipments = {
 			rubber = 1
 		}
 		manpower = 20
-		fuel_consumption = 0.21
+		fuel_consumption = 0.20
 	}
 
-	recon_plane_0 = {
-		year = 1904
+	plane_prototype_0 = {
+		year = 1903
 
-		archetype = recon_plane
+		archetype = plane_prototype
 		active = no
 
 		priority = 20
@@ -61,10 +61,10 @@ equipments = {
 
 	# Early Fighter
 	fighter1 = {
-		year = 1907
+		year = 1906
 
-		archetype = recon_plane
-		parent = recon_plane_0
+		archetype = plane_prototype
+		parent = plane_prototype_0
 		priority = 10
 
 		######### AIR SPECS #########
@@ -72,11 +72,11 @@ equipments = {
 		air_defence = 8
 		air_agility = 40
 		air_range = 200
-		maximum_speed = 180
+		maximum_speed = 140
 		
 		######### NAVAL SPECS #########
-		naval_strike_attack = 1
-		naval_strike_targetting = 10	
+		naval_strike_attack = 0
+		naval_strike_targetting = 0	
 				
 		build_cost_ic = 24
 
@@ -89,9 +89,9 @@ equipments = {
 
 	# Improved Fighter
 	fighter2 = {
-		year = 1909
+		year = 1908
 
-		archetype = recon_plane
+		archetype = plane_prototype
 		parent = fighter1
 		priority = 10
 
@@ -99,14 +99,14 @@ equipments = {
 		air_attack = 20
 		air_defence = 15
 		air_agility = 60
-		air_range = 450
-		maximum_speed = 250		
+		air_range = 400
+		maximum_speed = 170		
 
 		######### NAVAL SPECS #########
-		naval_strike_attack = 1
-		naval_strike_targetting = 10
+		naval_strike_attack = 0
+		naval_strike_targetting = 0
 				
-		build_cost_ic = 26
+		build_cost_ic = 28
 
 		resources = {
 			oil = 2
@@ -117,9 +117,9 @@ equipments = {
 
 	# Advanced Fighter
 	fighter3 = {
-		year = 1911
+		year = 1910
 
-		archetype = recon_plane
+		archetype = plane_prototype
 		parent = fighter2
 		priority = 10
 	
@@ -128,13 +128,41 @@ equipments = {
 		air_defence = 20
 		air_agility = 80
 		air_range = 600
-		maximum_speed = 300
+		maximum_speed = 200
 
 		######### NAVAL SPECS #########
-		naval_strike_attack = 1
-		naval_strike_targetting = 10
+		naval_strike_attack = 0
+		naval_strike_targetting = 0
 				
-		build_cost_ic = 28
+		build_cost_ic = 30
+
+		resources = {
+			oil = 2
+			aluminium = 3
+			rubber = 1
+		}
+	}
+
+	# Modern Fighter
+	fighter4 = {
+		year = 1912
+
+		archetype = plane_prototype
+		parent = fighter3
+		priority = 10
+	
+		######### AIR SPECS #########
+		air_attack = 40
+		air_defence = 30
+		air_agility = 100
+		air_range = 800
+		maximum_speed = 250
+
+		######### NAVAL SPECS #########
+		naval_strike_attack = 0
+		naval_strike_targetting = 0
+				
+		build_cost_ic = 35
 
 		resources = {
 			oil = 2
@@ -145,7 +173,7 @@ equipments = {
 
 	# Early CAS
 	CAS = {
-		year = 1911
+		year = 1909
 
 		is_archetype = yes
 		is_convertable = yes
@@ -193,7 +221,7 @@ equipments = {
 	}
 
 	CAS1 = {
-		year = 1911
+		year = 1909
 
 		archetype = CAS
 		active = no
@@ -203,7 +231,7 @@ equipments = {
 
 	# Basic CAS
 	CAS2 = {
-		year = 1913
+		year = 1912
 
 		archetype = CAS
 		parent = CAS1
@@ -232,7 +260,7 @@ equipments = {
 
 	# Basic nav_bomber
 	nav_bomber = {
-		year = 1911
+		year = 1909
 
 		is_archetype = yes
 		is_convertable = yes
@@ -279,7 +307,7 @@ equipments = {
 	}
 
 	nav_bomber_0 = {
-		year = 1911
+		year = 1909
 
 		archetype = nav_bomber
 		active = no
@@ -289,7 +317,7 @@ equipments = {
 
 	# Improved nav_bomber
 	nav_bomber_1 = {
-		year = 1913
+		year = 1912
 
 		archetype = nav_bomber
 		parent = nav_bomber_0

@@ -39,16 +39,21 @@ technologies = {
 	plane_blueprints = {
 
 		on_research_complete = {
-    		custom_effect_tooltip = PLANE_STAGE1
+    		custom_effect_tooltip = PLANE_BLUEPRINT
 		}
 
 		path = {
-			leads_to_tech = plane_engine
+			leads_to_tech = plane_stage1
 			research_cost_coeff = 1
 		}
 
 		path = {
-			leads_to_tech = plane_cockpit
+			leads_to_tech = plane_stage2
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = plane_stage3
 			research_cost_coeff = 1
 		}
 		
@@ -71,14 +76,14 @@ technologies = {
 		}
 	}
 
-	plane_engine = {
+	plane_stage1 = {
 
 		on_research_complete = {
-    		custom_effect_tooltip = PLANE_STAGE2
+    		custom_effect_tooltip = PLANE_STAGE1
 		}
 		
 		path = {
-			leads_to_tech = first_plane
+			leads_to_tech = prototype_plane
 			research_cost_coeff = 1
 		}
 		
@@ -87,7 +92,7 @@ technologies = {
 
 		folder = {
 			name = air_techs_folder
-			position = { x = -1 y = 8 }
+			position = { x = -2 y = 8 }
 		}
 		
 		categories = {
@@ -101,14 +106,14 @@ technologies = {
 		}
 	}
 	
-	plane_cockpit = {
+	plane_stage2 = {
 
 		on_research_complete = {
     		custom_effect_tooltip = PLANE_STAGE2
 		}
 	
 		path = {
-			leads_to_tech = first_plane
+			leads_to_tech = prototype_plane
 			research_cost_coeff = 1
 		}
 		
@@ -117,7 +122,37 @@ technologies = {
 
 		folder = {
 			name = air_techs_folder
-			position = { x = 1 y = 8 }
+			position = { x = 0 y = 8 }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	plane_stage3 = {
+
+		on_research_complete = {
+    		custom_effect_tooltip = PLANE_STAGE3
+		}
+	
+		path = {
+			leads_to_tech = prototype_plane
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1902
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 2 y = 8 }
 		}
 		
 		categories = {
@@ -131,10 +166,10 @@ technologies = {
 		}
 	}
 	
-	first_plane = {
+	prototype_plane = {
 
 		enable_equipments = {
-			recon_plane_0
+			plane_prototype_0
 		}
 
 		path = {
@@ -143,16 +178,17 @@ technologies = {
 		}
 
 		dependencies = {
-            plane_engine = 1
-            plane_cockpit = 1
+            plane_stage1 = 1
+            plane_stage2 = 1
+            plane_stage3 = 1
         }
 	
 		research_cost = 2
-		start_year = 1904
+		start_year = 1903
 
 		folder = {
 			name = air_techs_folder
-			position = { x = 0 y = 12 }
+			position = { x = 0 y = 10 }
 		}
 		
 		categories = {
@@ -207,11 +243,11 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1907
+		start_year = 1906
 
 		folder = {
 			name = air_techs_folder
-			position = { x = 0 y = 18 }
+			position = { x = 0 y = 16 }
 		}
 		
 		categories = {
@@ -241,11 +277,11 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1908
+		start_year = 1907
 
 		folder = {
 			name = air_techs_folder
-			position = { x = 0 y = 20 }
+			position = { x = 0 y = 18 }
 		}
 		
 		categories = {
@@ -266,7 +302,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = third_fighter
+			leads_to_tech = improved_engine_cooling
 			research_cost_coeff = 1
 		}
 
@@ -277,6 +313,65 @@ technologies = {
 
 		path = {
 			leads_to_tech = first_navbomber
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1908
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 20 }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	improved_engine_cooling = {
+
+		air_interception_agility_factor = 0.05
+		air_air_superiority_agility_factor = 0.05
+
+		path = {
+			leads_to_tech = third_fighter
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1909
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 22 }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	third_fighter = {
+
+		enable_equipments = {
+			fighter3
+		}
+
+		path = {
+			leads_to_tech = improved_machineguns
 			research_cost_coeff = 1
 		}
 
@@ -299,10 +394,43 @@ technologies = {
 		}
 	}
 
-	third_fighter = {
+	improved_machineguns = {
 
-		enable_equipments = {
-			fighter3
+		air_interception_attack_factor = 0.1
+		air_air_superiority_attack_factor = 0.1
+
+		path = {
+			leads_to_tech = improved_engine_power
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1911
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 26 }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	improved_engine_power = {
+
+		air_interception_agility_factor = 0.05
+		air_air_superiority_agility_factor = 0.05
+
+		path = {
+			leads_to_tech = fourth_fighter
+			research_cost_coeff = 1
 		}
 
 		research_cost = 2
@@ -324,11 +452,94 @@ technologies = {
 		}
 	}
 
+	fourth_fighter = {
+
+		enable_equipments = {
+			fighter4
+		}
+
+		research_cost = 2
+		start_year = 1913
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 30 }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	first_CAS = {
 
 		enable_equipments = {
 			CAS1
 		}
+
+		path = {
+			leads_to_tech = basic_bombs
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1909
+
+		folder = {
+			name = air_techs_folder
+			position = { x = -3 y = 22 }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	basic_bombs = {
+
+		air_close_air_support_attack_factor = 0.05
+		air_close_air_support_defence_factor = 0.05
+
+		path = {
+			leads_to_tech = added_bombs
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1910
+
+		folder = {
+			name = air_techs_folder
+			position = { x = -3 y = 24 }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	added_bombs = {
+
+		air_close_air_support_attack_factor = 0.05
+		air_close_air_support_defence_factor = 0.05
 
 		path = {
 			leads_to_tech = second_CAS
@@ -359,6 +570,35 @@ technologies = {
 		enable_equipments = {
 			CAS2
 		}
+
+		path = {
+			leads_to_tech = improved_bombs
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1912
+
+		folder = {
+			name = air_techs_folder
+			position = { x = -3 y = 28 }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	improved_bombs = {
+
+		air_close_air_support_attack_factor = 0.1
+		air_close_air_support_defence_factor = 0.1
 
 		research_cost = 2
 		start_year = 1913
@@ -391,10 +631,10 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1911
+		start_year = 1909
 		folder = {
 			name = air_techs_folder
-			position = { x = 3 y = 26 }
+			position = { x = 3 y = 22 }
 		}
 
 		categories = {
@@ -415,10 +655,10 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1913
+		start_year = 1912
 		folder = {
 			name = air_techs_folder
-			position = { x = 3 y = 30 }
+			position = { x = 3 y = 28 }
 		}
 		
 		categories = {

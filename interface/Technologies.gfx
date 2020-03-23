@@ -2294,172 +2294,130 @@ spriteTypes = {
 	#
 	SpriteType = {
 		name = "GFX_recon_balloons_medium"
-		texturefile = "gfx/interface/technologies/air_balloon.dds"
+		texturefile = "gfx/interface/technologies/recon_balloon.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_plane_blueprints_medium"
-		texturefile = "gfx/interface/technologies/air_planeblueprint.dds"
+		texturefile = "gfx/interface/technologies/plane_blueprint.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_plane_engine_medium"
-		texturefile = "gfx/interface/technologies/air_planeengine.dds"
+		name = "GFX_plane_stage1_medium"
+		texturefile = "gfx/interface/technologies/planestage1.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_plane_cockpit_medium"
-		texturefile = "gfx/interface/technologies/air_planecockpit.dds"
+		name = "GFX_plane_stage2_medium"
+		texturefile = "gfx/interface/technologies/planestage2.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_first_plane_medium"
-		texturefile = "gfx/interface/technologies/fleet_in_being.dds"
+		name = "GFX_plane_stage3_medium"
+		texturefile = "gfx/interface/technologies/planestage3.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_early_fighter_medium"
-		texturefile = "gfx/interface/technologies/fighter1.dds"
+		name = "GFX_prototype_plane_medium"
+		texturefile = "gfx/interface/technologies/plane_wright.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_cv_early_fighter_medium"
-		texturefile = "gfx/interface/technologies/fighter1.dds"
+		name = "GFX_plane_purpose_machineguns_medium"
+		texturefile = "gfx/interface/technologies/ENG_airmachinegun1.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_fighter1_medium"
-		texturefile = "gfx/interface/technologies/fighter2.dds"
+		name = "GFX_synchronization_gear_medium"
+		texturefile = "gfx/interface/technologies/ENG_airmachinegun2.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_cv_fighter1_medium"
-		texturefile = "gfx/interface/technologies/fighter2.dds"
+		name = "GFX_improved_engine_cooling_medium"
+		texturefile = "gfx/interface/technologies/planeengine1.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_fighter2_medium"
-		texturefile = "gfx/interface/technologies/fighter3.dds"
+		name = "GFX_improved_machineguns_medium"
+		texturefile = "gfx/interface/technologies/ENG_airmachinegun3.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_cv_fighter2_medium"
-		texturefile = "gfx/interface/technologies/fighter3.dds"
+		name = "GFX_improved_engine_power_medium"
+		texturefile = "gfx/interface/technologies/planeengine2.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_fighter3_medium"
-		texturefile = "gfx/interface/technologies/fighter4.dds"
+		name = "GFX_basic_bombs_medium"
+		texturefile = "gfx/interface/technologies/planebomb1.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_cv_fighter3_medium"
-		texturefile = "gfx/interface/technologies/fighter4.dds"
+		name = "GFX_added_bombs_medium"
+		texturefile = "gfx/interface/technologies/planebombadded.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_CAS1_medium"
-		texturefile = "gfx/interface/technologies/cas1.dds"
+		name = "GFX_improved_bombs_medium"
+		texturefile = "gfx/interface/technologies/planebomb2.dds"
+	}
+
+	#
+	################################# GERMAN AIR UNITS #################################
+	#
+	SpriteType = {
+		name = "GFX_GER_plane_purpose_machineguns_medium"
+		texturefile = "gfx/interface/technologies/GER_airmachinegun1.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_cv_CAS1_medium"
-		texturefile = "gfx/interface/technologies/cas1.dds"
+		name = "GFX_GER_synchronization_gear_medium"
+		texturefile = "gfx/interface/technologies/GER_airmachinegun2.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_CAS2_medium"
-		texturefile = "gfx/interface/technologies/cas2.dds"
+		name = "GFX_GER_improved_machineguns_medium"
+		texturefile = "gfx/interface/technologies/GER_airmachinegun3.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_cv_CAS2_medium"
-		texturefile = "gfx/interface/technologies/cas2.dds"
+		name = "GFX_GER_first_fighter_medium"
+		texturefile = "gfx/interface/technologies/GER_fighter1.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_CAS3_medium"
-		texturefile = "gfx/interface/technologies/cas3.dds"
+		name = "GFX_GER_second_fighter_medium"
+		texturefile = "gfx/interface/technologies/GER_fighter2.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_cv_CAS3_medium"
-		texturefile = "gfx/interface/technologies/cas3.dds"
+		name = "GFX_GER_third_fighter_medium"
+		texturefile = "gfx/interface/technologies/GER_fighter3.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_naval_bomber1_medium"
-		texturefile = "gfx/interface/technologies/navalbomber1.dds"
+		name = "GFX_GER_fourth_fighter_medium"
+		texturefile = "gfx/interface/technologies/GER_fighter4.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_cv_naval_bomber1_medium"
-		texturefile = "gfx/interface/technologies/navalbomber1.dds"
+		name = "GFX_GER_first_CAS_medium"
+		texturefile = "gfx/interface/technologies/GER_cas1.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_naval_bomber2_medium"
-		texturefile = "gfx/interface/technologies/navalbomber2.dds"
+		name = "GFX_GER_second_CAS_medium"
+		texturefile = "gfx/interface/technologies/GER_cas2.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_cv_naval_bomber2_medium"
-		texturefile = "gfx/interface/technologies/navalbomber2.dds"
+		name = "GFX_GER_first_navbomber_medium"
+		texturefile = "gfx/interface/technologies/GER_nav_bomber1.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_naval_bomber3_medium"
-		texturefile = "gfx/interface/technologies/navalbomber3.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_cv_naval_bomber3_medium"
-		texturefile = "gfx/interface/technologies/navalbomber3.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_early_bomber_medium"
-		texturefile = "gfx/interface/technologies/tacticalbomber1.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_tactical_bomber1_medium"
-		texturefile = "gfx/interface/technologies/tacticalbomber2.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_tactical_bomber2_medium"
-		texturefile = "gfx/interface/technologies/tacticalbomber3.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_tactical_bomber3_medium"
-		texturefile = "gfx/interface/technologies/tacticalbomber4.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_zeppelin_blueprints_medium"
-		texturefile = "gfx/interface/technologies/air_zeppellinblueprint.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_first_zeppelin_medium"
-		texturefile = "gfx/interface/technologies/blimp1.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_second_zeppelin_medium"
-		texturefile = "gfx/interface/technologies/blimp2.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_third_zeppelin_medium"
-		texturefile = "gfx/interface/technologies/blimp3.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_fourth_zeppelin_medium"
-		texturefile = "gfx/interface/technologies/blimp3.dds"
+		name = "GFX_GER_second_navbomber_medium"
+		texturefile = "gfx/interface/technologies/GER_nav_bomber2.dds"
 	}
 
 	#
