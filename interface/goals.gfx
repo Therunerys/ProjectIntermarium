@@ -1593,4 +1593,66 @@ spriteTypes = {
 		name = "GFX_focus_help_austria"
 		texturefile = "gfx/interface/goals/focus_help_austria.dds"
 	}
+
+	#################germany
+	SpriteType = { 
+		name = "GFX_focus_GER_colonial_empire_cloud"
+		texturefile = "gfx/interface/goals/focus_GER_colonial_empire_cloud.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_GER_togoland"
+		texturefile = "gfx/interface/goals/focus_GER_togoland.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_landungsbrucke"
+		texturefile = "gfx/interface/goals/focus_landungsbrucke.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_togo_kolonialbahnen"
+		texturefile = "gfx/interface/goals/focus_togo_kolonialbahnen.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_togo_lome_aneho"
+		texturefile = "gfx/interface/goals/focus_togo_lome_aneho.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_GER_construct_port_la"
+		texturefile = "gfx/interface/goals/goal_GER_construct_port_la.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_togo_lome_kpalime"
+		texturefile = "gfx/interface/goals/focus_togo_lome_kpalime.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_togo_lome_blitta"
+		texturefile = "gfx/interface/goals/focus_togo_lome_blitta.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_kolonialarmee_togo"
+		texturefile = "gfx/interface/goals/focus_kolonialarmee_togo.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_kolonialmarine_togo"
+		texturefile = "gfx/interface/goals/focus_kolonialmarine_togo.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_musterkolonie_togo"
+		texturefile = "gfx/interface/goals/focus_musterkolonie_togo.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_tornado_fixed"
+		texturefile = "gfx/interface/goals/focus_tornado_fixed.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_slave"
+		texturefile = "gfx/interface/goals/focus_slave.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_GER_rip_politics"
+		texturefile = "gfx/interface/goals/focus_GER_rip_politics.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_GER_togo_religion"
+		texturefile = "gfx/interface/goals/focus_GER_togo_religion.dds"
+	}
 }

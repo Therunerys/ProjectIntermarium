@@ -1,0 +1,438 @@
+spriteTypes = {
+
+	SpriteType = {
+		name = "GFX_focus_GER_colonial_empire_cloud_shine" 
+		texturefile = "gfx/interface/goals/focus_GER_colonial_empire_cloud.dds"   
+				effectFile = "gfx/FX/buttonstate.lua"		
+		animation = {
+			animationmaskfile = "gfx/interface/goals/focus_GER_colonial_empire_cloud.dds"    
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0 
+			animationlooping = no	
+			animationtime = 0.75 
+			animationdelay = 0	
+			animationblendmode = "add" 
+			animationtype = "scrolling" 
+			animationrotationoffset = { x = 0.0 y = 0.0 } 
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		
+		animation = { 
+			animationmaskfile = "gfx/interface/goals/focus_GER_colonial_empire_cloud.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"   
+			animationrotation = 90.0 
+			animationlooping = no	
+			animationtime = 0.75 
+			animationdelay = 0	
+			animationblendmode = "add" 
+			animationtype = "scrolling" 
+			animationrotationoffset = { x = 0.0 y = 0.0 } 
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_focus_GER_togoland_shine" 
+		texturefile = "gfx/interface/goals/focus_GER_togoland.dds"   
+				effectFile = "gfx/FX/buttonstate.lua"		
+		animation = {
+			animationmaskfile = "gfx/interface/goals/focus_GER_togoland.dds"    
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0 
+			animationlooping = no	
+			animationtime = 0.75 
+			animationdelay = 0	
+			animationblendmode = "add" 
+			animationtype = "scrolling" 
+			animationrotationoffset = { x = 0.0 y = 0.0 } 
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		
+		animation = { 
+			animationmaskfile = "gfx/interface/goals/focus_GER_togoland.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"   
+			animationrotation = 90.0 
+			animationlooping = no	
+			animationtime = 0.75 
+			animationdelay = 0	
+			animationblendmode = "add" 
+			animationtype = "scrolling" 
+			animationrotationoffset = { x = 0.0 y = 0.0 } 
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_focus_landungsbrucke_shine" 
+		texturefile = "gfx/interface/goals/focus_landungsbrucke.dds"   
+				effectFile = "gfx/FX/buttonstate.lua"		
+		animation = {
+			animationmaskfile = "gfx/interface/goals/focus_landungsbrucke.dds"    
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0 
+			animationlooping = no	
+			animationtime = 0.75 
+			animationdelay = 0	
+			animationblendmode = "add" 
+			animationtype = "scrolling" 
+			animationrotationoffset = { x = 0.0 y = 0.0 } 
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		
+		animation = { 
+			animationmaskfile = "gfx/interface/goals/focus_landungsbrucke.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"   
+			animationrotation = 90.0 
+			animationlooping = no	
+			animationtime = 0.75 
+			animationdelay = 0	
+			animationblendmode = "add" 
+			animationtype = "scrolling" 
+			animationrotationoffset = { x = 0.0 y = 0.0 } 
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_focus_togo_kolonialbahnen_shine" 
+		texturefile = "gfx/interface/goals/focus_togo_kolonialbahnen.dds"   
+				effectFile = "gfx/FX/buttonstate.lua"		
+		animation = {
+			animationmaskfile = "gfx/interface/goals/focus_togo_kolonialbahnen.dds"    
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0 
+			animationlooping = no	
+			animationtime = 0.75 
+			animationdelay = 0	
+			animationblendmode = "add" 
+			animationtype = "scrolling" 
+			animationrotationoffset = { x = 0.0 y = 0.0 } 
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		
+		animation = { 
+			animationmaskfile = "gfx/interface/goals/focus_togo_kolonialbahnen.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"   
+			animationrotation = 90.0 
+			animationlooping = no	
+			animationtime = 0.75 
+			animationdelay = 0	
+			animationblendmode = "add" 
+			animationtype = "scrolling" 
+			animationrotationoffset = { x = 0.0 y = 0.0 } 
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_focus_togo_lome_aneho_shine" 
+		texturefile = "gfx/interface/goals/focus_togo_lome_aneho.dds"   
+				effectFile = "gfx/FX/buttonstate.lua"		
+		animation = {
+			animationmaskfile = "gfx/interface/goals/focus_togo_lome_aneho.dds"    
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0 
+			animationlooping = no	
+			animationtime = 0.75 
+			animationdelay = 0	
+			animationblendmode = "add" 
+			animationtype = "scrolling" 
+			animationrotationoffset = { x = 0.0 y = 0.0 } 
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		
+		animation = { 
+			animationmaskfile = "gfx/interface/goals/focus_togo_lome_aneho.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"   
+			animationrotation = 90.0 
+			animationlooping = no	
+			animationtime = 0.75 
+			animationdelay = 0	
+			animationblendmode = "add" 
+			animationtype = "scrolling" 
+			animationrotationoffset = { x = 0.0 y = 0.0 } 
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_goal_GER_construct_port_la_shine" 
+		texturefile = "gfx/interface/goals/goal_GER_construct_port_la.dds"   
+				effectFile = "gfx/FX/buttonstate.lua"		
+		animation = {
+			animationmaskfile = "gfx/interface/goals/goal_GER_construct_port_la.dds"    
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0 
+			animationlooping = no	
+			animationtime = 0.75 
+			animationdelay = 0	
+			animationblendmode = "add" 
+			animationtype = "scrolling" 
+			animationrotationoffset = { x = 0.0 y = 0.0 } 
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		
+		animation = { 
+			animationmaskfile = "gfx/interface/goals/goal_GER_construct_port_la.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"   
+			animationrotation = 90.0 
+			animationlooping = no	
+			animationtime = 0.75 
+			animationdelay = 0	
+			animationblendmode = "add" 
+			animationtype = "scrolling" 
+			animationrotationoffset = { x = 0.0 y = 0.0 } 
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_focus_togo_lome_kpalime_shine" 
+		texturefile = "gfx/interface/goals/focus_togo_lome_kpalime.dds"   
+				effectFile = "gfx/FX/buttonstate.lua"		
+		animation = {
+			animationmaskfile = "gfx/interface/goals/focus_togo_lome_kpalime.dds"    
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0 
+			animationlooping = no	
+			animationtime = 0.75 
+			animationdelay = 0	
+			animationblendmode = "add" 
+			animationtype = "scrolling" 
+			animationrotationoffset = { x = 0.0 y = 0.0 } 
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		
+		animation = { 
+			animationmaskfile = "gfx/interface/goals/focus_togo_lome_kpalime.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"   
+			animationrotation = 90.0 
+			animationlooping = no	
+			animationtime = 0.75 
+			animationdelay = 0	
+			animationblendmode = "add" 
+			animationtype = "scrolling" 
+			animationrotationoffset = { x = 0.0 y = 0.0 } 
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_focus_togo_lome_blitta_shine" 
+		texturefile = "gfx/interface/goals/focus_togo_lome_blitta.dds"   
+				effectFile = "gfx/FX/buttonstate.lua"		
+		animation = {
+			animationmaskfile = "gfx/interface/goals/focus_togo_lome_blitta.dds"    
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0 
+			animationlooping = no	
+			animationtime = 0.75 
+			animationdelay = 0	
+			animationblendmode = "add" 
+			animationtype = "scrolling" 
+			animationrotationoffset = { x = 0.0 y = 0.0 } 
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		
+		animation = { 
+			animationmaskfile = "gfx/interface/goals/focus_togo_lome_blitta.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"   
+			animationrotation = 90.0 
+			animationlooping = no	
+			animationtime = 0.75 
+			animationdelay = 0	
+			animationblendmode = "add" 
+			animationtype = "scrolling" 
+			animationrotationoffset = { x = 0.0 y = 0.0 } 
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_focus_kolonialarmee_togo_shine" 
+		texturefile = "gfx/interface/goals/focus_kolonialarmee_togo.dds"   
+				effectFile = "gfx/FX/buttonstate.lua"		
+		animation = {
+			animationmaskfile = "gfx/interface/goals/focus_kolonialarmee_togo.dds"    
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0 
+			animationlooping = no	
+			animationtime = 0.75 
+			animationdelay = 0	
+			animationblendmode = "add" 
+			animationtype = "scrolling" 
+			animationrotationoffset = { x = 0.0 y = 0.0 } 
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		
+		animation = { 
+			animationmaskfile = "gfx/interface/goals/focus_kolonialarmee_togo.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"   
+			animationrotation = 90.0 
+			animationlooping = no	
+			animationtime = 0.75 
+			animationdelay = 0	
+			animationblendmode = "add" 
+			animationtype = "scrolling" 
+			animationrotationoffset = { x = 0.0 y = 0.0 } 
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_focus_kolonialmarine_togo_shine" 
+		texturefile = "gfx/interface/goals/focus_kolonialmarine_togo.dds"   
+				effectFile = "gfx/FX/buttonstate.lua"		
+		animation = {
+			animationmaskfile = "gfx/interface/goals/focus_kolonialmarine_togo.dds"    
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0 
+			animationlooping = no	
+			animationtime = 0.75 
+			animationdelay = 0	
+			animationblendmode = "add" 
+			animationtype = "scrolling" 
+			animationrotationoffset = { x = 0.0 y = 0.0 } 
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		
+		animation = { 
+			animationmaskfile = "gfx/interface/goals/focus_kolonialmarine_togo.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"   
+			animationrotation = 90.0 
+			animationlooping = no	
+			animationtime = 0.75 
+			animationdelay = 0	
+			animationblendmode = "add" 
+			animationtype = "scrolling" 
+			animationrotationoffset = { x = 0.0 y = 0.0 } 
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_focus_musterkolonie_togo_shine" 
+		texturefile = "gfx/interface/goals/focus_musterkolonie_togo.dds"   
+				effectFile = "gfx/FX/buttonstate.lua"		
+		animation = {
+			animationmaskfile = "gfx/interface/goals/focus_musterkolonie_togo.dds"    
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0 
+			animationlooping = no	
+			animationtime = 0.75 
+			animationdelay = 0	
+			animationblendmode = "add" 
+			animationtype = "scrolling" 
+			animationrotationoffset = { x = 0.0 y = 0.0 } 
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		
+		animation = { 
+			animationmaskfile = "gfx/interface/goals/focus_musterkolonie_togo.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"   
+			animationrotation = 90.0 
+			animationlooping = no	
+			animationtime = 0.75 
+			animationdelay = 0	
+			animationblendmode = "add" 
+			animationtype = "scrolling" 
+			animationrotationoffset = { x = 0.0 y = 0.0 } 
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_focus_tornado_fixed" 
+		texturefile = "gfx/interface/goals/focus_tornado_fixed.dds"   
+				effectFile = "gfx/FX/buttonstate.lua"		
+		animation = {
+			animationmaskfile = "gfx/interface/goals/focus_tornado_fixed.dds"    
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0 
+			animationlooping = no	
+			animationtime = 0.75 
+			animationdelay = 0	
+			animationblendmode = "add" 
+			animationtype = "scrolling" 
+			animationrotationoffset = { x = 0.0 y = 0.0 } 
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		
+		animation = { 
+			animationmaskfile = "gfx/interface/goals/focus_tornado_fixed.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"   
+			animationrotation = 90.0 
+			animationlooping = no	
+			animationtime = 0.75 
+			animationdelay = 0	
+			animationblendmode = "add" 
+			animationtype = "scrolling" 
+			animationrotationoffset = { x = 0.0 y = 0.0 } 
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_focus_slave" 
+		texturefile = "gfx/interface/goals/focus_slave.dds"   
+				effectFile = "gfx/FX/buttonstate.lua"		
+		animation = {
+			animationmaskfile = "gfx/interface/goals/focus_slave.dds"    
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0 
+			animationlooping = no	
+			animationtime = 0.75 
+			animationdelay = 0	
+			animationblendmode = "add" 
+			animationtype = "scrolling" 
+			animationrotationoffset = { x = 0.0 y = 0.0 } 
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		
+		animation = { 
+			animationmaskfile = "gfx/interface/goals/focus_slave.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"   
+			animationrotation = 90.0 
+			animationlooping = no	
+			animationtime = 0.75 
+			animationdelay = 0	
+			animationblendmode = "add" 
+			animationtype = "scrolling" 
+			animationrotationoffset = { x = 0.0 y = 0.0 } 
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_focus_GER_school_dead" 
+		texturefile = "gfx/interface/goals/focus_GER_school_dead.dds"   
+				effectFile = "gfx/FX/buttonstate.lua"		
+		animation = {
+			animationmaskfile = "gfx/interface/goals/focus_GER_school_dead.dds"    
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0 
+			animationlooping = no	
+			animationtime = 0.75 
+			animationdelay = 0	
+			animationblendmode = "add" 
+			animationtype = "scrolling" 
+			animationrotationoffset = { x = 0.0 y = 0.0 } 
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		
+		animation = { 
+			animationmaskfile = "gfx/interface/goals/focus_GER_school_dead.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"   
+			animationrotation = 90.0 
+			animationlooping = no	
+			animationtime = 0.75 
+			animationdelay = 0	
+			animationblendmode = "add" 
+			animationtype = "scrolling" 
+			animationrotationoffset = { x = 0.0 y = 0.0 } 
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+}

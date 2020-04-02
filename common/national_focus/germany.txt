@@ -2096,7 +2096,7 @@ focus_tree = {
 
     focus = {
         id = GER_deutsches_kolonialreich
-        icon = GFX
+        icon = GFX_focus_GER_colonial_empire_cloud
         x = 50
         y = 0
         cost = 2
@@ -2111,7 +2111,7 @@ focus_tree = {
 
     focus = {
         id = GER_deutsches_togoland
-        icon = GFX
+        icon = GFX_focus_GER_togoland
         x = -2
         y = 1
         cost = 2
@@ -2128,8 +2128,8 @@ focus_tree = {
 
     focus = {
         id = GER_landungsbrucke
-        icon = GFX
-        x = -2
+        icon = GFX_focus_landungsbrucke
+        x = -1
         y = 1
         cost = 5
         prerequisite = { focus = GER_deutsches_togoland }
@@ -2167,7 +2167,7 @@ focus_tree = {
 
     focus = {
         id = GER_konstruktion
-        icon = GFX
+        icon = GFX_goal_GER_construct_port_la
         x = 0
         y = 1
         cost = 5
@@ -2176,28 +2176,28 @@ focus_tree = {
         ai_will_do = {
             factor = 15
         }
+        available = {
+            777 = {
+                any_country = {
+                    OR = {
+                        tag = GER
+                        is_in_faction_with = GER
+                    }
+                has_full_control_of_state = 777
+               }
+            }
+        }
         search_filters = { FOCUS_FILTER_INDUSTRY }
         completion_reward = {
             custom_effect_tooltip = konstruktion_tooltip_0
             hidden_effect = {
-            if = {
-                    limit = {
-                        any_country = {
-                            OR = {
-                                tag = GER
-                                is_in_faction_with = GER
-                            }
-                            has_full_control_of_state = 777
-                        }
-                    }
-                    777 = {
-                        #naval bases
-                        add_building_construction = {
-                            type = naval_base
-                            level = 1
-                            instant_build = yes
-                            province = 1951
-                        }
+                777 = {
+                    #naval bases
+                    add_building_construction = {
+                        type = naval_base
+                        level = 1
+                        instant_build = yes
+                        province = 1951
                     }
                 }
             }
@@ -2205,7 +2205,7 @@ focus_tree = {
     }
     focus = {
         id = GER_naturkatastrophe
-        icon = GFX
+        icon = GFX_focus_tornado_fixed
         x = -2
         y = 1
         cost = 5
@@ -2215,30 +2215,869 @@ focus_tree = {
             factor = 15
         }
         search_filters = { FOCUS_FILTER_INDUSTRY }
+        available = {
+            777 = {
+                any_country = {
+                    OR = {
+                        tag = GER
+                        is_in_faction_with = GER
+                    }
+                has_full_control_of_state = 777
+               }
+            }
+        }
         completion_reward = {
             custom_effect_tooltip = naturkatastrophe_tooltip_0
             hidden_effect = {
-            if = {
-                    limit = {
-                        any_country = {
-                            OR = {
-                                tag = GER
-                                is_in_faction_with = GER
-                            }
-                            has_full_control_of_state = 777
-                        }
-                    }
-                    777 = {
-                        #naval bases
-                        add_building_construction = {
-                            type = naval_base
-                            level = 1
-                            instant_build = yes
-                            province = 1951
-                        }
+                777 = {
+                    #naval bases
+                    add_building_construction = {
+                        type = naval_base
+                        level = 1
+                        instant_build = yes
+                        province = 1951
                     }
                 }
             }
         }
     }
-}        
+    focus = {
+        id = GER_wiederaufbau
+        icon = GFX_goal_continuous_naval_production
+        x = 0
+        y = 1
+        cost = 5
+        prerequisite = { focus = GER_naturkatastrophe }
+        relative_position_id = GER_naturkatastrophe
+        ai_will_do = {
+            factor = 15
+        }
+        search_filters = { FOCUS_FILTER_INDUSTRY }
+        available = {
+            777 = {
+                any_country = {
+                    OR = {
+                        tag = GER
+                        is_in_faction_with = GER
+                    }
+                has_full_control_of_state = 777
+               }
+            }
+        }
+        completion_reward = {
+            777 = {
+                #naval bases
+                add_building_construction = {
+                    type = naval_base
+                    level = 2
+                    instant_build = yes
+                    province = 1951    
+                }
+            }
+        }
+    }
+
+    focus = {
+        id = GER_weitere_entwicklung
+        icon = GFX_goal_generic_construct_naval_dockyard
+        x = 0
+        y = 1
+        cost = 5
+        prerequisite = { focus = GER_wiederaufbau }
+        relative_position_id = GER_wiederaufbau
+        ai_will_do = {
+            factor = 15
+        }
+        search_filters = { FOCUS_FILTER_INDUSTRY }
+        available = {
+            777 = {
+                any_country = {
+                    OR = {
+                        tag = GER
+                        is_in_faction_with = GER
+                    }
+                has_full_control_of_state = 777
+               }
+            }
+        }
+        completion_reward = {
+            777 = {
+                #naval bases
+                add_building_construction = {
+                type = naval_base
+                level = 1
+                instant_build = yes
+                province = 1951    
+                }
+            }
+        }
+    }
+
+    focus = {
+        id = GER_kolonialbahnen
+        icon = GFX_focus_togo_kolonialbahnen
+        x = 0
+        y = 1
+        cost = 5
+        prerequisite = { focus = GER_konstruktion }
+        relative_position_id = GER_konstruktion
+        ai_will_do = {
+            factor = 15
+        }
+        search_filters = { FOCUS_FILTER_INDUSTRY }
+        available = {
+            777 = {
+                any_country = {
+                    OR = {
+                        tag = GER
+                        is_in_faction_with = GER
+                    }
+                has_full_control_of_state = 777
+               }
+            }
+        }
+        completion_reward = {
+            777 = {
+                #infrastructure
+                add_building_construction = {
+                type = infrastructure
+                level = 1
+                instant_build = yes
+                }
+            }
+        }
+    }
+    focus = {
+        id = GER_lome_aneho
+        icon = GFX_focus_togo_lome_aneho
+        x = 0
+        y = 1
+        cost = 5
+        prerequisite = { focus = GER_kolonialbahnen }
+        relative_position_id = GER_kolonialbahnen
+        ai_will_do = {
+            factor = 15
+        }
+        search_filters = { FOCUS_FILTER_INDUSTRY }
+        available = {
+            777 = {
+                any_country = {
+                    OR = {
+                        tag = GER
+                        is_in_faction_with = GER
+                    }
+                has_full_control_of_state = 777
+               }
+            }
+        }
+        completion_reward = {
+            777 = {
+                #infrastructure
+                add_building_construction = {
+                type = infrastructure
+                level = 1
+                instant_build = yes
+                }
+            }
+        }
+    }
+    focus = {
+        id = GER_entwicklung_bahnstrecke_1
+        icon = GFX_goal_generic_construct_infrastructure
+        x = -1
+        y = 1
+        cost = 5
+        prerequisite = { focus = GER_lome_aneho }
+        relative_position_id = GER_lome_aneho
+        ai_will_do = {
+            factor = 15
+        }
+        search_filters = { FOCUS_FILTER_INDUSTRY }
+        available = {
+            777 = {
+                any_country = {
+                    OR = {
+                        tag = GER
+                        is_in_faction_with = GER
+                    }
+                has_full_control_of_state = 777
+               }
+            }
+        }
+        completion_reward = {
+            777 = {
+                #infrastructure
+                add_building_construction = {
+                type = infrastructure
+                level = 1
+                instant_build = yes
+                }
+            }
+        }
+    }
+
+    focus = {
+        id = GER_lome_kpalime
+        icon = GFX_focus_togo_lome_kpalime
+        x = 1
+        y = 1
+        cost = 5
+        prerequisite = { focus = GER_lome_aneho }
+        relative_position_id = GER_lome_aneho
+        ai_will_do = {
+            factor = 15
+        }
+        search_filters = { FOCUS_FILTER_INDUSTRY }
+        available = {
+            777 = {
+                any_country = {
+                    OR = {
+                        tag = GER
+                        is_in_faction_with = GER
+                    }
+                has_full_control_of_state = 777
+               }
+            }
+        }
+        completion_reward = {
+            777 = {
+                #infrastructure
+                add_building_construction = {
+                type = infrastructure
+                level = 1
+                instant_build = yes
+                }
+            }
+        }
+    }
+    focus = {
+        id = GER_entwicklung_bahnstrecke_2
+        icon = GFX_goal_generic_construct_infrastructure
+        x = -1
+        y = 1
+        cost = 5
+        prerequisite = { focus = GER_lome_kpalime }
+        relative_position_id = GER_lome_kpalime
+        ai_will_do = {
+            factor = 15
+        }
+        search_filters = { FOCUS_FILTER_INDUSTRY }
+        available = {
+            777 = {
+                any_country = {
+                    OR = {
+                        tag = GER
+                        is_in_faction_with = GER
+                    }
+                has_full_control_of_state = 777
+               }
+            }
+        }
+        completion_reward = {
+            777 = {
+                #infrastructure
+                add_building_construction = {
+                type = infrastructure
+                level = 1
+                instant_build = yes
+                }
+            }
+        }
+    }
+    focus = {
+        id = GER_lome_blitta
+        icon = GFX_focus_togo_lome_blitta
+        x = 1
+        y = 1
+        cost = 5
+        prerequisite = { focus = GER_lome_kpalime }
+        relative_position_id = GER_lome_kpalime
+        ai_will_do = {
+            factor = 15
+        }
+        search_filters = { FOCUS_FILTER_INDUSTRY }
+        available = {
+            777 = {
+                any_country = {
+                    OR = {
+                        tag = GER
+                        is_in_faction_with = GER
+                    }
+                has_full_control_of_state = 777
+               }
+            }
+        }
+        completion_reward = {
+            777 = {
+                #infrastructure
+                add_building_construction = {
+                type = infrastructure
+                level = 1
+                instant_build = yes
+                }
+            }
+        }
+    }
+    focus = {
+        id = GER_entwicklung_bahnstrecke_3
+        icon = GFX_goal_generic_construct_infrastructure
+        x = 0
+        y = 1
+        cost = 5
+        prerequisite = { focus = GER_lome_blitta }
+        relative_position_id = GER_lome_blitta
+        ai_will_do = {
+            factor = 15
+        }
+        search_filters = { FOCUS_FILTER_INDUSTRY }
+        available = {
+            777 = {
+                any_country = {
+                    OR = {
+                        tag = GER
+                        is_in_faction_with = GER
+                    }
+                has_full_control_of_state = 777
+               }
+            }
+        }
+        completion_reward = {
+            777 = {
+                #infrastructure
+                add_building_construction = {
+                type = infrastructure
+                level = 1
+                instant_build = yes
+                }
+            }
+        }
+    }
+    focus = {
+        id = GER_alles_nach_lome
+        icon = GFX_goal_generic_position_armies
+        x = -1
+        y = 2
+        cost = 5
+        prerequisite = { focus = GER_entwicklung_bahnstrecke_3 }
+        prerequisite = { focus = GER_entwicklung_bahnstrecke_2 }
+        prerequisite = { focus = GER_entwicklung_bahnstrecke_1 }
+        relative_position_id = GER_entwicklung_bahnstrecke_2
+        ai_will_do = {
+            factor = 15
+        }
+        search_filters = { FOCUS_FILTER_INDUSTRY }
+        available = {
+            777 = {
+                any_country = {
+                    OR = {
+                        tag = GER
+                        is_in_faction_with = GER
+                    }
+                has_full_control_of_state = 777
+               }
+            }
+        }
+        completion_reward = {
+            777 = {
+                #infrastructure
+                add_building_construction = {
+                type = infrastructure
+                level = 1
+                instant_build = yes
+                }
+            }
+        }
+    }
+    focus = {
+        id = GER_kolonialarmee_togo
+        icon = GFX_focus_kolonialarmee_togo
+        x = 1
+        y = 1
+        cost = 5
+        prerequisite = { focus = GER_deutsches_togoland }
+        relative_position_id = GER_deutsches_togoland
+        ai_will_do = {
+            factor = 15
+        }
+        available = {
+            777 = {
+                any_country = {
+                    OR = {
+                        tag = GER
+                        is_in_faction_with = GER
+                    }
+                has_full_control_of_state = 777
+               }
+            }
+        }
+        search_filters = { FOCUS_FILTER_MANPOWER }
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = GER_kolonialmarine_togo
+        icon = GFX_focus_kolonialmarine_togo
+        x = 0
+        y = 1
+        cost = 5
+        prerequisite = { focus = GER_kolonialarmee_togo }
+        relative_position_id = GER_kolonialarmee_togo
+        ai_will_do = {
+            factor = 15
+        }
+        available = {
+            777 = {
+                any_country = {
+                    OR = {
+                        tag = GER
+                        is_in_faction_with = GER
+                    }
+                has_full_control_of_state = 777
+               }
+            }
+        }
+        search_filters = { FOCUS_FILTER_MANPOWER }
+        completion_reward = {
+        
+        }
+    }
+
+    focus = {
+        id = GER_musterkolonie_togo
+        icon = GFX_focus_musterkolonie_togo
+        x = 6
+        y = 1
+        cost = 5
+        prerequisite = { focus = GER_deutsches_togoland }
+        relative_position_id = GER_deutsches_togoland
+        ai_will_do = {
+            factor = 15
+        }
+        available = {
+            777 = {
+                any_country = {
+                    OR = {
+                        tag = GER
+                        is_in_faction_with = GER
+                    }
+                has_full_control_of_state = 777
+               }
+            }
+        }
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        completion_reward = {
+        
+        }
+    }
+    focus = {
+        id = GER_lebensstandards
+        icon = GFX_goal_generic_consumer_goods
+        x = 0
+        y = 1
+        cost = 5
+        prerequisite = { focus = GER_musterkolonie_togo }
+        relative_position_id = GER_musterkolonie_togo
+        ai_will_do = {
+            factor = 15
+        }
+        available = {
+            777 = {
+                any_country = {
+                    OR = {
+                        tag = GER
+                        is_in_faction_with = GER
+                    }
+                has_full_control_of_state = 777
+               }
+            }
+        }
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        completion_reward = {
+        
+        }
+    }
+    focus = {
+        id = GER_kolonialpolitik_togo
+        icon = GFX_focus_generic_treaty
+        x = -2
+        y = 1
+        cost = 5
+        prerequisite = { focus = GER_musterkolonie_togo }
+        relative_position_id = GER_musterkolonie_togo
+        ai_will_do = {
+            factor = 15
+        }
+        available = {
+            777 = {
+                any_country = {
+                    OR = {
+                        tag = GER
+                        is_in_faction_with = GER
+                    }
+                has_full_control_of_state = 777
+               }
+            }
+        }
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        completion_reward = {
+        
+        }
+    }
+    focus = {
+        id = GER_militarisches_kolonialprojekt
+        icon = GFX_goal_generic_construct_mil_factory
+        x = 2
+        y = 1
+        cost = 5
+        prerequisite = { focus = GER_musterkolonie_togo }
+        relative_position_id = GER_musterkolonie_togo
+        mutually_exclusive = {
+            focus = GER_ziviles_kolonialprojekt
+        }
+        ai_will_do = {
+            factor = 15
+        }
+        available = {
+            777 = {
+                any_country = {
+                    OR = {
+                        tag = GER
+                        is_in_faction_with = GER
+                    }
+                has_full_control_of_state = 777
+               }
+            }
+        }
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        completion_reward = {
+        
+        }
+    }
+    focus = {
+        id = GER_ziviles_kolonialprojekt
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 4
+        y = 1
+        cost = 5
+        prerequisite = { focus = GER_musterkolonie_togo }
+        relative_position_id = GER_musterkolonie_togo
+        mutually_exclusive = {
+            focus = GER_militarisches_kolonialprojekt
+        }
+        ai_will_do = {
+            factor = 15
+        }
+        available = {
+            777 = {
+                any_country = {
+                    OR = {
+                        tag = GER
+                        is_in_faction_with = GER
+                    }
+                has_full_control_of_state = 777
+               }
+            }
+        }
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        completion_reward = {
+        
+        }
+    }
+    focus = {
+        id = GER_togoland_kautschuk
+        icon = GFX_focus_generic_rubber
+        x = 3
+        y = 2
+        cost = 5
+        prerequisite = { focus = GER_ziviles_kolonialprojekt     focus = GER_militarisches_kolonialprojekt }
+        relative_position_id = GER_musterkolonie_togo
+        ai_will_do = {
+            factor = 15
+        }
+        available = {
+            777 = {
+                any_country = {
+                    OR = {
+                        tag = GER
+                        is_in_faction_with = GER
+                    }
+                has_full_control_of_state = 777
+               }
+            }
+        }
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        completion_reward = {
+        
+        }
+    }
+    focus = {
+        id = GER_haussklaverei_verboten
+        icon = GFX_goal_generic_national_unity
+        x = 1
+        y = 1
+        cost = 5
+        prerequisite = { focus = GER_kolonialpolitik_togo }
+        relative_position_id = GER_kolonialpolitik_togo
+        mutually_exclusive = {
+            focus = GER_haussklaverei_erlaubt
+        }
+        ai_will_do = {
+            factor = 15
+        }
+        available = {
+            777 = {
+                any_country = {
+                    OR = {
+                        tag = GER
+                        is_in_faction_with = GER
+                    }
+                has_full_control_of_state = 777
+               }
+            }
+        }
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        completion_reward = {
+        
+        }
+    }
+    focus = {
+        id = GER_haussklaverei_erlaubt
+        icon = GFX_focus_slave
+        x = 3
+        y = 1
+        cost = 5
+        prerequisite = { focus = GER_kolonialpolitik_togo }
+        relative_position_id = GER_kolonialpolitik_togo
+        mutually_exclusive = {
+            focus = GER_haussklaverei_verboten
+        }
+        ai_will_do = {
+            factor = 15
+        }
+        available = {
+            777 = {
+                any_country = {
+                    OR = {
+                        tag = GER
+                        is_in_faction_with = GER
+                    }
+                has_full_control_of_state = 777
+               }
+            }
+        }
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        completion_reward = {
+        
+        }
+    }
+    focus = {
+        id = GER_eingeborenenrechts
+        icon = GFX_focus_generic_military_academy
+        x = -1
+        y = 1
+        cost = 5
+        prerequisite = { focus = GER_kolonialpolitik_togo }
+        relative_position_id = GER_kolonialpolitik_togo
+        mutually_exclusive = {
+            focus = GER_deutsches_recht
+        }
+        ai_will_do = {
+            factor = 15
+        }
+        available = {
+            777 = {
+                any_country = {
+                    OR = {
+                        tag = GER
+                        is_in_faction_with = GER
+                    }
+                has_full_control_of_state = 777
+               }
+            }
+        }
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        completion_reward = {
+        
+        }
+    }
+    focus = {
+        id = GER_deutsches_recht
+        icon = GFX_focus_GER_rip_politics
+        x = -3
+        y = 1
+        cost = 5
+        prerequisite = { focus = GER_kolonialpolitik_togo }
+        relative_position_id = GER_kolonialpolitik_togo
+        mutually_exclusive = {
+            focus = GER_eingeborenenrechts
+        }
+        ai_will_do = {
+            factor = 15
+        }
+        available = {
+            777 = {
+                any_country = {
+                    OR = {
+                        tag = GER
+                        is_in_faction_with = GER
+                    }
+                has_full_control_of_state = 777
+               }
+            }
+        }
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        completion_reward = {
+        
+        }
+    }
+    focus = {
+        id = GER_religionsfreiheit
+        icon = GFX_focus_GER_rip_politics
+        x = -1
+        y = 1
+        cost = 5
+        prerequisite = { focus = GER_togo_religion }
+        relative_position_id = GER_togo_religion
+        mutually_exclusive = {
+            focus = GER_christian_togoland
+        }
+        ai_will_do = {
+            factor = 15
+        }
+        available = {
+            777 = {
+                any_country = {
+                    OR = {
+                        tag = GER
+                        is_in_faction_with = GER
+                    }
+                has_full_control_of_state = 777
+               }
+            }
+        }
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        completion_reward = {
+        
+        }
+    }
+    focus = {
+        id = GER_christian_togoland
+        icon = GFX_focus_hol_the_foundations_of_defense
+        x = 1
+        y = 1
+        cost = 5
+        prerequisite = { focus = GER_togo_religion }
+        relative_position_id = GER_togo_religion
+        mutually_exclusive = {
+            focus = GER_religionsfreiheit
+        }
+        ai_will_do = {
+            factor = 15
+        }
+        available = {
+            777 = {
+                any_country = {
+                    OR = {
+                        tag = GER
+                        is_in_faction_with = GER
+                    }
+                has_full_control_of_state = 777
+               }
+            }
+        }
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        completion_reward = {
+        
+        }
+    }
+    focus = {
+        id = GER_togo_religion
+        icon = GFX_focus_GER_togo_religion
+        x = 0
+        y = 2
+        cost = 5
+        prerequisite = { focus = GER_kolonialpolitik_togo }
+        relative_position_id = GER_kolonialpolitik_togo
+        ai_will_do = {
+            factor = 15
+        }
+        available = {
+            777 = {
+                any_country = {
+                    OR = {
+                        tag = GER
+                        is_in_faction_with = GER
+                    }
+                has_full_control_of_state = 777
+               }
+            }
+        }
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        completion_reward = {
+        
+        }
+    }
+    focus = {
+        id = GER_militar_unfreie
+        icon = GFX_goal_generic_political_pressure
+        x = 0
+        y = 2
+        cost = 5
+        prerequisite = { focus = GER_haussklaverei_erlaubt }
+        prerequisite = { focus = GER_militarisches_kolonialprojekt }
+        relative_position_id = GER_militarisches_kolonialprojekt
+        mutually_exclusive = {
+            focus = GER_zivile_unfreie
+        }
+        ai_will_do = {
+            factor = 15
+        }
+        available = {
+            777 = {
+                any_country = {
+                    OR = {
+                        tag = GER
+                        is_in_faction_with = GER
+                    }
+                has_full_control_of_state = 777
+               }
+            }
+        }
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        completion_reward = {
+        
+        }
+    }
+    focus = {
+        id = GER_zivile_unfreie
+        icon = GFX_goal_generic_political_pressure
+        x = 0
+        y = 2
+        cost = 5
+        prerequisite = { focus = GER_haussklaverei_erlaubt }
+        prerequisite = { focus = GER_ziviles_kolonialprojekt }
+        relative_position_id = GER_ziviles_kolonialprojekt
+        mutually_exclusive = {
+            focus = GER_militar_unfreie
+        }
+        ai_will_do = {
+            factor = 15
+        }
+        available = {
+            777 = {
+                any_country = {
+                    OR = {
+                        tag = GER
+                        is_in_faction_with = GER
+                    }
+                has_full_control_of_state = 777
+               }
+            }
+        }
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        completion_reward = {
+        
+        }
+    }
+}
