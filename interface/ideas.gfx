@@ -1178,6 +1178,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_tot_economic_mobilisation.dds"
 	}
 
+	### INDUSTRIALIZATION LAWS
+	spriteType = {
+		name = "GFX_idea_nomadic_society"
+		texturefile = "gfx/interface/ideas/industrialization_nomadic_society.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_agricultural_economy"
+		texturefile = "gfx/interface/ideas/industrialization_agricultural_economy.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_miniscule_industry"
+		texturefile = "gfx/interface/ideas/industrialization_miniscule_industry.tga"
+	}
+
 	### SWEDEN IDEAS		
 
 	SpriteType = {
