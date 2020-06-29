@@ -6,7 +6,7 @@ state={
 		1960 5060 8052 10739 10857 
 	}
 	history={
-		owner = DAR
+		owner = BHU
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

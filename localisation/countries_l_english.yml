@@ -2446,11 +2446,8 @@
  ACR_democratic_ADJ:0 "Acre"
  ACR_authoritarian_ADJ:1 "Acre"
  ACR_communism_ADJ:1 "Acre"
-
- ORG_conservatism:0 "Orange Free State"
- ORG_conservatism_DEF:0 "Orange Free State"
- ORG_conservatism_ADJ:0 "Orange Free state"
- 
+ ORG_fascism:2 "Orange"
+ ORG_fascism_DEF:2 "Orange"
  ORG_democratic:0 "Orange Free State"
  ORG_democratic_DEF:0 "the Orange Free State"
  ORG_authoritarian:1 "Orange"
@@ -2461,11 +2458,8 @@
  ORG_democratic_ADJ:0 "Orange"
  ORG_authoritarian_ADJ:1 "Orange"
  ORG_communism_ADJ:1 "Orange"
-
- SFR_liberalism:0 "Transvaal"
- SFR_liberalism_DEF:0 "Transvaal"
- SFR_liberalism_ADJ:0 "Transvaal"
-
+ SFR_fascism:2 "South African Republic"
+ SFR_fascism_DEF:2 "South African Republic"
  SFR_democratic:0 "South African Republic"
  SFR_democratic_DEF:0 "South African Republic"
  SFR_authoritarian:1 "South African Republic"
@@ -2476,7 +2470,6 @@
  SFR_democratic_ADJ:0 "South African Republic"
  SFR_authoritarian_ADJ:1 "South African Republic"
  SFR_communism_ADJ:1 "South African Republic"
-
  JSM_fascism:2 "Jabal Shammar"
  JSM_fascism_DEF:2 "Jabal Shammar"
  JSM_democratic:0 "Jabal Shammar"
@@ -2838,31 +2831,3 @@
  NIC_fascism_ADJ:0 "Nicaraguian"
  NIC_communism_ADJ:0 "Nicaraguian"
  NIC_radical_socialism_ADJ:0 "Nicaraguian"
-#####################################################
-################# AFRICAN ###########################
-#####################################################
- DER_authoritarian:0 "Dervish State"
- DER_authoritarian_DEF:0 "the Dervish State"
- DER_authoritarian_ADJ:0 "Dervish"
- GEL_authoritarian:0 "Sultanate of the Geledi"
- GEL_authoritarian_DEF:0 "the Sultanate of the Geledi"
- GEL_authoritarian_ADJ:0 "Geledi"
- HOB_authoritarian:0 "Sultanate of Hobyo"
- HOB_authoritarian_DEF:0 "the Sultanate of Hobyo"
- HOB_authoritarian_ADJ:0 "Hobyo"
- MAJ_authoritarian:0 "Majeerteen Sultanate"
- MAJ_authoritarian_DEF:0 "the Majeerteen Sultanate"
- MAJ_authoritarian_ADJ:0 "Majeerteen"
- ASS_authoritarian:0 "Sultanate of Aussa"
- ASS_authoritarian_DEF:0 "the Sultanate of Aussa"
- ASS_authoritarian_ADJ:0 "Aussa"
- DAR_authoritarian:0 "Sultanate of Darfur"
- DAR_authoritarian_DEF:0 "the Sultanate of Darfur"
- DAR_authoritarian_ADJ:0 "Darfur"
- WAD_authoritarian:0 "Sultanate of Wadai"
- WAD_authoritarian_DEF:0 "the Sultanate of Wadai"
- WAD_authoritarian_ADJ:0 "Wadai"
- SOK_authoritarian:0 "Sokoto Caliphate"
- SOK_authoritarian_DEF:0 "the Sokoto Caliphate"
- SOK_authoritarian_ADJ:0 "Sokoto"
- 

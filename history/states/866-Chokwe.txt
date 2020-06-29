@@ -2,10 +2,10 @@ state={
 	id=866
 	name="STATE_866"
 	provinces={
-		1552 7548 8054 12981
+		2126 7548 8054 
 	}
 	history={
-		owner = POR
+		owner = BHU
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
