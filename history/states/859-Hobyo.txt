@@ -2,10 +2,10 @@ state={
 	id=859
 	name="STATE_859"
 	provinces={
-		1964 2020 5065 12840 
+		5065 12840 
 	}
 	history={
-		owner = BHU
+		owner = HOB
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

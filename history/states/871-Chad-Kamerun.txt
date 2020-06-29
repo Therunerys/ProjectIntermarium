@@ -5,7 +5,7 @@ state={
 		7963 
 	}
 	history={
-		owner = BHU
+		owner = GER
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

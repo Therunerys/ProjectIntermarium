@@ -1,7 +1,7 @@
 tags={
 	"Alternative History"
 }
-name="AHOE" #you can change it if you want
+name="Project Intermarium Reboot" #you can change it if you want
 replace_path="history/states"
 replace_path="history/units"
 replace_path="history/countries"

@@ -6,7 +6,7 @@ state={
 		2081 3123 4897 10780 13138 
 	}
 	history={
-		owner = BHU
+		owner = FRA
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

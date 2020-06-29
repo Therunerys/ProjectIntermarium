@@ -1,0 +1,27 @@
+state={
+	id=875
+	name="STATE_875"
+	resources={
+		
+	}
+
+	history={
+		owner = POR
+		add_core_of = POR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			13254 1 
+		}
+
+	}
+
+	provinces={
+		13254
+	}
+	manpower=31245
+	buildings_max_level_factor=1.000
+	state_category=city
+}

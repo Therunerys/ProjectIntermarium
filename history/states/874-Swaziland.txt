@@ -1,0 +1,28 @@
+state={
+	id=874
+	name="STATE_874"
+	resources={
+		
+	}
+
+	history={
+		owner = SFR
+		add_core_of = SFR
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			7900 5 
+		}
+
+	}
+
+	provinces={
+		7900
+	}
+	manpower=90000
+	buildings_max_level_factor=1.000
+	state_category=city
+}
